@@ -1,0 +1,142 @@
+[
+  {
+    "code": "TL",
+    "ko": "동티모르",
+    "en": "Timor-Leste",
+    "region": "Asia/CIS",
+    "priority": 2
+  },
+  {
+    "code": "LA",
+    "ko": "라오스",
+    "en": "Laos",
+    "region": "Asia/CIS",
+    "priority": 2
+  },
+  {
+    "code": "MN",
+    "ko": "몽골",
+    "en": "Mongolia",
+    "region": "Asia/CIS",
+    "priority": 2
+  },
+  {
+    "code": "BD",
+    "ko": "방글라데시",
+    "en": "Bangladesh",
+    "region": "Asia/CIS",
+    "priority": 1
+  },
+  {
+    "code": "VN",
+    "ko": "베트남",
+    "en": "Vietnam",
+    "region": "Asia/CIS",
+    "priority": 2
+  },
+  {
+    "code": "ID",
+    "ko": "인도네시아",
+    "en": "Indonesia",
+    "region": "Asia/CIS",
+    "priority": 2
+  },
+  {
+    "code": "KH",
+    "ko": "캄보디아",
+    "en": "Cambodia",
+    "region": "Asia/CIS",
+    "priority": 2
+  },
+  {
+    "code": "PH",
+    "ko": "필리핀",
+    "en": "Philippines",
+    "region": "Asia/CIS",
+    "priority": 2
+  },
+  {
+    "code": "KG",
+    "ko": "키르기스스탄",
+    "en": "Kyrgyzstan",
+    "region": "Asia/CIS",
+    "priority": 2
+  },
+  {
+    "code": "RW",
+    "ko": "르완다",
+    "en": "Rwanda",
+    "region": "Africa",
+    "priority": 2
+  },
+  {
+    "code": "MW",
+    "ko": "말라위",
+    "en": "Malawi",
+    "region": "Africa",
+    "priority": 2
+  },
+  {
+    "code": "MA",
+    "ko": "모로코",
+    "en": "Morocco",
+    "region": "Africa",
+    "priority": 2
+  },
+  {
+    "code": "UG",
+    "ko": "우간다",
+    "en": "Uganda",
+    "region": "Africa",
+    "priority": 1
+  },
+  {
+    "code": "EG",
+    "ko": "이집트",
+    "en": "Egypt",
+    "region": "Africa",
+    "priority": 2
+  },
+  {
+    "code": "TZ",
+    "ko": "탄자니아",
+    "en": "Tanzania",
+    "region": "Africa",
+    "priority": 2
+  },
+  {
+    "code": "KE",
+    "ko": "케냐",
+    "en": "Kenya",
+    "region": "Africa",
+    "priority": 1
+  },
+  {
+    "code": "GT",
+    "ko": "과테말라",
+    "en": "Guatemala",
+    "region": "Latin America",
+    "priority": 2
+  },
+  {
+    "code": "DO",
+    "ko": "도미니카공화국",
+    "en": "Dominican Republic",
+    "region": "Latin America",
+    "priority": 2
+  },
+  {
+    "code": "PE",
+    "ko": "페루",
+    "en": "Peru",
+    "region": "Latin America",
+    "priority": 2
+  },
+  {
+    "code": "JO",
+    "ko": "요르단",
+    "en": "Jordan",
+    "region": "Middle East",
+    "priority": 1
+  }
+]
