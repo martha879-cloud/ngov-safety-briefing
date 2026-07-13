@@ -1,0 +1,24 @@
+name: Daily Safety Update
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 한국시간 오전 9시 = UTC 00:00
+    - cron: '0 0 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 저장소 가져오기
+        uses: actions/checkout@v4
+
+      - name: 테스트
+        run: |
+          echo "NGOV Safety Briefing"
+          date
+          echo "GitHub Actions 정상 동작!"
