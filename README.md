@@ -1,5 +1,4 @@
-# NGOV Safety Briefing
+# KOICA-NGO봉사단 파견국가 안전 모니터링
 
-Global Safety Monitoring Dashboard
 
-This project automatically collects global safety information and publishes it to GitHub Pages.
+국가별 여행경보, 자연재해(지진, 홍수 등), 감염병, 분쟁 및 치안 등 AI 기반 일일 브리핑
