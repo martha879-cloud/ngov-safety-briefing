@@ -120,11 +120,14 @@
     "updated":"2026-07-14 09:00"
   },
   {
+    "id":"kenya",
     "name":"케냐",
     "flag":"🇰🇪",
     "region":"africa",
     "status":"yellow",
-    "issue":"홍수 관련 정보 모니터링",
+    "priority":2,
+    "issue":"홍수 관련 신규 보고",
+    "source":"ReliefWeb",
     "updated":"2026-07-14 08:20"
   },
   {
@@ -144,11 +147,14 @@
     "updated":"2026-07-14 09:00"
   },
   {
+    "id":"peru",
     "name":"페루",
     "flag":"🇵🇪",
     "region":"latin",
     "status":"yellow",
-    "issue":"최근 지진 발생 모니터링",
+    "priority":2,
+    "issue":"최근 지진 모니터링",
+    "source":"USGS",
     "updated":"2026-07-14 08:10"
   },
   {
