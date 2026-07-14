@@ -41,17 +41,21 @@
         </div>
     </div>
 
-    <!-- 오늘의 브리핑 -->
-    <div class="card shadow-sm mb-4">
-        <div class="card-header bg-primary text-white">
-            📢 오늘의 안전 브리핑
-        </div>
+ <div class="row mb-4">
 
-        <div class="card-body">
+    <div class="col-lg-8">
 
-            <div id="briefing">
+        <div class="card shadow-sm h-100">
 
-                데이터를 불러오는 중입니다.
+            <div class="card-header bg-primary text-white">
+                📢 오늘의 안전 브리핑
+            </div>
+
+            <div class="card-body">
+
+                <div id="briefing">
+                    데이터를 불러오는 중입니다.
+                </div>
 
             </div>
 
@@ -59,20 +63,19 @@
 
     </div>
 
-    <!-- 우선 확인 국가 -->
-    <div class="card shadow-sm mb-4">
+    <div class="col-lg-4">
 
-        <div class="card-header bg-danger text-white">
+        <div class="card shadow-sm h-100">
 
-            🚨 오늘 우선 확인 국가
+            <div class="card-header bg-danger text-white">
+                🚨 오늘 우선 확인 국가
+            </div>
 
-        </div>
+            <div class="card-body">
 
-        <div class="card-body">
-
-            <div id="priorityCountries">
-
-                현재 변경사항이 없습니다.
+                <div id="priorityCountries">
+                    현재 변경사항이 없습니다.
+                </div>
 
             </div>
 
@@ -80,6 +83,7 @@
 
     </div>
 
+</div>
     <!-- 현황 -->
     <div class="row mb-4">
 
@@ -162,39 +166,23 @@
 
         <div class="card-header">
 
-            🌏 지역별 파견국
+<div class="card shadow-sm mb-4">
 
-        </div>
+    <div class="card-header bg-dark text-white">
 
-        <div class="card-body">
+        🌍 파견국 현황
 
-            <div class="row">
+    </div>
 
-                <div class="col-md-3">
-                    <strong>Asia / CIS</strong>
-                    <p>9개국</p>
-                </div>
+    <div class="card-body">
 
-                <div class="col-md-3">
-                    <strong>Africa</strong>
-                    <p>7개국</p>
-                </div>
-
-                <div class="col-md-3">
-                    <strong>Latin America</strong>
-                    <p>3개국</p>
-                </div>
-
-                <div class="col-md-3">
-                    <strong>Middle East</strong>
-                    <p>1개국</p>
-                </div>
-
-            </div>
+        <div id="countryList" class="row g-3">
 
         </div>
 
     </div>
+
+</div>
 
     <div class="text-center mt-5 text-secondary">
 
