@@ -1,182 +1,162 @@
 [
   {
-    "id": "timor-leste",
-    "flag": "🇹🇱",
-    "name": "동티모르",
-    "region": "asia",
-    "status": "green",
-    "updated": "2026-07-14",
-    "summary": "특이사항 없음"
+    "name":"동티모르",
+    "flag":"🇹🇱",
+    "region":"asia",
+    "status":"green",
+    "issue":"특이사항 없음",
+    "updated":"2026-07-14 09:00"
   },
   {
-    "id": "laos",
-    "flag": "🇱🇦",
-    "name": "라오스",
-    "region": "asia",
-    "status": "green",
-    "updated": "2026-07-14",
-    "summary": "특이사항 없음"
+    "name":"라오스",
+    "flag":"🇱🇦",
+    "region":"asia",
+    "status":"green",
+    "issue":"특이사항 없음",
+    "updated":"2026-07-14 09:00"
   },
   {
-    "id": "mongolia",
-    "flag": "🇲🇳",
-    "name": "몽골",
-    "region": "asia",
-    "status": "green",
-    "updated": "2026-07-14",
-    "summary": "특이사항 없음"
+    "name":"몽골",
+    "flag":"🇲🇳",
+    "region":"asia",
+    "status":"green",
+    "issue":"특이사항 없음",
+    "updated":"2026-07-14 09:00"
   },
   {
-    "id": "bangladesh",
-    "flag": "🇧🇩",
-    "name": "방글라데시",
-    "region": "asia",
-    "status": "yellow",
-    "updated": "2026-07-14",
-    "summary": "시위 관련 모니터링"
+    "name":"방글라데시",
+    "flag":"🇧🇩",
+    "region":"asia",
+    "status":"yellow",
+    "issue":"정치 집회 동향 모니터링",
+    "updated":"2026-07-14 08:30"
   },
   {
-    "id": "vietnam",
-    "flag": "🇻🇳",
-    "name": "베트남",
-    "region": "asia",
-    "status": "green",
-    "updated": "2026-07-14",
-    "summary": "특이사항 없음"
+    "name":"베트남",
+    "flag":"🇻🇳",
+    "region":"asia",
+    "status":"green",
+    "issue":"특이사항 없음",
+    "updated":"2026-07-14 09:00"
   },
   {
-    "id": "indonesia",
-    "flag": "🇮🇩",
-    "name": "인도네시아",
-    "region": "asia",
-    "status": "green",
-    "updated": "2026-07-14",
-    "summary": "특이사항 없음"
+    "name":"인도네시아",
+    "flag":"🇮🇩",
+    "region":"asia",
+    "status":"green",
+    "issue":"특이사항 없음",
+    "updated":"2026-07-14 09:00"
   },
   {
-    "id": "cambodia",
-    "flag": "🇰🇭",
-    "name": "캄보디아",
-    "region": "asia",
-    "status": "green",
-    "updated": "2026-07-14",
-    "summary": "특이사항 없음"
+    "name":"캄보디아",
+    "flag":"🇰🇭",
+    "region":"asia",
+    "status":"green",
+    "issue":"특이사항 없음",
+    "updated":"2026-07-14 09:00"
   },
   {
-    "id": "philippines",
-    "flag": "🇵🇭",
-    "name": "필리핀",
-    "region": "asia",
-    "status": "green",
-    "updated": "2026-07-14",
-    "summary": "특이사항 없음"
+    "name":"필리핀",
+    "flag":"🇵🇭",
+    "region":"asia",
+    "status":"green",
+    "issue":"우기 기상상황 모니터링",
+    "updated":"2026-07-14 09:00"
   },
   {
-    "id": "kyrgyzstan",
-    "flag": "🇰🇬",
-    "name": "키르기스스탄",
-    "region": "asia",
-    "status": "green",
-    "updated": "2026-07-14",
-    "summary": "특이사항 없음"
+    "name":"키르기스스탄",
+    "flag":"🇰🇬",
+    "region":"asia",
+    "status":"green",
+    "issue":"특이사항 없음",
+    "updated":"2026-07-14 09:00"
   },
   {
-    "id": "rwanda",
-    "flag": "🇷🇼",
-    "name": "르완다",
-    "region": "africa",
-    "status": "green",
-    "updated": "2026-07-14",
-    "summary": "특이사항 없음"
+    "name":"르완다",
+    "flag":"🇷🇼",
+    "region":"africa",
+    "status":"green",
+    "issue":"특이사항 없음",
+    "updated":"2026-07-14 09:00"
   },
   {
-    "id": "malawi",
-    "flag": "🇲🇼",
-    "name": "말라위",
-    "region": "africa",
-    "status": "green",
-    "updated": "2026-07-14",
-    "summary": "특이사항 없음"
+    "name":"말라위",
+    "flag":"🇲🇼",
+    "region":"africa",
+    "status":"green",
+    "issue":"특이사항 없음",
+    "updated":"2026-07-14 09:00"
   },
   {
-    "id": "morocco",
-    "flag": "🇲🇦",
-    "name": "모로코",
-    "region": "africa",
-    "status": "green",
-    "updated": "2026-07-14",
-    "summary": "특이사항 없음"
+    "name":"모로코",
+    "flag":"🇲🇦",
+    "region":"africa",
+    "status":"green",
+    "issue":"특이사항 없음",
+    "updated":"2026-07-14 09:00"
   },
   {
-    "id": "uganda",
-    "flag": "🇺🇬",
-    "name": "우간다",
-    "region": "africa",
-    "status": "green",
-    "updated": "2026-07-14",
-    "summary": "특이사항 없음"
+    "name":"우간다",
+    "flag":"🇺🇬",
+    "region":"africa",
+    "status":"green",
+    "issue":"특이사항 없음",
+    "updated":"2026-07-14 09:00"
   },
   {
-    "id": "egypt",
-    "flag": "🇪🇬",
-    "name": "이집트",
-    "region": "africa",
-    "status": "green",
-    "updated": "2026-07-14",
-    "summary": "특이사항 없음"
+    "name":"이집트",
+    "flag":"🇪🇬",
+    "region":"africa",
+    "status":"green",
+    "issue":"특이사항 없음",
+    "updated":"2026-07-14 09:00"
   },
   {
-    "id": "tanzania",
-    "flag": "🇹🇿",
-    "name": "탄자니아",
-    "region": "africa",
-    "status": "green",
-    "updated": "2026-07-14",
-    "summary": "특이사항 없음"
+    "name":"탄자니아",
+    "flag":"🇹🇿",
+    "region":"africa",
+    "status":"green",
+    "issue":"특이사항 없음",
+    "updated":"2026-07-14 09:00"
   },
   {
-    "id": "kenya",
-    "flag": "🇰🇪",
-    "name": "케냐",
-    "region": "africa",
-    "status": "yellow",
-    "updated": "2026-07-14",
-    "summary": "홍수 모니터링"
+    "name":"케냐",
+    "flag":"🇰🇪",
+    "region":"africa",
+    "status":"yellow",
+    "issue":"홍수 관련 정보 모니터링",
+    "updated":"2026-07-14 08:20"
   },
   {
-    "id": "guatemala",
-    "flag": "🇬🇹",
-    "name": "과테말라",
-    "region": "latin",
-    "status": "green",
-    "updated": "2026-07-14",
-    "summary": "특이사항 없음"
+    "name":"과테말라",
+    "flag":"🇬🇹",
+    "region":"latin",
+    "status":"green",
+    "issue":"특이사항 없음",
+    "updated":"2026-07-14 09:00"
   },
   {
-    "id": "dominican-republic",
-    "flag": "🇩🇴",
-    "name": "도미니카공화국",
-    "region": "latin",
-    "status": "green",
-    "updated": "2026-07-14",
-    "summary": "특이사항 없음"
+    "name":"도미니카공화국",
+    "flag":"🇩🇴",
+    "region":"latin",
+    "status":"green",
+    "issue":"특이사항 없음",
+    "updated":"2026-07-14 09:00"
   },
   {
-    "id": "peru",
-    "flag": "🇵🇪",
-    "name": "페루",
-    "region": "latin",
-    "status": "yellow",
-    "updated": "2026-07-14",
-    "summary": "지진 모니터링"
+    "name":"페루",
+    "flag":"🇵🇪",
+    "region":"latin",
+    "status":"yellow",
+    "issue":"최근 지진 발생 모니터링",
+    "updated":"2026-07-14 08:10"
   },
   {
-    "id": "jordan",
-    "flag": "🇯🇴",
-    "name": "요르단",
-    "region": "middle",
-    "status": "green",
-    "updated": "2026-07-14",
-    "summary": "특이사항 없음"
+    "name":"요르단",
+    "flag":"🇯🇴",
+    "region":"middle",
+    "status":"green",
+    "issue":"특이사항 없음",
+    "updated":"2026-07-14 09:00"
   }
 ]
