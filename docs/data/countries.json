@@ -1,0 +1,122 @@
+[
+  {
+    "id": "timor-leste",
+    "name": "동티모르",
+    "region": "Asia/CIS",
+    "status": "green"
+  },
+  {
+    "id": "laos",
+    "name": "라오스",
+    "region": "Asia/CIS",
+    "status": "green"
+  },
+  {
+    "id": "mongolia",
+    "name": "몽골",
+    "region": "Asia/CIS",
+    "status": "green"
+  },
+  {
+    "id": "bangladesh",
+    "name": "방글라데시",
+    "region": "Asia/CIS",
+    "status": "green"
+  },
+  {
+    "id": "vietnam",
+    "name": "베트남",
+    "region": "Asia/CIS",
+    "status": "green"
+  },
+  {
+    "id": "indonesia",
+    "name": "인도네시아",
+    "region": "Asia/CIS",
+    "status": "green"
+  },
+  {
+    "id": "cambodia",
+    "name": "캄보디아",
+    "region": "Asia/CIS",
+    "status": "green"
+  },
+  {
+    "id": "philippines",
+    "name": "필리핀",
+    "region": "Asia/CIS",
+    "status": "green"
+  },
+  {
+    "id": "kyrgyzstan",
+    "name": "키르기스스탄",
+    "region": "Asia/CIS",
+    "status": "green"
+  },
+  {
+    "id": "rwanda",
+    "name": "르완다",
+    "region": "Africa",
+    "status": "green"
+  },
+  {
+    "id": "malawi",
+    "name": "말라위",
+    "region": "Africa",
+    "status": "green"
+  },
+  {
+    "id": "morocco",
+    "name": "모로코",
+    "region": "Africa",
+    "status": "green"
+  },
+  {
+    "id": "uganda",
+    "name": "우간다",
+    "region": "Africa",
+    "status": "green"
+  },
+  {
+    "id": "egypt",
+    "name": "이집트",
+    "region": "Africa",
+    "status": "green"
+  },
+  {
+    "id": "tanzania",
+    "name": "탄자니아",
+    "region": "Africa",
+    "status": "green"
+  },
+  {
+    "id": "kenya",
+    "name": "케냐",
+    "region": "Africa",
+    "status": "green"
+  },
+  {
+    "id": "guatemala",
+    "name": "과테말라",
+    "region": "Latin America",
+    "status": "green"
+  },
+  {
+    "id": "dominican-republic",
+    "name": "도미니카공화국",
+    "region": "Latin America",
+    "status": "green"
+  },
+  {
+    "id": "peru",
+    "name": "페루",
+    "region": "Latin America",
+    "status": "green"
+  },
+  {
+    "id": "jordan",
+    "name": "요르단",
+    "region": "Middle East",
+    "status": "green"
+  }
+]
