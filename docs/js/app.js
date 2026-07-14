@@ -38,3 +38,147 @@ async function loadDashboard() {
     }
 
 }
+
+function renderBriefing(data){
+
+    let html="";
+
+    data.summary.forEach(item=>{
+
+        html+=`<div class="mb-2">✅ ${item}</div>`;
+
+    });
+
+    document.getElementById("briefing").innerHTML=html;
+
+}
+
+function renderCountries(countries){
+
+    let green=0;
+    let yellow=0;
+    let orange=0;
+    let red=0;
+
+    countries.forEach(country=>{
+
+        switch(country.status){
+
+            case "green":
+                green++;
+                break;
+
+            case "yellow":
+                yellow++;
+                break;
+
+            case "orange":
+                orange++;
+                break;
+
+            case "red":
+                red++;
+                break;
+
+        }
+
+        createCountryCard(country);
+
+    });
+
+    document.getElementById("greenCount").innerHTML=green;
+    document.getElementById("yellowCount").innerHTML=yellow;
+    document.getElementById("orangeCount").innerHTML=orange;
+    document.getElementById("redCount").innerHTML=red;
+
+}
+function createCountryCard(country){
+
+    const html=`
+
+    <div class="col-lg-3 col-md-4 col-sm-6">
+
+        <div class="country-card">
+
+            <div class="country-name">
+
+                ${country.flag} ${country.name}
+
+            </div>
+
+            <div class="mt-2">
+
+                ${statusBadge(country.status)}
+
+            </div>
+
+            <div class="mt-3">
+
+                ${country.issue}
+
+            </div>
+
+            <small class="text-muted">
+
+                ${country.updated}
+
+            </small>
+
+        </div>
+
+    </div>
+
+    `;
+
+    switch(country.region){
+
+        case "asia":
+
+            asiaList.innerHTML+=html;
+
+            break;
+
+        case "africa":
+
+            africaList.innerHTML+=html;
+
+            break;
+
+        case "latin":
+
+            latinList.innerHTML+=html;
+
+            break;
+
+        case "middle":
+
+            middleList.innerHTML+=html;
+
+            break;
+
+    }
+
+}
+function statusBadge(status){
+
+    switch(status){
+
+        case "green":
+
+            return `<span class="badge bg-success">🟢 활동 가능</span>`;
+
+        case "yellow":
+
+            return `<span class="badge bg-warning text-dark">🟡 모니터링</span>`;
+
+        case "orange":
+
+            return `<span class="badge bg-orange text-white">🟠 조치 검토</span>`;
+
+        case "red":
+
+            return `<span class="badge bg-danger">🔴 긴급 대응</span>`;
+
+    }
+
+}
