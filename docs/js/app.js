@@ -153,7 +153,8 @@ function renderBriefing(data){
 // ===========================
 
 function renderCountries(countries){
-
+const map = initMap();
+renderMapCountries(map, countries);
     // 지역별 컨테이너
     const asiaList = document.getElementById("asiaList");
     const africaList = document.getElementById("africaList");
@@ -292,5 +293,52 @@ function initMap(){
     }).addTo(map);
 
     return map;
+
+}
+function renderMapCountries(map, countries){
+
+    countries.forEach(country=>{
+
+        if(!country.lat || !country.lng) return;
+
+        let color="green";
+
+        switch(country.status){
+
+            case "yellow":
+                color="orange";
+                break;
+
+            case "orange":
+                color="darkorange";
+                break;
+
+            case "red":
+                color="red";
+                break;
+
+        }
+
+        L.circleMarker([country.lat, country.lng],{
+
+            radius:8,
+
+            color:color,
+
+            fillOpacity:0.8
+
+        })
+
+        .addTo(map)
+
+        .bindPopup(`
+
+            <strong>${country.flag} ${country.name}</strong><br>
+
+            ${country.issue}
+
+        `);
+
+    });
 
 }
