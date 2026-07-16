@@ -10,33 +10,30 @@ async function loadDashboard() {
 
     try {
 
-        const [
-            countriesRes,
-            briefingRes,
-            reportRes,
-            updateRes
-        ] = await Promise.all([
-            fetch("data/countries.json"),
-            fetch("data/briefing.json"),
-            fetch("data/daily_report.json"),
-            fetch("data/last_update.json")
-        ]);
+       const [
+    countriesRes,
+    briefingRes,
+    reportRes,
+    updateRes
+] = await Promise.all([
+    fetch("data/countries.json"),
+    fetch("data/briefing.json"),
+    fetch("data/daily_report.json"),
+    fetch("data/last_update.json")
+]);
 
-        const countries = await countriesRes.json();
-        const briefing = await briefingRes.json();
-        const report = await reportRes.json();
-        const update = await updateRes.json();
+const countries = await countriesRes.json();
+const briefing = await briefingRes.json();
+const report = await reportRes.json();
+const update = await updateRes.json();
 
-        document.getElementById("lastUpdate").textContent =
-            update.updated;
+// 마지막 업데이트 표시
+document.getElementById("lastUpdate").textContent = update.updated;
 
-        renderSummary(countries);
-
-        renderTodayChanges(report);
-
-        renderBriefing(briefing);
-
-        renderCountries(countries);
+renderSummary(countries);
+renderTodayChanges(report);
+renderBriefing(briefing);
+renderCountries(countries);
 
     } catch (err) {
 
