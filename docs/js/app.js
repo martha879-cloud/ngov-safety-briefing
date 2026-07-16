@@ -307,8 +307,12 @@ function initMap() {
         }
     ).addTo(map);
 
-    return map;
+    // ⭐ 지도 크기 다시 계산
+    setTimeout(() => {
+        map.invalidateSize();
+    }, 100);
 
+    return map;
 }
 function renderMapCountries(map, countries) {
 
