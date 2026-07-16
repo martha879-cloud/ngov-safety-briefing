@@ -1,6 +1,6 @@
-// ==========================
-// KOICA-NGO Dashboard v0.5
-// ==========================
+// =========================================
+// KOICA-NGO Dashboard v1.0
+// =========================================
 
 document.addEventListener("DOMContentLoaded", () => {
     loadDashboard();
@@ -10,98 +10,59 @@ async function loadDashboard() {
 
     try {
 
-        // countries.json
-        const countryRes = await fetch("data/countries.json");
-        const countries = await countryRes.json();
+        const [
+            countriesRes,
+            briefingRes,
+            reportRes,
+            updateRes
+        ] = await Promise.all([
+            fetch("data/countries.json"),
+            fetch("data/briefing.json"),
+            fetch("data/daily_report.json"),
+            fetch("data/last_update.json")
+        ]);
 
-        // briefing.json
-        const briefingRes = await fetch("data/briefing.json");
+        const countries = await countriesRes.json();
         const briefing = await briefingRes.json();
-        
-        const reportRes = await fetch("data/daily_report.json");
         const report = await reportRes.json();
-
-        const updateRes = await fetch("data/last_update.json");
         const update = await updateRes.json();
 
-        document.getElementById("lastUpdate").innerHTML = update.updated;
+        document.getElementById("lastUpdate").textContent =
+            update.updated;
 
-function renderTodayChanges(report){
+        renderSummary(countries);
 
-    const box = document.getElementById("todayChanges");
+        renderTodayChanges(report);
 
-    if(!box) return;
+        renderBriefing(briefing);
 
-    if(report.changes.length===0){
+        renderCountries(countries);
 
-        box.innerHTML="<div class='text-success'>오늘 변경사항이 없습니다.</div>";
+    } catch (err) {
 
-        return;
-
-    }
-
-    let html="";
-
-    report.changes.forEach(item=>{
-
-        html+=`
-
-        <div class="change-item">
-
-            <h5>${item.flag} ${item.country}</h5>
-
-            <strong>${item.change}</strong><br>
-
-            ${item.reason}
-
-        </div>
-
-        `;
-
-    });
-
-    box.innerHTML=html;
-
-}
-
-renderBriefing(briefing);
-
-renderCountries(countries);
-    } catch (e) {
-
-        console.error(e);
+        console.error(err);
 
         document.getElementById("briefing").innerHTML =
-            "데이터를 불러오지 못했습니다.";
+            "<div class='text-danger'>데이터를 불러오지 못했습니다.</div>";
 
     }
 
 }
 
-function renderBriefing(data){
+// ===========================
+// Summary
+// ===========================
 
-    let html="";
-
-    data.summary.forEach(item=>{
-
-        html+=`<div class="mb-2">✅ ${item}</div>`;
-
-    });
-
-    document.getElementById("briefing").innerHTML=html;
-
-}
-
-function renderCountries(countries){
+function renderSummary(countries){
 
     let green=0;
     let yellow=0;
     let orange=0;
     let red=0;
 
-    countries.forEach(country=>{
+    countries.forEach(c=>{
 
-        switch(country.status){
+        switch(c.status){
 
             case "green":
                 green++;
@@ -121,108 +82,72 @@ function renderCountries(countries){
 
         }
 
-        createCountryCard(country);
-
     });
 
-    document.getElementById("greenCount").innerHTML=green;
-    document.getElementById("yellowCount").innerHTML=yellow;
-    document.getElementById("orangeCount").innerHTML=orange;
-    document.getElementById("redCount").innerHTML=red;
+    document.getElementById("greenCount").textContent=green;
+    document.getElementById("yellowCount").textContent=yellow;
+    document.getElementById("orangeCount").textContent=orange;
+    document.getElementById("redCount").textContent=red;
 
 }
-function createCountryCard(country){
-    
-    const asiaList = document.getElementById("asiaList");
-    const africaList = document.getElementById("africaList");
-    const latinList = document.getElementById("latinList");
-    const middleList = document.getElementById("middleList");
-    
-    const html=`
 
-    <div class="col-lg-3 col-md-4 col-sm-6">
+// ===========================
+// Today Changes
+// ===========================
 
-        <div class="country-card">
+function renderTodayChanges(report){
 
-            <div class="country-name">
+    const box=document.getElementById("todayChanges");
 
-                ${country.flag} ${country.name}
+    if(!box) return;
 
-            </div>
+    if(!report.changes || report.changes.length===0){
 
-            <div class="mt-2">
+        box.innerHTML=
+        "<div class='text-success'>오늘 변경사항이 없습니다.</div>";
 
-                ${statusBadge(country.status)}
+        return;
 
-            </div>
+    }
 
-            <div class="mt-3">
+    let html="";
 
-                ${country.issue}
+    report.changes.forEach(item=>{
 
-            </div>
+        html+=`
 
-            <small class="text-muted">
+        <div class="change-item">
 
-                ${country.updated}
+            <h5>${item.flag} ${item.country}</h5>
 
-            </small>
+            <div><strong>${item.change}</strong></div>
+
+            <div>${item.reason}</div>
 
         </div>
 
-    </div>
+        `;
 
-    `;
+    });
 
-    switch(country.region){
-
-        case "asia":
-
-            asiaList.innerHTML+=html;
-
-            break;
-
-        case "africa":
-
-            africaList.innerHTML+=html;
-
-            break;
-
-        case "latin":
-
-            latinList.innerHTML+=html;
-
-            break;
-
-        case "middle":
-
-            middleList.innerHTML+=html;
-
-            break;
-
-    }
+    box.innerHTML=html;
 
 }
-function statusBadge(status){
 
-    switch(status){
+// ===========================
+// Briefing
+// ===========================
 
-        case "green":
+function renderBriefing(data){
 
-            return `<span class="badge bg-success">🟢 활동 가능</span>`;
+    let html="";
 
-        case "yellow":
+    data.summary.forEach(text=>{
 
-            return `<span class="badge bg-warning text-dark">🟡 모니터링</span>`;
+        html+=`<div>✅ ${text}</div>`;
 
-        case "orange":
+    });
 
-            return `<span class="badge bg-orange text-white">🟠 조치 검토</span>`;
-
-        case "red":
-
-            return `<span class="badge bg-danger">🔴 긴급 대응</span>`;
-
-    }
+    document.getElementById("briefing").innerHTML=html;
 
 }
