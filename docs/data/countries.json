@@ -7,7 +7,9 @@
     "status": "green",
     "issue": "특이사항 없음",
     "source": "MOFA",
-    "updated": "2026-07-17 08:00"
+    "updated": "2026-07-17 08:00",
+    "lat": 18.0,
+    "lng": 103.0
   },
   {
     "id": "cambodia",
@@ -17,7 +19,9 @@
     "status": "yellow",
     "issue": "우기 홍수 모니터링",
     "source": "ReliefWeb",
-    "updated": "2026-07-17 08:00"
+    "updated": "2026-07-17 08:00",
+    "lat": 12.5657,
+    "lng": 104.9910
   },
   {
     "id": "kenya",
@@ -27,7 +31,9 @@
     "status": "yellow",
     "issue": "홍수 관련 신규 보고",
     "source": "ReliefWeb",
-    "updated": "2026-07-17 08:00"
+    "updated": "2026-07-17 08:00",
+    "lat": -0.0236,
+    "lng": 37.9062
   },
   {
     "id": "peru",
@@ -37,7 +43,9 @@
     "status": "green",
     "issue": "특이사항 없음",
     "source": "USGS",
-    "updated": "2026-07-17 08:00"
+    "updated": "2026-07-17 08:00",
+    "lat": -9.19,
+    "lng": -75.01
   },
   {
     "id": "jordan",
@@ -47,6 +55,8 @@
     "status": "green",
     "issue": "특이사항 없음",
     "source": "MOFA",
-    "updated": "2026-07-17 08:00"
+    "updated": "2026-07-17 08:00",
+    "lat": 31.24,
+    "lng": 36.51
   }
 ]
