@@ -1,168 +1,52 @@
 [
   {
-    "name":"동티모르",
-    "flag":"🇹🇱",
-    "region":"asia",
-    "status":"green",
-    "issue":"특이사항 없음",
-    "updated":"2026-07-14 09:00"
+    "id": "laos",
+    "name": "라오스",
+    "flag": "🇱🇦",
+    "region": "asia",
+    "status": "green",
+    "issue": "특이사항 없음",
+    "source": "MOFA",
+    "updated": "2026-07-17 08:00"
   },
   {
-    "name":"라오스",
-    "flag":"🇱🇦",
-    "region":"asia",
-    "status":"green",
-    "issue":"특이사항 없음",
-    "updated":"2026-07-14 09:00"
+    "id": "cambodia",
+    "name": "캄보디아",
+    "flag": "🇰🇭",
+    "region": "asia",
+    "status": "yellow",
+    "issue": "우기 홍수 모니터링",
+    "source": "ReliefWeb",
+    "updated": "2026-07-17 08:00"
   },
   {
-    "name":"몽골",
-    "flag":"🇲🇳",
-    "region":"asia",
-    "status":"green",
-    "issue":"특이사항 없음",
-    "updated":"2026-07-14 09:00"
+    "id": "kenya",
+    "name": "케냐",
+    "flag": "🇰🇪",
+    "region": "africa",
+    "status": "yellow",
+    "issue": "홍수 관련 신규 보고",
+    "source": "ReliefWeb",
+    "updated": "2026-07-17 08:00"
   },
   {
-    "name":"방글라데시",
-    "flag":"🇧🇩",
-    "region":"asia",
-    "status":"yellow",
-    "issue":"정치 집회 동향 모니터링",
-    "updated":"2026-07-14 08:30"
+    "id": "peru",
+    "name": "페루",
+    "flag": "🇵🇪",
+    "region": "latin",
+    "status": "green",
+    "issue": "특이사항 없음",
+    "source": "USGS",
+    "updated": "2026-07-17 08:00"
   },
   {
-    "name":"베트남",
-    "flag":"🇻🇳",
-    "region":"asia",
-    "status":"green",
-    "issue":"특이사항 없음",
-    "updated":"2026-07-14 09:00"
-  },
-  {
-    "name":"인도네시아",
-    "flag":"🇮🇩",
-    "region":"asia",
-    "status":"green",
-    "issue":"특이사항 없음",
-    "updated":"2026-07-14 09:00"
-  },
-  {
-    "name":"캄보디아",
-    "flag":"🇰🇭",
-    "region":"asia",
-    "status":"green",
-    "issue":"특이사항 없음",
-    "updated":"2026-07-14 09:00"
-  },
-  {
-    "name":"필리핀",
-    "flag":"🇵🇭",
-    "region":"asia",
-    "status":"green",
-    "issue":"우기 기상상황 모니터링",
-    "updated":"2026-07-14 09:00"
-  },
-  {
-    "name":"키르기스스탄",
-    "flag":"🇰🇬",
-    "region":"asia",
-    "status":"green",
-    "issue":"특이사항 없음",
-    "updated":"2026-07-14 09:00"
-  },
-  {
-    "name":"르완다",
-    "flag":"🇷🇼",
-    "region":"africa",
-    "status":"green",
-    "issue":"특이사항 없음",
-    "updated":"2026-07-14 09:00"
-  },
-  {
-    "name":"말라위",
-    "flag":"🇲🇼",
-    "region":"africa",
-    "status":"green",
-    "issue":"특이사항 없음",
-    "updated":"2026-07-14 09:00"
-  },
-  {
-    "name":"모로코",
-    "flag":"🇲🇦",
-    "region":"africa",
-    "status":"green",
-    "issue":"특이사항 없음",
-    "updated":"2026-07-14 09:00"
-  },
-  {
-    "name":"우간다",
-    "flag":"🇺🇬",
-    "region":"africa",
-    "status":"green",
-    "issue":"특이사항 없음",
-    "updated":"2026-07-14 09:00"
-  },
-  {
-    "name":"이집트",
-    "flag":"🇪🇬",
-    "region":"africa",
-    "status":"green",
-    "issue":"특이사항 없음",
-    "updated":"2026-07-14 09:00"
-  },
-  {
-    "name":"탄자니아",
-    "flag":"🇹🇿",
-    "region":"africa",
-    "status":"green",
-    "issue":"특이사항 없음",
-    "updated":"2026-07-14 09:00"
-  },
-  {
-    "id":"kenya",
-    "name":"케냐",
-    "flag":"🇰🇪",
-    "region":"africa",
-    "status":"yellow",
-    "priority":2,
-    "issue":"홍수 관련 신규 보고",
-    "source":"ReliefWeb",
-    "updated":"2026-07-14 08:20"
-  },
-  {
-    "name":"과테말라",
-    "flag":"🇬🇹",
-    "region":"latin",
-    "status":"green",
-    "issue":"특이사항 없음",
-    "updated":"2026-07-14 09:00"
-  },
-  {
-    "name":"도미니카공화국",
-    "flag":"🇩🇴",
-    "region":"latin",
-    "status":"green",
-    "issue":"특이사항 없음",
-    "updated":"2026-07-14 09:00"
-  },
-  {
-    "id":"peru",
-    "name":"페루",
-    "flag":"🇵🇪",
-    "region":"latin",
-    "status":"yellow",
-    "priority":2,
-    "issue":"최근 지진 모니터링",
-    "source":"USGS",
-    "updated":"2026-07-14 08:10"
-  },
-  {
-    "name":"요르단",
-    "flag":"🇯🇴",
-    "region":"middle",
-    "status":"green",
-    "issue":"특이사항 없음",
-    "updated":"2026-07-14 09:00"
+    "id": "jordan",
+    "name": "요르단",
+    "flag": "🇯🇴",
+    "region": "middle",
+    "status": "green",
+    "issue": "특이사항 없음",
+    "source": "MOFA",
+    "updated": "2026-07-17 08:00"
   }
 ]
