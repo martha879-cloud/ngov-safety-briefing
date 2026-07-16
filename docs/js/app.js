@@ -35,6 +35,9 @@ renderTodayChanges(report);
 renderBriefing(briefing);
 renderCountries(countries);
 
+        const map = initMap();
+renderMapCountries(map, countries);
+
     } catch (err) {
 
         console.error(err);
@@ -153,8 +156,7 @@ function renderBriefing(data){
 // ===========================
 
 function renderCountries(countries){
-const map = initMap();
-renderMapCountries(map, countries);
+
     // 지역별 컨테이너
     const asiaList = document.getElementById("asiaList");
     const africaList = document.getElementById("africaList");
