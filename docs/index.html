@@ -264,171 +264,110 @@
         </div>
 
     </div>
-        <!-- =========================
-         지역별 국가 현황
-    ========================== -->
+    <!-- ========================= -->
+    <!-- Country Status -->
+    <!-- ========================= -->
 
-    <div class="row">
+    <h3 class="mb-3">
+        🌏 지역별 파견국 현황
+    </h3>
 
-        <!-- Asia -->
-        <div class="col-lg-6 mb-4">
-
-            <div class="card shadow-sm h-100">
-
-                <div class="card-header bg-success text-white">
-
-                    🌏 Asia / CIS
-
-                </div>
-
-                <div class="card-body">
-
-                    <div id="asiaList" class="row g-3">
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        <!-- Africa -->
-        <div class="col-lg-6 mb-4">
-
-            <div class="card shadow-sm h-100">
-
-                <div class="card-header bg-success text-white">
-
-                    🌍 Africa
-
-                </div>
-
-                <div class="card-body">
-
-                    <div id="africaList" class="row g-3">
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        <!-- Latin America -->
-        <div class="col-lg-6 mb-4">
-
-            <div class="card shadow-sm h-100">
-
-                <div class="card-header bg-success text-white">
-
-                    🌎 Latin America
-
-                </div>
-
-                <div class="card-body">
-
-                    <div id="latinList" class="row g-3">
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        <!-- Middle East -->
-        <div class="col-lg-6 mb-4">
-
-            <div class="card shadow-sm h-100">
-
-                <div class="card-header bg-success text-white">
-
-                    🕌 Middle East
-
-                </div>
-
-                <div class="card-body">
-
-                    <div id="middleList" class="row g-3">
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-
-    <!-- =========================
-         향후 지도 영역
-    ========================== -->
-
+    <!-- Asia -->
     <div class="card shadow-sm mb-4">
 
-        <div class="card-header bg-dark text-white">
+        <div class="card-header bg-primary text-white">
 
-            🌍 세계지도 (준비 중)
-
-        </div>
-
-        <div class="card-body text-center">
-
-<div id="map"></div>
-
-        </div>
-
-    </div>
-
-
-    <!-- =========================
-         최근 변화
-    ========================== -->
-
-    <div class="card shadow-sm mb-4">
-
-        <div class="card-header bg-secondary text-white">
-
-            📈 최근 7일 위험도 변화
+            <h5 class="mb-0">
+                🌏 아시아
+            </h5>
 
         </div>
 
         <div class="card-body">
 
-            <div id="historyChart"
-                 style="height:180px;
-                        display:flex;
-                        align-items:center;
-                        justify-content:center;">
-
-                (차트는 다음 버전에서 추가)
-
-            </div>
+            <div class="row g-3" id="asiaList"></div>
 
         </div>
 
     </div>
 
+    <!-- Africa -->
 
-    <!-- =========================
-         Footer
-    ========================== -->
+    <div class="card shadow-sm mb-4">
+
+        <div class="card-header bg-success text-white">
+
+            <h5 class="mb-0">
+                🌍 아프리카
+            </h5>
+
+        </div>
+
+        <div class="card-body">
+
+            <div class="row g-3" id="africaList"></div>
+
+        </div>
+
+    </div>
+
+    <!-- Latin America -->
+
+    <div class="card shadow-sm mb-4">
+
+        <div class="card-header bg-warning">
+
+            <h5 class="mb-0">
+                🌎 중남미
+            </h5>
+
+        </div>
+
+        <div class="card-body">
+
+            <div class="row g-3" id="latinList"></div>
+
+        </div>
+
+    </div>
+
+    <!-- Middle East -->
+
+    <div class="card shadow-sm mb-4">
+
+        <div class="card-header bg-secondary text-white">
+
+            <h5 class="mb-0">
+                🕌 중동
+            </h5>
+
+        </div>
+
+        <div class="card-body">
+
+            <div class="row g-3" id="middleList"></div>
+
+        </div>
+
+    </div>
+
+    <!-- ========================= -->
+    <!-- Footer -->
+    <!-- ========================= -->
 
     <footer class="text-center mt-5 mb-4">
 
         <hr>
 
-        <p>
-            KOICA-NGO봉사단 안전관리 Dashboard v1.0
+        <p class="fw-bold mb-1">
+            KOICA-NGO봉사단 안전관리 Dashboard v2.0
         </p>
 
         <small class="text-muted">
-            Data Source : 대한민국 외교부 · USGS · WHO · ReliefWeb
+
+            Data Source :
+            대한민국 외교부 · ReliefWeb · WHO · USGS
+
         </small>
 
     </footer>
@@ -445,6 +384,10 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 <!-- Dashboard -->
+<script src="js/app.js"></script>
+
+</body>
+</html>
 <script src="js/app.js"></script>
 
 </body>
