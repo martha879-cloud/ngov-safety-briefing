@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>KOICA-NGO봉사단 안전관리 Dashboard</title>
+    <title>KOICA-NGO봉사단 안전관리 대시보드</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -15,134 +15,34 @@
 
 <div class="container-fluid py-4">
 
-    <!-- ===================== -->
-    <!-- Header -->
-    <!-- ===================== -->
+    <!-- 제목 -->
+    <div class="text-center mb-4">
 
-    <div class="row mb-4">
+        <h1 class="fw-bold text-primary">
+            🌍 KOICA-NGO봉사단 안전관리 대시보드
+        </h1>
 
-        <div class="col-lg-8">
+        <p class="text-secondary mb-0">
+            20개 파견국 통합 안전정보 모니터링
+        </p>
 
-            <h1 class="fw-bold text-primary">
-                🌍 KOICA-NGO봉사단 안전관리 Dashboard
-            </h1>
-
-            <div class="text-secondary mt-2">
-                20개 파견국 안전정보 통합 모니터링 시스템
-            </div>
-
-        </div>
-
-        <div class="col-lg-4 text-lg-end mt-3 mt-lg-0">
-
-            <div class="card shadow-sm">
-
-                <div class="card-body">
-
-                    <div class="small text-muted">
-                        시스템 상태
-                    </div>
-
-                    <h5 class="text-success mb-3">
-                        🟢 정상 운영
-                    </h5>
-
-                    <div class="small text-muted">
-                        마지막 업데이트
-                    </div>
-
-                    <strong id="lastUpdate">
-                        불러오는 중...
-                    </strong>
-
-                </div>
-
-            </div>
-
-        </div>
+        <small class="text-muted">
+            마지막 업데이트 :
+            <span id="lastUpdate">불러오는 중...</span>
+        </small>
 
     </div>
 
-    <!-- ===================== -->
-    <!-- Today -->
-    <!-- ===================== -->
+    <!-- KPI -->
+    <div class="row g-3 mb-4">
 
-    <div class="row mb-4">
+        <div class="col-lg-3 col-md-6">
 
-        <div class="col-lg-6">
-
-            <div class="card shadow-sm h-100">
-
-                <div class="card-header bg-danger text-white">
-
-                    🚨 오늘 변경사항
-
-                </div>
-
-                <div class="card-body">
-
-                    <div id="todayChanges">
-
-                        데이터를 불러오는 중...
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        <div class="col-lg-6">
-
-            <div class="card shadow-sm h-100">
-
-                <div class="card-header bg-primary text-white">
-
-                    <div class="card shadow-sm mb-4">
-    <div class="card-header bg-danger text-white">
-        🚨 오늘 변경사항
-    </div>
-
-    <div class="card-body">
-        <div id="todayChanges">
-            불러오는 중...
-        </div>
-    </div>
-</div>
-                    📢 오늘의 안전 브리핑
-
-                </div>
-
-                <div class="card-body">
-
-                    <div id="briefing">
-
-                        데이터를 불러오는 중...
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-    <!-- ===================== -->
-    <!-- Status -->
-    <!-- ===================== -->
-
-    <div class="row mb-4">
-
-        <div class="col-md-3">
-
-            <div class="card border-success shadow-sm">
+            <div class="card dashboard-card border-success">
 
                 <div class="card-body text-center">
 
-                    <h2>🟢</h2>
+                    <div class="display-5">🟢</div>
 
                     <h6>활동 가능</h6>
 
@@ -154,13 +54,13 @@
 
         </div>
 
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-6">
 
-            <div class="card border-warning shadow-sm">
+            <div class="card dashboard-card border-warning">
 
                 <div class="card-body text-center">
 
-                    <h2>🟡</h2>
+                    <div class="display-5">🟡</div>
 
                     <h6>모니터링</h6>
 
@@ -172,13 +72,13 @@
 
         </div>
 
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-6">
 
-            <div class="card border-orange shadow-sm">
+            <div class="card dashboard-card border-orange">
 
                 <div class="card-body text-center">
 
-                    <h2>🟠</h2>
+                    <div class="display-5">🟠</div>
 
                     <h6>조치 검토</h6>
 
@@ -190,13 +90,13 @@
 
         </div>
 
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-6">
 
-            <div class="card border-danger shadow-sm">
+            <div class="card dashboard-card border-danger">
 
                 <div class="card-body text-center">
 
-                    <h2>🔴</h2>
+                    <div class="display-5">🔴</div>
 
                     <h6>긴급 대응</h6>
 
@@ -209,87 +109,229 @@
         </div>
 
     </div>
-        <!-- ===================== -->
-    <!-- 지역별 파견국 -->
-    <!-- ===================== -->
 
-    <div class="card shadow-sm">
+    <!-- 오늘 변경사항 -->
+    <div class="card shadow-sm mb-4">
 
-        <div class="card-header bg-dark text-white">
+        <div class="card-header bg-danger text-white">
 
-            🌍 20개 파견국 안전현황
+            🚨 오늘 변경사항
 
         </div>
 
         <div class="card-body">
 
-            <!-- Asia -->
-            <h5 class="text-primary mb-3">
-                🌏 Asia / CIS
-            </h5>
+            <div id="todayChanges">
 
-            <div id="asiaList" class="row g-3 mb-4">
-            </div>
+                데이터를 불러오는 중...
 
-            <!-- Africa -->
-            <h5 class="text-primary mb-3">
-                🌍 Africa
-            </h5>
-
-            <div id="africaList" class="row g-3 mb-4">
-            </div>
-
-            <!-- Latin America -->
-            <h5 class="text-primary mb-3">
-                🌎 Latin America
-            </h5>
-
-            <div id="latinList" class="row g-3 mb-4">
-            </div>
-
-            <!-- Middle East -->
-            <h5 class="text-primary mb-3">
-                🌍 Middle East
-            </h5>
-
-            <div id="middleList" class="row g-3">
             </div>
 
         </div>
 
     </div>
 
-    <!-- ===================== -->
-    <!-- Footer -->
-    <!-- ===================== -->
+    <!-- 오늘 브리핑 -->
+    <div class="card shadow-sm mb-4">
 
-    <footer class="text-center text-secondary mt-5">
+        <div class="card-header bg-primary text-white">
+
+            📢 오늘의 안전 브리핑
+
+        </div>
+
+        <div class="card-body">
+
+            <div id="briefing">
+
+                데이터를 불러오는 중...
+
+            </div>
+
+        </div>
+
+    </div>
+        <!-- =========================
+         지역별 국가 현황
+    ========================== -->
+
+    <div class="row">
+
+        <!-- Asia -->
+        <div class="col-lg-6 mb-4">
+
+            <div class="card shadow-sm h-100">
+
+                <div class="card-header bg-success text-white">
+
+                    🌏 Asia / CIS
+
+                </div>
+
+                <div class="card-body">
+
+                    <div id="asiaList" class="row g-3">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Africa -->
+        <div class="col-lg-6 mb-4">
+
+            <div class="card shadow-sm h-100">
+
+                <div class="card-header bg-success text-white">
+
+                    🌍 Africa
+
+                </div>
+
+                <div class="card-body">
+
+                    <div id="africaList" class="row g-3">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Latin America -->
+        <div class="col-lg-6 mb-4">
+
+            <div class="card shadow-sm h-100">
+
+                <div class="card-header bg-success text-white">
+
+                    🌎 Latin America
+
+                </div>
+
+                <div class="card-body">
+
+                    <div id="latinList" class="row g-3">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Middle East -->
+        <div class="col-lg-6 mb-4">
+
+            <div class="card shadow-sm h-100">
+
+                <div class="card-header bg-success text-white">
+
+                    🕌 Middle East
+
+                </div>
+
+                <div class="card-body">
+
+                    <div id="middleList" class="row g-3">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         향후 지도 영역
+    ========================== -->
+
+    <div class="card shadow-sm mb-4">
+
+        <div class="card-header bg-dark text-white">
+
+            🌍 세계지도 (준비 중)
+
+        </div>
+
+        <div class="card-body text-center">
+
+            <div id="map"
+                 style="height:420px;
+                        background:#f8f9fa;
+                        border-radius:10px;
+                        display:flex;
+                        align-items:center;
+                        justify-content:center;
+                        color:#777;">
+
+                Leaflet 지도가 여기에 표시됩니다.
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         최근 변화
+    ========================== -->
+
+    <div class="card shadow-sm mb-4">
+
+        <div class="card-header bg-secondary text-white">
+
+            📈 최근 7일 위험도 변화
+
+        </div>
+
+        <div class="card-body">
+
+            <div id="historyChart"
+                 style="height:180px;
+                        display:flex;
+                        align-items:center;
+                        justify-content:center;">
+
+                (차트는 다음 버전에서 추가)
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         Footer
+    ========================== -->
+
+    <footer class="text-center text-muted mt-5">
 
         <hr>
 
-        <p class="mb-1">
-            KOICA-NGO봉사단 안전관리 Dashboard
-        </p>
+        <p>
 
-        <p class="small">
-
-            Data Sources
-
-            <br>
-
-            대한민국 외교부 해외안전여행 · WHO Disease Outbreak News
-
-            <br>
-
-            USGS Earthquake · ReliefWeb · NASA EONET
+            KOICA-NGO봉사단 안전관리 Dashboard v1.0
 
         </p>
+
+        <small>
+
+            Data Source :
+            대한민국 외교부 · USGS · WHO · ReliefWeb
+
+        </small>
 
     </footer>
-
-</div>
-
-<script src="js/app.js"></script>
-
-</body>
-</html>
