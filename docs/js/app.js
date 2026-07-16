@@ -151,3 +151,136 @@ function renderBriefing(data){
     document.getElementById("briefing").innerHTML=html;
 
 }
+// ===========================
+// Countries
+// ===========================
+
+function renderCountries(countries){
+
+    // 지역별 컨테이너
+    const asiaList = document.getElementById("asiaList");
+    const africaList = document.getElementById("africaList");
+    const latinList = document.getElementById("latinList");
+    const middleList = document.getElementById("middleList");
+
+    // 기존 내용 초기화
+    asiaList.innerHTML = "";
+    africaList.innerHTML = "";
+    latinList.innerHTML = "";
+    middleList.innerHTML = "";
+
+    countries.forEach(country => {
+
+        const card = createCountryCard(country);
+
+        switch(country.region){
+
+            case "asia":
+                asiaList.innerHTML += card;
+                break;
+
+            case "africa":
+                africaList.innerHTML += card;
+                break;
+
+            case "latin":
+                latinList.innerHTML += card;
+                break;
+
+            case "middle":
+                middleList.innerHTML += card;
+                break;
+
+            default:
+                asiaList.innerHTML += card;
+        }
+
+    });
+
+}
+
+// ===========================
+// Country Card
+// ===========================
+
+function createCountryCard(country){
+
+    return `
+
+    <div class="col-lg-6 col-xl-4">
+
+        <div class="country-card">
+
+            <div class="country-name">
+
+                ${country.flag || "🌍"} ${country.name}
+
+            </div>
+
+            <div class="mt-2">
+
+                ${statusBadge(country.status)}
+
+            </div>
+
+            <div class="mt-3">
+
+                <strong>상황</strong><br>
+
+                ${country.issue || "특이사항 없음"}
+
+            </div>
+
+            <div class="mt-3">
+
+                <small class="text-muted">
+
+                    ${country.source || ""}
+
+                </small>
+
+            </div>
+
+            <div>
+
+                <small class="text-muted">
+
+                    ${country.updated || ""}
+
+                </small>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    `;
+
+}
+
+// ===========================
+// Status Badge
+// ===========================
+
+function statusBadge(status){
+
+    switch(status){
+
+        case "green":
+            return `<span class="badge bg-success">🟢 활동 가능</span>`;
+
+        case "yellow":
+            return `<span class="badge bg-warning text-dark">🟡 모니터링</span>`;
+
+        case "orange":
+            return `<span class="badge bg-orange">🟠 조치 검토</span>`;
+
+        case "red":
+            return `<span class="badge bg-danger">🔴 긴급 대응</span>`;
+
+        default:
+            return `<span class="badge bg-secondary">정보 없음</span>`;
+    }
+
+}
