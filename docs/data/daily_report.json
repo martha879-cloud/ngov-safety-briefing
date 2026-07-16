@@ -1,0 +1,25 @@
+{
+  "date": "2026-07-16",
+  "summary": {
+    "green": 17,
+    "yellow": 3,
+    "orange": 0,
+    "red": 0
+  },
+  "changes": [
+    {
+      "country": "케냐",
+      "flag": "🇰🇪",
+      "status": "yellow",
+      "change": "🟢 → 🟡",
+      "reason": "홍수 관련 신규 보고"
+    },
+    {
+      "country": "페루",
+      "flag": "🇵🇪",
+      "status": "yellow",
+      "change": "🟡 유지",
+      "reason": "M5.8 지진 발생"
+    }
+  ]
+}
