@@ -10,37 +10,49 @@ async function loadDashboard() {
 
     try {
 
-       const [
-    countriesRes,
-    briefingRes,
-    reportRes,
-    updateRes
-] = await Promise.all([
-    fetch("data/countries.json"),
-    fetch("data/briefing.json"),
-    fetch("data/daily_report.json"),
-    fetch("data/last_update.json")
-]);
+        const [
+            countriesRes,
+            briefingRes,
+            reportRes,
+            updateRes
+        ] = await Promise.all([
+            fetch("data/countries.json"),
+            fetch("data/briefing.json"),
+            fetch("data/daily_report.json"),
+            fetch("data/last_update.json")
+        ]);
 
-const countries = await countriesRes.json();
-const briefing = await briefingRes.json();
-const report = await reportRes.json();
-const update = await updateRes.json();
+        const countries = await countriesRes.json();
+        const briefing = await briefingRes.json();
+        const report = await reportRes.json();
+        const update = await updateRes.json();
 
-// 마지막 업데이트 표시
-document.getElementById("lastUpdate").textContent = update.updated;
+        // 마지막 업데이트
+        document.getElementById("lastUpdate").textContent = update.updated;
 
-renderSummary(countries);
-renderTodayChanges(report);
-renderBriefing(briefing);
-renderCountries(countries);
+        // KPI
+        renderSummary(countries);
 
-const map = initMap();
-renderMapCountries(map, countries);
+        // 브리핑
+        renderBriefing(briefing);
+
+        // 변경사항
+        renderTodayChanges(report);
+
+        // 국가 카드
+        renderCountries(countries);
+
+        // 지도
+        const map = initMap();
+        renderMapCountries(map, countries);
 
     } catch (err) {
 
         console.error(err);
+
+    }
+
+}
 
         document.getElementById("briefing").innerHTML =
             "<div class='text-danger'>데이터를 불러오지 못했습니다.</div>";
@@ -284,61 +296,57 @@ function statusBadge(status){
     }
 
 }
-function initMap(){
+function initMap() {
 
-    const map = L.map('map').setView([20, 20], 2);
+    const map = L.map("map").setView([20, 20], 2);
 
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-
-        attribution: '&copy; OpenStreetMap'
-
-    }).addTo(map);
+    L.tileLayer(
+        "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+        {
+            attribution: "&copy; OpenStreetMap contributors"
+        }
+    ).addTo(map);
 
     return map;
 
 }
-function renderMapCountries(map, countries){
+function renderMapCountries(map, countries) {
 
-    countries.forEach(country=>{
+    countries.forEach(country => {
 
-        if(!country.lat || !country.lng) return;
+        if (country.lat == null || country.lng == null) {
+            return;
+        }
 
-        let color="green";
+        let color = "green";
 
-        switch(country.status){
+        switch (country.status) {
 
             case "yellow":
-                color="orange";
+                color = "orange";
                 break;
 
             case "orange":
-                color="darkorange";
+                color = "darkorange";
                 break;
 
             case "red":
-                color="red";
+                color = "red";
                 break;
-
         }
 
-        L.circleMarker([country.lat, country.lng],{
+        L.circleMarker([country.lat, country.lng], {
 
-            radius:8,
-
-            color:color,
-
-            fillOpacity:0.8
+            radius: 8,
+            color: color,
+            fillColor: color,
+            fillOpacity: 0.8
 
         })
-
         .addTo(map)
-
         .bindPopup(`
-
             <strong>${country.flag} ${country.name}</strong><br>
-
             ${country.issue}
-
         `);
 
     });
