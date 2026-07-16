@@ -17,17 +17,56 @@ async function loadDashboard() {
         // briefing.json
         const briefingRes = await fetch("data/briefing.json");
         const briefing = await briefingRes.json();
+        
+        const reportRes = await fetch("data/daily_report.json");
+        const report = await reportRes.json();
 
-        // last_update.json
         const updateRes = await fetch("data/last_update.json");
         const update = await updateRes.json();
 
         document.getElementById("lastUpdate").innerHTML = update.updated;
 
-        renderBriefing(briefing);
+function renderTodayChanges(report){
 
-        renderCountries(countries);
+    const box = document.getElementById("todayChanges");
 
+    if(!box) return;
+
+    if(report.changes.length===0){
+
+        box.innerHTML="<div class='text-success'>오늘 변경사항이 없습니다.</div>";
+
+        return;
+
+    }
+
+    let html="";
+
+    report.changes.forEach(item=>{
+
+        html+=`
+
+        <div class="change-item">
+
+            <h5>${item.flag} ${item.country}</h5>
+
+            <strong>${item.change}</strong><br>
+
+            ${item.reason}
+
+        </div>
+
+        `;
+
+    });
+
+    box.innerHTML=html;
+
+}
+
+renderBriefing(briefing);
+
+renderCountries(countries);
     } catch (e) {
 
         console.error(e);
@@ -93,7 +132,12 @@ function renderCountries(countries){
 
 }
 function createCountryCard(country){
-
+    
+    const asiaList = document.getElementById("asiaList");
+    const africaList = document.getElementById("africaList");
+    const latinList = document.getElementById("latinList");
+    const middleList = document.getElementById("middleList");
+    
     const html=`
 
     <div class="col-lg-3 col-md-4 col-sm-6">
