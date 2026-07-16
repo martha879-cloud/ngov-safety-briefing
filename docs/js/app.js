@@ -35,6 +35,9 @@ renderTodayChanges(report);
 renderBriefing(briefing);
 renderCountries(countries);
 
+const map = initMap();
+renderMapCountries(map, countries);
+
     } catch (err) {
 
         console.error(err);
