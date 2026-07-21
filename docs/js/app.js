@@ -47,6 +47,7 @@ const [
         // 지도
         const map = initMap();
         renderMapCountries(map, countries);
+        renderHistoryChart(history);
 
     } catch (err) {
 
