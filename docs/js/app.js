@@ -357,3 +357,68 @@ function renderMapCountries(map, countries) {
 
 }
 console.log("Dashboard v2.0 loaded");
+
+function renderHistoryChart(data) {
+
+    const ctx = document.getElementById("historyChart");
+
+    if (!ctx) return;
+
+    new Chart(ctx, {
+        type: "line",
+        data: {
+            labels: data.labels,
+            datasets: [
+                {
+                    label: "활동 가능",
+                    data: data.green,
+                    borderColor: "#198754",
+                    backgroundColor: "rgba(25, 135, 84, 0.1)",
+                    tension: 0.3,
+                    fill: true
+                },
+                {
+                    label: "모니터링",
+                    data: data.yellow,
+                    borderColor: "#ffc107",
+                    backgroundColor: "rgba(255, 193, 7, 0.1)",
+                    tension: 0.3,
+                    fill: true
+                },
+                {
+                    label: "조치 검토",
+                    data: data.orange,
+                    borderColor: "#fd7e14",
+                    backgroundColor: "rgba(253, 126, 20, 0.1)",
+                    tension: 0.3,
+                    fill: true
+                },
+                {
+                    label: "긴급 대응",
+                    data: data.red,
+                    borderColor: "#dc3545",
+                    backgroundColor: "rgba(220, 53, 69, 0.1)",
+                    tension: 0.3,
+                    fill: true
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: {
+                    position: "top"
+                }
+            },
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    ticks: {
+                        stepSize: 1
+                    }
+                }
+            }
+        }
+    });
+
+}
