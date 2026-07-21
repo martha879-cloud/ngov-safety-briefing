@@ -23,6 +23,7 @@ const [
     fetch("data/last_update.json"),
     fetch("data/history.json")
 ]);
+        const history = await historyRes.json();
         const countries = await countriesRes.json();
         const briefing = await briefingRes.json();
         const report = await reportRes.json();
