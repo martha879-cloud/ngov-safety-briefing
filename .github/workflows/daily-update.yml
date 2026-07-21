@@ -1,13 +1,13 @@
 name: Daily Safety Update
 
 on:
-workflow_dispatch:
-schedule:
-- cron: '0 23 * * *'
+  workflow_dispatch:
+  schedule:
+    - cron: '0 23 * * *'
 
 jobs:
   update:
-  runs-on: ubuntu-latest
+runs-on: ubuntu-latest
 
 permissions:
   contents: write
