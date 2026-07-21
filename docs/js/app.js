@@ -10,18 +10,19 @@ async function loadDashboard() {
 
     try {
 
-        const [
-            countriesRes,
-            briefingRes,
-            reportRes,
-            updateRes
-        ] = await Promise.all([
-            fetch("data/countries.json"),
-            fetch("data/briefing.json"),
-            fetch("data/daily_report.json"),
-            fetch("data/last_update.json")
-        ]);
-
+const [
+    countriesRes,
+    briefingRes,
+    reportRes,
+    updateRes,
+    historyRes
+] = await Promise.all([
+    fetch("data/countries.json"),
+    fetch("data/briefing.json"),
+    fetch("data/daily_report.json"),
+    fetch("data/last_update.json"),
+    fetch("data/history.json")
+]);
         const countries = await countriesRes.json();
         const briefing = await briefingRes.json();
         const report = await reportRes.json();
