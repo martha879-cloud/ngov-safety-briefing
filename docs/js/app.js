@@ -214,7 +214,7 @@ function createCountryCard(country){
 
     return `
 
-    <div class="col-lg-6 col-xl-4">
+   <div class="col-lg-4 col-md-6">
 
         <div class="country-card">
 
