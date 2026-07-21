@@ -6,10 +6,9 @@ schedule:
 - cron: '0 23 * * *'
 
 jobs:
-update:
-runs-on: ubuntu-latest
+  update:
+  runs-on: ubuntu-latest
 
-```
 permissions:
   contents: write
 
@@ -29,4 +28,3 @@ steps:
       git add docs/data/last_update.json
       git commit -m "Auto update last update time" || echo "No changes to commit"
       git push
-```
