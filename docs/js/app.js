@@ -294,7 +294,7 @@ function statusBadge(status){
 function initMap() {
 
     const map = L.map("map", {
-        worldCopyJump: true
+        worldCopyJump: false
     }).setView([20, 20], 2);
 
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
