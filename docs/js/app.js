@@ -293,19 +293,18 @@ function statusBadge(status){
 }
 function initMap() {
 
-    const map = L.map("map").setView([20, 20], 2);
+    const map = L.map("map", {
+        worldCopyJump: true
+    }).setView([20, 20], 2);
 
-    L.tileLayer(
-        "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-        {
-            attribution: "&copy; OpenStreetMap contributors"
-        }
-    ).addTo(map);
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        attribution: "&copy; OpenStreetMap contributors",
+        noWrap: true
+    }).addTo(map);
 
-    // ⭐ 지도 크기 다시 계산
     setTimeout(() => {
         map.invalidateSize();
-    }, 100);
+    }, 200);
 
     return map;
 }
