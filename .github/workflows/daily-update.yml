@@ -1,11 +1,11 @@
 name: Daily Safety Update
 
 on:
-workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
-update:
-runs-on: ubuntu-latest
-steps:
-- name: Test
-run: echo "Workflow is working!"
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test
+        run: echo "Workflow is working!"
