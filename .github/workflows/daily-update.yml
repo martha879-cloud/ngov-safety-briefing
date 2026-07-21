@@ -7,21 +7,21 @@ on:
 
 jobs:
   update:
-runs-on: ubuntu-latest
+  runs-on: ubuntu-latest
 
-permissions:
+    permissions:
   contents: write
 
-steps:
-  - name: 저장소 체크아웃
+    steps:
+      - name: 저장소 체크아웃
     uses: actions/checkout@v4
 
-  - name: 마지막 업데이트 시간 갱신
+      - name: 마지막 업데이트 시간 갱신
     run: |
       KST_TIME=$(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M')
       echo "{\\"updated\\": \\"$KST_TIME\\"}" > docs/data/last_update.json
 
-  - name: 변경사항 커밋 및 푸시
+      - name: 변경사항 커밋 및 푸시
     run: |
       git config user.name "github-actions[bot]"
       git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
