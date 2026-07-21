@@ -294,7 +294,9 @@ function statusBadge(status){
 function initMap() {
 
     const map = L.map("map", {
-        worldCopyJump: false
+        worldCopyJump: false,
+        maxBounds: [[-90, -180], [90, 180]],
+        maxBoundsViscosity: 1.0
     }).setView([20, 20], 2);
 
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -308,6 +310,7 @@ function initMap() {
 
     return map;
 }
+
 function renderMapCountries(map, countries) {
 
     countries.forEach(country => {
