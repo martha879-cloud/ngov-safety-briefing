@@ -2,7 +2,7 @@ name: Daily Safety Update
 
 on:
   workflow_dispatch:
-schedule:
+  schedule:
 - cron: '0 23 * * *'
 
 jobs:
