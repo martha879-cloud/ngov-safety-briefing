@@ -352,7 +352,3 @@ function renderMapCountries(map, countries) {
 
 }
 console.log("Dashboard v2.0 loaded");
-
-document.addEventListener("DOMContentLoaded", () => {
-    loadDashboard();
-});
