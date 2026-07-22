@@ -52,33 +52,46 @@ items = data["response"]["body"]["items"]["item"]
 
 countries = []
 
+for page in range(1, 21):
+params = {
+"serviceKey": API_KEY,
+"returnType": "JSON",
+"numOfRows": 100,
+"pageNo": page
+}
+
+response = requests.get(URL, params=params)
+
+if response.status_code != 200:
+    continue
+
+data = response.json()
+items = data["response"]["body"]["items"]["item"]
+
 for item in items:
     name = item.get("country_nm")
 
-# 디버깅: 실제 API에서 오는 국가명 확인
-print("API country:", name)
+    if name in TARGET_COUNTRIES:
+        level = item.get("alarm_lvl", "1")
 
-if name in TARGET_COUNTRIES:
-    level = item.get("alarm_lvl", "1")
+        status = "green"
+        if level == "2":
+            status = "yellow"
+        elif level == "3":
+            status = "orange"
+        elif level == "4":
+            status = "red"
 
-    status = "green"
-    if level == "2":
-        status = "yellow"
-    elif level == "3":
-        status = "orange"
-    elif level == "4":
-        status = "red"
-
-    countries.append({
-        "id": name.lower().replace(" ", "-"),
-        "name": name,
-        "flag": "🌍",
-        "region": TARGET_COUNTRIES[name],
-        "status": status,
-        "issue": item.get("alarm_msg", "특이사항 없음"),
-        "source": "MOFA",
-        "updated": datetime.now().strftime("%Y-%m-%d %H:%M")
-    })
+        countries.append({
+            "id": name.lower().replace(" ", "-"),
+            "name": name,
+            "flag": "🌍",
+            "region": TARGET_COUNTRIES[name],
+            "status": status,
+            "issue": item.get("alarm_msg", "특이사항 없음"),
+            "source": "MOFA",
+            "updated": datetime.now().strftime("%Y-%m-%d %H:%M")
+        })
 
 with open("docs/data/countries.json", "w", encoding="utf-8") as f:
     json.dump(countries, f, ensure_ascii=False, indent=2)
