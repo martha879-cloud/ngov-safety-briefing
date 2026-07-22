@@ -23,9 +23,8 @@ items = data["response"]["body"]["items"]["item"]
 countries = []
 
 for item in items:
-name = item.get("countryName")
+    name = item.get("countryName")
 
-```
 if name in TARGET_COUNTRIES:
     level = item.get("alarmLevel", "1")
 
@@ -47,9 +46,8 @@ if name in TARGET_COUNTRIES:
         "source": "MOFA",
         "updated": datetime.now().strftime("%Y-%m-%d %H:%M")
     })
-```
 
 with open("docs/data/countries.json", "w", encoding="utf-8") as f:
-json.dump(countries, f, ensure_ascii=False, indent=2)
+    json.dump(countries, f, ensure_ascii=False, indent=2)
 
 print("MOFA data updated successfully!")
