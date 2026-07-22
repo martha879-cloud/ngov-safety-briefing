@@ -11,8 +11,9 @@ jobs:
 
       - name: Update last_update.json
         run: |
-          echo '{"updated":"2026-07-18 08:00"}' > docs/data/last_update.json
-
+          KST_TIME=$(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M')
+          echo "{\\"updated\\": \\"$KST_TIME\\"}" > docs/data/last_update.json
+          
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
