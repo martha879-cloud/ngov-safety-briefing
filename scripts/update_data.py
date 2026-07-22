@@ -1,7 +1,4 @@
-import json
-import os
-import requests
-from datetime import datetime
+import xml.etree.ElementTree as ET
 
 API_KEY = os.getenv("MOFA_API_KEY")
 
@@ -10,43 +7,30 @@ URL = "https://apis.data.go.kr/1262000/TravelWarningService/getTravelWarningList
 params = {
 "serviceKey": API_KEY,
 "numOfRows": 200,
-"pageNo": 1,
-"_type": "json"
+"pageNo": 1
 }
 
 response = requests.get(URL, params=params)
 
-TARGET_COUNTRIES = {
-"라오스": "asia",
-"캄보디아": "asia",
-"케냐": "africa",
-"페루": "latin",
-"요르단": "middle"
-}
-
-response = requests.get(URL)
 print("Status code:", response.status_code)
 print("Response text:", response.text[:500])
 
-# JSON 응답이 아닐 경우 확인
-
 if response.status_code != 200:
-    raise Exception(f"API 요청 실패: {response.status_code}")
+raise Exception(f"API 요청 실패: {response.status_code}")
 
-try:
-    data = response.json()
-except Exception:
-    raise Exception(f"JSON 응답이 아닙니다. 응답 내용: {response.text[:500]}")
+# XML 파싱
 
-items = data["response"]["body"]["items"]["item"]
+root = ET.fromstring(response.text)
+
+items = root.findall(".//item")
 
 countries = []
 
 for item in items:
-    name = item.get("countryName")
+name = item.findtext("countryName")
 
 if name in TARGET_COUNTRIES:
-    level = item.get("alarmLevel", "1")
+    level = item.findtext("alarmLevel", "1")
 
     status = "green"
     if level == "2":
@@ -62,7 +46,7 @@ if name in TARGET_COUNTRIES:
         "flag": "🌍",
         "region": TARGET_COUNTRIES[name],
         "status": status,
-        "issue": item.get("remark", "특이사항 없음"),
+        "issue": item.findtext("remark", "특이사항 없음"),
         "source": "MOFA",
         "updated": datetime.now().strftime("%Y-%m-%d %H:%M")
     })
