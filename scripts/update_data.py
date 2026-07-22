@@ -5,7 +5,16 @@ from datetime import datetime
 
 API_KEY = os.getenv("MOFA_API_KEY")
 
-URL = f"https://apis.data.go.kr/1262000/TravelWarningService/getTravelWarningList?serviceKey={API_KEY}&numOfRows=200&pageNo=1&_type=json"
+URL = "https://apis.data.go.kr/1262000/TravelWarningService/getTravelWarningList"
+
+params = {
+"serviceKey": API_KEY,
+"numOfRows": 200,
+"pageNo": 1,
+"_type": "json"
+}
+
+response = requests.get(URL, params=params)
 
 TARGET_COUNTRIES = {
 "라오스": "asia",
