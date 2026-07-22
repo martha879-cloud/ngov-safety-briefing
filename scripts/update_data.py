@@ -51,30 +51,24 @@ items = data["response"]["body"]["items"]["item"]
     for item in items:
         name = item.get("country_nm")
 
-    if name in TARGET_COUNTRIES:
-        level = item.get("alarm_lvl", "1")
+        if name in TARGET_COUNTRIES:
+            level = item.get("alarm_lvl", "1")
 
-        status = "green"
-        if level == "2":
+            status = "green"
+            if level == "2":
             status = "yellow"
-        elif level == "3":
+            elif level == "3":
             status = "orange"
-        elif level == "4":
+            elif level == "4":
             status = "red"
-
-        countries.append({
-            "id": name.lower().replace(" ", "-"),
-            "name": name,
-            "flag": "🌍",
-            "region": TARGET_COUNTRIES[name],
-            "status": status,
-            "issue": item.get("alarm_msg", "특이사항 없음"),
-            "source": "MOFA",
-            "updated": datetime.now().strftime("%Y-%m-%d %H:%M")
+        
+            countries.append({
+                "id": name.lower().replace(" ", "-"),
+                "name": name,
+                "flag": "🌍",
+                "region": TARGET_COUNTRIES[name],
+                "status": status,
+                "issue": item.get("alarm_msg", "특이사항 없음"),
+                "source": "MOFA",
+                "updated": datetime.now().strftime("%Y-%m-%d %H:%M")
         })
-
-with open("docs/data/countries.json", "w", encoding="utf-8") as f:
-    json.dump(countries, f, ensure_ascii=False, indent=2)
-
-print("Saved countries:", len(countries))
-print("MOFA data updated successfully!")
