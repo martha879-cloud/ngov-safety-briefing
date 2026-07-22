@@ -29,6 +29,6 @@ countries = [
 ]
 
 with open("docs/data/countries.json", "w", encoding="utf-8") as f:
-json.dump(countries, f, ensure_ascii=False, indent=2)
+    json.dump(countries, f, ensure_ascii=False, indent=2)
 
 print("countries.json updated successfully!")
