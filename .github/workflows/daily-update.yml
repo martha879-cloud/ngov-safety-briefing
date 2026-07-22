@@ -11,6 +11,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Python 설치
+        uses: actions/setup-python@v5
+        with:
+        python-version: '3.11'
+
+      - name: 데이터 자동수집 실행
+        run: python scripts/update_data.py
+
       - name: Update last_update.json
         run: |
           KST_TIME=$(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M')
