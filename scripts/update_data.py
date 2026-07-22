@@ -27,28 +27,28 @@ items = root.findall(".//item")
 countries = []
 
 for item in items:
-name = item.findtext("countryName")
+    name = item.findtext("countryName")
 
-if name in TARGET_COUNTRIES:
-    level = item.findtext("alarmLevel", "1")
+    if name in TARGET_COUNTRIES:
+        level = item.findtext("alarmLevel", "1")
 
-    status = "green"
-    if level == "2":
-        status = "yellow"
-    elif level == "3":
-        status = "orange"
-    elif level == "4":
-        status = "red"
+        status = "green"
+        if level == "2":
+            status = "yellow"
+        elif level == "3":
+            status = "orange"
+        elif level == "4":
+            status = "red"
 
-    countries.append({
-        "id": name.lower(),
-        "name": name,
-        "flag": "🌍",
-        "region": TARGET_COUNTRIES[name],
-        "status": status,
-        "issue": item.findtext("remark", "특이사항 없음"),
-        "source": "MOFA",
-        "updated": datetime.now().strftime("%Y-%m-%d %H:%M")
+        countries.append({
+            "id": name.lower(),
+            "name": name,
+            "flag": "🌍",
+            "region": TARGET_COUNTRIES[name],
+            "status": status,
+            "issue": item.findtext("remark", "특이사항 없음"),
+            "source": "MOFA",
+            "updated": datetime.now().strftime("%Y-%m-%d %H:%M")
     })
 
 with open("docs/data/countries.json", "w", encoding="utf-8") as f:
