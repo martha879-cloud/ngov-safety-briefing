@@ -17,6 +17,9 @@ jobs:
       with:
         python-version: '3.11'
 
+    - name: requests 설치 
+      run: pip install requests
+
     - name: 데이터 자동수집 실행
       env:
         MOFA_API_KEY: ${{ secrets.MOFA_API_KEY }}
