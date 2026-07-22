@@ -22,12 +22,12 @@ print("Response text:", response.text[:500])
 # JSON 응답이 아닐 경우 확인
 
 if response.status_code != 200:
-raise Exception(f"API 요청 실패: {response.status_code}")
+    raise Exception(f"API 요청 실패: {response.status_code}")
 
 try:
-data = response.json()
+    data = response.json()
 except Exception:
-raise Exception(f"JSON 응답이 아닙니다. 응답 내용: {response.text[:500]}")
+    raise Exception(f"JSON 응답이 아닙니다. 응답 내용: {response.text[:500]}")
 
 items = data["response"]["body"]["items"]["item"]
 
