@@ -20,12 +20,11 @@ print("Status code:", response.status_code)
 print("Response text:", response.text[:500])
 
 if response.status_code != 200:
-    raise Exception(f"API 요청 실패: {response.status_code}")
+raise Exception(f"API 요청 실패: {response.status_code}")
 
 # XML 파싱
 
 root = ET.fromstring(response.text)
-
 items = root.findall(".//item")
 
 countries = []
