@@ -33,11 +33,11 @@ TARGET_COUNTRIES = {
 countries = []
 
 for page in range(1, 21):
-params = {
-"serviceKey": API_KEY,
-"returnType": "JSON",
-"numOfRows": 100,
-"pageNo": page
+    params = {
+    "serviceKey": API_KEY,
+    "returnType": "JSON",
+    "numOfRows": 100,
+    "pageNo": page
 }
 
 response = requests.get(URL, params=params)
@@ -48,8 +48,8 @@ if response.status_code != 200:
 data = response.json()
 items = data["response"]["body"]["items"]["item"]
 
-for item in items:
-    name = item.get("country_nm")
+    for item in items:
+        name = item.get("country_nm")
 
     if name in TARGET_COUNTRIES:
         level = item.get("alarm_lvl", "1")
