@@ -8,26 +8,27 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+    - uses: actions/checkout@v4
 
       - name: Python 설치
-          uses: actions/setup-python@v5
-          with:
-            python-version: '3.11'
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
 
       - name: 데이터 자동수집 실행
-          run: python scripts/update_data.py
+        run: python scripts/update_data.py
 
       - name: Update last_update.json
-          run: |
+        run: |
           KST_TIME=$(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M')
           echo "{\\"updated\\": \\"$KST_TIME\\"}" > docs/data/last_update.json
-          
+
       - name: Commit changes
-          run: |
+        run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/data/last_update.json
-          git commit -m "Update last update time" || echo "No changes"
+          git add docs/data/countries.json docs/data/last_update.json
+          git commit -m "Auto update dashboard data" || echo "No changes"
           git push
