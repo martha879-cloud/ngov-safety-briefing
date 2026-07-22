@@ -68,21 +68,21 @@ if response.status_code != 200:
 data = response.json()
 items = data["response"]["body"]["items"]["item"]
 
-for item in items:
+    for item in items:
         name = item.get("country_nm")
 
-    if name in TARGET_COUNTRIES:
+        if name in TARGET_COUNTRIES:
             level = item.get("alarm_lvl", "1")
 
-            status = "green"
-            if level == "2":
-                status = "yellow"
-            elif level == "3":
-                status = "orange"
-            elif level == "4":
-                status = "red"
+        status = "green"
+        if level == "2":
+            status = "yellow"
+        elif level == "3":
+            status = "orange"
+        elif level == "4":
+            status = "red"
 
-        countries.append({
+            countries.append({
                 "id": name.lower().replace(" ", "-"),
                 "name": name,
                 "flag": "🌍",
