@@ -19,7 +19,7 @@ jobs:
 
     - name: 데이터 자동수집 실행
       env:
-      MOFA_API_KEY: ${{ secrets.MOFA_API_KEY }}
+        MOFA_API_KEY: ${{ secrets.MOFA_API_KEY }}
       run: python scripts/update_data.py
 
     - name: Update last_update.json
