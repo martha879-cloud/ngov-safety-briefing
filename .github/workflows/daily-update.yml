@@ -6,17 +6,17 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
-steps:
-- uses: actions/checkout@v4
+    steps:
+      - uses: actions/checkout@v4
 
-  - name: Update last_update.json
+      - name: Update last_update.json
     run: |
-      echo '{"updated": "2026-07-18 08:00"}' > docs/data/last_update.json
+          echo '{"updated":"2026-07-18 08:00"}' > docs/data/last_update.json
 
-  - name: Commit changes
+      - name: Commit changes
     run: |
-      git config user.name "github-actions[bot]"
-      git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-      git add docs/data/last_update.json
-      git commit -m "Update last update time" || echo "No changes"
-      git push
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data/last_update.json
+          git commit -m "Update last update time" || echo "No changes"
+          git push
