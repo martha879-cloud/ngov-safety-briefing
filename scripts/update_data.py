@@ -55,6 +55,9 @@ countries = []
 for item in items:
     name = item.get("country_nm")
 
+# 디버깅: 실제 API에서 오는 국가명 확인
+print("API country:", name)
+
 if name in TARGET_COUNTRIES:
     level = item.get("alarm_lvl", "1")
 
@@ -67,7 +70,7 @@ if name in TARGET_COUNTRIES:
         status = "red"
 
     countries.append({
-        "id": name.lower(),
+        "id": name.lower().replace(" ", "-"),
         "name": name,
         "flag": "🌍",
         "region": TARGET_COUNTRIES[name],
@@ -79,5 +82,7 @@ if name in TARGET_COUNTRIES:
 
 with open("docs/data/countries.json", "w", encoding="utf-8") as f:
     json.dump(countries, f, ensure_ascii=False, indent=2)
+
+print("Saved countries:", len(countries))
 
 print("MOFA data updated successfully!")
