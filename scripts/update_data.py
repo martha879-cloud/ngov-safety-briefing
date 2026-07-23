@@ -72,10 +72,9 @@ for item in items:
             "source": "MOFA",
             "updated": datetime.now().strftime("%Y-%m-%d %H:%M")
         })
-```
 
 with open("docs/data/countries.json", "w", encoding="utf-8") as f:
-json.dump(countries, f, ensure_ascii=False, indent=2)
+    json.dump(countries, f, ensure_ascii=False, indent=2)
 
 print("Saved countries:", len(countries))
 print("MOFA data updated successfully!")
