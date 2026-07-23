@@ -50,9 +50,8 @@ data = response.json()
 items = data.get("response", {}).get("body", {}).get("items", {}).get("item", [])
 
 # item이 하나일 경우 dict로 오기 때문에 리스트로 변환
-
 if isinstance(items, dict):
-items = [items]
+    items = [items]
 
 print("Items count:", len(items))
 
