@@ -71,6 +71,8 @@ for page in range(1, 21):
             elif level == "4":
                 status = "red"
 
+        # 중복 국가 제거 
+        if not any(c["name"] == name for c in countries):
             countries.append({
                 "id": name.lower().replace(" ", "-"),
                 "name": name,
