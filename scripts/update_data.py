@@ -47,9 +47,20 @@ for page in range(1, 21):
 
 data = response.json()
 
-items = data.get("response", {}).get("body", {}).get("items", {}).get("item", [])
+print("DATA KEYS:", data.keys())
+print("RESPONSE:", data.get("response"))
+
+items = data.get("response", {}).get("body", {}).get("items", [])
+
+print("RAW ITEMS:", items)
+
+# items 안에 item 키가 있는 경우
+
+if isinstance(items, dict) and "item" in items:
+    items = items["item"]
 
 # item이 하나일 경우 dict로 오기 때문에 리스트로 변환
+
 if isinstance(items, dict):
     items = [items]
 
