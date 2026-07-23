@@ -80,6 +80,8 @@ for item in items:
             "updated": datetime.now().strftime("%Y-%m-%d %H:%M")
         })
 
+print("Saved countries:", len(countries))
+
 with open("docs/data/countries.json", "w", encoding="utf-8") as f:
     json.dump(countries, f, ensure_ascii=False, indent=2)
 
