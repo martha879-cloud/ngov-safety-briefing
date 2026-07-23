@@ -70,9 +70,9 @@ for page in range(1, 21):
                 status = "orange"
             elif level == "4":
                 status = "red"
-
-        # 중복 국가 제거 
-        if not any(c["name"] == name for c in countries):
+                
+        # TARGET_COUNTRIES에 있는 국가만 저장하고 중복 제거 
+        if name in TARGET_COUNTRIES and not any(c["name"] == name for c in countries):
             countries.append({
                 "id": name.lower().replace(" ", "-"),
                 "name": name,
