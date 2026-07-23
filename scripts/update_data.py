@@ -47,21 +47,21 @@ for page in range(1, 21):
     if response.status_code != 200:
         continue
 
-data = response.json()
+    data = response.json()
 
-items = data.get("response", {}).get("body", {}).get("items", {}).get("item", [])
+    items = data.get("response", {}).get("body", {}).get("items", {}).get("item", [])
 
-# item이 하나일 경우 dict로 오기 때문에 리스트로 변환
-if isinstance(items, dict):
-    items = [items]
+    # item이 하나일 경우 dict로 오기 때문에 리스트로 변환
+    if isinstance(items, dict):
+        items = [items]
 
-print(f"Page {page} items:", len(items))
+    print(f"Page {page} items:", len(items))
 
-for item in items:
-    name = item.get("country_nm")
+    for item in items:
+        name = item.get("country_nm")
 
     if name in TARGET_COUNTRIES:
-        level = item.get("alarm_lvl", "1")
+            level = item.get("alarm_lvl", "1")
 
         status = "green"
         if level == "2":
