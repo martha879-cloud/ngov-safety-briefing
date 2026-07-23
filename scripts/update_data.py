@@ -50,6 +50,7 @@ items = data["response"]["body"]["items"]["item"]
 
 for item in items:
     name = item.get("country_nm")
+    print("API country:", name)
 
     if name in TARGET_COUNTRIES:
         level = item.get("alarm_lvl", "1")
