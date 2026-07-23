@@ -33,11 +33,11 @@ TARGET_COUNTRIES = {
 countries = []
 
 for page in range(1, 21):
-    params = {
-    "serviceKey": API_KEY,
-    "returnType": "JSON",
-    "numOfRows": 100,
-    "pageNo": page
+params = {
+"serviceKey": API_KEY,
+"returnType": "JSON",
+"numOfRows": 100,
+"pageNo": page
 }
 
 response = requests.get(URL, params=params)
