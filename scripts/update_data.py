@@ -67,8 +67,8 @@ for page in range(1, 21):
             "키르기즈공화국": "키르기스스탄"
     }
 
-    if name in name_mapping:
-        name = name_mapping[name]
+        if name in name_mapping:
+            name = name_mapping[name]
 
         if name in TARGET_COUNTRIES:
             level = item.get("alarm_lvl", "1")
