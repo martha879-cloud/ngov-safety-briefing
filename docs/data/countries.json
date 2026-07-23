@@ -7,7 +7,7 @@
     "status": "yellow",
     "issue": "특이사항 없음",
     "source": "MOFA",
-    "updated": "2026-07-23 07:26"
+    "updated": "2026-07-23 07:31"
   },
   {
     "id": "도미니카공화국",
@@ -17,7 +17,7 @@
     "status": "yellow",
     "issue": "특이사항 없음",
     "source": "MOFA",
-    "updated": "2026-07-23 07:26"
+    "updated": "2026-07-23 07:31"
   },
   {
     "id": "동티모르",
@@ -27,7 +27,7 @@
     "status": "green",
     "issue": "특이사항 없음",
     "source": "MOFA",
-    "updated": "2026-07-23 07:26"
+    "updated": "2026-07-23 07:31"
   },
   {
     "id": "라오스",
@@ -37,17 +37,7 @@
     "status": "red",
     "issue": "특이사항 없음",
     "source": "MOFA",
-    "updated": "2026-07-23 07:26"
-  },
-  {
-    "id": "라오스",
-    "name": "라오스",
-    "flag": "🌍",
-    "region": "asia",
-    "status": "green",
-    "issue": "특이사항 없음",
-    "source": "MOFA",
-    "updated": "2026-07-23 07:26"
+    "updated": "2026-07-23 07:31"
   },
   {
     "id": "르완다",
@@ -57,17 +47,7 @@
     "status": "orange",
     "issue": "특이사항 없음",
     "source": "MOFA",
-    "updated": "2026-07-23 07:26"
-  },
-  {
-    "id": "르완다",
-    "name": "르완다",
-    "flag": "🌍",
-    "region": "africa",
-    "status": "yellow",
-    "issue": "특이사항 없음",
-    "source": "MOFA",
-    "updated": "2026-07-23 07:26"
+    "updated": "2026-07-23 07:31"
   },
   {
     "id": "말라위",
@@ -77,7 +57,7 @@
     "status": "green",
     "issue": "특이사항 없음",
     "source": "MOFA",
-    "updated": "2026-07-23 07:26"
+    "updated": "2026-07-23 07:31"
   },
   {
     "id": "모로코",
@@ -87,27 +67,7 @@
     "status": "orange",
     "issue": "특이사항 없음",
     "source": "MOFA",
-    "updated": "2026-07-23 07:26"
-  },
-  {
-    "id": "모로코",
-    "name": "모로코",
-    "flag": "🌍",
-    "region": "africa",
-    "status": "yellow",
-    "issue": "특이사항 없음",
-    "source": "MOFA",
-    "updated": "2026-07-23 07:26"
-  },
-  {
-    "id": "모로코",
-    "name": "모로코",
-    "flag": "🌍",
-    "region": "africa",
-    "status": "green",
-    "issue": "특이사항 없음",
-    "source": "MOFA",
-    "updated": "2026-07-23 07:26"
+    "updated": "2026-07-23 07:31"
   },
   {
     "id": "몽골",
@@ -117,7 +77,7 @@
     "status": "green",
     "issue": "특이사항 없음",
     "source": "MOFA",
-    "updated": "2026-07-23 07:26"
+    "updated": "2026-07-23 07:31"
   },
   {
     "id": "방글라데시",
@@ -127,17 +87,7 @@
     "status": "orange",
     "issue": "특이사항 없음",
     "source": "MOFA",
-    "updated": "2026-07-23 07:26"
-  },
-  {
-    "id": "방글라데시",
-    "name": "방글라데시",
-    "flag": "🌍",
-    "region": "asia",
-    "status": "yellow",
-    "issue": "특이사항 없음",
-    "source": "MOFA",
-    "updated": "2026-07-23 07:26"
+    "updated": "2026-07-23 07:31"
   },
   {
     "id": "베트남",
@@ -147,7 +97,7 @@
     "status": "green",
     "issue": "특이사항 없음",
     "source": "MOFA",
-    "updated": "2026-07-23 07:26"
+    "updated": "2026-07-23 07:31"
   },
   {
     "id": "요르단",
@@ -157,7 +107,7 @@
     "status": "orange",
     "issue": "특이사항 없음",
     "source": "MOFA",
-    "updated": "2026-07-23 07:26"
+    "updated": "2026-07-23 07:31"
   },
   {
     "id": "이집트",
@@ -167,27 +117,7 @@
     "status": "orange",
     "issue": "특이사항 없음",
     "source": "MOFA",
-    "updated": "2026-07-23 07:26"
-  },
-  {
-    "id": "이집트",
-    "name": "이집트",
-    "flag": "🌍",
-    "region": "africa",
-    "status": "yellow",
-    "issue": "특이사항 없음",
-    "source": "MOFA",
-    "updated": "2026-07-23 07:26"
-  },
-  {
-    "id": "이집트",
-    "name": "이집트",
-    "flag": "🌍",
-    "region": "africa",
-    "status": "green",
-    "issue": "특이사항 없음",
-    "source": "MOFA",
-    "updated": "2026-07-23 07:26"
+    "updated": "2026-07-23 07:31"
   },
   {
     "id": "인도네시아",
@@ -197,17 +127,7 @@
     "status": "yellow",
     "issue": "특이사항 없음",
     "source": "MOFA",
-    "updated": "2026-07-23 07:26"
-  },
-  {
-    "id": "인도네시아",
-    "name": "인도네시아",
-    "flag": "🌍",
-    "region": "asia",
-    "status": "green",
-    "issue": "특이사항 없음",
-    "source": "MOFA",
-    "updated": "2026-07-23 07:26"
+    "updated": "2026-07-23 07:31"
   },
   {
     "id": "캄보디아",
@@ -217,27 +137,7 @@
     "status": "orange",
     "issue": "특이사항 없음",
     "source": "MOFA",
-    "updated": "2026-07-23 07:26"
-  },
-  {
-    "id": "캄보디아",
-    "name": "캄보디아",
-    "flag": "🌍",
-    "region": "asia",
-    "status": "yellow",
-    "issue": "특이사항 없음",
-    "source": "MOFA",
-    "updated": "2026-07-23 07:26"
-  },
-  {
-    "id": "캄보디아",
-    "name": "캄보디아",
-    "flag": "🌍",
-    "region": "asia",
-    "status": "green",
-    "issue": "특이사항 없음",
-    "source": "MOFA",
-    "updated": "2026-07-23 07:26"
+    "updated": "2026-07-23 07:31"
   },
   {
     "id": "케냐",
@@ -247,17 +147,7 @@
     "status": "yellow",
     "issue": "특이사항 없음",
     "source": "MOFA",
-    "updated": "2026-07-23 07:26"
-  },
-  {
-    "id": "케냐",
-    "name": "케냐",
-    "flag": "🌍",
-    "region": "africa",
-    "status": "orange",
-    "issue": "특이사항 없음",
-    "source": "MOFA",
-    "updated": "2026-07-23 07:26"
+    "updated": "2026-07-23 07:31"
   },
   {
     "id": "탄자니아",
@@ -267,17 +157,7 @@
     "status": "orange",
     "issue": "특이사항 없음",
     "source": "MOFA",
-    "updated": "2026-07-23 07:26"
-  },
-  {
-    "id": "탄자니아",
-    "name": "탄자니아",
-    "flag": "🌍",
-    "region": "africa",
-    "status": "yellow",
-    "issue": "특이사항 없음",
-    "source": "MOFA",
-    "updated": "2026-07-23 07:26"
+    "updated": "2026-07-23 07:31"
   },
   {
     "id": "페루",
@@ -287,17 +167,7 @@
     "status": "orange",
     "issue": "특이사항 없음",
     "source": "MOFA",
-    "updated": "2026-07-23 07:26"
-  },
-  {
-    "id": "페루",
-    "name": "페루",
-    "flag": "🌍",
-    "region": "latin",
-    "status": "yellow",
-    "issue": "특이사항 없음",
-    "source": "MOFA",
-    "updated": "2026-07-23 07:26"
+    "updated": "2026-07-23 07:31"
   },
   {
     "id": "필리핀",
@@ -307,36 +177,6 @@
     "status": "red",
     "issue": "특이사항 없음",
     "source": "MOFA",
-    "updated": "2026-07-23 07:26"
-  },
-  {
-    "id": "필리핀",
-    "name": "필리핀",
-    "flag": "🌍",
-    "region": "asia",
-    "status": "orange",
-    "issue": "특이사항 없음",
-    "source": "MOFA",
-    "updated": "2026-07-23 07:26"
-  },
-  {
-    "id": "필리핀",
-    "name": "필리핀",
-    "flag": "🌍",
-    "region": "asia",
-    "status": "yellow",
-    "issue": "특이사항 없음",
-    "source": "MOFA",
-    "updated": "2026-07-23 07:26"
-  },
-  {
-    "id": "필리핀",
-    "name": "필리핀",
-    "flag": "🌍",
-    "region": "asia",
-    "status": "green",
-    "issue": "특이사항 없음",
-    "source": "MOFA",
-    "updated": "2026-07-23 07:26"
+    "updated": "2026-07-23 07:32"
   }
 ]
