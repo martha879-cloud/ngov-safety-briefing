@@ -46,12 +46,21 @@ for page in range(1, 21):
         continue
 
 data = response.json()
-items = data["response"]["body"]["items"]["item"]
+
+items = data.get("response", {}).get("body", {}).get("items", {}).get("item", [])
+
+# item이 하나일 경우 dict로 오기 때문에 리스트로 변환
+
+if isinstance(items, dict):
+items = [items]
+
+print("Items count:", len(items))
+
 
 for item in items:
+    print("API country:", item.get("country_nm"))
     name = item.get("country_nm")
-    print("API country:", name)
-
+    
     if name in TARGET_COUNTRIES:
         level = item.get("alarm_lvl", "1")
 
