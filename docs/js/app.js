@@ -10,7 +10,7 @@ async function loadDashboard() {
 
 try {
 
-    const countries = await fetch("data/countries.json").then(r => r.json());
+    const countries = await fetch("./data/countries.json").then(r => r.json());
 
     // countries.json은 반드시 렌더링
     renderSummary(countries);
@@ -18,7 +18,7 @@ try {
 
     // 마지막 업데이트
     try {
-        const update = await fetch("data/last_update.json").then(r => r.json());
+        const update = await fetch("./data/last_update.json").then(r => r.json());
         document.getElementById("lastUpdate").textContent = update.updated;
     } catch (e) {
         document.getElementById("lastUpdate").textContent = "업데이트 정보 없음";
@@ -26,7 +26,7 @@ try {
 
     // 브리핑
     try {
-        const briefing = await fetch("data/briefing.json").then(r => r.json());
+        const briefing = await fetch("./data/briefing.json").then(r => r.json());
         renderBriefing(briefing);
     } catch (e) {
         document.getElementById("briefing").innerHTML =
@@ -35,7 +35,7 @@ try {
 
     // 변경사항
     try {
-        const report = await fetch("data/daily_report.json").then(r => r.json());
+        const report = await fetch("./data/daily_report.json").then(r => r.json());
         renderTodayChanges(report);
     } catch (e) {
         document.getElementById("todayChanges").innerHTML =
@@ -48,7 +48,7 @@ try {
 
     // 차트
     try {
-        const history = await fetch("data/history.json").then(r => r.json());
+        const history = await fetch("./data/history.json").then(r => r.json());
         renderHistoryChart(history);
     } catch (e) {
         console.warn("history.json 없음");
