@@ -34,43 +34,30 @@ countries = []
 
 for page in range(1, 21):
     params = {
-        "serviceKey": API_KEY,
-        "returnType": "JSON",
-        "numOfRows": 100,
-        "pageNo": page
-    }
+    "serviceKey": API_KEY,
+    "returnType": "JSON",
+    "numOfRows": 100,
+    "pageNo": page
+}
 
-    response = requests.get(URL, params=params)
+response = requests.get(URL, params=params)
 
-    if response.status_code != 200:
-        continue
+if response.status_code != 200:
+    continue
 
 data = response.json()
 
-print("DATA KEYS:", data.keys())
-print("RESPONSE:", data.get("response"))
-
-items = data.get("response", {}).get("body", {}).get("items", [])
-
-print("RAW ITEMS:", items)
-
-# items 안에 item 키가 있는 경우
-
-if isinstance(items, dict) and "item" in items:
-    items = items["item"]
+items = data.get("response", {}).get("body", {}).get("items", {}).get("item", [])
 
 # item이 하나일 경우 dict로 오기 때문에 리스트로 변환
-
 if isinstance(items, dict):
     items = [items]
 
-print("Items count:", len(items))
-
+print(f"Page {page} items:", len(items))
 
 for item in items:
-    print("API country:", item.get("country_nm"))
     name = item.get("country_nm")
-    
+
     if name in TARGET_COUNTRIES:
         level = item.get("alarm_lvl", "1")
 
