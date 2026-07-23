@@ -8,55 +8,60 @@ document.addEventListener("DOMContentLoaded", () => {
 
 async function loadDashboard() {
 
+try {
+
+    const countries = await fetch("data/countries.json").then(r => r.json());
+
+    // countries.json은 반드시 렌더링
+    renderSummary(countries);
+    renderCountries(countries);
+
+    // 마지막 업데이트
     try {
-
-const [
-    countriesRes,
-    briefingRes,
-    reportRes,
-    updateRes,
-    historyRes
-] = await Promise.all([
-    fetch("data/countries.json"),
-    fetch("data/briefing.json"),
-    fetch("data/daily_report.json"),
-    fetch("data/last_update.json"),
-    fetch("data/history.json")
-]);
-        const history = await historyRes.json();
-        const countries = await countriesRes.json();
-        const briefing = await briefingRes.json();
-        const report = await reportRes.json();
-        const update = await updateRes.json();
-
-        // 마지막 업데이트
+        const update = await fetch("data/last_update.json").then(r => r.json());
         document.getElementById("lastUpdate").textContent = update.updated;
-
-        // KPI
-        renderSummary(countries);
-
-        // 브리핑
-        renderBriefing(briefing);
-
-        // 변경사항
-        renderTodayChanges(report);
-
-        // 국가 카드
-        renderCountries(countries);
-
-        // 지도
-        const map = initMap();
-        renderMapCountries(map, countries);
-        renderHistoryChart(history);
-
-    } catch (err) {
-
-        console.error(err);
-
-        document.getElementById("briefing").innerHTML =
-            "<div class='text-danger'>데이터를 불러오지 못했습니다.</div>";
-
+    } catch (e) {
+        document.getElementById("lastUpdate").textContent = "업데이트 정보 없음";
     }
+
+    // 브리핑
+    try {
+        const briefing = await fetch("data/briefing.json").then(r => r.json());
+        renderBriefing(briefing);
+    } catch (e) {
+        document.getElementById("briefing").innerHTML =
+            "<div class='text-muted'>브리핑 데이터 없음</div>";
+    }
+
+    // 변경사항
+    try {
+        const report = await fetch("data/daily_report.json").then(r => r.json());
+        renderTodayChanges(report);
+    } catch (e) {
+        document.getElementById("todayChanges").innerHTML =
+            "<div class='text-muted'>변경사항 데이터 없음</div>";
+    }
+
+    // 지도
+    const map = initMap();
+    renderMapCountries(map, countries);
+
+    // 차트
+    try {
+        const history = await fetch("data/history.json").then(r => r.json());
+        renderHistoryChart(history);
+    } catch (e) {
+        console.warn("history.json 없음");
+    }
+
+} catch (err) {
+
+    console.error(err);
+
+    document.getElementById("briefing").innerHTML =
+        "<div class='text-danger'>데이터를 불러오지 못했습니다.</div>";
+
+
 }
 
 // ===========================
