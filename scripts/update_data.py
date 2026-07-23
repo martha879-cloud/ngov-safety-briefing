@@ -64,12 +64,12 @@ for page in range(1, 21):
             level = item.get("alarm_lvl", "1")
 
             status = "green"
-        if level == "2":
-            status = "yellow"
-        elif level == "3":
-            status = "orange"
-        elif level == "4":
-            status = "red"
+            if level == "2":
+                status = "yellow"
+            elif level == "3":
+                status = "orange"
+            elif level == "4":
+                status = "red"
 
             countries.append({
                 "id": name.lower().replace(" ", "-"),
