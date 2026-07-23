@@ -60,6 +60,16 @@ for page in range(1, 21):
     for item in items:
         name = item.get("country_nm")
 
+        # 외교부 API 국가명과 우리 목록명 매칭
+        name_mapping = {
+            "티모르레스테": "동티모르",
+            "도미니카 공화국": "도미니카공화국",
+            "키르기즈공화국": "키르기스스탄"
+    }
+
+    if name in name_mapping:
+        name = name_mapping[name]
+
         if name in TARGET_COUNTRIES:
             level = item.get("alarm_lvl", "1")
 
