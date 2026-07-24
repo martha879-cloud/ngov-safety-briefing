@@ -55,6 +55,26 @@ h1{
 
 }
 
+.country-card-link{
+
+    display:block;
+
+    text-decoration:none;
+
+    color:inherit;
+
+    height:100%;
+
+}
+
+.country-card-link:hover{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
+
 .country-card:hover{
 
     transform:translateY(-5px);
