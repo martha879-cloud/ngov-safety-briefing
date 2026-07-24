@@ -38,6 +38,30 @@ def level_to_status(level):
     return {"2": "yellow", "3": "orange", "4": "red"}.get(level, "green")
 
 
+# 외교부 여행경보 4단계 공식 명칭 (alarm_lvl 값 기준)
+LEVEL_LABELS = {
+    "1": "여행유의(남색경보)",
+    "2": "여행자제(황색경보)",
+    "3": "철수권고(적색경보)",
+    "4": "여행금지(흑색경보)",
+}
+
+
+def build_issue_text(level, written_dt):
+    """실제 API가 주는 필드(alarm_lvl, written_dt)만으로 상황 텍스트를 구성.
+    alarm_msg 필드는 이 API에 존재하지 않으므로 사용하지 않음."""
+
+    label = LEVEL_LABELS.get(level)
+
+    if not label:
+        return "특이사항 없음"
+
+    if written_dt:
+        return f"외교부 여행경보: {label} (발령일 {written_dt})"
+
+    return f"외교부 여행경보: {label}"
+
+
 def fetch_mofa_alerts():
     """외교부 여행경보 API에서 대상 국가에 해당하는 항목만 모아서 반환"""
     matched = {}
@@ -79,7 +103,7 @@ def fetch_mofa_alerts():
 
             matched[name] = {
                 "status": level_to_status(item.get("alarm_lvl", "1")),
-                "issue": item.get("alarm_msg", "특이사항 없음"),
+                "issue": build_issue_text(item.get("alarm_lvl"), item.get("written_dt")),
                 "source": "MOFA",
                 "updated": datetime.now().strftime("%Y-%m-%d %H:%M"),
             }
