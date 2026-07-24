@@ -1,18 +1,4 @@
 {
-  "date": "2026-07-17",
-
-  "changes": [
-    {
-      "country": "케냐",
-      "flag": "🇰🇪",
-      "change": "🟢 → 🟡",
-      "reason": "홍수 관련 신규 보고"
-    },
-    {
-      "country": "캄보디아",
-      "flag": "🇰🇭",
-      "change": "🟡 유지",
-      "reason": "우기 홍수 지속"
-    }
-  ]
+  "date": "2026-07-24",
+  "changes": []
 }
