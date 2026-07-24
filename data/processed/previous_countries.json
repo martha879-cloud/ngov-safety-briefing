@@ -9,7 +9,7 @@
     "status": "green",
     "issue": "외교부 여행경보: 여행유의(남색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 02:23"
+    "updated": "2026-07-24 02:33"
   },
   {
     "id": "laos",
@@ -18,10 +18,10 @@
     "region": "asia",
     "lat": 17.9757,
     "lng": 102.6331,
-    "status": "red",
-    "issue": "외교부 여행경보: 여행금지(흑색경보)",
+    "status": "green",
+    "issue": "외교부 여행경보: 여행유의(남색경보) (일부 지역 한정 경보이며, 지역별로 상이할 수 있음 · 0404.go.kr 확인 권장)",
     "source": "MOFA",
-    "updated": "2026-07-24 02:23"
+    "updated": "2026-07-24 02:33"
   },
   {
     "id": "mongolia",
@@ -33,7 +33,7 @@
     "status": "green",
     "issue": "외교부 여행경보: 여행유의(남색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 02:23"
+    "updated": "2026-07-24 02:33"
   },
   {
     "id": "bangladesh",
@@ -42,10 +42,10 @@
     "region": "asia",
     "lat": 23.8103,
     "lng": 90.4125,
-    "status": "orange",
-    "issue": "외교부 여행경보: 철수권고(적색경보)",
+    "status": "yellow",
+    "issue": "외교부 여행경보: 여행자제(황색경보) (일부 지역 한정 경보이며, 지역별로 상이할 수 있음 · 0404.go.kr 확인 권장)",
     "source": "MOFA",
-    "updated": "2026-07-24 02:23"
+    "updated": "2026-07-24 02:33"
   },
   {
     "id": "vietnam",
@@ -57,7 +57,7 @@
     "status": "green",
     "issue": "외교부 여행경보: 여행유의(남색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 02:23"
+    "updated": "2026-07-24 02:33"
   },
   {
     "id": "indonesia",
@@ -66,10 +66,10 @@
     "region": "asia",
     "lat": -6.2088,
     "lng": 106.8456,
-    "status": "yellow",
-    "issue": "외교부 여행경보: 여행자제(황색경보)",
+    "status": "green",
+    "issue": "외교부 여행경보: 여행유의(남색경보) (일부 지역 한정 경보이며, 지역별로 상이할 수 있음 · 0404.go.kr 확인 권장)",
     "source": "MOFA",
-    "updated": "2026-07-24 02:23"
+    "updated": "2026-07-24 02:33"
   },
   {
     "id": "cambodia",
@@ -78,10 +78,10 @@
     "region": "asia",
     "lat": 11.5564,
     "lng": 104.9282,
-    "status": "orange",
-    "issue": "외교부 여행경보: 철수권고(적색경보)",
+    "status": "green",
+    "issue": "외교부 여행경보: 여행유의(남색경보) (일부 지역 한정 경보이며, 지역별로 상이할 수 있음 · 0404.go.kr 확인 권장)",
     "source": "MOFA",
-    "updated": "2026-07-24 02:23"
+    "updated": "2026-07-24 02:33"
   },
   {
     "id": "philippines",
@@ -90,10 +90,10 @@
     "region": "asia",
     "lat": 14.5995,
     "lng": 120.9842,
-    "status": "red",
-    "issue": "외교부 여행경보: 여행금지(흑색경보)",
+    "status": "green",
+    "issue": "외교부 여행경보: 여행유의(남색경보) (일부 지역 한정 경보이며, 지역별로 상이할 수 있음 · 0404.go.kr 확인 권장)",
     "source": "MOFA",
-    "updated": "2026-07-24 02:23"
+    "updated": "2026-07-24 02:33"
   },
   {
     "id": "kyrgyzstan",
@@ -105,7 +105,7 @@
     "status": "green",
     "issue": "특이사항 없음",
     "source": "",
-    "updated": "2026-07-24 02:24"
+    "updated": "2026-07-24 02:33"
   },
   {
     "id": "rwanda",
@@ -114,10 +114,10 @@
     "region": "africa",
     "lat": -1.9441,
     "lng": 30.0619,
-    "status": "orange",
-    "issue": "외교부 여행경보: 철수권고(적색경보)",
+    "status": "yellow",
+    "issue": "외교부 여행경보: 여행자제(황색경보) (일부 지역 한정 경보이며, 지역별로 상이할 수 있음 · 0404.go.kr 확인 권장)",
     "source": "MOFA",
-    "updated": "2026-07-24 02:23"
+    "updated": "2026-07-24 02:33"
   },
   {
     "id": "malawi",
@@ -129,7 +129,7 @@
     "status": "green",
     "issue": "외교부 여행경보: 여행유의(남색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 02:23"
+    "updated": "2026-07-24 02:33"
   },
   {
     "id": "morocco",
@@ -138,10 +138,10 @@
     "region": "africa",
     "lat": 34.0209,
     "lng": -6.8416,
-    "status": "orange",
-    "issue": "외교부 여행경보: 철수권고(적색경보)",
+    "status": "green",
+    "issue": "외교부 여행경보: 여행유의(남색경보) (일부 지역 한정 경보이며, 지역별로 상이할 수 있음 · 0404.go.kr 확인 권장)",
     "source": "MOFA",
-    "updated": "2026-07-24 02:23"
+    "updated": "2026-07-24 02:33"
   },
   {
     "id": "uganda",
@@ -153,7 +153,7 @@
     "status": "green",
     "issue": "특이사항 없음",
     "source": "",
-    "updated": "2026-07-24 02:24"
+    "updated": "2026-07-24 02:33"
   },
   {
     "id": "egypt",
@@ -162,10 +162,10 @@
     "region": "africa",
     "lat": 30.0444,
     "lng": 31.2357,
-    "status": "orange",
-    "issue": "외교부 여행경보: 철수권고(적색경보)",
+    "status": "green",
+    "issue": "외교부 여행경보: 여행유의(남색경보) (일부 지역 한정 경보이며, 지역별로 상이할 수 있음 · 0404.go.kr 확인 권장)",
     "source": "MOFA",
-    "updated": "2026-07-24 02:23"
+    "updated": "2026-07-24 02:33"
   },
   {
     "id": "tanzania",
@@ -174,10 +174,10 @@
     "region": "africa",
     "lat": -6.163,
     "lng": 35.7516,
-    "status": "orange",
-    "issue": "외교부 여행경보: 철수권고(적색경보)",
+    "status": "yellow",
+    "issue": "외교부 여행경보: 여행자제(황색경보) (일부 지역 한정 경보이며, 지역별로 상이할 수 있음 · 0404.go.kr 확인 권장)",
     "source": "MOFA",
-    "updated": "2026-07-24 02:23"
+    "updated": "2026-07-24 02:33"
   },
   {
     "id": "kenya",
@@ -187,9 +187,9 @@
     "lat": -1.2921,
     "lng": 36.8219,
     "status": "yellow",
-    "issue": "외교부 여행경보: 여행자제(황색경보)",
+    "issue": "외교부 여행경보: 여행자제(황색경보) (일부 지역 한정 경보이며, 지역별로 상이할 수 있음 · 0404.go.kr 확인 권장)",
     "source": "MOFA",
-    "updated": "2026-07-24 02:23"
+    "updated": "2026-07-24 02:33"
   },
   {
     "id": "guatemala",
@@ -201,7 +201,7 @@
     "status": "yellow",
     "issue": "외교부 여행경보: 여행자제(황색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 02:23"
+    "updated": "2026-07-24 02:33"
   },
   {
     "id": "dominican-republic",
@@ -213,7 +213,7 @@
     "status": "yellow",
     "issue": "외교부 여행경보: 여행자제(황색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 02:23"
+    "updated": "2026-07-24 02:33"
   },
   {
     "id": "peru",
@@ -222,10 +222,10 @@
     "region": "latin",
     "lat": -12.0464,
     "lng": -77.0428,
-    "status": "orange",
-    "issue": "외교부 여행경보: 철수권고(적색경보)",
+    "status": "yellow",
+    "issue": "외교부 여행경보: 여행자제(황색경보) (일부 지역 한정 경보이며, 지역별로 상이할 수 있음 · 0404.go.kr 확인 권장)",
     "source": "MOFA",
-    "updated": "2026-07-24 02:23"
+    "updated": "2026-07-24 02:33"
   },
   {
     "id": "jordan",
@@ -235,8 +235,8 @@
     "lat": 31.9454,
     "lng": 35.9284,
     "status": "orange",
-    "issue": "외교부 여행경보: 철수권고(적색경보)",
+    "issue": "외교부 여행경보: 철수권고(적색경보) (일부 지역 한정 경보이며, 지역별로 상이할 수 있음 · 0404.go.kr 확인 권장)",
     "source": "MOFA",
-    "updated": "2026-07-24 02:23"
+    "updated": "2026-07-24 02:33"
   }
 ]
