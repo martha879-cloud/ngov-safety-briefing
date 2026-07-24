@@ -1,142 +1,25 @@
 [
-  {
-    "code": "TL",
-    "ko": "동티모르",
-    "en": "Timor-Leste",
-    "region": "Asia/CIS",
-    "priority": 2
-  },
-  {
-    "code": "LA",
-    "ko": "라오스",
-    "en": "Laos",
-    "region": "Asia/CIS",
-    "priority": 2
-  },
-  {
-    "code": "MN",
-    "ko": "몽골",
-    "en": "Mongolia",
-    "region": "Asia/CIS",
-    "priority": 2
-  },
-  {
-    "code": "BD",
-    "ko": "방글라데시",
-    "en": "Bangladesh",
-    "region": "Asia/CIS",
-    "priority": 1
-  },
-  {
-    "code": "VN",
-    "ko": "베트남",
-    "en": "Vietnam",
-    "region": "Asia/CIS",
-    "priority": 2
-  },
-  {
-    "code": "ID",
-    "ko": "인도네시아",
-    "en": "Indonesia",
-    "region": "Asia/CIS",
-    "priority": 2
-  },
-  {
-    "code": "KH",
-    "ko": "캄보디아",
-    "en": "Cambodia",
-    "region": "Asia/CIS",
-    "priority": 2
-  },
-  {
-    "code": "PH",
-    "ko": "필리핀",
-    "en": "Philippines",
-    "region": "Asia/CIS",
-    "priority": 2
-  },
-  {
-    "code": "KG",
-    "ko": "키르기스스탄",
-    "en": "Kyrgyzstan",
-    "region": "Asia/CIS",
-    "priority": 2
-  },
-  {
-    "code": "RW",
-    "ko": "르완다",
-    "en": "Rwanda",
-    "region": "Africa",
-    "priority": 2
-  },
-  {
-    "code": "MW",
-    "ko": "말라위",
-    "en": "Malawi",
-    "region": "Africa",
-    "priority": 2
-  },
-  {
-    "code": "MA",
-    "ko": "모로코",
-    "en": "Morocco",
-    "region": "Africa",
-    "priority": 2
-  },
-  {
-    "code": "UG",
-    "ko": "우간다",
-    "en": "Uganda",
-    "region": "Africa",
-    "priority": 1
-  },
-  {
-    "code": "EG",
-    "ko": "이집트",
-    "en": "Egypt",
-    "region": "Africa",
-    "priority": 2
-  },
-  {
-    "code": "TZ",
-    "ko": "탄자니아",
-    "en": "Tanzania",
-    "region": "Africa",
-    "priority": 2
-  },
-  {
-    "code": "KE",
-    "ko": "케냐",
-    "en": "Kenya",
-    "region": "Africa",
-    "priority": 1
-  },
-  {
-    "code": "GT",
-    "ko": "과테말라",
-    "en": "Guatemala",
-    "region": "Latin America",
-    "priority": 2
-  },
-  {
-    "code": "DO",
-    "ko": "도미니카공화국",
-    "en": "Dominican Republic",
-    "region": "Latin America",
-    "priority": 2
-  },
-  {
-    "code": "PE",
-    "ko": "페루",
-    "en": "Peru",
-    "region": "Latin America",
-    "priority": 2
-  },
-  {
-    "code": "JO",
-    "ko": "요르단",
-    "en": "Jordan",
-    "region": "Middle East",
-    "priority": 1
-  }
+  {"id": "timor-leste", "code": "TL", "name": "동티모르", "name_en": "Timor-Leste", "flag": "🇹🇱", "region": "asia", "keywords": ["Timor-Leste", "East Timor"]},
+  {"id": "laos", "code": "LA", "name": "라오스", "name_en": "Laos", "flag": "🇱🇦", "region": "asia", "keywords": ["Laos"]},
+  {"id": "mongolia", "code": "MN", "name": "몽골", "name_en": "Mongolia", "flag": "🇲🇳", "region": "asia", "keywords": ["Mongolia"]},
+  {"id": "bangladesh", "code": "BD", "name": "방글라데시", "name_en": "Bangladesh", "flag": "🇧🇩", "region": "asia", "keywords": ["Bangladesh"]},
+  {"id": "vietnam", "code": "VN", "name": "베트남", "name_en": "Vietnam", "flag": "🇻🇳", "region": "asia", "keywords": ["Vietnam"]},
+  {"id": "indonesia", "code": "ID", "name": "인도네시아", "name_en": "Indonesia", "flag": "🇮🇩", "region": "asia", "keywords": ["Indonesia"]},
+  {"id": "cambodia", "code": "KH", "name": "캄보디아", "name_en": "Cambodia", "flag": "🇰🇭", "region": "asia", "keywords": ["Cambodia"]},
+  {"id": "philippines", "code": "PH", "name": "필리핀", "name_en": "Philippines", "flag": "🇵🇭", "region": "asia", "keywords": ["Philippines"]},
+  {"id": "kyrgyzstan", "code": "KG", "name": "키르기스스탄", "name_en": "Kyrgyzstan", "flag": "🇰🇬", "region": "asia", "keywords": ["Kyrgyzstan"]},
+
+  {"id": "rwanda", "code": "RW", "name": "르완다", "name_en": "Rwanda", "flag": "🇷🇼", "region": "africa", "keywords": ["Rwanda"]},
+  {"id": "malawi", "code": "MW", "name": "말라위", "name_en": "Malawi", "flag": "🇲🇼", "region": "africa", "keywords": ["Malawi"]},
+  {"id": "morocco", "code": "MA", "name": "모로코", "name_en": "Morocco", "flag": "🇲🇦", "region": "africa", "keywords": ["Morocco"]},
+  {"id": "uganda", "code": "UG", "name": "우간다", "name_en": "Uganda", "flag": "🇺🇬", "region": "africa", "keywords": ["Uganda"]},
+  {"id": "egypt", "code": "EG", "name": "이집트", "name_en": "Egypt", "flag": "🇪🇬", "region": "africa", "keywords": ["Egypt"]},
+  {"id": "tanzania", "code": "TZ", "name": "탄자니아", "name_en": "Tanzania", "flag": "🇹🇿", "region": "africa", "keywords": ["Tanzania"]},
+  {"id": "kenya", "code": "KE", "name": "케냐", "name_en": "Kenya", "flag": "🇰🇪", "region": "africa", "keywords": ["Kenya"]},
+
+  {"id": "guatemala", "code": "GT", "name": "과테말라", "name_en": "Guatemala", "flag": "🇬🇹", "region": "latin", "keywords": ["Guatemala"]},
+  {"id": "dominican-republic", "code": "DO", "name": "도미니카공화국", "name_en": "Dominican Republic", "flag": "🇩🇴", "region": "latin", "keywords": ["Dominican Republic"]},
+  {"id": "peru", "code": "PE", "name": "페루", "name_en": "Peru", "flag": "🇵🇪", "region": "latin", "keywords": ["Peru"]},
+
+  {"id": "jordan", "code": "JO", "name": "요르단", "name_en": "Jordan", "flag": "🇯🇴", "region": "middle", "keywords": ["Jordan"]}
 ]
