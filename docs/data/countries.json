@@ -5,9 +5,9 @@
     "flag": "🇹🇱",
     "region": "asia",
     "status": "green",
-    "issue": "특이사항 없음",
+    "issue": "외교부 여행경보: 여행유의(남색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 01:48"
+    "updated": "2026-07-24 02:00"
   },
   {
     "id": "laos",
@@ -15,9 +15,9 @@
     "flag": "🇱🇦",
     "region": "asia",
     "status": "red",
-    "issue": "특이사항 없음",
+    "issue": "외교부 여행경보: 여행금지(흑색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 01:48"
+    "updated": "2026-07-24 02:00"
   },
   {
     "id": "mongolia",
@@ -25,9 +25,9 @@
     "flag": "🇲🇳",
     "region": "asia",
     "status": "green",
-    "issue": "특이사항 없음",
+    "issue": "외교부 여행경보: 여행유의(남색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 01:48"
+    "updated": "2026-07-24 02:00"
   },
   {
     "id": "bangladesh",
@@ -35,9 +35,9 @@
     "flag": "🇧🇩",
     "region": "asia",
     "status": "orange",
-    "issue": "특이사항 없음",
+    "issue": "외교부 여행경보: 철수권고(적색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 01:48"
+    "updated": "2026-07-24 02:00"
   },
   {
     "id": "vietnam",
@@ -45,9 +45,9 @@
     "flag": "🇻🇳",
     "region": "asia",
     "status": "green",
-    "issue": "특이사항 없음",
+    "issue": "외교부 여행경보: 여행유의(남색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 01:48"
+    "updated": "2026-07-24 02:00"
   },
   {
     "id": "indonesia",
@@ -55,9 +55,9 @@
     "flag": "🇮🇩",
     "region": "asia",
     "status": "yellow",
-    "issue": "특이사항 없음",
+    "issue": "외교부 여행경보: 여행자제(황색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 01:48"
+    "updated": "2026-07-24 02:00"
   },
   {
     "id": "cambodia",
@@ -65,9 +65,9 @@
     "flag": "🇰🇭",
     "region": "asia",
     "status": "orange",
-    "issue": "특이사항 없음",
+    "issue": "외교부 여행경보: 철수권고(적색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 01:48"
+    "updated": "2026-07-24 02:00"
   },
   {
     "id": "philippines",
@@ -75,9 +75,9 @@
     "flag": "🇵🇭",
     "region": "asia",
     "status": "red",
-    "issue": "특이사항 없음",
+    "issue": "외교부 여행경보: 여행금지(흑색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 01:48"
+    "updated": "2026-07-24 02:01"
   },
   {
     "id": "kyrgyzstan",
@@ -87,7 +87,7 @@
     "status": "green",
     "issue": "특이사항 없음",
     "source": "",
-    "updated": "2026-07-24 01:48"
+    "updated": "2026-07-24 02:01"
   },
   {
     "id": "rwanda",
@@ -95,9 +95,9 @@
     "flag": "🇷🇼",
     "region": "africa",
     "status": "orange",
-    "issue": "특이사항 없음",
+    "issue": "외교부 여행경보: 철수권고(적색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 01:48"
+    "updated": "2026-07-24 02:00"
   },
   {
     "id": "malawi",
@@ -105,9 +105,9 @@
     "flag": "🇲🇼",
     "region": "africa",
     "status": "green",
-    "issue": "특이사항 없음",
+    "issue": "외교부 여행경보: 여행유의(남색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 01:48"
+    "updated": "2026-07-24 02:00"
   },
   {
     "id": "morocco",
@@ -115,9 +115,9 @@
     "flag": "🇲🇦",
     "region": "africa",
     "status": "orange",
-    "issue": "특이사항 없음",
+    "issue": "외교부 여행경보: 철수권고(적색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 01:48"
+    "updated": "2026-07-24 02:00"
   },
   {
     "id": "uganda",
@@ -127,7 +127,7 @@
     "status": "green",
     "issue": "특이사항 없음",
     "source": "",
-    "updated": "2026-07-24 01:48"
+    "updated": "2026-07-24 02:01"
   },
   {
     "id": "egypt",
@@ -135,9 +135,9 @@
     "flag": "🇪🇬",
     "region": "africa",
     "status": "orange",
-    "issue": "특이사항 없음",
+    "issue": "외교부 여행경보: 철수권고(적색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 01:48"
+    "updated": "2026-07-24 02:00"
   },
   {
     "id": "tanzania",
@@ -145,9 +145,9 @@
     "flag": "🇹🇿",
     "region": "africa",
     "status": "orange",
-    "issue": "특이사항 없음",
+    "issue": "외교부 여행경보: 철수권고(적색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 01:48"
+    "updated": "2026-07-24 02:00"
   },
   {
     "id": "kenya",
@@ -155,9 +155,9 @@
     "flag": "🇰🇪",
     "region": "africa",
     "status": "yellow",
-    "issue": "특이사항 없음",
+    "issue": "외교부 여행경보: 여행자제(황색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 01:48"
+    "updated": "2026-07-24 02:00"
   },
   {
     "id": "guatemala",
@@ -165,9 +165,9 @@
     "flag": "🇬🇹",
     "region": "latin",
     "status": "yellow",
-    "issue": "특이사항 없음",
+    "issue": "외교부 여행경보: 여행자제(황색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 01:48"
+    "updated": "2026-07-24 02:00"
   },
   {
     "id": "dominican-republic",
@@ -175,9 +175,9 @@
     "flag": "🇩🇴",
     "region": "latin",
     "status": "yellow",
-    "issue": "특이사항 없음",
+    "issue": "외교부 여행경보: 여행자제(황색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 01:48"
+    "updated": "2026-07-24 02:00"
   },
   {
     "id": "peru",
@@ -185,9 +185,9 @@
     "flag": "🇵🇪",
     "region": "latin",
     "status": "orange",
-    "issue": "특이사항 없음",
+    "issue": "외교부 여행경보: 철수권고(적색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 01:48"
+    "updated": "2026-07-24 02:00"
   },
   {
     "id": "jordan",
@@ -195,8 +195,8 @@
     "flag": "🇯🇴",
     "region": "middle",
     "status": "orange",
-    "issue": "특이사항 없음",
+    "issue": "외교부 여행경보: 철수권고(적색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 01:48"
+    "updated": "2026-07-24 02:00"
   }
 ]
