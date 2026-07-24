@@ -4,199 +4,239 @@
     "name": "동티모르",
     "flag": "🇹🇱",
     "region": "asia",
+    "lat": -8.5569,
+    "lng": 125.5603,
     "status": "green",
     "issue": "외교부 여행경보: 여행유의(남색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 02:10"
+    "updated": "2026-07-24 02:23"
   },
   {
     "id": "laos",
     "name": "라오스",
     "flag": "🇱🇦",
     "region": "asia",
+    "lat": 17.9757,
+    "lng": 102.6331,
     "status": "red",
     "issue": "외교부 여행경보: 여행금지(흑색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 02:10"
+    "updated": "2026-07-24 02:23"
   },
   {
     "id": "mongolia",
     "name": "몽골",
     "flag": "🇲🇳",
     "region": "asia",
+    "lat": 47.8864,
+    "lng": 106.9057,
     "status": "green",
     "issue": "외교부 여행경보: 여행유의(남색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 02:10"
+    "updated": "2026-07-24 02:23"
   },
   {
     "id": "bangladesh",
     "name": "방글라데시",
     "flag": "🇧🇩",
     "region": "asia",
+    "lat": 23.8103,
+    "lng": 90.4125,
     "status": "orange",
     "issue": "외교부 여행경보: 철수권고(적색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 02:10"
+    "updated": "2026-07-24 02:23"
   },
   {
     "id": "vietnam",
     "name": "베트남",
     "flag": "🇻🇳",
     "region": "asia",
+    "lat": 21.0278,
+    "lng": 105.8342,
     "status": "green",
     "issue": "외교부 여행경보: 여행유의(남색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 02:10"
+    "updated": "2026-07-24 02:23"
   },
   {
     "id": "indonesia",
     "name": "인도네시아",
     "flag": "🇮🇩",
     "region": "asia",
+    "lat": -6.2088,
+    "lng": 106.8456,
     "status": "yellow",
     "issue": "외교부 여행경보: 여행자제(황색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 02:10"
+    "updated": "2026-07-24 02:23"
   },
   {
     "id": "cambodia",
     "name": "캄보디아",
     "flag": "🇰🇭",
     "region": "asia",
+    "lat": 11.5564,
+    "lng": 104.9282,
     "status": "orange",
     "issue": "외교부 여행경보: 철수권고(적색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 02:10"
+    "updated": "2026-07-24 02:23"
   },
   {
     "id": "philippines",
     "name": "필리핀",
     "flag": "🇵🇭",
     "region": "asia",
+    "lat": 14.5995,
+    "lng": 120.9842,
     "status": "red",
     "issue": "외교부 여행경보: 여행금지(흑색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 02:10"
+    "updated": "2026-07-24 02:23"
   },
   {
     "id": "kyrgyzstan",
     "name": "키르기스스탄",
     "flag": "🇰🇬",
     "region": "asia",
+    "lat": 42.8746,
+    "lng": 74.5698,
     "status": "green",
     "issue": "특이사항 없음",
     "source": "",
-    "updated": "2026-07-24 02:11"
+    "updated": "2026-07-24 02:24"
   },
   {
     "id": "rwanda",
     "name": "르완다",
     "flag": "🇷🇼",
     "region": "africa",
+    "lat": -1.9441,
+    "lng": 30.0619,
     "status": "orange",
     "issue": "외교부 여행경보: 철수권고(적색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 02:10"
+    "updated": "2026-07-24 02:23"
   },
   {
     "id": "malawi",
     "name": "말라위",
     "flag": "🇲🇼",
     "region": "africa",
+    "lat": -13.9626,
+    "lng": 33.7741,
     "status": "green",
     "issue": "외교부 여행경보: 여행유의(남색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 02:10"
+    "updated": "2026-07-24 02:23"
   },
   {
     "id": "morocco",
     "name": "모로코",
     "flag": "🇲🇦",
     "region": "africa",
+    "lat": 34.0209,
+    "lng": -6.8416,
     "status": "orange",
     "issue": "외교부 여행경보: 철수권고(적색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 02:10"
+    "updated": "2026-07-24 02:23"
   },
   {
     "id": "uganda",
     "name": "우간다",
     "flag": "🇺🇬",
     "region": "africa",
+    "lat": 0.3476,
+    "lng": 32.5825,
     "status": "green",
     "issue": "특이사항 없음",
     "source": "",
-    "updated": "2026-07-24 02:11"
+    "updated": "2026-07-24 02:24"
   },
   {
     "id": "egypt",
     "name": "이집트",
     "flag": "🇪🇬",
     "region": "africa",
+    "lat": 30.0444,
+    "lng": 31.2357,
     "status": "orange",
     "issue": "외교부 여행경보: 철수권고(적색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 02:10"
+    "updated": "2026-07-24 02:23"
   },
   {
     "id": "tanzania",
     "name": "탄자니아",
     "flag": "🇹🇿",
     "region": "africa",
+    "lat": -6.163,
+    "lng": 35.7516,
     "status": "orange",
     "issue": "외교부 여행경보: 철수권고(적색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 02:10"
+    "updated": "2026-07-24 02:23"
   },
   {
     "id": "kenya",
     "name": "케냐",
     "flag": "🇰🇪",
     "region": "africa",
+    "lat": -1.2921,
+    "lng": 36.8219,
     "status": "yellow",
     "issue": "외교부 여행경보: 여행자제(황색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 02:10"
+    "updated": "2026-07-24 02:23"
   },
   {
     "id": "guatemala",
     "name": "과테말라",
     "flag": "🇬🇹",
     "region": "latin",
+    "lat": 14.6349,
+    "lng": -90.5069,
     "status": "yellow",
     "issue": "외교부 여행경보: 여행자제(황색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 02:10"
+    "updated": "2026-07-24 02:23"
   },
   {
     "id": "dominican-republic",
     "name": "도미니카공화국",
     "flag": "🇩🇴",
     "region": "latin",
+    "lat": 18.4861,
+    "lng": -69.9312,
     "status": "yellow",
     "issue": "외교부 여행경보: 여행자제(황색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 02:10"
+    "updated": "2026-07-24 02:23"
   },
   {
     "id": "peru",
     "name": "페루",
     "flag": "🇵🇪",
     "region": "latin",
+    "lat": -12.0464,
+    "lng": -77.0428,
     "status": "orange",
     "issue": "외교부 여행경보: 철수권고(적색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 02:10"
+    "updated": "2026-07-24 02:23"
   },
   {
     "id": "jordan",
     "name": "요르단",
     "flag": "🇯🇴",
     "region": "middle",
+    "lat": 31.9454,
+    "lng": 35.9284,
     "status": "orange",
     "issue": "외교부 여행경보: 철수권고(적색경보)",
     "source": "MOFA",
-    "updated": "2026-07-24 02:10"
+    "updated": "2026-07-24 02:23"
   }
 ]
