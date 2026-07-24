@@ -64,9 +64,33 @@ def build_issue_text(level, written_dt):
     return f"외교부 여행경보: {label}"
 
 
+def is_partial_region(region_ty):
+    """region_ty가 '국가 일부 지역'만 해당하는 경보인지 여부.
+    (예: 필리핀 잠보앙가/술루/바실란/타위타위처럼 국가 전체가 아닌
+    특정 분쟁지역 한정 경보가 국가 전체 상태로 오인되는 것을 방지)"""
+    return bool(region_ty) and "일부" in region_ty
+
+
+def choose_representative(items):
+    """한 국가에 지역별로 여러 경보 레코드가 있을 때 대표 레코드를 선택.
+    국가 전체를 가리키는 레코드를 최우선으로 쓰고, 그런 레코드가 없을 때만
+    일부 지역 레코드 중 가장 낮은(안전한) 단계를 대신 사용한다."""
+
+    whole = [i for i in items if not is_partial_region(i.get("region_ty"))]
+    pool = whole if whole else items
+
+    chosen = min(pool, key=lambda i: int(i.get("alarm_lvl") or 1))
+    is_partial_only = not whole
+
+    return chosen, is_partial_only
+
+
 def fetch_mofa_alerts():
-    """외교부 여행경보 API에서 대상 국가에 해당하는 항목만 모아서 반환"""
-    matched = {}
+    """외교부 여행경보 API에서 대상 국가에 해당하는 항목을 모두 모아서 반환.
+    한 국가에 지역별로 여러 레코드가 있을 수 있으므로, 국가별로 리스트에 모은 뒤
+    choose_representative()로 대표 레코드를 고른다."""
+
+    raw_by_country = {}
 
     for page in range(1, 21):
         print("Checking page:", page)
@@ -99,16 +123,25 @@ def fetch_mofa_alerts():
             if name not in COUNTRY_BY_NAME:
                 continue
 
-            # 같은 국가가 여러 항목으로 올 경우 첫 매칭만 사용
-            if name in matched:
-                continue
+            raw_by_country.setdefault(name, []).append(item)
 
-            matched[name] = {
-                "status": level_to_status(item.get("alarm_lvl", "1")),
-                "issue": build_issue_text(item.get("alarm_lvl"), item.get("written_dt")),
-                "source": "MOFA",
-                "updated": datetime.now().strftime("%Y-%m-%d %H:%M"),
-            }
+    matched = {}
+
+    for name, items in raw_by_country.items():
+        chosen, is_partial_only = choose_representative(items)
+
+        level = chosen.get("alarm_lvl")
+        issue = build_issue_text(level, chosen.get("written_dt"))
+
+        if is_partial_only:
+            issue += " (일부 지역 한정 경보이며, 지역별로 상이할 수 있음 · 0404.go.kr 확인 권장)"
+
+        matched[name] = {
+            "status": level_to_status(level),
+            "issue": issue,
+            "source": "MOFA",
+            "updated": datetime.now().strftime("%Y-%m-%d %H:%M"),
+        }
 
     return matched
 
