@@ -221,9 +221,14 @@ function renderCountries(countries){
 
 function createCountryCard(country){
 
+    const searchUrl = "https://www.google.com/search?q=" +
+        encodeURIComponent(country.name + " 외교부 해외안전여행");
+
     return `
 
    <div class="col-lg-4 col-md-6">
+
+        <a class="country-card-link" href="${searchUrl}" target="_blank" rel="noopener noreferrer">
 
         <div class="country-card">
 
@@ -267,7 +272,15 @@ function createCountryCard(country){
 
             </div>
 
+            <div class="mt-2 text-end">
+
+                <small class="text-primary">외교부 안전정보 보기 →</small>
+
+            </div>
+
         </div>
+
+        </a>
 
     </div>
 
@@ -402,29 +415,3 @@ function renderHistoryChart(data) {
                 {
                     label: "긴급 대응",
                     data: data.red,
-                    borderColor: "#dc3545",
-                    backgroundColor: "rgba(220, 53, 69, 0.1)",
-                    tension: 0.3,
-                    fill: true
-                }
-            ]
-        },
-        options: {
-            responsive: true,
-            plugins: {
-                legend: {
-                    position: "top"
-                }
-            },
-            scales: {
-                y: {
-                    beginAtZero: true,
-                    ticks: {
-                        stepSize: 1
-                    }
-                }
-            }
-        }
-    });
-
-}
