@@ -1,182 +1,202 @@
 [
   {
-    "id": "과테말라",
-    "name": "과테말라",
-    "flag": "🌍",
-    "region": "latin",
-    "status": "yellow",
-    "issue": "특이사항 없음",
-    "source": "MOFA",
-    "updated": "2026-07-24 01:41"
-  },
-  {
-    "id": "도미니카공화국",
-    "name": "도미니카공화국",
-    "flag": "🌍",
-    "region": "latin",
-    "status": "yellow",
-    "issue": "특이사항 없음",
-    "source": "MOFA",
-    "updated": "2026-07-24 01:41"
-  },
-  {
-    "id": "동티모르",
+    "id": "timor-leste",
     "name": "동티모르",
-    "flag": "🌍",
+    "flag": "🇹🇱",
     "region": "asia",
     "status": "green",
     "issue": "특이사항 없음",
     "source": "MOFA",
-    "updated": "2026-07-24 01:41"
+    "updated": "2026-07-24 01:48"
   },
   {
-    "id": "라오스",
+    "id": "laos",
     "name": "라오스",
-    "flag": "🌍",
+    "flag": "🇱🇦",
     "region": "asia",
     "status": "red",
     "issue": "특이사항 없음",
     "source": "MOFA",
-    "updated": "2026-07-24 01:41"
+    "updated": "2026-07-24 01:48"
   },
   {
-    "id": "르완다",
-    "name": "르완다",
-    "flag": "🌍",
-    "region": "africa",
-    "status": "orange",
-    "issue": "특이사항 없음",
-    "source": "MOFA",
-    "updated": "2026-07-24 01:41"
-  },
-  {
-    "id": "말라위",
-    "name": "말라위",
-    "flag": "🌍",
-    "region": "africa",
-    "status": "green",
-    "issue": "특이사항 없음",
-    "source": "MOFA",
-    "updated": "2026-07-24 01:41"
-  },
-  {
-    "id": "모로코",
-    "name": "모로코",
-    "flag": "🌍",
-    "region": "africa",
-    "status": "orange",
-    "issue": "특이사항 없음",
-    "source": "MOFA",
-    "updated": "2026-07-24 01:41"
-  },
-  {
-    "id": "몽골",
+    "id": "mongolia",
     "name": "몽골",
-    "flag": "🌍",
+    "flag": "🇲🇳",
     "region": "asia",
     "status": "green",
     "issue": "특이사항 없음",
     "source": "MOFA",
-    "updated": "2026-07-24 01:41"
+    "updated": "2026-07-24 01:48"
   },
   {
-    "id": "방글라데시",
+    "id": "bangladesh",
     "name": "방글라데시",
-    "flag": "🌍",
+    "flag": "🇧🇩",
     "region": "asia",
     "status": "orange",
     "issue": "특이사항 없음",
     "source": "MOFA",
-    "updated": "2026-07-24 01:41"
+    "updated": "2026-07-24 01:48"
   },
   {
-    "id": "베트남",
+    "id": "vietnam",
     "name": "베트남",
-    "flag": "🌍",
+    "flag": "🇻🇳",
     "region": "asia",
     "status": "green",
     "issue": "특이사항 없음",
     "source": "MOFA",
-    "updated": "2026-07-24 01:41"
+    "updated": "2026-07-24 01:48"
   },
   {
-    "id": "요르단",
+    "id": "indonesia",
+    "name": "인도네시아",
+    "flag": "🇮🇩",
+    "region": "asia",
+    "status": "yellow",
+    "issue": "특이사항 없음",
+    "source": "MOFA",
+    "updated": "2026-07-24 01:48"
+  },
+  {
+    "id": "cambodia",
+    "name": "캄보디아",
+    "flag": "🇰🇭",
+    "region": "asia",
+    "status": "orange",
+    "issue": "특이사항 없음",
+    "source": "MOFA",
+    "updated": "2026-07-24 01:48"
+  },
+  {
+    "id": "philippines",
+    "name": "필리핀",
+    "flag": "🇵🇭",
+    "region": "asia",
+    "status": "red",
+    "issue": "특이사항 없음",
+    "source": "MOFA",
+    "updated": "2026-07-24 01:48"
+  },
+  {
+    "id": "kyrgyzstan",
+    "name": "키르기스스탄",
+    "flag": "🇰🇬",
+    "region": "asia",
+    "status": "green",
+    "issue": "특이사항 없음",
+    "source": "",
+    "updated": "2026-07-24 01:48"
+  },
+  {
+    "id": "rwanda",
+    "name": "르완다",
+    "flag": "🇷🇼",
+    "region": "africa",
+    "status": "orange",
+    "issue": "특이사항 없음",
+    "source": "MOFA",
+    "updated": "2026-07-24 01:48"
+  },
+  {
+    "id": "malawi",
+    "name": "말라위",
+    "flag": "🇲🇼",
+    "region": "africa",
+    "status": "green",
+    "issue": "특이사항 없음",
+    "source": "MOFA",
+    "updated": "2026-07-24 01:48"
+  },
+  {
+    "id": "morocco",
+    "name": "모로코",
+    "flag": "🇲🇦",
+    "region": "africa",
+    "status": "orange",
+    "issue": "특이사항 없음",
+    "source": "MOFA",
+    "updated": "2026-07-24 01:48"
+  },
+  {
+    "id": "uganda",
+    "name": "우간다",
+    "flag": "🇺🇬",
+    "region": "africa",
+    "status": "green",
+    "issue": "특이사항 없음",
+    "source": "",
+    "updated": "2026-07-24 01:48"
+  },
+  {
+    "id": "egypt",
+    "name": "이집트",
+    "flag": "🇪🇬",
+    "region": "africa",
+    "status": "orange",
+    "issue": "특이사항 없음",
+    "source": "MOFA",
+    "updated": "2026-07-24 01:48"
+  },
+  {
+    "id": "tanzania",
+    "name": "탄자니아",
+    "flag": "🇹🇿",
+    "region": "africa",
+    "status": "orange",
+    "issue": "특이사항 없음",
+    "source": "MOFA",
+    "updated": "2026-07-24 01:48"
+  },
+  {
+    "id": "kenya",
+    "name": "케냐",
+    "flag": "🇰🇪",
+    "region": "africa",
+    "status": "yellow",
+    "issue": "특이사항 없음",
+    "source": "MOFA",
+    "updated": "2026-07-24 01:48"
+  },
+  {
+    "id": "guatemala",
+    "name": "과테말라",
+    "flag": "🇬🇹",
+    "region": "latin",
+    "status": "yellow",
+    "issue": "특이사항 없음",
+    "source": "MOFA",
+    "updated": "2026-07-24 01:48"
+  },
+  {
+    "id": "dominican-republic",
+    "name": "도미니카공화국",
+    "flag": "🇩🇴",
+    "region": "latin",
+    "status": "yellow",
+    "issue": "특이사항 없음",
+    "source": "MOFA",
+    "updated": "2026-07-24 01:48"
+  },
+  {
+    "id": "peru",
+    "name": "페루",
+    "flag": "🇵🇪",
+    "region": "latin",
+    "status": "orange",
+    "issue": "특이사항 없음",
+    "source": "MOFA",
+    "updated": "2026-07-24 01:48"
+  },
+  {
+    "id": "jordan",
     "name": "요르단",
-    "flag": "🌍",
+    "flag": "🇯🇴",
     "region": "middle",
     "status": "orange",
     "issue": "특이사항 없음",
     "source": "MOFA",
-    "updated": "2026-07-24 01:41"
-  },
-  {
-    "id": "이집트",
-    "name": "이집트",
-    "flag": "🌍",
-    "region": "africa",
-    "status": "orange",
-    "issue": "특이사항 없음",
-    "source": "MOFA",
-    "updated": "2026-07-24 01:41"
-  },
-  {
-    "id": "인도네시아",
-    "name": "인도네시아",
-    "flag": "🌍",
-    "region": "asia",
-    "status": "yellow",
-    "issue": "특이사항 없음",
-    "source": "MOFA",
-    "updated": "2026-07-24 01:41"
-  },
-  {
-    "id": "캄보디아",
-    "name": "캄보디아",
-    "flag": "🌍",
-    "region": "asia",
-    "status": "orange",
-    "issue": "특이사항 없음",
-    "source": "MOFA",
-    "updated": "2026-07-24 01:41"
-  },
-  {
-    "id": "케냐",
-    "name": "케냐",
-    "flag": "🌍",
-    "region": "africa",
-    "status": "yellow",
-    "issue": "특이사항 없음",
-    "source": "MOFA",
-    "updated": "2026-07-24 01:41"
-  },
-  {
-    "id": "탄자니아",
-    "name": "탄자니아",
-    "flag": "🌍",
-    "region": "africa",
-    "status": "orange",
-    "issue": "특이사항 없음",
-    "source": "MOFA",
-    "updated": "2026-07-24 01:41"
-  },
-  {
-    "id": "페루",
-    "name": "페루",
-    "flag": "🌍",
-    "region": "latin",
-    "status": "orange",
-    "issue": "특이사항 없음",
-    "source": "MOFA",
-    "updated": "2026-07-24 01:41"
-  },
-  {
-    "id": "필리핀",
-    "name": "필리핀",
-    "flag": "🌍",
-    "region": "asia",
-    "status": "red",
-    "issue": "특이사항 없음",
-    "source": "MOFA",
-    "updated": "2026-07-24 01:41"
+    "updated": "2026-07-24 01:48"
   }
 ]
