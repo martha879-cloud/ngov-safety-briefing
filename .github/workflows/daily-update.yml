@@ -25,6 +25,9 @@ jobs:
         MOFA_API_KEY: ${{ secrets.MOFA_API_KEY }}
       run: python scripts/update_data.py
 
+    - name: 브리핑 / 변경사항 / 히스토리 생성
+      run: python scripts/generate_reports.py
+
     - name: Update last_update.json
       run: |
         KST_TIME=$(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M')
@@ -34,6 +37,6 @@ jobs:
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git add docs/data/countries.json docs/data/last_update.json
+        git add docs/data/countries.json docs/data/last_update.json docs/data/briefing.json docs/data/daily_report.json docs/data/history.json data/processed/previous_countries.json data/processed/history_log.json
         git commit -m "Auto update dashboard data" || echo "No changes"
         git push
