@@ -39,7 +39,7 @@ def default_status(country):
 
         "links": []
     }
-  def update_status(country, status, issue, source, updated, reason=""):
+def update_status(country, status, issue, source, updated, reason=""):
 
     if STATUS[status]["priority"] > country["priority"]:
 
