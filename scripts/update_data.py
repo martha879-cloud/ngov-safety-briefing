@@ -27,6 +27,8 @@ def default_entry(country):
         "name": country["name"],
         "flag": country["flag"],
         "region": country["region"],
+        "lat": country.get("lat"),
+        "lng": country.get("lng"),
         "status": "green",
         "issue": "특이사항 없음",
         "source": "",
