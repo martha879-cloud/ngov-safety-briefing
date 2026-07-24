@@ -61,6 +61,7 @@ try {
     document.getElementById("briefing").innerHTML =
         "<div class='text-danger'>데이터를 불러오지 못했습니다.</div>";
 
+}
 
 }
 
