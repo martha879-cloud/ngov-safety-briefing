@@ -13,236 +13,176 @@ document.addEventListener("DOMContentLoaded", () => {
 
 async function loadDashboard() {
 
+    // -----------------------------------------
+    // 국가 데이터는 대시보드의 핵심이라 반드시 필요함.
+    // 이것만 실패하면 전체 에러 화면을 보여준다.
+    // -----------------------------------------
+    let countries;
+
     try {
 
-        const [
-            countriesRes,
-            briefingRes,
-            reportRes,
-            updateRes,
-            safetyIssuesRes,
-            newsIssuesRes
-        ] = await Promise.all([
+        const countriesRes = await fetch("data/countries.json");
 
-            fetch("data/countries.json"),
-            fetch("data/briefing.json"),
-            fetch("data/daily_report.json"),
-            fetch("data/last_update.json"),
-            fetch("data/safety_issues.json"),
-            fetch("data/news_issues.json")
-
-        ]);
-
-
-        // 모든 데이터 파일의 HTTP 상태 확인
-        const responses = [
-            countriesRes,
-            briefingRes,
-            reportRes,
-            updateRes,
-            safetyIssuesRes,
-            newsIssuesRes
-        ];
-
-        for (const response of responses) {
-
-            if (!response.ok) {
-
-                throw new Error(
-                    `데이터 파일을 불러오지 못했습니다. HTTP ${response.status}`
-                );
-
-            }
-
+        if (!countriesRes.ok) {
+            throw new Error(`HTTP ${countriesRes.status}`);
         }
 
-
-        // JSON 변환
-        const countries =
-            await countriesRes.json();
-
-        const briefing =
-            await briefingRes.json();
-
-        const report =
-            await reportRes.json();
-
-        const update =
-            await updateRes.json();
-
-        const safetyIssuesData = 
-            await safetyIssuesRes.json();
-
-        const newsIssuesData = 
-            await newsIssuesRes.json();
-
-
-
-        // 마지막 업데이트
-        const lastUpdate =
-            document.getElementById(
-                "lastUpdate"
-            );
-
-        if (lastUpdate) {
-
-            lastUpdate.textContent =
-                update.updated || "정보 없음";
-
-        }
-// ==========================================
-// 외교부 안전공지 + 뉴스 이슈 통합
-// ==========================================
-
-const safetyIssues = Array.isArray(
-    safetyIssuesData.issues
-)
-    ? safetyIssuesData.issues
-    : [];
-
-const newsIssues = Array.isArray(
-    newsIssuesData.issues
-)
-    ? newsIssuesData.issues
-    : [];
-
-const allIssues = [
-    ...safetyIssues,
-    ...newsIssues
-];
-
-// 최신 날짜 순 정렬
-allIssues.sort((a, b) => {
-
-    const dateA = new Date(
-        a.published_at || "1900-01-01"
-    );
-
-    const dateB = new Date(
-        b.published_at || "1900-01-01"
-    );
-
-    return dateB - dateA;
-
-});
-
-// 최근 주요 안전 이슈 표시
-renderRecentIssues(allIssues);
-
-        // 최근 주요 안전 이슈 표시
-        renderRecentIssues(
-            allIssues
-        );
-
-
-        // KPI
-        renderSummary(
-            countries
-        );
-
-
-        // 오늘 브리핑
-        renderBriefing(
-            briefing
-        );
-
-
-        // 오늘 변경사항
-        renderTodayChanges(
-            report
-        );
-
-
-        // 국가 카드
-        renderCountries(
-            countries
-        );
-
-
-        // 세계 지도
-        const map =
-            initMap();
-
-        renderMapCountries(
-            map,
-            countries
-        );
-
-
-        console.log(
-            "Dashboard loaded successfully"
-        );
-
-        console.log(
-            "Safety issues:",
-            safetyIssuesData.issues
-        );
-
-        console.log(
-            "News issues:",
-            newsIssuesData.issues
-        );
-
-        console.log(
-            "All issues:",
-            allIssues
-        );
+        countries = await countriesRes.json();
 
     } catch (err) {
 
-        console.error(
-            "Dashboard loading error:",
-            err
-        );
+        console.error("countries.json 로드 실패:", err);
 
-
-        const briefingBox =
-            document.getElementById(
-                "briefing"
-            );
+        const briefingBox = document.getElementById("briefing");
 
         if (briefingBox) {
 
             briefingBox.innerHTML = `
-
                 <div class="text-danger">
-
                     데이터를 불러오지 못했습니다.
-
                 </div>
-
             `;
 
         }
 
+        return;
 
-        const issuesBox =
-            document.getElementById(
-                "recentIssues"
-            );
+    }
 
-        if (issuesBox) {
 
-            issuesBox.innerHTML = `
+    // -----------------------------------------
+    // 나머지 데이터는 선택적(optional).
+    // 하나가 실패해도 나머지는 정상적으로 표시되어야 한다.
+    // -----------------------------------------
+    const briefing = await safeFetchJson(
+        "data/briefing.json",
+        { summary: [] }
+    );
 
-                <div class="alert alert-danger mb-0">
+    const report = await safeFetchJson(
+        "data/daily_report.json",
+        { date: "", changes: [] }
+    );
 
-                    안전 이슈 데이터를
-                    불러오지 못했습니다.
+    const update = await safeFetchJson(
+        "data/last_update.json",
+        { updated: "" }
+    );
 
-                    <br>
+    const safetyIssuesData = await safeFetchJson(
+        "data/safety_issues.json",
+        { issues: [] }
+    );
 
-                    <small>
+    const newsIssuesData = await safeFetchJson(
+        "data/news_issues.json",
+        { issues: [] }
+    );
 
-                        ${err.message}
 
-                    </small>
+    // 마지막 업데이트
+    const lastUpdate = document.getElementById("lastUpdate");
 
-                </div>
+    if (lastUpdate) {
+        lastUpdate.textContent = update.updated || "정보 없음";
+    }
 
-            `;
 
+    // ==========================================
+    // 외교부 안전공지 + 뉴스 이슈 통합
+    // ==========================================
+
+    const safetyIssues = Array.isArray(safetyIssuesData.issues)
+        ? safetyIssuesData.issues
+        : [];
+
+    const newsIssues = Array.isArray(newsIssuesData.issues)
+        ? newsIssuesData.issues
+        : [];
+
+    const allIssues = [...safetyIssues, ...newsIssues];
+
+    // 최신 날짜 순 정렬
+    allIssues.sort((a, b) => {
+
+        const dateA = new Date(a.published_at || "1900-01-01");
+        const dateB = new Date(b.published_at || "1900-01-01");
+
+        return dateB - dateA;
+
+    });
+
+
+    // -----------------------------------------
+    // 각 렌더링 단계도 서로 독립적으로 실패하도록 분리.
+    // 예: 지도 렌더링이 실패해도 국가 카드/브리핑은 정상 표시됨.
+    // -----------------------------------------
+
+    try {
+        renderRecentIssues(allIssues);
+    } catch (err) {
+        console.error("안전 이슈 렌더링 실패:", err);
+    }
+
+    try {
+        renderSummary(countries);
+    } catch (err) {
+        console.error("KPI 렌더링 실패:", err);
+    }
+
+    try {
+        renderBriefing(briefing);
+    } catch (err) {
+        console.error("브리핑 렌더링 실패:", err);
+        const briefingBox = document.getElementById("briefing");
+        if (briefingBox) {
+            briefingBox.innerHTML = "<div class='text-muted'>브리핑 데이터 없음</div>";
         }
+    }
+
+    try {
+        renderTodayChanges(report);
+    } catch (err) {
+        console.error("변경사항 렌더링 실패:", err);
+    }
+
+    try {
+        renderCountries(countries);
+    } catch (err) {
+        console.error("국가 카드 렌더링 실패:", err);
+    }
+
+    try {
+        const map = initMap();
+        renderMapCountries(map, countries);
+    } catch (err) {
+        console.error("지도 렌더링 실패:", err);
+    }
+
+    console.log("Dashboard loaded");
+
+}
+
+
+// 개별 데이터 파일을 안전하게 불러오는 헬퍼.
+// 실패해도 예외를 던지지 않고 fallback 값을 반환한다.
+async function safeFetchJson(url, fallback) {
+
+    try {
+
+        const res = await fetch(url);
+
+        if (!res.ok) {
+            throw new Error(`HTTP ${res.status}`);
+        }
+
+        return await res.json();
+
+    } catch (err) {
+
+        console.warn(`${url} 로드 실패, 기본값 사용:`, err);
+
+        return fallback;
 
     }
 
