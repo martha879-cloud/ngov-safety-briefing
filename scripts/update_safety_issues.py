@@ -1,10 +1,10 @@
 import json
+import os
 import re
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 
 import requests
-from bs4 import BeautifulSoup
 
 from config import COUNTRIES
 
@@ -13,111 +13,165 @@ from config import COUNTRIES
 # 기본 설정
 # ==========================================
 
-SAFETY_NOTICE_URL = (
-    "https://www.0404.go.kr/bbs/safetyNtc/list"
-)
-
-BASE_URL = "https://www.0404.go.kr"
+API_KEY = os.getenv("GNEWS_API_KEY")
 
 OUTPUT_FILE = Path(
-    "docs/data/safety_issues.json"
+    "docs/data/news_issues.json"
 )
 
+GNEWS_URL = (
+    "https://gnews.io/api/v4/search"
+)
 
-# 현재 대시보드 파견국 (config/countries.json이 유일한 원본)
-TARGET_COUNTRIES = [c["name"] for c in COUNTRIES]
+MAX_ARTICLES_PER_COUNTRY = 3
 
 
 # ==========================================
-# 안전 이슈 분류
+# 파견국 (config/countries.json이 유일한 원본)
+# ==========================================
+
+TARGET_COUNTRIES = {
+    c["name"]: c["name_en"] for c in COUNTRIES
+}
+
+
+# ==========================================
+# 안전 이슈 키워드
+# ==========================================
+
+SAFETY_KEYWORDS = [
+    "earthquake",
+    "flood",
+    "flooding",
+    "storm",
+    "typhoon",
+    "cyclone",
+    "hurricane",
+    "landslide",
+    "wildfire",
+    "volcano",
+    "tsunami",
+    "drought",
+
+    "protest",
+    "demonstration",
+    "riot",
+    "violence",
+    "clash",
+    "conflict",
+    "attack",
+    "terror",
+    "shooting",
+    "kidnapping",
+    "crime",
+    "security",
+
+    "cholera",
+    "dengue",
+    "malaria",
+    "outbreak",
+    "epidemic",
+    "disease",
+    "health emergency",
+
+    "airport",
+    "flight",
+    "airline",
+    "transport",
+    "road closure",
+    "travel disruption"
+]
+
+
+# ==========================================
+# 분류 함수
 # ==========================================
 
 def classify_category(text):
 
     text = text.lower()
 
-    disaster_keywords = [
-        "지진",
-        "태풍",
-        "홍수",
-        "호우",
-        "폭우",
-        "폭염",
-        "산불",
-        "화산",
-        "쓰나미",
-        "기상",
-        "재난"
+    disaster_words = [
+        "earthquake",
+        "flood",
+        "storm",
+        "typhoon",
+        "cyclone",
+        "hurricane",
+        "landslide",
+        "wildfire",
+        "volcano",
+        "tsunami",
+        "drought"
     ]
 
-    health_keywords = [
-        "감염병",
-        "전염병",
-        "콜레라",
-        "말라리아",
-        "뎅기",
-        "코로나",
-        "보건"
+    health_words = [
+        "cholera",
+        "dengue",
+        "malaria",
+        "outbreak",
+        "epidemic",
+        "disease",
+        "health emergency"
     ]
 
-    transport_keywords = [
-        "항공",
-        "공항",
-        "항공편",
-        "교통",
-        "운항",
-        "도로"
+    conflict_words = [
+        "protest",
+        "demonstration",
+        "riot",
+        "violence",
+        "clash",
+        "conflict",
+        "attack",
+        "terror",
+        "shooting"
     ]
 
-    conflict_keywords = [
-        "전쟁",
-        "무력",
-        "분쟁",
-        "공습",
-        "미사일",
-        "시위",
-        "정세",
-        "테러",
-        "폭동"
+    security_words = [
+        "kidnapping",
+        "crime",
+        "security",
+        "robbery"
     ]
 
-    security_keywords = [
-        "범죄",
-        "치안",
-        "강도",
-        "납치",
-        "신변"
+    transport_words = [
+        "airport",
+        "flight",
+        "airline",
+        "transport",
+        "road closure",
+        "travel disruption"
     ]
 
     if any(
-        keyword in text
-        for keyword in disaster_keywords
+        word in text
+        for word in disaster_words
     ):
         return "natural_disaster"
 
     if any(
-        keyword in text
-        for keyword in health_keywords
+        word in text
+        for word in health_words
     ):
         return "health"
 
     if any(
-        keyword in text
-        for keyword in transport_keywords
-    ):
-        return "transport"
-
-    if any(
-        keyword in text
-        for keyword in conflict_keywords
+        word in text
+        for word in conflict_words
     ):
         return "conflict"
 
     if any(
-        keyword in text
-        for keyword in security_keywords
+        word in text
+        for word in security_words
     ):
         return "security"
+
+    if any(
+        word in text
+        for word in transport_words
+    ):
+        return "transport"
 
     return "official_notice"
 
@@ -126,47 +180,59 @@ def classify_severity(text):
 
     text = text.lower()
 
-    critical_keywords = [
-        "대피",
-        "철수",
-        "통행금지",
-        "무력 충돌",
-        "공습",
-        "출국 권고"
+    critical_words = [
+        "state of emergency",
+        "evacuation",
+        "mass casualties",
+        "major attack",
+        "deadly earthquake",
+        "civil war"
     ]
 
-    high_keywords = [
-        "긴급",
-        "위험",
-        "강력히 권고",
-        "피격",
-        "테러"
+    high_words = [
+        "killed",
+        "death",
+        "deadly",
+        "violent",
+        "attack",
+        "terror",
+        "severe",
+        "emergency"
     ]
 
-    medium_keywords = [
-        "주의",
-        "유의",
-        "시위",
-        "태풍",
-        "호우",
-        "치안"
+    medium_words = [
+        "warning",
+        "alert",
+        "protest",
+        "flood",
+        "storm",
+        "outbreak",
+        "disruption",
+        "earthquake",
+        "magnitude",
+        "quake",
+        "tsunami",
+        "volcano",
+        "typhoon",
+        "cyclone",
+        "landslide"
     ]
 
     if any(
-        keyword in text
-        for keyword in critical_keywords
+        word in text
+        for word in critical_words
     ):
         return "critical"
 
     if any(
-        keyword in text
-        for keyword in high_keywords
+        word in text
+        for word in high_words
     ):
         return "high"
 
     if any(
-        keyword in text
-        for keyword in medium_keywords
+        word in text
+        for word in medium_words
     ):
         return "medium"
 
@@ -180,26 +246,27 @@ def get_volunteer_impact(
 
     if severity == "critical":
         return (
-            "봉사단 활동과 이동 계획을 "
+            "봉사단 활동 및 이동 계획을 "
             "즉시 재검토할 필요가 있습니다."
         )
 
     if severity == "high":
         return (
             "현지 활동과 이동에 영향을 줄 수 있어 "
-            "우선 확인이 필요합니다."
+            "현지 상황 확인이 우선 필요합니다."
         )
 
     if category == "natural_disaster":
         return (
             "기상 및 재난 상황에 따라 "
-            "현장 활동 일정이 변경될 수 있습니다."
+            "현장 활동과 이동 일정이 "
+            "변경될 수 있습니다."
         )
 
     if category == "health":
         return (
-            "봉사단의 건강관리와 예방조치 "
-            "확인이 필요할 수 있습니다."
+            "봉사단 건강관리 및 "
+            "예방조치 확인이 필요할 수 있습니다."
         )
 
     if category == "transport":
@@ -238,246 +305,225 @@ def get_recommended_action(
         )
 
     return (
-        "외교부 안전공지와 현지 상황을 "
-        "지속적으로 확인하세요."
+        "관련 정보를 확인하고 "
+        "현지 상황을 계속 모니터링하세요."
     )
 
 
 # ==========================================
-# 외교부 안전공지 수집
+# API 키 확인
 # ==========================================
 
-print("외교부 안전공지 수집 시작")
+if not API_KEY:
 
-headers = {
-    "User-Agent": (
-        "Mozilla/5.0 "
-        "(GitHub Actions Safety Dashboard)"
+    print(
+        "GNEWS_API_KEY가 설정되지 않았습니다."
     )
-}
+
+    raise SystemExit(1)
 
 
 # ==========================================
-# 외교부 사이트 접속
-# 재시도 및 연결 실패 처리
+# 뉴스 수집
 # ==========================================
-
-response = None
-
-for attempt in range(1, 4):
-
-    try:
-
-        print(
-            f"외교부 사이트 접속 시도: "
-            f"{attempt}/3"
-        )
-
-        response = requests.get(
-            SAFETY_NOTICE_URL,
-            headers=headers,
-            timeout=60
-        )
-
-        print(
-            "HTTP Status:",
-            response.status_code
-        )
-
-        response.raise_for_status()
-
-        print(
-            "외교부 사이트 접속 성공"
-        )
-
-        break
-
-    except requests.RequestException as error:
-
-        print(
-            f"접속 실패: {error}"
-        )
-
-        if attempt < 3:
-
-            print(
-                "20초 후 다시 시도합니다."
-            )
-
-            import time
-
-            time.sleep(20)
-
-        else:
-
-            print(
-                "외교부 사이트에 연결하지 못했습니다."
-            )
-
-            print(
-                "기존 안전 이슈 데이터를 유지합니다."
-            )
-
-            raise SystemExit(0)
-
-
-soup = BeautifulSoup(
-    response.text,
-    "html.parser"
-)
-
-
-rows = soup.find_all("tr")
-
 
 print(
-    "HTML table rows:",
-    len(rows)
+    "GNews 안전 이슈 수집 시작"
 )
 
 
 issues = []
 
-seen = set()
+seen_urls = set()
 
 
-for row in rows:
+# 최근 7일 기사만 검색
+from_date = (
+    datetime.utcnow()
+    - timedelta(days=7)
+).strftime(
+    "%Y-%m-%dT00:00:00Z"
+)
 
-    row_text = row.get_text(
-        " ",
-        strip=True
+
+for korean_name, english_name in (
+    TARGET_COUNTRIES.items()
+):
+
+    print(
+        f"뉴스 검색: {korean_name}"
     )
 
+    query = (
+        f'"{english_name}" '
+        "earthquake OR flood OR storm "
+        "OR typhoon OR protest OR conflict "
+        "OR violence OR attack OR crime "
+        "OR dengue OR cholera OR outbreak"
+    )
 
-    if not row_text:
+    params = {
+        "q": query,
+        "lang": "en",
+        "max": MAX_ARTICLES_PER_COUNTRY,
+        "from": from_date,
+        "sortby": "publishedAt",
+        "apikey": API_KEY
+    }
+
+    try:
+
+        response = requests.get(
+            GNEWS_URL,
+            params=params,
+            timeout=30
+        )
+
+        response.raise_for_status()
+
+        data = response.json()
+
+    except requests.RequestException as error:
+
+        print(
+            f"{korean_name} 검색 실패:",
+            error
+        )
+
         continue
 
 
-    matched_countries = []
+    articles = data.get(
+        "articles",
+        []
+    )
 
-    for country in TARGET_COUNTRIES:
 
-        if country in row_text:
+    print(
+        f"  검색 결과: {len(articles)}건"
+    )
 
-            matched_countries.append(
-                country
+
+    for article in articles:
+
+        title = (
+            article.get(
+                "title",
+                ""
             )
-
-
-    if not matched_countries:
-        continue
-
-
-    link = row.find("a")
-
-
-    if link is None:
-        continue
-
-
-    title = link.get_text(
-        " ",
-        strip=True
-    )
-
-
-    if not title:
-        continue
-
-
-    href = link.get(
-        "href",
-        ""
-    )
-
-
-    if href.startswith("http"):
-
-        source_url = href
-
-    elif href.startswith("/"):
-
-        source_url = (
-            BASE_URL + href
         )
 
-    else:
-
-        source_url = (
-            BASE_URL
-            + "/"
-            + href.lstrip("/")
+        description = (
+            article.get(
+                "description",
+                ""
+            )
         )
 
-
-    date_match = re.search(
-        r"\d{4}-\d{2}-\d{2}",
-        row_text
-    )
-
-
-    if date_match:
-
-        published_at = (
-            date_match.group()
+        article_url = (
+            article.get(
+                "url",
+                ""
+            )
         )
 
-    else:
+        combined_text = (
+            f"{title} {description}"
+        ).lower()
 
-        published_at = (
-            datetime.now()
-            .strftime("%Y-%m-%d")
-        )
-
-
-    category = classify_category(
-        title
-    )
+        title_lower = title.lower()
 
 
-    severity = classify_severity(
-        title
-    )
-
-
-    for country in matched_countries:
-
-        unique_key = (
-            country,
-            title,
-            published_at
-        )
-
-
-        if unique_key in seen:
+        # 기사 제목에 해당 국가명이 없으면 제외.
+        # (본문에서 다른 나라 기사 하다가 비교삼아 스쳐가듯 언급된 경우를
+        #  실제 그 나라의 안전 이슈로 착각하는 것을 방지)
+        if english_name.lower() not in title_lower:
             continue
 
 
-        seen.add(
-            unique_key
+        # 안전 키워드가 없는 기사는 제외
+        if not any(
+            keyword in combined_text
+            for keyword in SAFETY_KEYWORDS
+        ):
+            continue
+
+
+        # URL 중복 제거
+        if article_url in seen_urls:
+            continue
+
+
+        seen_urls.add(
+            article_url
         )
+
+
+        category = (
+            classify_category(
+                combined_text
+            )
+        )
+
+        severity = (
+            classify_severity(
+                combined_text
+            )
+        )
+
+
+        published_at = (
+            article.get(
+                "publishedAt",
+                ""
+            )
+        )
+
+
+        if published_at:
+
+            published_at = (
+                published_at[:10]
+            )
+
+        else:
+
+            published_at = (
+                datetime.utcnow()
+                .strftime(
+                    "%Y-%m-%d"
+                )
+            )
 
 
         issues.append(
             {
                 "id": (
-                    f"{country}-"
-                    f"{published_at}-"
-                    f"{len(issues) + 1}"
+                    f"news-"
+                    f"{len(issues) + 1:03d}"
                 ),
 
-                "country": country,
+                "country": (
+                    korean_name
+                ),
 
-                "category": category,
+                "category": (
+                    category
+                ),
 
-                "severity": severity,
+                "severity": (
+                    severity
+                ),
 
-                "title": title,
+                "title": (
+                    title
+                ),
 
                 "summary": (
-                    "외교부 해외안전여행 "
-                    "안전공지에 등록된 "
-                    "최근 안전 관련 정보입니다."
+                    description
+                    or
+                    "최근 뉴스에서 확인된 "
+                    "안전 관련 정보입니다."
                 ),
 
                 "volunteer_impact": (
@@ -498,15 +544,27 @@ for row in rows:
                 ),
 
                 "source": (
-                    "외교부 해외안전공지"
+                    article
+                    .get(
+                        "source",
+                        {}
+                    )
+                    .get(
+                        "name",
+                        "GNews"
+                    )
                 ),
 
                 "source_url": (
-                    source_url
+                    article_url
                 )
             }
         )
 
+
+# ==========================================
+# 최신순 정렬
+# ==========================================
 
 issues.sort(
     key=lambda item: (
@@ -515,6 +573,10 @@ issues.sort(
     reverse=True
 )
 
+
+# ==========================================
+# JSON 저장
+# ==========================================
 
 OUTPUT_FILE.parent.mkdir(
     parents=True,
@@ -548,18 +610,18 @@ with open(
     )
 
 
+print()
+
 print(
-    "파견국 관련 안전 이슈:",
+    "뉴스 기반 안전 이슈:",
     len(issues)
 )
-
 
 print(
     "저장 파일:",
     OUTPUT_FILE
 )
 
-
 print(
-    "외교부 안전공지 업데이트 완료"
+    "GNews 안전 이슈 업데이트 완료"
 )
