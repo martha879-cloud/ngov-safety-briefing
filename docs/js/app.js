@@ -34,39 +34,30 @@ async function loadDashboard() {
         ]);
 
 
-        // HTTP 오류 확인
-        if (!countriesRes.ok) {
-            throw new Error(
-                "countries.json을 불러오지 못했습니다."
-            );
-        }
+        // 모든 데이터 파일의 HTTP 상태 확인
+        const responses = [
+            countriesRes,
+            briefingRes,
+            reportRes,
+            updateRes,
+            safetyIssuesRes,
+            newsIssuesRes
+        ];
 
-        if (!briefingRes.ok) {
-            throw new Error(
-                "briefing.json을 불러오지 못했습니다."
-            );
-        }
+        for (const response of responses) {
 
-        if (!reportRes.ok) {
-            throw new Error(
-                "daily_report.json을 불러오지 못했습니다."
-            );
-        }
+            if (!response.ok) {
 
-        if (!updateRes.ok) {
-            throw new Error(
-                "last_update.json을 불러오지 못했습니다."
-            );
-        }
+                throw new Error(
+                    `데이터 파일을 불러오지 못했습니다. HTTP ${response.status}`
+                );
 
-        if (!newsRes.ok) {
-            throw new Error(
-                "news_issues.json을 불러오지 못했습니다."
-            );
+            }
+
         }
 
 
-        // JSON 데이터 변환
+        // JSON 변환
         const countries =
             await countriesRes.json();
 
@@ -78,12 +69,12 @@ async function loadDashboard() {
 
         const update =
             await updateRes.json();
-        
-        const safetyIssuesData = 
+
+        const safetyIssuesData =
             await safetyIssuesRes.json();
 
-        const newsData =
-            await newsRes.json();
+        const newsIssuesData =
+            await newsIssuesRes.json();
 
 
         // 마지막 업데이트
@@ -95,16 +86,29 @@ async function loadDashboard() {
         if (lastUpdate) {
 
             lastUpdate.textContent =
-                update.updated
-                || "정보 없음";
+                update.updated || "정보 없음";
 
-         const allIssues = [
-             ...(safetyIssuesData.issues || []),
-             ...(newsIssuesData.issues || [])
-];
-
-renderRecentIssues(allIssues);
         }
+
+
+        // 외교부 안전공지 + 뉴스 이슈 통합
+        const allIssues = [
+
+            ...(
+                safetyIssuesData.issues || []
+            ),
+
+            ...(
+                newsIssuesData.issues || []
+            )
+
+        ];
+
+
+        // 최근 주요 안전 이슈 표시
+        renderRecentIssues(
+            allIssues
+        );
 
 
         // KPI
@@ -122,12 +126,6 @@ renderRecentIssues(allIssues);
         // 오늘 변경사항
         renderTodayChanges(
             report
-        );
-
-
-        // 최근 주요 안전 이슈
-        renderNewsIssues(
-            newsData
         );
 
 
@@ -152,8 +150,18 @@ renderRecentIssues(allIssues);
         );
 
         console.log(
+            "Safety issues:",
+            safetyIssuesData.issues
+        );
+
+        console.log(
             "News issues:",
-            newsData.issues
+            newsIssuesData.issues
+        );
+
+        console.log(
+            "All issues:",
+            allIssues
         );
 
     } catch (err) {
@@ -162,6 +170,7 @@ renderRecentIssues(allIssues);
             "Dashboard loading error:",
             err
         );
+
 
         const briefingBox =
             document.getElementById(
