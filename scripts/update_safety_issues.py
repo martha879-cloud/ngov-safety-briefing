@@ -6,6 +6,8 @@ from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
 
+from config import COUNTRIES
+
 
 # ==========================================
 # 기본 설정
@@ -22,27 +24,8 @@ OUTPUT_FILE = Path(
 )
 
 
-# 현재 대시보드 파견국
-TARGET_COUNTRIES = [
-    "과테말라",
-    "도미니카공화국",
-    "동티모르",
-    "라오스",
-    "르완다",
-    "말라위",
-    "모로코",
-    "몽골",
-    "방글라데시",
-    "베트남",
-    "요르단",
-    "이집트",
-    "인도네시아",
-    "캄보디아",
-    "케냐",
-    "탄자니아",
-    "페루",
-    "필리핀"
-]
+# 현재 대시보드 파견국 (config/countries.json이 유일한 원본)
+TARGET_COUNTRIES = [c["name"] for c in COUNTRIES]
 
 
 # ==========================================
