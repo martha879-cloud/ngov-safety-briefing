@@ -1,31 +1,44 @@
 {
-  "updated": "2026-07-28 06:58",
+  "updated": "2026-07-28 07:19",
   "issues": [
     {
       "id": "news-001",
-      "country": "페루",
+      "country": "우간다",
       "category": "conflict",
       "severity": "low",
-      "title": "Kin of Peru state violence victims reject Fujimori's right to rule",
-      "summary": "LIMA, Peru — Relatives of people who died at the hands of the Peruvian state over the years on Tuesday spurned president-elect Keiko Fujimori and her legitimacy to govern, citing the risk of democratic backsliding and judicial impunity.",
+      "title": "Ugandan diplomat Otunnu joins race to become next U.N. head",
+      "summary": "Otunnu, a ‌former U.N. under-secretary-general who served as a special representative ​for children and armed conflict, was nominated by Uganda on Friday.",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
       "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-07-22",
-      "source": "The Manila Times",
-      "source_url": "https://www.manilatimes.net/2026/07/22/world/americas-emea/kin-of-peru-state-violence-victims-reject-fujimoris-right-to-rule/2389003"
+      "published_at": "2026-07-27",
+      "source": "The Japan Times ",
+      "source_url": "https://www.japantimes.co.jp/news/2026/07/27/world/politics/uganda-otunnu-un-head/"
     },
     {
       "id": "news-002",
-      "country": "페루",
-      "category": "natural_disaster",
-      "severity": "high",
-      "title": "6 Killed, 21 injured as earthquake strikes central Peru",
-      "summary": "LIMA   -  At least six people were killed and 21 others injured in an earthquake that struck the Junin region of central Peru. Peru’s National",
-      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
-      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
-      "published_at": "2026-07-21",
-      "source": "The Nation",
-      "source_url": "https://www.nation.com.pk/21-Jul-2026/6-killed-21-injured-earthquake-strikes-central-peru"
+      "country": "과테말라",
+      "category": "conflict",
+      "severity": "low",
+      "title": "Guatemala races to save 60,000 case files of testimony about abuses during armed conflict",
+      "summary": "Guatemala is racing to preserve 60,000 case files of testimony about abuses from its decades of armed conflict before President Bernardo Arévalo's term ends in January 2028. The conflict, from 1960...",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-07-23",
+      "source": "SFGATE",
+      "source_url": "https://www.sfgate.com/news/world/article/guatemala-races-to-save-60-000-case-files-of-22356810.php"
+    },
+    {
+      "id": "news-003",
+      "country": "과테말라",
+      "category": "conflict",
+      "severity": "low",
+      "title": "Guatemala races to save records of testimony about abuses during armed conflict",
+      "summary": "Guatemala is racing to preserve 60,000 case files of testimony about abuses from its decades of armed conflict before President Bernardo Arévalo's term ends in January 2028.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-07-23",
+      "source": "The Associated Press",
+      "source_url": "https://apnews.com/article/guatemala-testimony-reparations-arevalo-7a71efb417d0ab9360d20a02641a385f"
     }
   ]
 }
