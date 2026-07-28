@@ -207,7 +207,15 @@ def classify_severity(text):
         "flood",
         "storm",
         "outbreak",
-        "disruption"
+        "disruption",
+        "earthquake",
+        "magnitude",
+        "quake",
+        "tsunami",
+        "volcano",
+        "typhoon",
+        "cyclone",
+        "landslide"
     ]
 
     if any(
