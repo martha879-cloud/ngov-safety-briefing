@@ -1,11 +1,15 @@
 // =========================================
-// KOICA-NGO Safety Dashboard v3.0
+// KOICA-NGO 안전관리 대시보드
 // =========================================
 
 document.addEventListener("DOMContentLoaded", () => {
     loadDashboard();
 });
 
+
+// =========================================
+// Dashboard Data Load
+// =========================================
 
 async function loadDashboard() {
 
@@ -16,149 +20,178 @@ async function loadDashboard() {
             briefingRes,
             reportRes,
             updateRes,
-            issuesRes
+            newsRes
         ] = await Promise.all([
 
-            fetch("./data/countries.json"),
-
-            fetch("./data/briefing.json"),
-
-            fetch("./data/daily_report.json"),
-
-            fetch("./data/last_update.json"),
-
-            fetch("./data/safety_issues.json")
+            fetch("data/countries.json"),
+            fetch("data/briefing.json"),
+            fetch("data/daily_report.json"),
+            fetch("data/last_update.json"),
+            fetch("data/news_issues.json")
 
         ]);
 
 
+        // HTTP 오류 확인
         if (!countriesRes.ok) {
             throw new Error(
-                `countries.json 오류: ${countriesRes.status}`
+                "countries.json을 불러오지 못했습니다."
+            );
+        }
+
+        if (!briefingRes.ok) {
+            throw new Error(
+                "briefing.json을 불러오지 못했습니다."
+            );
+        }
+
+        if (!reportRes.ok) {
+            throw new Error(
+                "daily_report.json을 불러오지 못했습니다."
+            );
+        }
+
+        if (!updateRes.ok) {
+            throw new Error(
+                "last_update.json을 불러오지 못했습니다."
+            );
+        }
+
+        if (!newsRes.ok) {
+            throw new Error(
+                "news_issues.json을 불러오지 못했습니다."
             );
         }
 
 
-        const countries = await countriesRes.json();
+        // JSON 데이터 변환
+        const countries =
+            await countriesRes.json();
+
+        const briefing =
+            await briefingRes.json();
+
+        const report =
+            await reportRes.json();
+
+        const update =
+            await updateRes.json();
+
+        const newsData =
+            await newsRes.json();
 
 
-        let briefing = {
-            summary: []
-        };
+        // 마지막 업데이트
+        const lastUpdate =
+            document.getElementById(
+                "lastUpdate"
+            );
 
+        if (lastUpdate) {
 
-        let report = {
-            changes: []
-        };
-
-
-        let update = {
-            updated: "-"
-        };
-
-
-        let safetyData = {
-            issues: []
-        };
-
-
-        if (briefingRes.ok) {
-
-            briefing = await briefingRes.json();
-
-        }
-
-
-        if (reportRes.ok) {
-
-            report = await reportRes.json();
+            lastUpdate.textContent =
+                update.updated
+                || "정보 없음";
 
         }
 
 
-        if (updateRes.ok) {
-
-            update = await updateRes.json();
-
-        }
-
-
-        if (issuesRes.ok) {
-
-            safetyData = await issuesRes.json();
-
-        }
-
-
-        document.getElementById(
-            "lastUpdate"
-        ).textContent = update.updated || "-";
-
-
+        // KPI
         renderSummary(
-            countries,
-            safetyData.issues
+            countries
         );
 
 
+        // 오늘 브리핑
         renderBriefing(
-            briefing,
-            safetyData.issues
+            briefing
         );
 
 
+        // 오늘 변경사항
         renderTodayChanges(
             report
         );
 
 
-        renderRecentIssues(
-            safetyData.issues
+        // 최근 주요 안전 이슈
+        renderNewsIssues(
+            newsData
         );
 
 
+        // 국가 카드
         renderCountries(
-            countries,
-            safetyData.issues
+            countries
         );
 
 
-        const map = initMap();
-
+        // 세계 지도
+        const map =
+            initMap();
 
         renderMapCountries(
             map,
-            countries,
-            safetyData.issues
+            countries
         );
 
 
-    } catch (error) {
+        console.log(
+            "Dashboard loaded successfully"
+        );
+
+        console.log(
+            "News issues:",
+            newsData.issues
+        );
+
+    } catch (err) {
 
         console.error(
             "Dashboard loading error:",
-            error
+            err
         );
-
 
         const briefingBox =
             document.getElementById(
                 "briefing"
             );
 
-
         if (briefingBox) {
 
             briefingBox.innerHTML = `
 
-                <div class="alert alert-danger">
+                <div class="text-danger">
 
                     데이터를 불러오지 못했습니다.
+
+                </div>
+
+            `;
+
+        }
+
+
+        const issuesBox =
+            document.getElementById(
+                "recentIssues"
+            );
+
+        if (issuesBox) {
+
+            issuesBox.innerHTML = `
+
+                <div class="alert alert-danger mb-0">
+
+                    안전 이슈 데이터를
+                    불러오지 못했습니다.
 
                     <br>
 
                     <small>
-                        ${error.message}
+
+                        ${err.message}
+
                     </small>
 
                 </div>
@@ -173,116 +206,57 @@ async function loadDashboard() {
 
 
 // =========================================
-// Summary
+// KPI Summary
 // =========================================
 
 function renderSummary(
-    countries,
-    issues
+    countries
 ) {
 
     let green = 0;
-
     let yellow = 0;
-
     let orange = 0;
-
     let red = 0;
 
 
-    countries.forEach(country => {
+    countries.forEach(
+        country => {
 
-        const countryIssues =
-            issues.filter(
-                issue =>
-                    issue.country ===
-                    country.name
-            );
+            switch (
+                country.status
+            ) {
 
+                case "green":
 
-        let highestSeverity =
-            "none";
+                    green++;
 
-
-        countryIssues.forEach(
-            issue => {
-
-                const severity =
-                    issue.severity;
+                    break;
 
 
-                if (
-                    severity ===
-                    "critical"
-                ) {
+                case "yellow":
 
-                    highestSeverity =
-                        "critical";
+                    yellow++;
 
-                }
+                    break;
 
-                else if (
-                    severity ===
-                    "high" &&
-                    highestSeverity !==
-                    "critical"
-                ) {
 
-                    highestSeverity =
-                        "high";
+                case "orange":
 
-                }
+                    orange++;
 
-                else if (
-                    severity ===
-                    "medium" &&
-                    highestSeverity ===
-                    "none"
-                ) {
+                    break;
 
-                    highestSeverity =
-                        "medium";
 
-                }
+                case "red":
+
+                    red++;
+
+                    break;
 
             }
-        );
-
-
-        if (
-            highestSeverity ===
-            "critical"
-        ) {
-
-            red++;
 
         }
-
-        else if (
-            highestSeverity ===
-            "high"
-        ) {
-
-            orange++;
-
-        }
-
-        else if (
-            highestSeverity ===
-            "medium"
-        ) {
-
-            yellow++;
-
-        }
-
-        else {
-
-            green++;
-
-        }
-
-    });
+    );
 
 
     document.getElementById(
@@ -308,12 +282,11 @@ function renderSummary(
 
 
 // =========================================
-// Briefing
+// Today Briefing
 // =========================================
 
 function renderBriefing(
-    briefing,
-    issues
+    data
 ) {
 
     const box =
@@ -329,42 +302,20 @@ function renderBriefing(
     }
 
 
+    const summary =
+        data.summary || [];
+
+
     if (
-        issues &&
-        issues.length > 0
+        summary.length === 0
     ) {
-
-        const highCount =
-            issues.filter(
-                issue =>
-                    issue.severity ===
-                    "high" ||
-                    issue.severity ===
-                    "critical"
-            ).length;
-
 
         box.innerHTML = `
 
-            <div class="mb-2">
+            <div class="text-muted">
 
-                오늘 확인된 주요 안전 이슈는
-
-                <strong>
-                    ${issues.length}건
-                </strong>
-                입니다.
-
-            </div>
-
-            <div>
-
-                우선 확인이 필요한 이슈는
-
-                <strong>
-                    ${highCount}건
-                </strong>
-                입니다.
+                오늘의 안전 브리핑이
+                없습니다.
 
             </div>
 
@@ -375,37 +326,27 @@ function renderBriefing(
     }
 
 
-    if (
-        briefing &&
-        Array.isArray(
-            briefing.summary
-        )
-    ) {
-
-        box.innerHTML =
-            briefing.summary
-                .map(
-                    text =>
-                        `<div>
-                            ✅ ${text}
-                        </div>`
-                )
-                .join("");
-
-        return;
-
-    }
+    let html = "";
 
 
-    box.innerHTML = `
+    summary.forEach(
+        text => {
 
-        <div class="text-success">
+            html += `
 
-            현재 등록된 주요 안전 이슈가 없습니다.
+                <div class="mb-2">
 
-        </div>
+                    ✅ ${text}
 
-    `;
+                </div>
+
+            `;
+
+        }
+    );
+
+
+    box.innerHTML = html;
 
 }
 
@@ -431,19 +372,19 @@ function renderTodayChanges(
     }
 
 
+    const changes =
+        report.changes || [];
+
+
     if (
-        !report ||
-        !Array.isArray(
-            report.changes
-        ) ||
-        report.changes.length === 0
+        changes.length === 0
     ) {
 
         box.innerHTML = `
 
-            <div class="text-muted">
+            <div class="text-success">
 
-                현재 등록된 변경사항이 없습니다.
+                오늘 변경사항이 없습니다.
 
             </div>
 
@@ -454,48 +395,66 @@ function renderTodayChanges(
     }
 
 
-    box.innerHTML =
-        report.changes
-            .map(
-                item => `
+    let html = "";
 
-                <div class="border-bottom py-2">
 
-                    <strong>
+    changes.forEach(
+        item => {
+
+            html += `
+
+                <div class="
+                    border-bottom
+                    pb-3
+                    mb-3
+                ">
+
+                    <h6>
 
                         ${item.flag || "🌍"}
 
                         ${item.country}
 
-                    </strong>
+                    </h6>
 
                     <div>
 
-                        ${item.change}
+                        <strong>
+
+                            ${item.change}
+
+                        </strong>
 
                     </div>
 
-                    <small class="text-muted">
+                    <div class="
+                        text-muted
+                        small
+                    ">
 
                         ${item.reason || ""}
 
-                    </small>
+                    </div>
 
                 </div>
 
-            `
-            )
-            .join("");
+            `;
+
+        }
+    );
+
+
+    box.innerHTML = html;
 
 }
 
 
 // =========================================
-// Recent Issues
+// Recent News Safety Issues
 // =========================================
 
-function renderRecentIssues(
-    issues
+function renderNewsIssues(
+    data
 ) {
 
     const box =
@@ -511,16 +470,24 @@ function renderRecentIssues(
     }
 
 
+    const issues =
+        Array.isArray(
+            data.issues
+        )
+        ? data.issues
+        : [];
+
+
     if (
-        !issues ||
         issues.length === 0
     ) {
 
         box.innerHTML = `
 
-            <div class="text-success">
+            <div class="alert alert-success mb-0">
 
-                최근 주요 안전 이슈가 없습니다.
+                현재 등록된 주요 안전 이슈가
+                없습니다.
 
             </div>
 
@@ -531,214 +498,493 @@ function renderRecentIssues(
     }
 
 
-    const severityOrder = {
-
-        critical: 4,
-
-        high: 3,
-
-        medium: 2,
-
-        low: 1
-
-    };
-
-
+    // 최신 날짜 순 정렬
     const sortedIssues =
         [...issues].sort(
-            (a, b) =>
+            (a, b) => {
 
-                (
-                    severityOrder[
-                        b.severity
-                    ] || 0
-                )
+                const dateA =
+                    new Date(
+                        a.published_at
+                        || "1900-01-01"
+                    );
 
-                -
+                const dateB =
+                    new Date(
+                        b.published_at
+                        || "1900-01-01"
+                    );
 
-                (
-                    severityOrder[
-                        a.severity
-                    ] || 0
-                )
+                return (
+                    dateB - dateA
+                );
+
+            }
         );
 
 
-    box.innerHTML =
-        sortedIssues
-            .map(
-                issue => `
+    // 최대 10개 표시
+    const recentIssues =
+        sortedIssues.slice(
+            0,
+            10
+        );
 
-                <div class="border-bottom py-3">
 
-                    <div class="d-flex
+    let html = `
+
+        <div class="row g-3">
+
+    `;
+
+
+    recentIssues.forEach(
+        issue => {
+
+            const severity =
+                issue.severity
+                || "low";
+
+
+            html += `
+
+                <div class="
+                    col-lg-6
+                    col-xl-4
+                ">
+
+                    <div class="
+                        card
+                        h-100
+                        shadow-sm
+                        border-${getSeverityBorder(
+                            severity
+                        )}
+                    ">
+
+                        <div class="
+                            card-body
+                        ">
+
+                            <div class="
+                                d-flex
                                 justify-content-between
-                                align-items-start">
+                                align-items-start
+                                gap-2
+                                mb-2
+                            ">
 
-                        <div>
+                                <strong>
 
-                            <strong>
+                                    ${getSeverityIcon(
+                                        severity
+                                    )}
 
-                                ${issue.country}
+                                    ${issue.country
+                                    || "국가 정보 없음"}
 
-                            </strong>
+                                </strong>
 
-                            ${categoryLabel(
-                                issue.category
-                            )}
+                                <span class="
+                                    badge
+                                    ${getSeverityBadge(
+                                        severity
+                                    )}
+                                ">
+
+                                    ${getSeverityText(
+                                        severity
+                                    )}
+
+                                </span>
+
+                            </div>
+
+
+                            <h6 class="
+                                fw-bold
+                            ">
+
+                                ${issue.title
+                                || "안전 이슈"}
+
+                            </h6>
+
+
+                            <p class="
+                                text-muted
+                                small
+                            ">
+
+                                ${issue.summary
+                                || "상세 내용이 없습니다."}
+
+                            </p>
+
+
+                            <div class="
+                                small
+                                mb-2
+                            ">
+
+                                <strong>
+
+                                    봉사단 영향
+
+                                </strong>
+
+                                <br>
+
+                                ${issue.volunteer_impact
+                                || "현지 상황 확인 필요"}
+
+                            </div>
+
+
+                            <div class="
+                                small
+                                mb-3
+                            ">
+
+                                <strong>
+
+                                    권장 조치
+
+                                </strong>
+
+                                <br>
+
+                                ${issue.recommended_action
+                                || "최신 상황을 확인하세요."}
+
+                            </div>
+
+
+                            <div class="
+                                d-flex
+                                justify-content-between
+                                align-items-end
+                                gap-2
+                            ">
+
+                                <small class="
+                                    text-muted
+                                ">
+
+                                    ${issue.source
+                                    || "뉴스"}
+
+                                    <br>
+
+                                    ${issue.published_at
+                                    || ""}
+
+                                </small>
+
+
+                                ${createSourceButton(
+                                    issue.source_url
+                                )}
+
+                            </div>
 
                         </div>
-
-                        ${severityBadge(
-                            issue.severity
-                        )}
-
-                    </div>
-
-                    <div class="mt-2">
-
-                        <strong>
-
-                            ${issue.title}
-
-                        </strong>
-
-                    </div>
-
-                    <div class="text-muted mt-1">
-
-                        ${issue.summary}
-
-                    </div>
-
-                    <div class="mt-2">
-
-                        <small>
-
-                            <strong>
-                                봉사단 영향:
-                            </strong>
-
-                            ${issue.volunteer_impact}
-
-                        </small>
-
-                    </div>
-
-                    <div>
-
-                        <small>
-
-                            <strong>
-                                권장 조치:
-                            </strong>
-
-                            ${issue.recommended_action}
-
-                        </small>
-
-                    </div>
-
-                    <div class="mt-2">
-
-                        <small class="text-muted">
-
-                            ${issue.published_at}
-
-                            ·
-
-                            ${issue.source}
-
-                        </small>
 
                     </div>
 
                 </div>
 
-            `
-            )
-            .join("");
-
-}
-
-
-// =========================================
-// Countries
-// =========================================
-
-function renderCountries(
-    countries,
-    issues
-) {
-
-    const containers = {
-
-        asia:
-            document.getElementById(
-                "asiaList"
-            ),
-
-        africa:
-            document.getElementById(
-                "africaList"
-            ),
-
-        latin:
-            document.getElementById(
-                "latinList"
-            ),
-
-        middle:
-            document.getElementById(
-                "middleList"
-            )
-
-    };
-
-
-    Object.values(
-        containers
-    ).forEach(
-        container => {
-
-            if (container) {
-
-                container.innerHTML = "";
-
-            }
+            `;
 
         }
     );
 
 
+    html += `
+
+        </div>
+
+    `;
+
+
+    box.innerHTML = html;
+
+}
+
+
+// =========================================
+// Source Button
+// =========================================
+
+function createSourceButton(
+    sourceUrl
+) {
+
+    if (
+        !sourceUrl
+    ) {
+
+        return "";
+
+    }
+
+
+    return `
+
+        <a
+            href="${sourceUrl}"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="
+                btn
+                btn-sm
+                btn-outline-primary
+            "
+        >
+
+            원문 보기
+
+        </a>
+
+    `;
+
+}
+
+
+// =========================================
+// Severity Helpers
+// =========================================
+
+function getSeverityBorder(
+    severity
+) {
+
+    switch (
+        severity
+    ) {
+
+        case "critical":
+
+            return "danger";
+
+
+        case "high":
+
+            return "warning";
+
+
+        case "medium":
+
+            return "primary";
+
+
+        default:
+
+            return "success";
+
+    }
+
+}
+
+
+function getSeverityBadge(
+    severity
+) {
+
+    switch (
+        severity
+    ) {
+
+        case "critical":
+
+            return "bg-danger";
+
+
+        case "high":
+
+            return (
+                "bg-warning " +
+                "text-dark"
+            );
+
+
+        case "medium":
+
+            return "bg-primary";
+
+
+        default:
+
+            return "bg-success";
+
+    }
+
+}
+
+
+function getSeverityIcon(
+    severity
+) {
+
+    switch (
+        severity
+    ) {
+
+        case "critical":
+
+            return "🔴";
+
+
+        case "high":
+
+            return "🟠";
+
+
+        case "medium":
+
+            return "🟡";
+
+
+        default:
+
+            return "🟢";
+
+    }
+
+}
+
+
+function getSeverityText(
+    severity
+) {
+
+    switch (
+        severity
+    ) {
+
+        case "critical":
+
+            return "긴급";
+
+
+        case "high":
+
+            return "높음";
+
+
+        case "medium":
+
+            return "주의";
+
+
+        default:
+
+            return "정보";
+
+    }
+
+}
+
+
+// =========================================
+// Country Cards
+// =========================================
+
+function renderCountries(
+    countries
+) {
+
+    const asiaList =
+        document.getElementById(
+            "asiaList"
+        );
+
+    const africaList =
+        document.getElementById(
+            "africaList"
+        );
+
+    const latinList =
+        document.getElementById(
+            "latinList"
+        );
+
+    const middleList =
+        document.getElementById(
+            "middleList"
+        );
+
+
+    if (
+        !asiaList
+        || !africaList
+        || !latinList
+        || !middleList
+    ) {
+
+        return;
+
+    }
+
+
+    asiaList.innerHTML = "";
+
+    africaList.innerHTML = "";
+
+    latinList.innerHTML = "";
+
+    middleList.innerHTML = "";
+
+
     countries.forEach(
         country => {
 
-            const countryIssues =
-                issues.filter(
-                    issue =>
-                        issue.country ===
-                        country.name
-                );
-
-
             const card =
                 createCountryCard(
-                    country,
-                    countryIssues
+                    country
                 );
 
 
-            const container =
-                containers[
-                    country.region
-                ];
+            switch (
+                country.region
+            ) {
+
+                case "asia":
+
+                    asiaList.innerHTML +=
+                        card;
+
+                    break;
 
 
-            if (container) {
+                case "africa":
 
-                container.innerHTML +=
-                    card;
+                    africaList.innerHTML +=
+                        card;
+
+                    break;
+
+
+                case "latin":
+
+                    latinList.innerHTML +=
+                        card;
+
+                    break;
+
+
+                case "middle":
+
+                    middleList.innerHTML +=
+                        card;
+
+                    break;
+
+
+                default:
+
+                    asiaList.innerHTML +=
+                        card;
 
             }
 
@@ -753,108 +999,86 @@ function renderCountries(
 // =========================================
 
 function createCountryCard(
-    country,
-    issues
+    country
 ) {
-
-    const mainIssue =
-        getMainIssue(
-            issues
-        );
-
-
-    let issueHtml = `
-
-        <div class="text-success mt-3">
-
-            🟢 최근 등록된
-            주요 안전 이슈 없음
-
-        </div>
-
-    `;
-
-
-    if (mainIssue) {
-
-        issueHtml = `
-
-            <div class="mt-3">
-
-                ${categoryLabel(
-                    mainIssue.category
-                )}
-
-                ${severityBadge(
-                    mainIssue.severity
-                )}
-
-            </div>
-
-            <div class="mt-2">
-
-                <strong>
-
-                    ${mainIssue.title}
-
-                </strong>
-
-            </div>
-
-            <div class="text-muted mt-1">
-
-                ${mainIssue.summary}
-
-            </div>
-
-            <div class="mt-2">
-
-                <small>
-
-                    <strong>
-                        권장 조치:
-                    </strong>
-
-                    ${mainIssue.recommended_action}
-
-                </small>
-
-            </div>
-
-        `;
-
-    }
-
 
     return `
 
-        <div class="col-lg-4 col-md-6">
+        <div class="
+            col-lg-4
+            col-md-6
+        ">
 
-            <div class="country-card h-100">
+            <div class="
+                country-card
+                h-100
+            ">
 
-                <div class="country-name">
+                <div class="
+                    country-name
+                ">
 
-                    ${country.flag || "🌍"}
+                    ${country.flag
+                    || "🌍"}
 
                     ${country.name}
 
                 </div>
 
-                ${issueHtml}
 
-                <div class="mt-3">
+                <div class="
+                    mt-2
+                ">
 
-                    <small class="text-muted">
+                    ${statusBadge(
+                        country.status
+                    )}
 
-                        여행경보:
+                </div>
 
-                        ${country.travel_warning_level
-                            || "-"}
 
-                        단계
+                <div class="
+                    mt-3
+                ">
 
-                        ${country.travel_warning_label
-                            || ""}
+                    <strong>
+
+                        상황
+
+                    </strong>
+
+                    <br>
+
+                    ${country.issue
+                    || "특이사항 없음"}
+
+                </div>
+
+
+                <div class="
+                    mt-3
+                ">
+
+                    <small class="
+                        text-muted
+                    ">
+
+                        ${country.source
+                        || ""}
+
+                    </small>
+
+                </div>
+
+
+                <div>
+
+                    <small class="
+                        text-muted
+                    ">
+
+                        ${country.updated
+                        || ""}
 
                     </small>
 
@@ -870,139 +1094,125 @@ function createCountryCard(
 
 
 // =========================================
-// Main Issue
+// Country Status Badge
 // =========================================
 
-function getMainIssue(
-    issues
+function statusBadge(
+    status
 ) {
 
-    if (
-        !issues ||
-        issues.length === 0
+    switch (
+        status
     ) {
 
-        return null;
+        case "green":
+
+            return `
+
+                <span class="
+                    badge
+                    bg-success
+                ">
+
+                    🟢 활동 가능
+
+                </span>
+
+            `;
+
+
+        case "yellow":
+
+            return `
+
+                <span class="
+                    badge
+                    bg-warning
+                    text-dark
+                ">
+
+                    🟡 모니터링
+
+                </span>
+
+            `;
+
+
+        case "orange":
+
+            return `
+
+                <span class="
+                    badge
+                    bg-orange
+                ">
+
+                    🟠 조치 검토
+
+                </span>
+
+            `;
+
+
+        case "red":
+
+            return `
+
+                <span class="
+                    badge
+                    bg-danger
+                ">
+
+                    🔴 긴급 대응
+
+                </span>
+
+            `;
+
+
+        default:
+
+            return `
+
+                <span class="
+                    badge
+                    bg-secondary
+                ">
+
+                    정보 없음
+
+                </span>
+
+            `;
 
     }
 
-
-    const order = {
-
-        critical: 4,
-
-        high: 3,
-
-        medium: 2,
-
-        low: 1
-
-    };
-
-
-    return [...issues].sort(
-        (a, b) =>
-
-            (
-                order[
-                    b.severity
-                ] || 0
-            )
-
-            -
-
-            (
-                order[
-                    a.severity
-                ] || 0
-            )
-    )[0];
-
 }
 
 
 // =========================================
-// Labels
-// =========================================
-
-function categoryLabel(
-    category
-) {
-
-    const labels = {
-
-        security:
-            "🚨 치안",
-
-        conflict:
-            "⚔️ 분쟁·정세",
-
-        natural_disaster:
-            "🌧️ 재난·기상",
-
-        health:
-            "🦠 보건·감염병",
-
-        transport:
-            "✈️ 이동·교통",
-
-        official_notice:
-            "📢 안전공지"
-
-    };
-
-
-    return labels[
-        category
-    ] || "📌 기타";
-
-}
-
-
-function severityBadge(
-    severity
-) {
-
-    const badges = {
-
-        critical:
-            `<span class="badge bg-danger">
-                🔴 즉시 확인
-            </span>`,
-
-        high:
-            `<span class="badge bg-warning text-dark">
-                🟠 우선 확인
-            </span>`,
-
-        medium:
-            `<span class="badge bg-info text-dark">
-                🟡 모니터링
-            </span>`,
-
-        low:
-            `<span class="badge bg-secondary">
-                참고
-            </span>`
-
-    };
-
-
-    return badges[
-        severity
-    ] || "";
-
-}
-
-
-// =========================================
-// Map
+// World Map
 // =========================================
 
 function initMap() {
 
     const map = L.map(
-        "map"
+        "map",
+        {
+
+            worldCopyJump:
+                false,
+
+            maxBounds:
+                [
+                    [-90, -180],
+                    [90, 180]
+                ],
+
+            maxBoundsViscosity:
+                1.0
+
+        }
     ).setView(
         [20, 20],
         2
@@ -1010,16 +1220,16 @@ function initMap() {
 
 
     L.tileLayer(
-
         "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-
         {
 
             attribution:
-                "&copy; OpenStreetMap contributors"
+                "&copy; OpenStreetMap contributors",
+
+            noWrap:
+                true
 
         }
-
     ).addTo(
         map
     );
@@ -1040,18 +1250,21 @@ function initMap() {
 }
 
 
+// =========================================
+// Map Country Markers
+// =========================================
+
 function renderMapCountries(
     map,
-    countries,
-    issues
+    countries
 ) {
 
     countries.forEach(
         country => {
 
             if (
-                country.lat == null ||
-                country.lng == null
+                country.lat == null
+                || country.lng == null
             ) {
 
                 return;
@@ -1059,102 +1272,90 @@ function renderMapCountries(
             }
 
 
-            const countryIssues =
-                issues.filter(
-                    issue =>
-                        issue.country ===
-                        country.name
-                );
-
-
-            const mainIssue =
-                getMainIssue(
-                    countryIssues
-                );
-
-
             let color =
                 "green";
 
 
-            if (
-                mainIssue
+            switch (
+                country.status
             ) {
 
-                if (
-                    mainIssue.severity ===
-                    "critical"
-                ) {
+                case "yellow":
 
-                    color = "red";
+                    color =
+                        "orange";
 
-                }
+                    break;
 
-                else if (
-                    mainIssue.severity ===
-                    "high"
-                ) {
 
-                    color = "orange";
+                case "orange":
 
-                }
+                    color =
+                        "darkorange";
 
-                else if (
-                    mainIssue.severity ===
-                    "medium"
-                ) {
+                    break;
 
-                    color = "gold";
 
-                }
+                case "red":
+
+                    color =
+                        "red";
+
+                    break;
 
             }
 
 
             L.circleMarker(
-
                 [
                     country.lat,
                     country.lng
                 ],
-
                 {
 
-                    radius: 8,
+                    radius:
+                        8,
 
-                    color: color,
+                    color:
+                        color,
 
-                    fillColor: color,
+                    fillColor:
+                        color,
 
-                    fillOpacity: 0.8
+                    fillOpacity:
+                        0.8
 
                 }
-
             )
-
             .addTo(
                 map
             )
+            .bindPopup(
+                `
 
-            .bindPopup(`
+                    <strong>
 
-                <strong>
+                        ${country.flag
+                        || "🌍"}
 
-                    ${country.flag || "🌍"}
+                        ${country.name}
 
-                    ${country.name}
+                    </strong>
 
-                </strong>
+                    <br>
 
-                <br>
+                    ${country.issue
+                    || "특이사항 없음"}
 
-                ${mainIssue
-                    ? mainIssue.title
-                    : "최근 주요 이슈 없음"}
-
-            `);
+                `
+            );
 
         }
     );
 
 }
+
+
+console.log(
+    "KOICA-NGO Dashboard loaded"
+);
