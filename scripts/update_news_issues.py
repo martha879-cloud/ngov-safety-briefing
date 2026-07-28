@@ -427,9 +427,18 @@ for korean_name, english_name in (
             )
         )
 
-        combined_text = (
+    combined_text = (
             f"{title} {description}"
         ).lower()
+
+        title_lower = title.lower()
+
+
+        # 기사 제목에 해당 국가명이 없으면 제외.
+        # (본문에서 다른 나라 기사 하다가 비교삼아 스쳐가듯 언급된 경우를
+        #  실제 그 나라의 안전 이슈로 착각하는 것을 방지)
+        if english_name.lower() not in title_lower:
+            continue
 
 
         # 안전 키워드가 없는 기사는 제외
