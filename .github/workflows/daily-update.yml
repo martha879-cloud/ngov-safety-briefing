@@ -51,6 +51,9 @@ jobs:
           GNEWS_API_KEY: ${{ secrets.GNEWS_API_KEY }}
         run: python scripts/update_news_issues.py
 
+      - name: Update USGS earthquake data
+        run: python scripts/update_disaster_issues.py
+
       - name: Commit and push updated data
         run: |
           git config --global user.name "github-actions[bot]"
