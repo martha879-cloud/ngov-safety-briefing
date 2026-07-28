@@ -6,6 +6,8 @@ from pathlib import Path
 
 import requests
 
+from config import COUNTRIES
+
 
 # ==========================================
 # 기본 설정
@@ -25,28 +27,11 @@ MAX_ARTICLES_PER_COUNTRY = 3
 
 
 # ==========================================
-# 파견국
+# 파견국 (config/countries.json이 유일한 원본)
 # ==========================================
 
 TARGET_COUNTRIES = {
-    "과테말라": "Guatemala",
-    "도미니카공화국": "Dominican Republic",
-    "동티모르": "Timor-Leste",
-    "라오스": "Laos",
-    "르완다": "Rwanda",
-    "말라위": "Malawi",
-    "모로코": "Morocco",
-    "몽골": "Mongolia",
-    "방글라데시": "Bangladesh",
-    "베트남": "Vietnam",
-    "요르단": "Jordan",
-    "이집트": "Egypt",
-    "인도네시아": "Indonesia",
-    "캄보디아": "Cambodia",
-    "케냐": "Kenya",
-    "탄자니아": "Tanzania",
-    "페루": "Peru",
-    "필리핀": "Philippines"
+    c["name"]: c["name_en"] for c in COUNTRIES
 }
 
 
