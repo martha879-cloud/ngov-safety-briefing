@@ -84,6 +84,11 @@ async function loadDashboard() {
         { issues: [] }
     );
 
+    const stateDeptIssuesData = await safeFetchJson(
+        "data/state_dept_issues.json",
+        { issues: [] }
+    );
+
 
     // 마지막 업데이트
     const lastUpdate = document.getElementById("lastUpdate");
@@ -94,7 +99,7 @@ async function loadDashboard() {
 
 
     // ==========================================
-    // 외교부 안전공지 + 뉴스 이슈 + USGS 지진 통합
+    // 외교부 안전공지 + 뉴스 이슈 + USGS 지진 + 미국 국무부 통합
     // ==========================================
 
     const safetyIssues = Array.isArray(safetyIssuesData.issues)
@@ -109,7 +114,11 @@ async function loadDashboard() {
         ? disasterIssuesData.issues
         : [];
 
-    const allIssues = [...safetyIssues, ...newsIssues, ...disasterIssues];
+    const stateDeptIssues = Array.isArray(stateDeptIssuesData.issues)
+        ? stateDeptIssuesData.issues
+        : [];
+
+    const allIssues = [...safetyIssues, ...newsIssues, ...disasterIssues, ...stateDeptIssues];
 
     // 최신 날짜 순 정렬
     allIssues.sort((a, b) => {
@@ -1417,6 +1426,12 @@ function renderRecentIssues(issues) {
                     ? `
                     <span class="badge bg-info text-dark">
                         🌍 USGS 지진
+                    </span>
+                    `
+                    : issue.source === "US State Dept"
+                    ? `
+                    <span class="badge bg-secondary">
+                        🇺🇸 미국 국무부
                     </span>
                     `
                     : `
