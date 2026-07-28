@@ -20,13 +20,15 @@ async function loadDashboard() {
             briefingRes,
             reportRes,
             updateRes,
-            newsRes
+            safetyIssuesRes,
+            newsIssuesRes
         ] = await Promise.all([
 
             fetch("data/countries.json"),
             fetch("data/briefing.json"),
             fetch("data/daily_report.json"),
             fetch("data/last_update.json"),
+            fetch("data/safety_issues.json"),
             fetch("data/news_issues.json")
 
         ]);
@@ -76,6 +78,9 @@ async function loadDashboard() {
 
         const update =
             await updateRes.json();
+        
+        const safetyIssuesData = 
+            await safetyIssuesRes.json();
 
         const newsData =
             await newsRes.json();
@@ -93,6 +98,12 @@ async function loadDashboard() {
                 update.updated
                 || "정보 없음";
 
+         const allIssues = [
+             ...(safetyIssuesData.issues || []),
+             ...(newsIssuesData.issues || [])
+];
+
+renderRecentIssues(allIssues);
         }
 
 
@@ -1359,3 +1370,292 @@ function renderMapCountries(
 console.log(
     "KOICA-NGO Dashboard loaded"
 );
+
+// ==========================================
+// 최근 주요 안전 이슈
+// ==========================================
+
+function renderRecentIssues(issues) {
+
+    const container =
+        document.getElementById("recentIssues");
+
+    if (!container) {
+        return;
+    }
+
+    if (!issues || issues.length === 0) {
+
+        container.innerHTML = `
+            <div class="text-success">
+                현재 등록된 주요 안전 이슈가 없습니다.
+            </div>
+        `;
+
+        return;
+    }
+
+    // 최신 날짜 순으로 정렬
+    const sortedIssues = [...issues].sort(
+        (a, b) => {
+
+            const dateA =
+                new Date(a.published_at);
+
+            const dateB =
+                new Date(b.published_at);
+
+            return dateB - dateA;
+        }
+    );
+
+    let html = "";
+
+    sortedIssues
+        .slice(0, 10)
+        .forEach(issue => {
+
+            const severity = getSeverityInfo(
+                issue.severity
+            );
+
+            const category = getCategoryInfo(
+                issue.category
+            );
+
+            const sourceBadge =
+                issue.source ===
+                "외교부 해외안전공지"
+                    ? `
+                    <span class="badge bg-primary">
+                        🏛️ 외교부
+                    </span>
+                    `
+                    : `
+                    <span class="badge bg-dark">
+                        📰 뉴스
+                    </span>
+                    `;
+
+            const sourceLink =
+                issue.source_url
+                    ? `
+                    <a
+                        href="${issue.source_url}"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-sm btn-outline-secondary mt-2"
+                    >
+                        원문 보기
+                    </a>
+                    `
+                    : "";
+
+            html += `
+
+                <div class="
+                    border
+                    rounded
+                    p-3
+                    mb-3
+                    bg-white
+                ">
+
+                    <div class="
+                        d-flex
+                        justify-content-between
+                        align-items-start
+                        flex-wrap
+                        gap-2
+                    ">
+
+                        <div>
+
+                            <strong>
+                                ${issue.country}
+                            </strong>
+
+                            ${sourceBadge}
+
+                            <span
+                                class="
+                                    badge
+                                    ${severity.className}
+                                "
+                            >
+                                ${severity.icon}
+                                ${severity.label}
+                            </span>
+
+                            <span class="
+                                badge
+                                bg-light
+                                text-dark
+                                border
+                            ">
+                                ${category.icon}
+                                ${category.label}
+                            </span>
+
+                        </div>
+
+                        <small class="
+                            text-muted
+                        ">
+                            ${issue.published_at || ""}
+                        </small>
+
+                    </div>
+
+                    <h5 class="mt-3">
+
+                        ${issue.title}
+
+                    </h5>
+
+                    <p class="
+                        mb-2
+                        text-secondary
+                    ">
+
+                        ${issue.summary || ""}
+
+                    </p>
+
+                    <div class="
+                        alert
+                        alert-light
+                        mb-2
+                    ">
+
+                        <strong>
+                            봉사단 영향:
+                        </strong>
+
+                        ${issue.volunteer_impact || ""}
+
+                    </div>
+
+                    <div class="
+                        alert
+                        alert-warning
+                        mb-2
+                    ">
+
+                        <strong>
+                            권장 조치:
+                        </strong>
+
+                        ${issue.recommended_action || ""}
+
+                    </div>
+
+                    ${sourceLink}
+
+                </div>
+
+            `;
+        });
+
+    container.innerHTML = html;
+}
+
+
+// ==========================================
+// 위험도 표시
+// ==========================================
+
+function getSeverityInfo(severity) {
+
+    switch (severity) {
+
+        case "critical":
+
+            return {
+                icon: "🔴",
+                label: "긴급",
+                className: "bg-danger"
+            };
+
+        case "high":
+
+            return {
+                icon: "🟠",
+                label: "높음",
+                className: "bg-warning text-dark"
+            };
+
+        case "medium":
+
+            return {
+                icon: "🟡",
+                label: "주의",
+                className: "bg-info text-dark"
+            };
+
+        default:
+
+            return {
+                icon: "🟢",
+                label: "낮음",
+                className: "bg-success"
+            };
+
+    }
+
+}
+
+
+// ==========================================
+// 이슈 유형 표시
+// ==========================================
+
+function getCategoryInfo(category) {
+
+    switch (category) {
+
+        case "natural_disaster":
+
+            return {
+                icon: "🌪️",
+                label: "자연재해"
+            };
+
+        case "health":
+
+            return {
+                icon: "🦠",
+                label: "보건·감염병"
+            };
+
+        case "transport":
+
+            return {
+                icon: "✈️",
+                label: "교통·항공"
+            };
+
+        case "conflict":
+
+            return {
+                icon: "⚠️",
+                label: "분쟁·시위"
+            };
+
+        case "security":
+
+            return {
+                icon: "🚨",
+                label: "치안·범죄"
+            };
+
+        default:
+
+            return {
+                icon: "📢",
+                label: "안전공지"
+            };
+
+    }
+
+}
