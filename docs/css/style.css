@@ -55,26 +55,6 @@ h1{
 
 }
 
-.country-card-link{
-
-    display:block;
-
-    text-decoration:none;
-
-    color:inherit;
-
-    height:100%;
-
-}
-
-.country-card-link:hover{
-
-    text-decoration:none;
-
-    color:inherit;
-
-}
-
 .country-card:hover{
 
     transform:translateY(-5px);
@@ -88,6 +68,20 @@ h1{
     font-size:18px;
 
     font-weight:700;
+
+}
+
+.issue-mini-item a{
+
+    text-decoration:none;
+
+    color:#0d6efd;
+
+}
+
+.issue-mini-item a:hover{
+
+    text-decoration:underline;
 
 }
 
@@ -120,24 +114,6 @@ h1{
     font-weight:700;
 
     margin-bottom:8px;
-
-}
-
-/* -----------------------------
-   Briefing
-------------------------------*/
-
-#briefing div{
-
-    padding:8px 0;
-
-    border-bottom:1px solid #eee;
-
-}
-
-#briefing div:last-child{
-
-    border-bottom:none;
 
 }
 
@@ -177,17 +153,6 @@ h1{
 
     font-weight:700;
 
-}
-
-/* -----------------------------
-   Map
-------------------------------*/
-
-#map {
-    width: 100%;
-    height: 500px;
-    border-radius: 10px;
-    overflow: hidden;
 }
 
 /* -----------------------------
