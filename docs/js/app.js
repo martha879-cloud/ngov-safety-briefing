@@ -79,6 +79,11 @@ async function loadDashboard() {
         { issues: [] }
     );
 
+    const disasterIssuesData = await safeFetchJson(
+        "data/disaster_issues.json",
+        { issues: [] }
+    );
+
 
     // 마지막 업데이트
     const lastUpdate = document.getElementById("lastUpdate");
@@ -89,7 +94,7 @@ async function loadDashboard() {
 
 
     // ==========================================
-    // 외교부 안전공지 + 뉴스 이슈 통합
+    // 외교부 안전공지 + 뉴스 이슈 + USGS 지진 통합
     // ==========================================
 
     const safetyIssues = Array.isArray(safetyIssuesData.issues)
@@ -100,7 +105,11 @@ async function loadDashboard() {
         ? newsIssuesData.issues
         : [];
 
-    const allIssues = [...safetyIssues, ...newsIssues];
+    const disasterIssues = Array.isArray(disasterIssuesData.issues)
+        ? disasterIssuesData.issues
+        : [];
+
+    const allIssues = [...safetyIssues, ...newsIssues, ...disasterIssues];
 
     // 최신 날짜 순 정렬
     allIssues.sort((a, b) => {
@@ -1402,6 +1411,12 @@ function renderRecentIssues(issues) {
                     ? `
                     <span class="badge bg-primary">
                         🏛️ 외교부
+                    </span>
+                    `
+                    : issue.source === "USGS"
+                    ? `
+                    <span class="badge bg-info text-dark">
+                        🌍 USGS 지진
                     </span>
                     `
                     : `
