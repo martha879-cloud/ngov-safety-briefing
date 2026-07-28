@@ -1,4 +1,44 @@
 {
-  "updated": "2026-07-28 07:28",
-  "issues": []
+  "updated": "2026-07-28 07:44",
+  "issues": [
+    {
+      "id": "news-001",
+      "country": "우간다",
+      "category": "conflict",
+      "severity": "low",
+      "title": "Ugandan diplomat Otunnu joins race to become next U.N. head",
+      "summary": "Otunnu, a ‌former U.N. under-secretary-general who served as a special representative ​for children and armed conflict, was nominated by Uganda on Friday.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-07-27",
+      "source": "The Japan Times ",
+      "source_url": "https://www.japantimes.co.jp/news/2026/07/27/world/politics/uganda-otunnu-un-head/"
+    },
+    {
+      "id": "news-002",
+      "country": "과테말라",
+      "category": "conflict",
+      "severity": "low",
+      "title": "Guatemala races to save 60,000 case files of testimony about abuses during armed conflict",
+      "summary": "Guatemala is racing to preserve 60,000 case files of testimony about abuses from its decades of armed conflict before President Bernardo Arévalo's term ends in January 2028. The conflict, from 1960...",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-07-23",
+      "source": "SFGATE",
+      "source_url": "https://www.sfgate.com/news/world/article/guatemala-races-to-save-60-000-case-files-of-22356810.php"
+    },
+    {
+      "id": "news-003",
+      "country": "과테말라",
+      "category": "conflict",
+      "severity": "low",
+      "title": "Guatemala races to save records of testimony about abuses during armed conflict",
+      "summary": "Guatemala is racing to preserve 60,000 case files of testimony about abuses from its decades of armed conflict before President Bernardo Arévalo's term ends in January 2028.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-07-23",
+      "source": "The Associated Press",
+      "source_url": "https://apnews.com/article/guatemala-testimony-reparations-arevalo-7a71efb417d0ab9360d20a02641a385f"
+    }
+  ]
 }

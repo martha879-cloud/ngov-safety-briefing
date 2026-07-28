@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-28 07:28",
+  "updated": "2026-07-28 07:44",
   "issues": [
     {
       "id": "statedept-indonesia-2026-07-07",
@@ -26,19 +26,6 @@
       "published_at": "2026-06-24",
       "source": "US State Dept",
       "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/vietnam-travel-advisory.html"
-    },
-    {
-      "id": "statedept-uganda-2026-06-04",
-      "country": "우간다",
-      "category": "health",
-      "severity": "critical",
-      "title": "Uganda - Level 4: Do Not Travel",
-      "summary": "Do not travel to Uganda due to crime , health , terrorism , and unrest . Please read the full text of the advisory. Travel restrictions for government employees The U.S. government has limited ability to provide emergency consular services to U.S. citizens in Uganda due to the Ebola outbreak. Health",
-      "volunteer_impact": "미국 국무부가 여행금지(4단계)로 지정한 국가입니다. 활동 지속 여부를 즉시 재검토해야 합니다.",
-      "recommended_action": "현지 협력기관 및 담당자와 상황을 공유하고, 미국 국무부 권고 사항을 함께 검토하세요.",
-      "published_at": "2026-06-04",
-      "source": "US State Dept",
-      "source_url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.uga.html"
     },
     {
       "id": "statedept-timor-leste-2026-05-21",
@@ -117,6 +104,19 @@
       "published_at": "2026-01-20",
       "source": "US State Dept",
       "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/bangladesh-travel-advisory.html"
+    },
+    {
+      "id": "statedept-uganda-2025-12-08",
+      "country": "우간다",
+      "category": "security",
+      "severity": "critical",
+      "title": "Uganda - Level 4: Do Not Travel",
+      "summary": "There was no change to the advisory level or indicators. Advisory summary was updated. Advisory Summary Crime Violent crime is a real danger in Uganda. &nbsp; This includes armed robbery, home invasion, and sexual assault. Crime can happen anytime. It is more common in larger cities, the Karamoja re",
+      "volunteer_impact": "미국 국무부가 여행금지(4단계)로 지정한 국가입니다. 활동 지속 여부를 즉시 재검토해야 합니다.",
+      "recommended_action": "현지 협력기관 및 담당자와 상황을 공유하고, 미국 국무부 권고 사항을 함께 검토하세요.",
+      "published_at": "2025-12-08",
+      "source": "US State Dept",
+      "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/uganda-travel-advisory.html"
     },
     {
       "id": "statedept-tanzania-2025-10-31",
