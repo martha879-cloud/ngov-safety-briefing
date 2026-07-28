@@ -1,8 +1,34 @@
 {
-  "updated": "2026-07-28 02:27",
+  "updated": "2026-07-28 06:33",
   "issues": [
     {
       "id": "news-003",
+      "country": "방글라데시",
+      "category": "conflict",
+      "severity": "medium",
+      "title": "Why India's Gen Z protest movement differs from Nepal, Bangladesh and Sri Lanka",
+      "summary": "India's Gen Z-led CJP movement differs from youth uprisings in Nepal, Bangladesh and Sri Lanka, where anti-establishment protests reshaped politics but delivered limited governance reforms and anti-corruption gains.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-07-27",
+      "source": "The Economic Times",
+      "source_url": "https://economictimes.indiatimes.com/opinion/et-commentary/why-indias-gen-z-protest-movement-differs-from-nepal-bangladesh-and-sri-lanka/articleshow/132667517.cms"
+    },
+    {
+      "id": "news-004",
+      "country": "방글라데시",
+      "category": "conflict",
+      "severity": "low",
+      "title": "Sheikh Hasina charged as South Asia and Canada face fresh security shocks",
+      "summary": "Bangladesh charged Sheikh Hasina over a 2013 crackdown as violence and crime cases surfaced across Nepal, Canada and Sri Lanka. The developments underscored continuing regional volatility even as officials reported cautious progress on renewed US-Iran talks.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-07-27",
+      "source": "India Today",
+      "source_url": "https://www.indiatoday.in/world/story/sheikh-hasina-charges-nepal-clash-toronto-killing-ontario-drug-bust-ptag-2957556-2026-07-27"
+    },
+    {
+      "id": "news-005",
       "country": "방글라데시",
       "category": "conflict",
       "severity": "low",
@@ -15,33 +41,20 @@
       "source_url": "https://www.tribuneindia.com/news/world/bangladesh-hindu-buddhist-christian-unity-council-releases-data-on-communal-violence-in-first-half-of-2026/"
     },
     {
-      "id": "news-004",
-      "country": "방글라데시",
+      "id": "news-006",
+      "country": "인도네시아",
       "category": "conflict",
       "severity": "low",
-      "title": "Bangladesh Hindu Buddhist Christian Unity Council releases data on communal violence in first half of 2026",
-      "summary": "The Bangladesh Hindu Buddhist Christian Unity Council on Monday released data on communal violence in the country for the first six months of 2026, stating that the overall pattern of violence remained largely similar to that witnessed over the 12 months of 2025.",
+      "title": "Rupee outperforms emerging market peers since March as RBI measures cushion war shocks",
+      "summary": "The rupee strengthened against the dollar by approximately 61 paise on July 27, compared to its previous closing level to settle at 95.92, following the halt in hostilities between the US and Iran sending crude oil prices lower. While the rupee has lost 5.1 per cent against the dollar between February 27 and July 27 when the West Asia conflict kept crude oil prices volatile, it still outperformed several emerging market peers. Indonesia’s rupiah declined 6.9 per cent, the Philippine peso 6.5 per cent and Thailand’s baht 7.4 per cent against the rupee over the same period",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
       "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
       "published_at": "2026-07-27",
-      "source": "ANI (Asian News International)",
-      "source_url": "https://www.aninews.in/news/world/asia/bangladesh-hindu-buddhist-christian-unity-council-releases-data-on-communal-violence-in-first-half-of-202620260727174432/"
+      "source": "The Hindu Business Line",
+      "source_url": "https://www.thehindubusinessline.com/data-stories/data-focus/rupee-outperforms-emerging-market-peers-since-march-as-rbi-measures-cushion-war-shocks/article71273338.ece"
     },
     {
-      "id": "news-005",
-      "country": "방글라데시",
-      "category": "conflict",
-      "severity": "high",
-      "title": "Chief selector Bashar explains rationale behind Soumya Sarkar's Test call-up",
-      "summary": "Bangladesh chief selector Habibul Bashar revealed Soumya Sarkar's recall was motivated by his ability to tackle Australia's formidable pace attack better than others.",
-      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
-      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
-      "published_at": "2026-07-27",
-      "source": "NewsBytes",
-      "source_url": "https://www.newsbytesapp.com/news/sports/soumya-sarkar-s-return-driven-by-australia-s-pace-challenge-habibul-bashar/story"
-    },
-    {
-      "id": "news-006",
+      "id": "news-007",
       "country": "인도네시아",
       "category": "conflict",
       "severity": "medium",
@@ -80,7 +93,7 @@
       "source_url": "https://apnews.com/article/guatemala-testimony-reparations-arevalo-7a71efb417d0ab9360d20a02641a385f"
     },
     {
-      "id": "news-007",
+      "id": "news-008",
       "country": "인도네시아",
       "category": "natural_disaster",
       "severity": "low",
@@ -91,19 +104,6 @@
       "published_at": "2026-07-22",
       "source": "Republic World",
       "source_url": "https://www.republicworld.com/world-news/indonesia-earthquake-51-magnitude-tremors-rock-northern-sumatra-and-phuket-no-tsunami-risk-2026-07-22-133138"
-    },
-    {
-      "id": "news-008",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "Magnitude-5.1 Sumatra earthquake felt across parts of Phuket",
-      "summary": "BANGKOK: A magnitude-5.1 earthquake struck northern Sumatra, Indonesia, on Wednesday (July 22), at a depth of 10km, about 381km southwest of Mueang Satun district in Satun province.",
-      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
-      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-07-22",
-      "source": "The Star",
-      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/07/22/magnitude-51-sumatra-earthquake-felt-across-parts-of-phuket"
     },
     {
       "id": "news-009",
