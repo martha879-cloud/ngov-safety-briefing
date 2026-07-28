@@ -508,6 +508,9 @@ function createCountryCard(
 
     issues = issues || [];
 
+    const searchUrl = "https://www.google.com/search?q=" +
+        encodeURIComponent(country.name + " 외교부 해외안전여행");
+
     let issuesHtml = "";
 
     if (issues.length > 0) {
@@ -629,6 +632,15 @@ function createCountryCard(
 
                     </small>
 
+                </div>
+
+                <div class="mt-2">
+                    <a href="${searchUrl}"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="small text-primary">
+                        외교부 안전정보 보기 →
+                    </a>
                 </div>
 
                 ${issuesHtml}
