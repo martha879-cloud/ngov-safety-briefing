@@ -52,4 +52,4 @@ jobs:
           else
             git commit -m "chore: update safety data"
             git push
-          fi
+      
