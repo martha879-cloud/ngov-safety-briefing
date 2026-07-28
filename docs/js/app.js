@@ -33,11 +33,11 @@ async function loadDashboard() {
 
         console.error("countries.json 로드 실패:", err);
 
-        const briefingBox = document.getElementById("briefing");
+        const changesBox = document.getElementById("todayChanges");
 
-        if (briefingBox) {
+        if (changesBox) {
 
-            briefingBox.innerHTML = `
+            changesBox.innerHTML = `
                 <div class="text-danger">
                     데이터를 불러오지 못했습니다.
                 </div>
@@ -54,11 +54,6 @@ async function loadDashboard() {
     // 나머지 데이터는 선택적(optional).
     // 하나가 실패해도 나머지는 정상적으로 표시되어야 한다.
     // -----------------------------------------
-    const briefing = await safeFetchJson(
-        "data/briefing.json",
-        { summary: [] }
-    );
-
     const report = await safeFetchJson(
         "data/daily_report.json",
         { date: "", changes: [] }
@@ -129,8 +124,18 @@ async function loadDashboard() {
 
     const allIssues = [...safetyIssues, ...newsIssues, ...disasterIssues, ...stateDeptIssues, ...whoIssues];
 
-    // 최신 날짜 순 정렬
+    // 국가별로 이슈를 묶어서 국가 카드 안에 같이 보여줄 수 있게 준비.
+    // 심각도 우선, 그 다음 최신순으로 정렬 후 국가당 최대 3개만 사용.
+    const SEVERITY_RANK = { critical: 4, high: 3, medium: 2, low: 1 };
+
     allIssues.sort((a, b) => {
+
+        const rankA = SEVERITY_RANK[a.severity] || 0;
+        const rankB = SEVERITY_RANK[b.severity] || 0;
+
+        if (rankA !== rankB) {
+            return rankB - rankA;
+        }
 
         const dateA = new Date(a.published_at || "1900-01-01");
         const dateB = new Date(b.published_at || "1900-01-01");
@@ -139,32 +144,29 @@ async function loadDashboard() {
 
     });
 
+    const issuesByCountry = {};
+
+    allIssues.forEach(issue => {
+
+        if (!issuesByCountry[issue.country]) {
+            issuesByCountry[issue.country] = [];
+        }
+
+        if (issuesByCountry[issue.country].length < 3) {
+            issuesByCountry[issue.country].push(issue);
+        }
+
+    });
+
 
     // -----------------------------------------
     // 각 렌더링 단계도 서로 독립적으로 실패하도록 분리.
-    // 예: 지도 렌더링이 실패해도 국가 카드/브리핑은 정상 표시됨.
     // -----------------------------------------
-
-    try {
-        renderRecentIssues(allIssues);
-    } catch (err) {
-        console.error("안전 이슈 렌더링 실패:", err);
-    }
 
     try {
         renderSummary(countries);
     } catch (err) {
         console.error("KPI 렌더링 실패:", err);
-    }
-
-    try {
-        renderBriefing(briefing);
-    } catch (err) {
-        console.error("브리핑 렌더링 실패:", err);
-        const briefingBox = document.getElementById("briefing");
-        if (briefingBox) {
-            briefingBox.innerHTML = "<div class='text-muted'>브리핑 데이터 없음</div>";
-        }
     }
 
     try {
@@ -174,16 +176,9 @@ async function loadDashboard() {
     }
 
     try {
-        renderCountries(countries);
+        renderCountries(countries, issuesByCountry);
     } catch (err) {
         console.error("국가 카드 렌더링 실패:", err);
-    }
-
-    try {
-        const map = initMap();
-        renderMapCountries(map, countries);
-    } catch (err) {
-        console.error("지도 렌더링 실패:", err);
     }
 
     console.log("Dashboard loaded");
@@ -293,76 +288,6 @@ function renderSummary(
 
 
 // =========================================
-// Today Briefing
-// =========================================
-
-function renderBriefing(
-    data
-) {
-
-    const box =
-        document.getElementById(
-            "briefing"
-        );
-
-
-    if (!box) {
-
-        return;
-
-    }
-
-
-    const summary =
-        data.summary || [];
-
-
-    if (
-        summary.length === 0
-    ) {
-
-        box.innerHTML = `
-
-            <div class="text-muted">
-
-                오늘의 안전 브리핑이
-                없습니다.
-
-            </div>
-
-        `;
-
-        return;
-
-    }
-
-
-    let html = "";
-
-
-    summary.forEach(
-        text => {
-
-            html += `
-
-                <div class="mb-2">
-
-                    ✅ ${text}
-
-                </div>
-
-            `;
-
-        }
-    );
-
-
-    box.innerHTML = html;
-
-}
-
-
-// =========================================
 // Today Changes
 // =========================================
 
@@ -461,449 +386,15 @@ function renderTodayChanges(
 
 
 // =========================================
-// Recent News Safety Issues
-// =========================================
-
-function renderNewsIssues(
-    data
-) {
-
-    const box =
-        document.getElementById(
-            "recentIssues"
-        );
-
-
-    if (!box) {
-
-        return;
-
-    }
-
-
-    const issues =
-        Array.isArray(
-            data.issues
-        )
-        ? data.issues
-        : [];
-
-
-    if (
-        issues.length === 0
-    ) {
-
-        box.innerHTML = `
-
-            <div class="alert alert-success mb-0">
-
-                현재 등록된 주요 안전 이슈가
-                없습니다.
-
-            </div>
-
-        `;
-
-        return;
-
-    }
-
-
-    // 최신 날짜 순 정렬
-    const sortedIssues =
-        [...issues].sort(
-            (a, b) => {
-
-                const dateA =
-                    new Date(
-                        a.published_at
-                        || "1900-01-01"
-                    );
-
-                const dateB =
-                    new Date(
-                        b.published_at
-                        || "1900-01-01"
-                    );
-
-                return (
-                    dateB - dateA
-                );
-
-            }
-        );
-
-
-    // 최대 10개 표시
-    const recentIssues =
-        sortedIssues.slice(
-            0,
-            10
-        );
-
-
-    let html = `
-
-        <div class="row g-3">
-
-    `;
-
-
-    recentIssues.forEach(
-        issue => {
-
-            const severity =
-                issue.severity
-                || "low";
-
-
-            html += `
-
-                <div class="
-                    col-lg-6
-                    col-xl-4
-                ">
-
-                    <div class="
-                        card
-                        h-100
-                        shadow-sm
-                        border-${getSeverityBorder(
-                            severity
-                        )}
-                    ">
-
-                        <div class="
-                            card-body
-                        ">
-
-                            <div class="
-                                d-flex
-                                justify-content-between
-                                align-items-start
-                                gap-2
-                                mb-2
-                            ">
-
-                                <strong>
-
-                                    ${getSeverityIcon(
-                                        severity
-                                    )}
-
-                                    ${issue.country
-                                    || "국가 정보 없음"}
-
-                                </strong>
-
-                                <span class="
-                                    badge
-                                    ${getSeverityBadge(
-                                        severity
-                                    )}
-                                ">
-
-                                    ${getSeverityText(
-                                        severity
-                                    )}
-
-                                </span>
-
-                            </div>
-
-
-                            <h6 class="
-                                fw-bold
-                            ">
-
-                                ${issue.title
-                                || "안전 이슈"}
-
-                            </h6>
-
-
-                            <p class="
-                                text-muted
-                                small
-                            ">
-
-                                ${issue.summary
-                                || "상세 내용이 없습니다."}
-
-                            </p>
-
-
-                            <div class="
-                                small
-                                mb-2
-                            ">
-
-                                <strong>
-
-                                    봉사단 영향
-
-                                </strong>
-
-                                <br>
-
-                                ${issue.volunteer_impact
-                                || "현지 상황 확인 필요"}
-
-                            </div>
-
-
-                            <div class="
-                                small
-                                mb-3
-                            ">
-
-                                <strong>
-
-                                    권장 조치
-
-                                </strong>
-
-                                <br>
-
-                                ${issue.recommended_action
-                                || "최신 상황을 확인하세요."}
-
-                            </div>
-
-
-                            <div class="
-                                d-flex
-                                justify-content-between
-                                align-items-end
-                                gap-2
-                            ">
-
-                                <small class="
-                                    text-muted
-                                ">
-
-                                    ${issue.source
-                                    || "뉴스"}
-
-                                    <br>
-
-                                    ${issue.published_at
-                                    || ""}
-
-                                </small>
-
-
-                                ${createSourceButton(
-                                    issue.source_url
-                                )}
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            `;
-
-        }
-    );
-
-
-    html += `
-
-        </div>
-
-    `;
-
-
-    box.innerHTML = html;
-
-}
-
-
-// =========================================
-// Source Button
-// =========================================
-
-function createSourceButton(
-    sourceUrl
-) {
-
-    if (
-        !sourceUrl
-    ) {
-
-        return "";
-
-    }
-
-
-    return `
-
-        <a
-            href="${sourceUrl}"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="
-                btn
-                btn-sm
-                btn-outline-primary
-            "
-        >
-
-            원문 보기
-
-        </a>
-
-    `;
-
-}
-
-
-// =========================================
-// Severity Helpers
-// =========================================
-
-function getSeverityBorder(
-    severity
-) {
-
-    switch (
-        severity
-    ) {
-
-        case "critical":
-
-            return "danger";
-
-
-        case "high":
-
-            return "warning";
-
-
-        case "medium":
-
-            return "primary";
-
-
-        default:
-
-            return "success";
-
-    }
-
-}
-
-
-function getSeverityBadge(
-    severity
-) {
-
-    switch (
-        severity
-    ) {
-
-        case "critical":
-
-            return "bg-danger";
-
-
-        case "high":
-
-            return (
-                "bg-warning " +
-                "text-dark"
-            );
-
-
-        case "medium":
-
-            return "bg-primary";
-
-
-        default:
-
-            return "bg-success";
-
-    }
-
-}
-
-
-function getSeverityIcon(
-    severity
-) {
-
-    switch (
-        severity
-    ) {
-
-        case "critical":
-
-            return "🔴";
-
-
-        case "high":
-
-            return "🟠";
-
-
-        case "medium":
-
-            return "🟡";
-
-
-        default:
-
-            return "🟢";
-
-    }
-
-}
-
-
-function getSeverityText(
-    severity
-) {
-
-    switch (
-        severity
-    ) {
-
-        case "critical":
-
-            return "긴급";
-
-
-        case "high":
-
-            return "높음";
-
-
-        case "medium":
-
-            return "주의";
-
-
-        default:
-
-            return "정보";
-
-    }
-
-}
-
-
-// =========================================
 // Country Cards
 // =========================================
 
 function renderCountries(
-    countries
+    countries,
+    issuesByCountry
 ) {
+
+    issuesByCountry = issuesByCountry || {};
 
     const asiaList =
         document.getElementById(
@@ -952,7 +443,8 @@ function renderCountries(
 
             const card =
                 createCountryCard(
-                    country
+                    country,
+                    issuesByCountry[country.name] || []
                 );
 
 
@@ -1010,8 +502,52 @@ function renderCountries(
 // =========================================
 
 function createCountryCard(
-    country
+    country,
+    issues
 ) {
+
+    issues = issues || [];
+
+    let issuesHtml = "";
+
+    if (issues.length > 0) {
+
+        const issueItems = issues.map(issue => {
+
+            const severity = getSeverityInfo(issue.severity);
+            const category = getCategoryInfo(issue.category);
+            const sourceBadge = getSourceBadge(issue.source);
+
+            return `
+                <div class="issue-mini-item mt-2 pt-2 border-top">
+                    <div class="mb-1">
+                        ${sourceBadge}
+                        <span class="badge ${severity.className}">
+                            ${severity.icon} ${severity.label}
+                        </span>
+                        <span class="badge bg-light text-dark border">
+                            ${category.icon} ${category.label}
+                        </span>
+                    </div>
+                    <a href="${issue.source_url || '#'}"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="small d-block">
+                        ${issue.title}
+                    </a>
+                </div>
+            `;
+
+        }).join("");
+
+        issuesHtml = `
+            <div class="mt-3">
+                <strong>관련 이슈</strong>
+                ${issueItems}
+            </div>
+        `;
+
+    }
 
     return `
 
@@ -1095,11 +631,41 @@ function createCountryCard(
 
                 </div>
 
+                ${issuesHtml}
+
             </div>
 
         </div>
 
     `;
+
+}
+
+
+// =========================================
+// Source Badge
+// =========================================
+
+function getSourceBadge(source) {
+
+    switch (source) {
+
+        case "외교부 해외안전공지":
+            return `<span class="badge bg-primary">🏛️ 외교부</span>`;
+
+        case "USGS":
+            return `<span class="badge bg-info text-dark">🌍 USGS 지진</span>`;
+
+        case "US State Dept":
+            return `<span class="badge bg-secondary">🇺🇸 미국 국무부</span>`;
+
+        case "WHO":
+            return `<span class="badge bg-success">🏥 WHO</span>`;
+
+        default:
+            return `<span class="badge bg-dark">📰 뉴스</span>`;
+
+    }
 
 }
 
@@ -1201,394 +767,9 @@ function statusBadge(
 }
 
 
-// =========================================
-// World Map
-// =========================================
-
-function initMap() {
-
-    const map = L.map(
-        "map",
-        {
-
-            worldCopyJump:
-                false,
-
-            maxBounds:
-                [
-                    [-90, -180],
-                    [90, 180]
-                ],
-
-            maxBoundsViscosity:
-                1.0
-
-        }
-    ).setView(
-        [20, 20],
-        2
-    );
-
-
-    L.tileLayer(
-        "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-        {
-
-            attribution:
-                "&copy; OpenStreetMap contributors",
-
-            noWrap:
-                true
-
-        }
-    ).addTo(
-        map
-    );
-
-
-    setTimeout(
-        () => {
-
-            map.invalidateSize();
-
-        },
-        300
-    );
-
-
-    return map;
-
-}
-
-
-// =========================================
-// Map Country Markers
-// =========================================
-
-function renderMapCountries(
-    map,
-    countries
-) {
-
-    countries.forEach(
-        country => {
-
-            if (
-                country.lat == null
-                || country.lng == null
-            ) {
-
-                return;
-
-            }
-
-
-            let color =
-                "green";
-
-
-            switch (
-                country.status
-            ) {
-
-                case "yellow":
-
-                    color =
-                        "orange";
-
-                    break;
-
-
-                case "orange":
-
-                    color =
-                        "darkorange";
-
-                    break;
-
-
-                case "red":
-
-                    color =
-                        "red";
-
-                    break;
-
-            }
-
-
-            L.circleMarker(
-                [
-                    country.lat,
-                    country.lng
-                ],
-                {
-
-                    radius:
-                        8,
-
-                    color:
-                        color,
-
-                    fillColor:
-                        color,
-
-                    fillOpacity:
-                        0.8
-
-                }
-            )
-            .addTo(
-                map
-            )
-            .bindPopup(
-                `
-
-                    <strong>
-
-                        ${country.flag
-                        || "🌍"}
-
-                        ${country.name}
-
-                    </strong>
-
-                    <br>
-
-                    ${country.issue
-                    || "특이사항 없음"}
-
-                `
-            );
-
-        }
-    );
-
-}
-
-
 console.log(
     "KOICA-NGO Dashboard loaded"
 );
-
-// ==========================================
-// 최근 주요 안전 이슈
-// ==========================================
-
-function renderRecentIssues(issues) {
-
-    const container =
-        document.getElementById("recentIssues");
-
-    if (!container) {
-        return;
-    }
-
-    if (!issues || issues.length === 0) {
-
-        container.innerHTML = `
-            <div class="text-success">
-                현재 등록된 주요 안전 이슈가 없습니다.
-            </div>
-        `;
-
-        return;
-    }
-
-    // 심각도 우선, 그 다음 최신 날짜 순으로 정렬.
-    // (지진처럼 자주 발생하는 이슈가 우간다 에볼라 4단계 경보 같은
-    //  더 중요한 정보를 밀어내지 않도록 심각도를 먼저 본다)
-    const SEVERITY_RANK = { critical: 4, high: 3, medium: 2, low: 1 };
-
-    const sortedIssues = [...issues].sort(
-        (a, b) => {
-
-            const rankA = SEVERITY_RANK[a.severity] || 0;
-            const rankB = SEVERITY_RANK[b.severity] || 0;
-
-            if (rankA !== rankB) {
-                return rankB - rankA;
-            }
-
-            const dateA =
-                new Date(a.published_at);
-
-            const dateB =
-                new Date(b.published_at);
-
-            return dateB - dateA;
-        }
-    );
-
-    let html = "";
-
-    sortedIssues
-        .slice(0, 10)
-        .forEach(issue => {
-
-            const severity = getSeverityInfo(
-                issue.severity
-            );
-
-            const category = getCategoryInfo(
-                issue.category
-            );
-
-            const sourceBadge =
-                issue.source ===
-                "외교부 해외안전공지"
-                    ? `
-                    <span class="badge bg-primary">
-                        🏛️ 외교부
-                    </span>
-                    `
-                    : issue.source === "USGS"
-                    ? `
-                    <span class="badge bg-info text-dark">
-                        🌍 USGS 지진
-                    </span>
-                    `
-                    : issue.source === "US State Dept"
-                    ? `
-                    <span class="badge bg-secondary">
-                        🇺🇸 미국 국무부
-                    </span>
-                    `
-                    : issue.source === "WHO"
-                    ? `
-                    <span class="badge bg-success">
-                        🏥 WHO
-                    </span>
-                    `
-                    : `
-                    <span class="badge bg-dark">
-                        📰 뉴스
-                    </span>
-                    `;
-
-            const sourceLink =
-                issue.source_url
-                    ? `
-                    <a
-                        href="${issue.source_url}"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="btn btn-sm btn-outline-secondary mt-2"
-                    >
-                        원문 보기
-                    </a>
-                    `
-                    : "";
-
-            html += `
-
-                <div class="
-                    border
-                    rounded
-                    p-3
-                    mb-3
-                    bg-white
-                ">
-
-                    <div class="
-                        d-flex
-                        justify-content-between
-                        align-items-start
-                        flex-wrap
-                        gap-2
-                    ">
-
-                        <div>
-
-                            <strong>
-                                ${issue.country}
-                            </strong>
-
-                            ${sourceBadge}
-
-                            <span
-                                class="
-                                    badge
-                                    ${severity.className}
-                                "
-                            >
-                                ${severity.icon}
-                                ${severity.label}
-                            </span>
-
-                            <span class="
-                                badge
-                                bg-light
-                                text-dark
-                                border
-                            ">
-                                ${category.icon}
-                                ${category.label}
-                            </span>
-
-                        </div>
-
-                        <small class="
-                            text-muted
-                        ">
-                            ${issue.published_at || ""}
-                        </small>
-
-                    </div>
-
-                    <h5 class="mt-3">
-
-                        ${issue.title}
-
-                    </h5>
-
-                    <p class="
-                        mb-2
-                        text-secondary
-                    ">
-
-                        ${issue.summary || ""}
-
-                    </p>
-
-                    <div class="
-                        alert
-                        alert-light
-                        mb-2
-                    ">
-
-                        <strong>
-                            봉사단 영향:
-                        </strong>
-
-                        ${issue.volunteer_impact || ""}
-
-                    </div>
-
-                    <div class="
-                        alert
-                        alert-warning
-                        mb-2
-                    ">
-
-                        <strong>
-                            권장 조치:
-                        </strong>
-
-                        ${issue.recommended_action || ""}
-
-                    </div>
-
-                    ${sourceLink}
-
-                </div>
-
-            `;
-        });
-
-    container.innerHTML = html;
-}
-
 
 // ==========================================
 // 위험도 표시
