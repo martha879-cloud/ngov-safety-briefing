@@ -37,6 +37,11 @@ jobs:
       - name: Update MOFA safety issues
         run: |
           python scripts/update_safety_issues.py
+      
+      - name: Update news safety issues
+        env:
+          GNEWS_API_KEY: ${{ secrets.GNEWS_API_KEY }}
+        run: python scripts/update_news_issues.py
 
       - name: Commit and push updated data
         run: |
