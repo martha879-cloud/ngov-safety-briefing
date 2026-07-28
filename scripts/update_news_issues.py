@@ -427,7 +427,7 @@ for korean_name, english_name in (
             )
         )
 
-    combined_text = (
+        combined_text = (
             f"{title} {description}"
         ).lower()
 
