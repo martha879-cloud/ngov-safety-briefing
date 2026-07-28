@@ -274,20 +274,68 @@ headers = {
 }
 
 
-response = requests.get(
-    SAFETY_NOTICE_URL,
-    headers=headers,
-    timeout=30
-)
+# ==========================================
+# 외교부 사이트 접속
+# 재시도 및 연결 실패 처리
+# ==========================================
 
+response = None
 
-print(
-    "HTTP Status:",
-    response.status_code
-)
+for attempt in range(1, 4):
 
+    try:
 
-response.raise_for_status()
+        print(
+            f"외교부 사이트 접속 시도: "
+            f"{attempt}/3"
+        )
+
+        response = requests.get(
+            SAFETY_NOTICE_URL,
+            headers=headers,
+            timeout=60
+        )
+
+        print(
+            "HTTP Status:",
+            response.status_code
+        )
+
+        response.raise_for_status()
+
+        print(
+            "외교부 사이트 접속 성공"
+        )
+
+        break
+
+    except requests.RequestException as error:
+
+        print(
+            f"접속 실패: {error}"
+        )
+
+        if attempt < 3:
+
+            print(
+                "20초 후 다시 시도합니다."
+            )
+
+            import time
+
+            time.sleep(20)
+
+        else:
+
+            print(
+                "외교부 사이트에 연결하지 못했습니다."
+            )
+
+            print(
+                "기존 안전 이슈 데이터를 유지합니다."
+            )
+
+            raise SystemExit(0)
 
 
 soup = BeautifulSoup(
