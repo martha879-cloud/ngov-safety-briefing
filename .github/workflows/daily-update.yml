@@ -54,6 +54,9 @@ jobs:
       - name: Update USGS earthquake data
         run: python scripts/update_disaster_issues.py
 
+      - name: Update US State Dept travel advisories
+        run: python scripts/update_state_dept_issues.py
+
       - name: Commit and push updated data
         run: |
           git config --global user.name "github-actions[bot]"
