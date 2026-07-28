@@ -1,0 +1,31 @@
+{
+  "updated": "2026-07-28 09:00",
+  "issues": [
+    {
+      "id": "issue-001",
+      "country": "필리핀",
+      "category": "natural_disaster",
+      "severity": "high",
+      "title": "안전 이슈 예시",
+      "summary": "자동 수집 기능 연결 전 테스트용 예시 데이터입니다.",
+      "volunteer_impact": "현지 상황 확인 필요",
+      "recommended_action": "현지 담당자에게 최신 상황을 확인하세요.",
+      "published_at": "2026-07-28",
+      "source": "테스트 데이터",
+      "source_url": ""
+    },
+    {
+      "id": "issue-002",
+      "country": "케냐",
+      "category": "security",
+      "severity": "medium",
+      "title": "현지 안전 상황 모니터링",
+      "summary": "자동 수집 기능 연결 전 화면 확인용 예시입니다.",
+      "volunteer_impact": "이동 및 현장 활동 전 상황 확인 권장",
+      "recommended_action": "현지 파트너와 활동 지역 상황을 확인하세요.",
+      "published_at": "2026-07-27",
+      "source": "테스트 데이터",
+      "source_url": ""
+    }
+  ]
+}
