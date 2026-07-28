@@ -91,19 +91,46 @@ async function loadDashboard() {
         }
 
 
-        // 외교부 안전공지 + 뉴스 이슈 통합
-        const allIssues = [
+// ==========================================
+// 외교부 안전공지 + 뉴스 이슈 통합
+// ==========================================
 
-            ...(
-                safetyIssuesData.issues || []
-            ),
+const safetyIssues = Array.isArray(
+    safetyIssuesData.issues
+)
+    ? safetyIssuesData.issues
+    : [];
 
-            ...(
-                newsIssuesData.issues || []
-            )
+const newsIssues = Array.isArray(
+    newsIssuesData.issues
+)
+    ? newsIssuesData.issues
+    : [];
 
-        ];
+console.log(
+    "외교부 안전공지:",
+    safetyIssues
+);
 
+console.log(
+    "뉴스 안전 이슈:",
+    newsIssues
+);
+
+const allIssues = [
+    ...safetyIssues,
+    ...newsIssues
+];
+
+console.log(
+    "통합 안전 이슈:",
+    allIssues
+);
+
+// 최근 주요 안전 이슈 화면 표시
+renderRecentIssues(
+    allIssues
+);
 
         // 최근 주요 안전 이슈 표시
         renderRecentIssues(
