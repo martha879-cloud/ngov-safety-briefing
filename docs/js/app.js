@@ -77,17 +77,6 @@ async function loadDashboard() {
             await newsIssuesRes.json();
 
 
-        const allIssues = [
-    ...(safetyIssuesData.issues || []),
-    ...(newsIssuesData.issues || [])
-];
-
-allIssues.sort((a, b) => {
-    return new Date(b.published_at) - new Date(a.published_at);
-});
-
-renderRecentIssues(allIssues);
-
 
         // 마지막 업데이트
         const lastUpdate =
@@ -101,8 +90,6 @@ renderRecentIssues(allIssues);
                 update.updated || "정보 없음";
 
         }
-
-
 // ==========================================
 // 외교부 안전공지 + 뉴스 이슈 통합
 // ==========================================
@@ -119,30 +106,28 @@ const newsIssues = Array.isArray(
     ? newsIssuesData.issues
     : [];
 
-console.log(
-    "외교부 안전공지:",
-    safetyIssues
-);
-
-console.log(
-    "뉴스 안전 이슈:",
-    newsIssues
-);
-
 const allIssues = [
     ...safetyIssues,
     ...newsIssues
 ];
 
-console.log(
-    "통합 안전 이슈:",
-    allIssues
-);
+// 최신 날짜 순 정렬
+allIssues.sort((a, b) => {
 
-// 최근 주요 안전 이슈 화면 표시
-renderRecentIssues(
-    allIssues
-);
+    const dateA = new Date(
+        a.published_at || "1900-01-01"
+    );
+
+    const dateB = new Date(
+        b.published_at || "1900-01-01"
+    );
+
+    return dateB - dateA;
+
+});
+
+// 최근 주요 안전 이슈 표시
+renderRecentIssues(allIssues);
 
         // 최근 주요 안전 이슈 표시
         renderRecentIssues(
@@ -1706,119 +1691,4 @@ function getCategoryInfo(category) {
 
     }
 
-}
-
-function renderRecentIssues(issues) {
-
-    const box = document.getElementById("recentIssues");
-
-    if (!box) {
-        console.error(
-            "recentIssues 영역을 찾을 수 없습니다."
-        );
-        return;
-    }
-
-    if (!issues || issues.length === 0) {
-
-        box.innerHTML = `
-            <div class="text-muted">
-                현재 표시할 주요 안전 이슈가 없습니다.
-            </div>
-        `;
-
-        return;
-    }
-
-    let html = `<div class="row g-3">`;
-
-    issues.forEach(issue => {
-
-        const sourceLink = issue.source_url
-            ? `
-                <a
-                    href="${issue.source_url}"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="btn btn-sm btn-outline-primary mt-2"
-                >
-                    원문 보기
-                </a>
-            `
-            : "";
-
-        html += `
-
-            <div class="col-lg-6">
-
-                <div class="card h-100 border-start border-4 border-danger">
-
-                    <div class="card-body">
-
-                        <div class="d-flex justify-content-between">
-
-                            <strong>
-                                🌍 ${issue.country}
-                            </strong>
-
-                            <small class="text-muted">
-                                ${issue.published_at || ""}
-                            </small>
-
-                        </div>
-
-                        <h6 class="mt-2">
-                            ${issue.title}
-                        </h6>
-
-                        <p class="mb-2">
-                            ${issue.summary || ""}
-                        </p>
-
-                        <div class="small">
-
-                            <strong>
-                                봉사단 영향:
-                            </strong>
-
-                            ${issue.volunteer_impact || ""}
-
-                        </div>
-
-                        <div class="small mt-1">
-
-                            <strong>
-                                권고 조치:
-                            </strong>
-
-                            ${issue.recommended_action || ""}
-
-                        </div>
-
-                        <div class="mt-2">
-
-                            <small class="text-muted">
-
-                                출처:
-                                ${issue.source || "정보 없음"}
-
-                            </small>
-
-                        </div>
-
-                        ${sourceLink}
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        `;
-
-    });
-
-    html += `</div>`;
-
-    box.innerHTML = html;
 }
