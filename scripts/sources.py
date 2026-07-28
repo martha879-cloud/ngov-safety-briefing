@@ -21,7 +21,7 @@ def fetch_json(url):
     return r.json()
 USGS_URL = (
     "https://earthquake.usgs.gov/earthquakes/feed/v1.0/"
-    "summary/all_day.geojson"
+    "summary/4.5_week.geojson"
 )
 
 
