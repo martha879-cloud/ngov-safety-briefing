@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29 18:30",
+  "updated": "2026-07-29 18:37",
   "issues": [
     {
       "id": "newsdata-001",
@@ -33,6 +33,20 @@
       "id": "newsdata-003",
       "country": "이집트",
       "category": "conflict",
+      "severity": "low",
+      "title": "트럼프, 이란 분쟁 이후 경제 급증 확인",
+      "title_en": "Trump Sees Economic Surge After Iran Conflict",
+      "summary": "(MENAFN - IANS) Washington, July 29 (IANS) US President Donald Trump has predicted that the American economy will accelerate once the conflict involving Iran is resolved, arguing that his ...",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-07-28",
+      "source": "Menafn",
+      "source_url": "https://menafn.com/1111458390/Trump-Sees-Economic-Surge-After-Iran-Conflict"
+    },
+    {
+      "id": "newsdata-004",
+      "country": "이집트",
+      "category": "conflict",
       "severity": "high",
       "title": "우크라이나,이란 외무부 장관, 선박 공격 후 전화 통화",
       "title_en": "Heads Of Ukrainian, Iranian Foreign Ministries Hold Phone Call After Vessel Attack",
@@ -44,7 +58,7 @@
       "source_url": "https://menafn.com/1111458384/Heads-Of-Ukrainian-Iranian-Foreign-Ministries-Hold-Phone-Call-After-Vessel-Attack"
     },
     {
-      "id": "newsdata-004",
+      "id": "newsdata-005",
       "country": "탄자니아",
       "category": "transport",
       "severity": "low",
@@ -56,6 +70,20 @@
       "published_at": "2026-07-28",
       "source": "Allafrica Tanzania",
       "source_url": "https://allafrica.com/stories/202607280583.html"
+    },
+    {
+      "id": "newsdata-006",
+      "country": "과테말라",
+      "category": "conflict",
+      "severity": "low",
+      "title": "LPR은 Goodlettsville 형사가 주차장 강도 총격 사건에서 차량과 용의자를 식별하도록 돕습니다.",
+      "title_en": "LPR Helps Goodlettsville Detectives Identify Vehicle And Suspect In Parking Lot Robbery Shooting",
+      "summary": "(MENAFN - GlobeNewsWire - Nasdaq) GOODLETTSVILLE, Tenn., July 28, 2026 (GLOBE NEWSWIRE) -- A man arrived at a Goodlettsville hospital emergency room with a gunshot wound to his leg on April 17, ...",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-07-28",
+      "source": "Menafn",
+      "source_url": "https://menafn.com/1111458392/LPR-Helps-Goodlettsville-Detectives-Identify-Vehicle-And-Suspect-In-Parking-Lot-Robbery-Shooting"
     }
   ]
 }
