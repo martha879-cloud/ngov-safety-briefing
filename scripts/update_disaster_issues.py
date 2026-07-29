@@ -13,6 +13,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from config import COUNTRIES
+from time_util import kst_now
 from sources import get_usgs
 
 
@@ -158,7 +159,7 @@ def main():
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
 
     output = {
-        "updated": datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "updated": kst_now().strftime("%Y-%m-%d %H:%M"),
         "issues": issues,
     }
 
