@@ -168,9 +168,9 @@ def build_issues():
             if not title or not link:
                 continue
 
-            # 제목에 국가명이 없으면 제외 (publisher 국적 기준이라 본문이 다른 나라 얘기일 수 있음)
-            if country["name_en"].lower() not in title_lower:
-                continue
+            # NewsData.io는 country 파라미터로 이미 그 나라 현지 언론사 기사를 주기 때문에
+            # (GNews처럼 해외 언론이 "케냐에서~"라고 쓰는 것과 다르게, 케냐 현지 신문은
+            #  제목에 굳이 "케냐"라고 안 씀), 제목에 국가명이 있어야 한다는 조건은 걸지 않는다.
 
             # 제목에서만 안전 키워드 판단
             if not any(k in title_lower for k in SAFETY_KEYWORDS):
