@@ -17,6 +17,7 @@ import requests
 from bs4 import BeautifulSoup
 
 from config import COUNTRIES
+from time_util import kst_now
 from translate_util import translate_to_korean
 
 
@@ -60,18 +61,18 @@ def parse_date(date_text):
     match = re.match(r"(\d{1,2})\s+(\w+)\s+(\d{4})", date_text)
 
     if not match:
-        return datetime.now().strftime("%Y-%m-%d")
+        return kst_now().strftime("%Y-%m-%d")
 
     day, month_name, year = match.groups()
     month = MONTHS.get(month_name.lower())
 
     if not month:
-        return datetime.now().strftime("%Y-%m-%d")
+        return kst_now().strftime("%Y-%m-%d")
 
     try:
         return datetime(int(year), month, int(day)).strftime("%Y-%m-%d")
     except ValueError:
-        return datetime.now().strftime("%Y-%m-%d")
+        return kst_now().strftime("%Y-%m-%d")
 
 
 def get_volunteer_impact(title):
@@ -136,7 +137,7 @@ def build_issues():
 
     # WHO DON 페이지는 수십 년치 과거 기록을 통째로 보여주기 때문에,
     # 최근 것만 남기지 않으면 1990년대 기록까지 다 섞여 나온다.
-    cutoff = (datetime.now() - timedelta(days=RECENCY_DAYS)).strftime("%Y-%m-%d")
+    cutoff = (kst_now() - timedelta(days=RECENCY_DAYS)).strftime("%Y-%m-%d")
 
     # (국가, 제목)이 같으면 같은 발병 상황의 반복 업데이트이므로,
     # 가장 최근 날짜의 것 하나만 남긴다.
@@ -205,7 +206,7 @@ def main():
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
 
     output = {
-        "updated": datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "updated": kst_now().strftime("%Y-%m-%d %H:%M"),
         "issues": issues,
     }
 
