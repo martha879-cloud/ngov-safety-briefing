@@ -2,12 +2,18 @@ import json
 import os
 import requests
 from datetime import datetime
+from pathlib import Path
 
 from config import COUNTRIES
 
 API_KEY = os.getenv("MOFA_API_KEY")
 
 URL = "https://apis.data.go.kr/1262000/TravelAlarmService2/getTravelAlarmList2"
+
+# 0404.go.kr 국가/지역별 정보 목록 스크래핑 결과 (scrape_mofa_country_list.py가 생성).
+# TravelAlarmService2 API가 놓치는 국가(우간다, 키르기스스탄 등)를 보완하고,
+# 특별여행주의보 여부를 알려주는 데 사용한다.
+SUPPLEMENT_FILE = Path("data/processed/mofa_country_levels.json")
 
 # 외교부 API 국가명과 우리 목록명이 다른 경우 매핑
 NAME_MAPPING = {
@@ -20,6 +26,16 @@ NAME_MAPPING = {
 COUNTRY_BY_NAME = {c["name"]: c for c in COUNTRIES}
 
 
+def load_supplement():
+    """0404.go.kr 국가 목록 스크래핑 결과를 불러온다. 없으면 빈 dict."""
+
+    if not SUPPLEMENT_FILE.exists():
+        return {}
+
+    with open(SUPPLEMENT_FILE, encoding="utf-8") as f:
+        return json.load(f)
+
+
 def default_entry(country):
     """API에서 못 찾은 국가도 이 기본값으로 항상 표시됩니다."""
     return {
@@ -30,7 +46,7 @@ def default_entry(country):
         "lat": country.get("lat"),
         "lng": country.get("lng"),
         "status": "green",
-        "issue": "특이사항 없음",
+        "issue": "여행경보 미지정",
         "source": "",
         "updated": datetime.now().strftime("%Y-%m-%d %H:%M"),
     }
@@ -56,7 +72,7 @@ def build_issue_text(level, written_dt):
     label = LEVEL_LABELS.get(level)
 
     if not label:
-        return "특이사항 없음"
+        return "여행경보 미지정"
 
     if written_dt:
         return f"외교부 여행경보: {label} (발령일 {written_dt})"
@@ -162,11 +178,51 @@ def fetch_mofa_alerts():
     return matched
 
 
+def apply_supplement(entry, country_name, supplement):
+    """0404.go.kr 국가 목록 스크래핑 결과로 API 결과를 보완한다.
+
+    1) API에서 아예 못 찾은 국가(entry["source"] == "")는 이 사이트의 단계로 대신 채운다.
+    2) 특별여행주의보가 있으면(API 결과와 무관하게) 항상 이슈 텍스트에 표시한다."""
+
+    info = supplement.get(country_name)
+
+    if not info:
+        return entry
+
+    levels = info.get("levels") or []
+    has_special = info.get("has_special", False)
+
+    # 1) API가 못 찾은 국가를 이 사이트의 단계로 보완
+    if entry["source"] == "" and levels:
+        top_level = str(max(levels))
+
+        entry["status"] = level_to_status(top_level)
+        entry["issue"] = build_issue_text(top_level, None)
+        entry["source"] = "MOFA(국가정보)"
+
+    # 2) 특별여행주의보는 API에 필드 자체가 없으므로, 있으면 항상 별도로 덧붙인다
+    if has_special:
+
+        note = "⚠ 특별여행주의보 발령 중 (0404.go.kr 확인 필요)"
+
+        if entry["source"] == "":
+            # 일반 단계 없이 특별여행주의보만 있는 경우 (예: 우간다)
+            entry["status"] = "orange"
+            entry["issue"] = note
+            entry["source"] = "MOFA(국가정보)"
+        else:
+            entry["issue"] = f"{entry['issue']} · {note}"
+
+    return entry
+
+
 def build_countries():
     """config/countries.json에 있는 20개국을 항상 전부 포함해서 반환.
-    API에서 매칭되지 않은 국가는 기본값(green/특이사항 없음)을 사용합니다."""
+    API에서 매칭되지 않은 국가는 기본값(green/여행경보 미지정)을 사용하고,
+    0404.go.kr 스크래핑 결과로 한 번 더 보완합니다."""
 
     alerts = fetch_mofa_alerts()
+    supplement = load_supplement()
 
     result = []
     for country in COUNTRIES:
@@ -175,6 +231,8 @@ def build_countries():
         alert = alerts.get(country["name"])
         if alert:
             entry.update(alert)
+
+        entry = apply_supplement(entry, country["name"], supplement)
 
         result.append(entry)
 
