@@ -10,7 +10,7 @@ WHO는 이 목록에 대한 깔끔한 공식 API를 제공하지 않아서, 페�
 
 import json
 import re
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 
 import requests
@@ -21,6 +21,10 @@ from config import COUNTRIES
 
 DON_LIST_URL = "https://www.who.int/emergencies/emergency-events/item"
 OUTPUT_FILE = Path("docs/data/who_issues.json")
+
+# WHO DON 페이지가 수십 년치 아카이브를 한 번에 보여주기 때문에,
+# 최근 이 기간(일) 이내의 발표만 "현재 유효한 이슈"로 간주한다.
+RECENCY_DAYS = 180
 
 # 국가명 매칭용 (DON 제목이 보통 "질병명 - 국가명" 형태로 끝남)
 COUNTRY_BY_NAME_EN = {c["name_en"]: c for c in COUNTRIES}
@@ -129,8 +133,13 @@ def build_issues():
 
     print(f"WHO DON 전체 항목 수: {len(raw_items)}")
 
-    issues = []
-    seen_keys = set()
+    # WHO DON 페이지는 수십 년치 과거 기록을 통째로 보여주기 때문에,
+    # 최근 것만 남기지 않으면 1990년대 기록까지 다 섞여 나온다.
+    cutoff = (datetime.now() - timedelta(days=RECENCY_DAYS)).strftime("%Y-%m-%d")
+
+    # (국가, 제목)이 같으면 같은 발병 상황의 반복 업데이트이므로,
+    # 가장 최근 날짜의 것 하나만 남긴다.
+    latest_by_key = {}
 
     for item in raw_items:
 
@@ -141,25 +150,43 @@ def build_issues():
 
         published_at = parse_date(item["date_text"])
 
-        dedup_key = (country["id"], item["title"], published_at)
-
-        if dedup_key in seen_keys:
+        if published_at < cutoff:
             continue
 
-        seen_keys.add(dedup_key)
+        dedup_key = (country["id"], item["title"])
+
+        existing = latest_by_key.get(dedup_key)
+
+        if existing and existing["published_at"] >= published_at:
+            continue
+
+        latest_by_key[dedup_key] = {
+            "country": country,
+            "title": item["title"],
+            "published_at": published_at,
+            "url": item["url"],
+        }
+
+    issues = []
+
+    for entry in latest_by_key.values():
+
+        country = entry["country"]
+        title = entry["title"]
+        published_at = entry["published_at"]
 
         issues.append({
             "id": f"who-{country['id']}-{published_at}",
             "country": country["name"],
             "category": "health",
             "severity": "medium",
-            "title": item["title"],
-            "summary": f"WHO Disease Outbreak News: {item['title']}",
-            "volunteer_impact": get_volunteer_impact(item["title"]),
+            "title": title,
+            "summary": f"WHO Disease Outbreak News: {title}",
+            "volunteer_impact": get_volunteer_impact(title),
             "recommended_action": get_recommended_action(),
             "published_at": published_at,
             "source": "WHO",
-            "source_url": item["url"],
+            "source_url": entry["url"],
         })
 
     return issues
