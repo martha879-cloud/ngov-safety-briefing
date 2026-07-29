@@ -5,6 +5,7 @@ from datetime import datetime
 from pathlib import Path
 
 from config import COUNTRIES
+from time_util import kst_now_str
 
 API_KEY = os.getenv("MOFA_API_KEY")
 
@@ -48,7 +49,7 @@ def default_entry(country):
         "status": "green",
         "issue": "여행경보 미지정",
         "source": "",
-        "updated": datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "updated": kst_now_str(),
     }
 
 
@@ -172,7 +173,7 @@ def fetch_mofa_alerts():
             "status": level_to_status(level),
             "issue": issue,
             "source": "MOFA",
-            "updated": datetime.now().strftime("%Y-%m-%d %H:%M"),
+            "updated": kst_now_str(),
         }
 
     return matched
