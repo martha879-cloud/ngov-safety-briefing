@@ -1,1 +1,174 @@
-{}
+{
+  "과테말라": {
+    "id": "7",
+    "levels": [
+      2
+    ],
+    "has_special": false,
+    "detail_url": "https://0404.go.kr/ntnSafetyInfo/7/detail"
+  },
+  "도미니카공화국": {
+    "id": "33",
+    "levels": [
+      2
+    ],
+    "has_special": false,
+    "detail_url": "https://0404.go.kr/ntnSafetyInfo/33/detail"
+  },
+  "동티모르": {
+    "id": "304",
+    "levels": [
+      1
+    ],
+    "has_special": false,
+    "detail_url": "https://0404.go.kr/ntnSafetyInfo/304/detail"
+  },
+  "라오스": {
+    "id": "36",
+    "levels": [
+      1,
+      4
+    ],
+    "has_special": false,
+    "detail_url": "https://0404.go.kr/ntnSafetyInfo/36/detail"
+  },
+  "르완다": {
+    "id": "45",
+    "levels": [
+      2,
+      3
+    ],
+    "has_special": false,
+    "detail_url": "https://0404.go.kr/ntnSafetyInfo/45/detail"
+  },
+  "말라위": {
+    "id": "55",
+    "levels": [
+      1
+    ],
+    "has_special": false,
+    "detail_url": "https://0404.go.kr/ntnSafetyInfo/55/detail"
+  },
+  "모로코": {
+    "id": "60",
+    "levels": [
+      1,
+      2,
+      3
+    ],
+    "has_special": false,
+    "detail_url": "https://0404.go.kr/ntnSafetyInfo/60/detail"
+  },
+  "몽골": {
+    "id": "68",
+    "levels": [
+      1
+    ],
+    "has_special": false,
+    "detail_url": "https://0404.go.kr/ntnSafetyInfo/68/detail"
+  },
+  "방글라데시": {
+    "id": "82",
+    "levels": [
+      2,
+      3
+    ],
+    "has_special": false,
+    "detail_url": "https://0404.go.kr/ntnSafetyInfo/82/detail"
+  },
+  "베트남": {
+    "id": "86",
+    "levels": [
+      1
+    ],
+    "has_special": false,
+    "detail_url": "https://0404.go.kr/ntnSafetyInfo/86/detail"
+  },
+  "요르단": {
+    "id": "165",
+    "levels": [
+      3
+    ],
+    "has_special": true,
+    "detail_url": "https://0404.go.kr/ntnSafetyInfo/165/detail"
+  },
+  "우간다": {
+    "id": "166",
+    "levels": [],
+    "has_special": true,
+    "detail_url": "https://0404.go.kr/ntnSafetyInfo/166/detail"
+  },
+  "이집트": {
+    "id": "178",
+    "levels": [
+      1,
+      2,
+      3
+    ],
+    "has_special": false,
+    "detail_url": "https://0404.go.kr/ntnSafetyInfo/178/detail"
+  },
+  "인도네시아": {
+    "id": "181",
+    "levels": [
+      1,
+      2
+    ],
+    "has_special": false,
+    "detail_url": "https://0404.go.kr/ntnSafetyInfo/181/detail"
+  },
+  "캄보디아": {
+    "id": "259",
+    "levels": [
+      1,
+      2,
+      3
+    ],
+    "has_special": false,
+    "detail_url": "https://0404.go.kr/ntnSafetyInfo/259/detail"
+  },
+  "케냐": {
+    "id": "206",
+    "levels": [
+      2,
+      3
+    ],
+    "has_special": false,
+    "detail_url": "https://0404.go.kr/ntnSafetyInfo/206/detail"
+  },
+  "키르기스스탄": {
+    "id": "301",
+    "levels": [],
+    "has_special": false,
+    "detail_url": "https://0404.go.kr/ntnSafetyInfo/301/detail"
+  },
+  "탄자니아": {
+    "id": "225",
+    "levels": [
+      2,
+      3
+    ],
+    "has_special": false,
+    "detail_url": "https://0404.go.kr/ntnSafetyInfo/225/detail"
+  },
+  "페루": {
+    "id": "243",
+    "levels": [
+      2,
+      3
+    ],
+    "has_special": false,
+    "detail_url": "https://0404.go.kr/ntnSafetyInfo/243/detail"
+  },
+  "필리핀": {
+    "id": "252",
+    "levels": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "has_special": false,
+    "detail_url": "https://0404.go.kr/ntnSafetyInfo/252/detail"
+  }
+}

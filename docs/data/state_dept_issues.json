@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29 08:16",
+  "updated": "2026-07-29 08:21",
   "issues": [
     {
       "id": "statedept-laos-2026-07-28",
@@ -41,69 +41,43 @@
       "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/vietnam-travel-advisory.html"
     },
     {
-      "id": "statedept-uganda-2026-06-04",
-      "country": "우간다",
-      "category": "health",
-      "severity": "critical",
-      "title": "Uganda - Level 4: Do Not Travel",
-      "summary": "Do not travel to Uganda due to crime , health , terrorism , and unrest . Please read the full text of the advisory. Travel restrictions for government employees The U.S. government has limited ability to provide emergency consular services to U.S. citizens in Uganda due to the Ebola outbreak. Health",
-      "volunteer_impact": "미국 국무부가 여행금지(4단계)로 지정한 국가입니다. 활동 지속 여부를 즉시 재검토해야 합니다.",
-      "recommended_action": "현지 협력기관 및 담당자와 상황을 공유하고, 미국 국무부 권고 사항을 함께 검토하세요.",
-      "published_at": "2026-06-04",
-      "source": "US State Dept",
-      "source_url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.uga.html"
-    },
-    {
-      "id": "statedept-rwanda-2026-06-04",
-      "country": "르완다",
-      "category": "health",
-      "severity": "high",
-      "title": "Rwanda - Level 3: Reconsider Travel",
-      "summary": "Reconsider travel in Rwanda due to crime , unrest and health risks. Some areas have increased risk. Read the entire Travel Advisory. The U.S. government has limited ability to provide emergency consular services to U.S. citizens in Rwanda due to the Health situation. Health The U.S. Centers for Dise",
-      "volunteer_impact": "미국 국무부가 철수권고(3단계)로 지정한 국가입니다. 활동 지역의 안전 여부를 확인하세요.",
-      "recommended_action": "현지 협력기관 및 담당자와 상황을 공유하고, 미국 국무부 권고 사항을 함께 검토하세요.",
-      "published_at": "2026-06-04",
-      "source": "US State Dept",
-      "source_url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.rwa.html"
-    },
-    {
       "id": "statedept-timor-leste-2026-05-21",
       "country": "동티모르",
       "category": "conflict",
       "severity": "medium",
       "title": "Timor-Leste - Level 2: Exercise Increased Caution",
-      "summary": "Exercise increased caution &nbsp;in Timor-Leste due to risk of unrest and crime . Read the entire Travel Advisory. Police in Timor-Leste sometimes use force and tear gas against protestors.&nbsp; Stone throwing attacks on vehicles can occur during gang conflicts and periods of unrest.&nbsp; Sex-base",
+      "summary": "There was no change to the advisory level or risk indicators. Advisory summary was updated. Exercise Increased Caution in Timor-Leste due to risk of unrest and crime .&nbsp;Read the entire Travel Advisory. Advisory summary Police in Timor-Leste sometimes use force and tear gas against protestors.&nb",
       "volunteer_impact": "미국 국무부가 여행자제(2단계)로 지정한 국가입니다. 세부 위험 지역을 확인하는 것이 좋습니다.",
       "recommended_action": "미국 국무부 여행경보 원문을 참고하여 세부 위험 지역 및 주의사항을 확인하세요.",
       "published_at": "2026-05-21",
       "source": "US State Dept",
-      "source_url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.tls.html"
+      "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/timor-leste-travel-advisory.html"
     },
     {
-      "id": "statedept-malawi-2026-05-14",
-      "country": "말라위",
+      "id": "statedept-rwanda-2026-05-11",
+      "country": "르완다",
       "category": "conflict",
-      "severity": "medium",
-      "title": "Malawi - Level 2: Exercise Increased Caution",
-      "summary": "Exercise increased caution to Malawi due to crime and unrest. Crime&nbsp; Violent crime such as theft, burglary, armed robbery, and assault is common. The capabilities of the Malawi Police Service are growing, but its resources and ability to deter and investigate crimes are limited. They also strug",
-      "volunteer_impact": "미국 국무부가 여행자제(2단계)로 지정한 국가입니다. 세부 위험 지역을 확인하는 것이 좋습니다.",
-      "recommended_action": "미국 국무부 여행경보 원문을 참고하여 세부 위험 지역 및 주의사항을 확인하세요.",
-      "published_at": "2026-05-14",
+      "severity": "high",
+      "title": "Rwanda - Level 3: Reconsider Travel",
+      "summary": "There was no change to the advisory level.&nbsp;The 3 areas of increased risk were combined into 1.&nbsp;The&nbsp;Advisory&nbsp;Summary was updated. Exercise increased caution &nbsp;in&nbsp; Rwanda&nbsp; due to&nbsp; crime&nbsp; and&nbsp; unrest . Some areas have increased risk. Read the entire Trav",
+      "volunteer_impact": "미국 국무부가 철수권고(3단계)로 지정한 국가입니다. 활동 지역의 안전 여부를 확인하세요.",
+      "recommended_action": "현지 협력기관 및 담당자와 상황을 공유하고, 미국 국무부 권고 사항을 함께 검토하세요.",
+      "published_at": "2026-05-11",
       "source": "US State Dept",
-      "source_url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.mwi.html"
+      "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/rwanda-travel-advisory.html"
     },
     {
       "id": "statedept-jordan-2026-05-04",
       "country": "요르단",
-      "category": "conflict",
+      "category": "official_notice",
       "severity": "high",
       "title": "Jordan - Level 3: Reconsider Travel",
-      "summary": "Reconsider travel due to terrorism and armed conflict . On March 2, 2026, the Department of State ordered non-emergency U.S. government employees and their family members to leave Jordan due to safety risks. Armed Conflict Following the onset of hostilities between the United States and Iran on Febr",
+      "summary": "Updated to reflect the ordered departure of non-emergency U.S. government personnel and family members of government personnel on March 2 and the change to Level 3: Reconsider Travel due to safety risks, and to add the &#8220;other&#8221; risk indicator. Advisory summary was updated to reflect chang",
       "volunteer_impact": "미국 국무부가 철수권고(3단계)로 지정한 국가입니다. 활동 지역의 안전 여부를 확인하세요.",
       "recommended_action": "현지 협력기관 및 담당자와 상황을 공유하고, 미국 국무부 권고 사항을 함께 검토하세요.",
       "published_at": "2026-05-04",
       "source": "US State Dept",
-      "source_url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.jor.html"
+      "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/jordan-travel-advisory.html"
     },
     {
       "id": "statedept-guatemala-2026-03-12",
@@ -111,12 +85,25 @@
       "category": "conflict",
       "severity": "high",
       "title": "Guatemala - Level 3: Reconsider Travel",
-      "summary": "Reconsider travel to Guatemala due to crime and terrorism . Some areas have higher risks. Please read the full Travel Advisory. Some areas of Guatemala have higher levels of gang-related violence. Crimes include robbery, carjacking, drug trafficking, assaults, and murders. Local law enforcement ofte",
+      "summary": "There was no change to the advisory level. The &#8220;terrorism&#8221; risk indicator was added. Advisory summary was updated. Reconsider travel to Guatemala due to &nbsp;crime and terrorism . Some areas have higher risks. Please read the full Travel Advisory. Do not travel to: San Marcos Department",
       "volunteer_impact": "미국 국무부가 철수권고(3단계)로 지정한 국가입니다. 활동 지역의 안전 여부를 확인하세요.",
       "recommended_action": "현지 협력기관 및 담당자와 상황을 공유하고, 미국 국무부 권고 사항을 함께 검토하세요.",
       "published_at": "2026-03-12",
       "source": "US State Dept",
-      "source_url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.gtm.html"
+      "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/guatemala-travel-advisory.html"
+    },
+    {
+      "id": "statedept-malawi-2026-02-25",
+      "country": "말라위",
+      "category": "conflict",
+      "severity": "medium",
+      "title": "Malawi - Level 2: Exercise Increased Caution",
+      "summary": "There was no change to the advisory level or risk indicators. Advisory summary was updated. Exercise increased caution to Malawi due to crime and unrest . Advisory summary Crime Violent crime such as theft, burglary, armed robbery, and assault is common. The capabilities of the Malawi Police Service",
+      "volunteer_impact": "미국 국무부가 여행자제(2단계)로 지정한 국가입니다. 세부 위험 지역을 확인하는 것이 좋습니다.",
+      "recommended_action": "미국 국무부 여행경보 원문을 참고하여 세부 위험 지역 및 주의사항을 확인하세요.",
+      "published_at": "2026-02-25",
+      "source": "US State Dept",
+      "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/malawi-travel-advisory.html"
     },
     {
       "id": "statedept-bangladesh-2026-01-20",
@@ -124,12 +111,25 @@
       "category": "conflict",
       "severity": "high",
       "title": "Bangladesh - Level 3: Reconsider Travel",
-      "summary": "Reconsider travel in Bangladesh due to kidnapping , unrest , crime , and terrorism . Some areas have increased risk. Read the entire Travel Advisory. Unrest Unrest&nbsp;and violence have decreased since summer 2024. Occasional protests continue with the potential for violent clashes. Conditions may ",
+      "summary": "There were no changes to the advisory level or risk indicators. Advisory summary was updated. Reconsider travel to Bangladesh due to &nbsp;kidnapping, unrest, crime,&nbsp; and&nbsp; terrorism . Some areas have increased risk. Read the entire Travel Advisory. Advisory summary Unrest Unrest &nbsp; and",
       "volunteer_impact": "미국 국무부가 철수권고(3단계)로 지정한 국가입니다. 활동 지역의 안전 여부를 확인하세요.",
       "recommended_action": "현지 협력기관 및 담당자와 상황을 공유하고, 미국 국무부 권고 사항을 함께 검토하세요.",
       "published_at": "2026-01-20",
       "source": "US State Dept",
-      "source_url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.bgd.html"
+      "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/bangladesh-travel-advisory.html"
+    },
+    {
+      "id": "statedept-uganda-2025-12-08",
+      "country": "우간다",
+      "category": "security",
+      "severity": "critical",
+      "title": "Uganda - Level 4: Do Not Travel",
+      "summary": "There was no change to the advisory level or indicators. Advisory summary was updated. Advisory Summary Crime Violent crime is a real danger in Uganda. &nbsp; This includes armed robbery, home invasion, and sexual assault. Crime can happen anytime. It is more common in larger cities, the Karamoja re",
+      "volunteer_impact": "미국 국무부가 여행금지(4단계)로 지정한 국가입니다. 활동 지속 여부를 즉시 재검토해야 합니다.",
+      "recommended_action": "현지 협력기관 및 담당자와 상황을 공유하고, 미국 국무부 권고 사항을 함께 검토하세요.",
+      "published_at": "2025-12-08",
+      "source": "US State Dept",
+      "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/uganda-travel-advisory.html"
     },
     {
       "id": "statedept-tanzania-2025-10-31",
@@ -143,19 +143,6 @@
       "published_at": "2025-10-31",
       "source": "US State Dept",
       "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/tanzania-travel-advisory.html"
-    },
-    {
-      "id": "statedept-cambodia-2025-07-25",
-      "country": "캄보디아",
-      "category": "security",
-      "severity": "medium",
-      "title": "Cambodia - Level 2: Exercise Increased Caution",
-      "summary": "Exercise increased caution in Cambodia due to crime and landmines . Some areas have increased risks. Read the entire Travel Advisory. Phnom Penh Street crime, particularly phone and bag snatchings, occurs frequently in areas where foreigners gather; resistance can result in injury. Violent crimes, s",
-      "volunteer_impact": "미국 국무부가 여행자제(2단계)로 지정한 국가입니다. 세부 위험 지역을 확인하는 것이 좋습니다.",
-      "recommended_action": "미국 국무부 여행경보 원문을 참고하여 세부 위험 지역 및 주의사항을 확인하세요.",
-      "published_at": "2025-07-25",
-      "source": "US State Dept",
-      "source_url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.khm.html"
     },
     {
       "id": "statedept-cambodia-2025-07-25",

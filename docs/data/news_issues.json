@@ -1,31 +1,47 @@
 {
-  "updated": "2026-07-29 08:16",
+  "updated": "2026-07-29 08:21",
   "issues": [
     {
       "id": "news-001",
-      "country": "과테말라",
+      "country": "캄보디아",
       "category": "conflict",
       "severity": "low",
-      "title": "Guatemala races to save 60,000 case files of testimony about abuses during armed conflict",
-      "summary": "Guatemala is racing to preserve 60,000 case files of testimony about abuses from its decades of armed conflict before President Bernardo Arévalo's term ends in January 2028. The conflict, from 1960...",
+      "title": "캄보디아의 약 3,900제곱킬로미터가 태국 불발탄으로 오염되었습니다.",
+      "title_en": "Nearly 3,900 sq km in Cambodia contaminated by unexploded Thai ordnance",
+      "summary": "PHNOM PENH: One year after armed conflict along the Cambodia-Thailand border, Cambodian demining operators warn that explosive remnants of war left behind by the fighting continue to endanger civilians across seven provinces, with newly completed surveys identifying nearly 3,900 square kilometres of land contaminated by unexploded ordnance (UXO).",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
       "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-07-23",
-      "source": "SFGATE",
-      "source_url": "https://www.sfgate.com/news/world/article/guatemala-races-to-save-60-000-case-files-of-22356810.php"
+      "published_at": "2026-07-28",
+      "source": "The Star",
+      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/07/28/nearly-3900-sq-km-in-cambodia-contaminated-by-unexploded-thai-ordnance"
+    },
+    {
+      "id": "news-003",
+      "country": "필리핀",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "관광 서적이 필리핀 여성 감옥에 갇히다; 그녀의 우연한 실수가 입소문을 타다",
+      "title_en": "Tourist Books Stay At Women's Jail In Philippines; Her Accidental Mistake Goes Viral",
+      "summary": "A traveller's accidental booking at a Philippine jail instead of a hotel has gone viral after the facility responded with a humorous clarification. The exchange has amused social media users and sparked a flood of jokes online., Viral, Times Now",
+      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-07-28",
+      "source": "Times Now",
+      "source_url": "https://www.timesnownews.com/viral/tourist-books-stay-at-womens-jail-in-philippines-her-accidental-mistake-goes-viral-article-155190914"
     },
     {
       "id": "news-002",
-      "country": "과테말라",
-      "category": "conflict",
+      "country": "캄보디아",
+      "category": "security",
       "severity": "low",
-      "title": "Guatemala races to save records of testimony about abuses during armed conflict",
-      "summary": "Guatemala is racing to preserve 60,000 case files of testimony about abuses from its decades of armed conflict before President Bernardo Arévalo's term ends in January 2028.",
+      "title": "캄보디아 취업 사기 적발: EOW 카슈미르, 해외 취업 사기 혐의로 고소장 제출",
+      "title_en": "Cambodia Job Scam Busted: EOW Kashmir Files Chargesheet Against Accused In Overseas Employment Fraud",
+      "summary": "Srinagar, July 25: The Economic Offences Wing (EOW), Kashmir, of the Crime Branch Jammu and Kashmir has filed a chargesheet against an accused involved in an alleged overseas job fraud, exposing a racket in which a Kashmiri youth was allegedly...",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
       "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-07-23",
-      "source": "The Associated Press",
-      "source_url": "https://apnews.com/article/guatemala-testimony-reparations-arevalo-7a71efb417d0ab9360d20a02641a385f"
+      "published_at": "2026-07-25",
+      "source": "Daily Excelsior",
+      "source_url": "https://www.dailyexcelsior.com/cambodia-job-scam-busted-eow-kashmir-files-chargesheet-against-accused-in-overseas-employment-fraud/"
     }
   ]
 }
