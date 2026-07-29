@@ -511,46 +511,40 @@ function createCountryCard(
     const searchUrl = "https://www.google.com/search?q=" +
         encodeURIComponent(country.name + " 외교부 해외안전여행");
 
-    let issuesHtml = "";
+    // 외교부(MOFA) 상태를 요약의 첫 줄로 사용
+    const summaryLines = [
+        {
+            label: "🏛️ 외교부",
+            text: country.issue || "특이사항 없음",
+        },
+    ];
 
-    if (issues.length > 0) {
+    // 나머지 소스(미국국무부/WHO/USGS/뉴스/외교부 안전공지) 이슈를 이어서 추가
+    issues.forEach(issue => {
 
-        const issueItems = issues.map(issue => {
+        const sourceLabel = getSourceLabel(issue.source);
 
-            const severity = getSeverityInfo(issue.severity);
-            const category = getCategoryInfo(issue.category);
-            const sourceBadge = getSourceBadge(issue.source);
+        summaryLines.push({
+            label: sourceLabel,
+            text: `${issue.title}${issue.published_at ? ` (${issue.published_at})` : ""}`,
+            url: issue.source_url,
+        });
 
-            return `
-                <div class="issue-mini-item mt-2 pt-2 border-top">
-                    <div class="mb-1">
-                        ${sourceBadge}
-                        <span class="badge ${severity.className}">
-                            ${severity.icon} ${severity.label}
-                        </span>
-                        <span class="badge bg-light text-dark border">
-                            ${category.icon} ${category.label}
-                        </span>
-                    </div>
-                    <a href="${issue.source_url || '#'}"
-                       target="_blank"
-                       rel="noopener noreferrer"
-                       class="small d-block">
-                        ${issue.title}
-                    </a>
-                </div>
-            `;
+    });
 
-        }).join("");
+    const summaryHtml = summaryLines.map(line => {
 
-        issuesHtml = `
-            <div class="mt-3">
-                <strong>관련 이슈</strong>
-                ${issueItems}
-            </div>
+        const content = line.url
+            ? `<a href="${line.url}" target="_blank" rel="noopener noreferrer">${line.text}</a>`
+            : line.text;
+
+        return `
+            <li class="mb-2">
+                <strong>${line.label}</strong>: ${content}
+            </li>
         `;
 
-    }
+    }).join("");
 
     return `
 
@@ -587,48 +581,22 @@ function createCountryCard(
                 </div>
 
 
-                <div class="
-                    mt-3
-                ">
+                <div class="mt-3">
 
-                    <strong>
+                    <strong>안전 요약</strong>
 
-                        상황
-
-                    </strong>
-
-                    <br>
-
-                    ${country.issue
-                    || "특이사항 없음"}
+                    <ul class="ps-3 mt-2 mb-0 small">
+                        ${summaryHtml}
+                    </ul>
 
                 </div>
 
 
-                <div class="
-                    mt-3
-                ">
+                <div class="mt-2">
 
-                    <small class="
-                        text-muted
-                    ">
+                    <small class="text-muted">
 
-                        ${country.source
-                        || ""}
-
-                    </small>
-
-                </div>
-
-
-                <div>
-
-                    <small class="
-                        text-muted
-                    ">
-
-                        ${country.updated
-                        || ""}
+                        마지막 갱신: ${country.updated || ""}
 
                     </small>
 
@@ -643,8 +611,6 @@ function createCountryCard(
                     </a>
                 </div>
 
-                ${issuesHtml}
-
             </div>
 
         </div>
@@ -655,34 +621,33 @@ function createCountryCard(
 
 
 // =========================================
-// Source Badge
+// Source Label (요약 불릿용 짧은 라벨)
 // =========================================
 
-function getSourceBadge(source) {
+function getSourceLabel(source) {
 
     switch (source) {
 
         case "외교부 해외안전공지":
-            return `<span class="badge bg-primary">🏛️ 외교부</span>`;
+            return "🏛️ 외교부 안전공지";
 
         case "USGS":
-            return `<span class="badge bg-info text-dark">🌍 USGS 지진</span>`;
+            return "🌍 지진(USGS)";
 
         case "US State Dept":
-            return `<span class="badge bg-secondary">🇺🇸 미국 국무부</span>`;
+            return "🇺🇸 미국 국무부";
 
         case "WHO":
-            return `<span class="badge bg-success">🏥 WHO</span>`;
+            return "🏥 WHO";
 
         default:
-            return `<span class="badge bg-dark">📰 뉴스</span>`;
+            return "📰 뉴스";
 
     }
 
 }
 
 
-// =========================================
 // Country Status Badge
 // =========================================
 
@@ -782,102 +747,3 @@ function statusBadge(
 console.log(
     "KOICA-NGO Dashboard loaded"
 );
-
-// ==========================================
-// 위험도 표시
-// ==========================================
-
-function getSeverityInfo(severity) {
-
-    switch (severity) {
-
-        case "critical":
-
-            return {
-                icon: "🔴",
-                label: "긴급",
-                className: "bg-danger"
-            };
-
-        case "high":
-
-            return {
-                icon: "🟠",
-                label: "높음",
-                className: "bg-warning text-dark"
-            };
-
-        case "medium":
-
-            return {
-                icon: "🟡",
-                label: "주의",
-                className: "bg-info text-dark"
-            };
-
-        default:
-
-            return {
-                icon: "🟢",
-                label: "낮음",
-                className: "bg-success"
-            };
-
-    }
-
-}
-
-
-// ==========================================
-// 이슈 유형 표시
-// ==========================================
-
-function getCategoryInfo(category) {
-
-    switch (category) {
-
-        case "natural_disaster":
-
-            return {
-                icon: "🌪️",
-                label: "자연재해"
-            };
-
-        case "health":
-
-            return {
-                icon: "🦠",
-                label: "보건·감염병"
-            };
-
-        case "transport":
-
-            return {
-                icon: "✈️",
-                label: "교통·항공"
-            };
-
-        case "conflict":
-
-            return {
-                icon: "⚠️",
-                label: "분쟁·시위"
-            };
-
-        case "security":
-
-            return {
-                icon: "🚨",
-                label: "치안·범죄"
-            };
-
-        default:
-
-            return {
-                icon: "📢",
-                label: "안전공지"
-            };
-
-    }
-
-}
