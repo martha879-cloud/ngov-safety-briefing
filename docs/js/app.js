@@ -142,65 +142,11 @@ async function loadDashboard() {
 
     const allIssues = [...safetyIssues, ...newsIssues, ...disasterIssues, ...stateDeptIssues, ...whoIssues, ...cdcIssues, ...newsdataIssues];
 
-    // 국가별로 이슈를 묶어서 국가 카드 안에 같이 보여줄 수 있게 준비.
-    // 심각도 우선, 그 다음 최신순으로 정렬 후 국가당 최대 3개만 사용.
     const SEVERITY_RANK = { critical: 4, high: 3, medium: 2, low: 1 };
 
-    allIssues.sort((a, b) => {
+    function sortBySeverityThenDate(list) {
 
-        const rankA = SEVERITY_RANK[a.severity] || 0;
-        const rankB = SEVERITY_RANK[b.severity] || 0;
-
-        if (rankA !== rankB) {
-            return rankB - rankA;
-        }
-
-        const dateA = new Date(a.published_at || "1900-01-01");
-        const dateB = new Date(b.published_at || "1900-01-01");
-
-        return dateB - dateA;
-
-    });
-
-    const issuesByCountry = {};
-
-    allIssues.forEach(issue => {
-
-        if (!issuesByCountry[issue.country]) {
-            issuesByCountry[issue.country] = [];
-        }
-
-        if (issuesByCountry[issue.country].length < 3) {
-            issuesByCountry[issue.country].push(issue);
-        }
-
-    });
-
-    // 국가별로 뽑은(심각도 기준 top3) 이슈를, 화면에 보여줄 때는
-    // 출처 종류 기준의 고정된 순서로 다시 정렬한다.
-    // (외교부 안전공지 → 미국 국무부 → WHO → CDC → 지진(USGS) → 뉴스)
-    const SOURCE_DISPLAY_PRIORITY = {
-        "외교부 해외안전공지": 1,
-        "US State Dept": 2,
-        "WHO": 3,
-        "CDC": 4,
-        "USGS": 5,
-    };
-
-    function sourcePriority(source) {
-        return SOURCE_DISPLAY_PRIORITY[source] || 6;
-    }
-
-    Object.keys(issuesByCountry).forEach(countryName => {
-
-        issuesByCountry[countryName].sort((a, b) => {
-
-            const priorityA = sourcePriority(a.source);
-            const priorityB = sourcePriority(b.source);
-
-            if (priorityA !== priorityB) {
-                return priorityA - priorityB;
-            }
+        return [...list].sort((a, b) => {
 
             const rankA = SEVERITY_RANK[a.severity] || 0;
             const rankB = SEVERITY_RANK[b.severity] || 0;
@@ -215,6 +161,41 @@ async function loadDashboard() {
             return dateB - dateA;
 
         });
+
+    }
+
+    // 외교부(국가 자체 상태)와 함께, 미국 국무부/WHO/CDC는 항상 한 줄씩 보여준다
+    // (해당 없으면 "최신 정보 없음"으로 표시해서 "확인은 했다"는 걸 알 수 있게).
+    // 나머지(외교부 해외안전공지/지진/뉴스)는 있을 때만 최대 2개까지 추가로 보여준다.
+    const ALWAYS_SHOW_SOURCES = ["US State Dept", "WHO", "CDC"];
+
+    const issuesByCountry = {};
+
+    countries.forEach(country => {
+
+        const forThisCountry = allIssues.filter(
+            issue => issue.country === country.name
+        );
+
+        const guaranteed = {};
+
+        ALWAYS_SHOW_SOURCES.forEach(source => {
+
+            const matches = sortBySeverityThenDate(
+                forThisCountry.filter(issue => issue.source === source)
+            );
+
+            guaranteed[source] = matches[0] || null;
+
+        });
+
+        const others = sortBySeverityThenDate(
+            forThisCountry.filter(
+                issue => !ALWAYS_SHOW_SOURCES.includes(issue.source)
+            )
+        ).slice(0, 2);
+
+        issuesByCountry[country.name] = { guaranteed, others };
 
     });
 
@@ -600,7 +581,7 @@ function renderCountries(
             const card =
                 createCountryCard(
                     country,
-                    issuesByCountry[country.name] || []
+                    issuesByCountry[country.name] || { guaranteed: {}, others: [] }
                 );
 
 
@@ -659,34 +640,51 @@ function renderCountries(
 
 function createCountryCard(
     country,
-    issues
+    issueData
 ) {
 
-    issues = issues || [];
+    const guaranteed = (issueData && issueData.guaranteed) || {};
+    const others = (issueData && issueData.others) || [];
 
     // 이미 외교부 해외안전공지(실제 링크)가 있으면, 굳이 검색 링크를 또 보여줄 필요 없음
-    const hasOfficialMofaLink = issues.some(
+    const hasOfficialMofaLink = others.some(
         issue => issue.source === "외교부 해외안전공지"
     );
 
     const searchUrl = "https://www.google.com/search?q=" +
         encodeURIComponent(country.name + " 외교부 해외안전여행");
 
-    // 외교부(MOFA) 상태를 요약의 첫 줄로 사용
+    function issueLine(label, issue, placeholder) {
+
+        if (!issue) {
+            return { label, text: placeholder };
+        }
+
+        return {
+            label,
+            text: `${issue.title}${issue.published_at ? ` (${issue.published_at})` : ""}`,
+            url: issue.source_url,
+        };
+
+    }
+
+    // 외교부(MOFA)는 항상 첫 줄. 미국 국무부/WHO/CDC도 항상 한 줄씩,
+    // 없으면 "최신 정보 없음"으로 표시해서 확인은 했다는 걸 알 수 있게 한다.
     const summaryLines = [
         {
             label: "🏛️ 외교부",
             text: country.issue || "특이사항 없음",
         },
+        issueLine("🇺🇸 미국 국무부", guaranteed["US State Dept"], "최신 정보 없음"),
+        issueLine("🏥 WHO", guaranteed["WHO"], "최신 발병 정보 없음"),
+        issueLine("🇺🇸 CDC", guaranteed["CDC"], "최신 정보 없음"),
     ];
 
-    // 나머지 소스(미국국무부/WHO/USGS/뉴스/외교부 안전공지) 이슈를 이어서 추가
-    issues.forEach(issue => {
-
-        const sourceLabel = getSourceLabel(issue.source);
+    // 나머지(외교부 해외안전공지/지진/뉴스)는 있을 때만 추가로 보여준다
+    others.forEach(issue => {
 
         summaryLines.push({
-            label: sourceLabel,
+            label: getSourceLabel(issue.source),
             text: `${issue.title}${issue.published_at ? ` (${issue.published_at})` : ""}`,
             url: issue.source_url,
         });
