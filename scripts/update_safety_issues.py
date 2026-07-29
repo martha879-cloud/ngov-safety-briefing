@@ -7,6 +7,7 @@ import requests
 from bs4 import BeautifulSoup
 
 from config import COUNTRIES
+from time_util import kst_now
 
 
 # ==========================================
@@ -425,7 +426,7 @@ for row in rows:
     else:
 
         published_at = (
-            datetime.now()
+            kst_now()
             .strftime("%Y-%m-%d")
         )
 
@@ -524,7 +525,7 @@ OUTPUT_FILE.parent.mkdir(
 
 output = {
     "updated": (
-        datetime.now()
+        kst_now()
         .strftime(
             "%Y-%m-%d %H:%M"
         )
