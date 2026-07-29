@@ -71,20 +71,6 @@ h1{
 
 }
 
-.issue-mini-item a{
-
-    text-decoration:none;
-
-    color:#0d6efd;
-
-}
-
-.issue-mini-item a:hover{
-
-    text-decoration:underline;
-
-}
-
 /* -----------------------------
    Today Changes
 ------------------------------*/
