@@ -19,6 +19,7 @@ import requests
 
 from config import COUNTRIES
 from translate_util import translate_to_korean
+from time_util import kst_now
 
 
 # ==========================================
@@ -190,7 +191,7 @@ def build_issues():
             category = classify_category(title_lower)
 
             pub_date = article.get("pubDate", "")
-            published_at = pub_date[:10] if pub_date else datetime.now().strftime("%Y-%m-%d")
+            published_at = pub_date[:10] if pub_date else kst_now().strftime("%Y-%m-%d")
 
             source_name = (
                 article.get("source_name")
@@ -228,7 +229,7 @@ def main():
     output_file.parent.mkdir(parents=True, exist_ok=True)
 
     output = {
-        "updated": datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "updated": kst_now().strftime("%Y-%m-%d %H:%M"),
         "issues": issues,
     }
 
