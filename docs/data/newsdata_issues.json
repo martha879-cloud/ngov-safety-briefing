@@ -1,4 +1,33 @@
 {
-  "updated": "2026-07-29 08:56",
-  "issues": []
+  "updated": "2026-07-29 09:03",
+  "issues": [
+    {
+      "id": "newsdata-001",
+      "country": "필리핀",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "홍수가 남쪽으로 휩쓸려 가면서 건기 현상이 민다나오 북동부를 휩쓸었습니다.",
+      "title_en": "As floods swamp south, dry spell grips northeast Mindanao",
+      "summary": "SAN FRANCISCO, AGUSAN DEL SUR—While relentless rains have triggered flash floods and landslides across parts of southwestern Mindanao in recent days, communities in the island’s northeastern section are grappling with the opposite problem—a prolonged dry spell that has left thousands of residents facing water shortages. At least 1,300 households in three villages in this town,",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-07-28",
+      "source": "Inquirer",
+      "source_url": "https://newsinfo.inquirer.net/2273050/as-floods-swamp-south-dry-spell-grips-northeast-mindanao"
+    },
+    {
+      "id": "newsdata-002",
+      "country": "모로코",
+      "category": "conflict",
+      "severity": "high",
+      "title": "미군, 중동 주둔 미군에 대한 이란의 '기습 공격' 차단 : CENTCOM",
+      "title_en": "US Forces Intercepted Iran's 'Surprise Attack' On American Forces In Middle East: CENTCOM",
+      "summary": "(MENAFN - IANS) Washington, July 29 (IANS) The US military said that it intercepted multiple ballistic missiles launched from Iran in what it described as an attempted \"surprise attack\" on American ...",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 활동 지속 여부를 검토하세요.",
+      "published_at": "2026-07-28",
+      "source": "Menafn",
+      "source_url": "https://menafn.com/1111458360/US-Forces-Intercepted-Irans-Surprise-Attack-On-American-Forces-In-Middle-East-CENTCOM"
+    }
+  ]
 }
