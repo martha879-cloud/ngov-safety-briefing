@@ -27,6 +27,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
           pip install beautifulsoup4
+          pip install deep-translator
 
       - name: Scrape 0404.go.kr country level list
         continue-on-error: true
