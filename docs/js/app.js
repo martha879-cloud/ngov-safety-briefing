@@ -710,17 +710,6 @@ function createCountryCard(
 
                 </div>
 
-
-                <div class="mt-2">
-
-                    <small class="text-muted">
-
-                        마지막 갱신: ${country.updated || ""}
-
-                    </small>
-
-                </div>
-
                 ${hasOfficialMofaLink ? "" : `
                 <div class="mt-2">
                     <a href="${searchUrl}"
