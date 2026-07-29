@@ -190,7 +190,103 @@ async function loadDashboard() {
         console.error("국가 카드 렌더링 실패:", err);
     }
 
+    try {
+        setupKpiFilters();
+    } catch (err) {
+        console.error("KPI 필터 설정 실패:", err);
+    }
+
     console.log("Dashboard loaded");
+
+}
+
+
+// =========================================
+// KPI 클릭 시 해당 상태 국가만 필터링
+// =========================================
+
+function setupKpiFilters() {
+
+    const kpiCards = document.querySelectorAll(".kpi-card");
+    const filterNotice = document.getElementById("filterNotice");
+    const filterNoticeText = document.getElementById("filterNoticeText");
+    const clearFilterBtn = document.getElementById("clearFilterBtn");
+
+    if (!kpiCards.length) {
+        return;
+    }
+
+    const statusLabels = {
+        green: "🟢 활동 가능",
+        yellow: "🟡 모니터링",
+        orange: "🟠 조치 검토",
+        red: "🔴 긴급 대응",
+    };
+
+    function applyFilter(status) {
+
+        const countryCols = document.querySelectorAll(
+            "#asiaList > div, #africaList > div, #latinList > div, #middleList > div"
+        );
+
+        countryCols.forEach(col => {
+            const matches = !status || col.getAttribute("data-status") === status;
+            col.style.display = matches ? "" : "none";
+        });
+
+        kpiCards.forEach(card => {
+            card.classList.toggle("kpi-active", card.getAttribute("data-status") === status);
+        });
+
+        if (status && filterNotice && filterNoticeText) {
+            filterNoticeText.textContent = `${statusLabels[status]} 국가만 표시 중`;
+            filterNotice.style.display = "block";
+        } else if (filterNotice) {
+            filterNotice.style.display = "none";
+        }
+
+    }
+
+    let activeStatus = null;
+
+    kpiCards.forEach(card => {
+
+        card.addEventListener("click", () => {
+
+            const status = card.getAttribute("data-status");
+
+            activeStatus = (activeStatus === status) ? null : status;
+
+            applyFilter(activeStatus);
+
+            if (activeStatus) {
+
+                const countrySection = document.getElementById("asiaList");
+
+                if (countrySection) {
+                    countrySection.scrollIntoView({ behavior: "smooth", block: "start" });
+                }
+
+            }
+
+        });
+
+        // 키보드 접근성 (엔터/스페이스로도 클릭 가능하게)
+        card.addEventListener("keydown", (e) => {
+            if (e.key === "Enter" || e.key === " ") {
+                e.preventDefault();
+                card.click();
+            }
+        });
+
+    });
+
+    if (clearFilterBtn) {
+        clearFilterBtn.addEventListener("click", () => {
+            activeStatus = null;
+            applyFilter(null);
+        });
+    }
 
 }
 
@@ -565,7 +661,7 @@ function createCountryCard(
         <div class="
             col-lg-4
             col-md-6
-        ">
+        " data-status="${country.status}" data-country="${country.name}">
 
             <div class="
                 country-card
