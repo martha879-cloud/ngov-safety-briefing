@@ -508,6 +508,11 @@ function createCountryCard(
 
     issues = issues || [];
 
+    // 이미 외교부 해외안전공지(실제 링크)가 있으면, 굳이 검색 링크를 또 보여줄 필요 없음
+    const hasOfficialMofaLink = issues.some(
+        issue => issue.source === "외교부 해외안전공지"
+    );
+
     const searchUrl = "https://www.google.com/search?q=" +
         encodeURIComponent(country.name + " 외교부 해외안전여행");
 
@@ -602,6 +607,7 @@ function createCountryCard(
 
                 </div>
 
+                ${hasOfficialMofaLink ? "" : `
                 <div class="mt-2">
                     <a href="${searchUrl}"
                        target="_blank"
@@ -610,6 +616,7 @@ function createCountryCard(
                         외교부 안전정보 보기 →
                     </a>
                 </div>
+                `}
 
             </div>
 
