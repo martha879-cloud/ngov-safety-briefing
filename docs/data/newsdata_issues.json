@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29 18:16",
+  "updated": "2026-07-29 18:23",
   "issues": [
     {
       "id": "newsdata-001",
@@ -14,6 +14,34 @@
       "published_at": "2026-07-28",
       "source": "Menafn",
       "source_url": "https://menafn.com/1111458360/US-Forces-Intercepted-Irans-Surprise-Attack-On-American-Forces-In-Middle-East-CENTCOM"
+    },
+    {
+      "id": "newsdata-002",
+      "country": "이집트",
+      "category": "conflict",
+      "severity": "high",
+      "title": "우크라이나,이란 외무부 장관, 선박 공격 후 전화 통화",
+      "title_en": "Heads Of Ukrainian, Iranian Foreign Ministries Hold Phone Call After Vessel Attack",
+      "summary": "(MENAFN - IANS) Kyiv, July 29 (IANS) Ukraine's acting Foreign Minister Andrii Sybiha said that he called Iranian Foreign Minister Seyed Abbas Araghchi by phone.In a post on X, Sybiha wrote that ...",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 활동 지속 여부를 검토하세요.",
+      "published_at": "2026-07-28",
+      "source": "Menafn",
+      "source_url": "https://menafn.com/1111458384/Heads-Of-Ukrainian-Iranian-Foreign-Ministries-Hold-Phone-Call-After-Vessel-Attack"
+    },
+    {
+      "id": "newsdata-003",
+      "country": "탄자니아",
+      "category": "transport",
+      "severity": "low",
+      "title": "말라위: Lake Malawi, 중국 지원 운송 계약에 따라 4척의 새로운 선박 확보",
+      "title_en": "Malawi: Lake Malawi to Get Four New Vessels Under China-Backed Transport Deal",
+      "summary": "[Nyasa Times] Malawi's government has signed a memorandum of understanding with Chinese contractor Xiao Xiang Investment to expand the fleet and infrastructure serving Lake Malawi, in a deal that will see four new vessels built alongside a new port facility at Chipoka in Salima.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-07-28",
+      "source": "Allafrica Tanzania",
+      "source_url": "https://allafrica.com/stories/202607280583.html"
     }
   ]
 }

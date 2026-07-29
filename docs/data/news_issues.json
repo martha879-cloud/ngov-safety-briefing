@@ -1,33 +1,4 @@
 {
-  "updated": "2026-07-29 18:16",
-  "issues": [
-    {
-      "id": "news-001",
-      "country": "우간다",
-      "category": "health",
-      "severity": "medium",
-      "title": "우간다는 에볼라 발병이 끝났다고 말했습니다",
-      "title_en": "Uganda Says It’s Ebola Outbreak Is Over",
-      "summary": "The disease is continuing to spread in the hard-hit country of Congo, where the outbreak is nearing record-high case numbers.",
-      "volunteer_impact": "봉사단 건강관리 및 예방조치 확인이 필요할 수 있습니다.",
-      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
-      "published_at": "2026-07-28",
-      "source": "Forbes",
-      "source_url": "https://www.forbes.com/sites/maryroeloffs/2026/07/28/uganda-says-its-ebola-free-as-cases-in-congo-near-record-numbers/"
-    },
-    {
-      "id": "news-002",
-      "country": "우간다",
-      "category": "health",
-      "severity": "medium",
-      "title": "우간다는 에볼라 발병을 성공적으로 억제한 후 스스로 에볼라 종식을 선언했습니다.",
-      "title_en": "Uganda declares itself Ebola-free after successfully containing the outbreak",
-      "summary": "Officials announced that the last patient who was infected with the Ebola virus was discharged in mid-June",
-      "volunteer_impact": "봉사단 건강관리 및 예방조치 확인이 필요할 수 있습니다.",
-      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
-      "published_at": "2026-07-28",
-      "source": "THE WEEK",
-      "source_url": "https://www.theweek.in/news/health/2026/07/28/uganda-declares-itself-ebola-free-after-successfully-containing-the-outbreak.html"
-    }
-  ]
+  "updated": "2026-07-29 18:23",
+  "issues": []
 }
