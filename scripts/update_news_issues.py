@@ -8,6 +8,7 @@ import requests
 
 from config import COUNTRIES
 from translate_util import translate_to_korean
+from time_util import kst_now
 
 
 # ==========================================
@@ -547,7 +548,7 @@ for korean_name, english_name in (
         else:
 
             published_at = (
-                datetime.utcnow()
+                kst_now()
                 .strftime(
                     "%Y-%m-%d"
                 )
@@ -648,7 +649,7 @@ OUTPUT_FILE.parent.mkdir(
 
 output = {
     "updated": (
-        datetime.now()
+        kst_now()
         .strftime(
             "%Y-%m-%d %H:%M"
         )
