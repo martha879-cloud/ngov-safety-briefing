@@ -60,6 +60,12 @@ jobs:
         continue-on-error: true
         run: python scripts/update_news_issues.py
 
+      - name: Update NewsData.io safety issues
+        env:
+          NEWSDATA_API_KEY: ${{ secrets.NEWSDATA_API_KEY }}
+        continue-on-error: true
+        run: python scripts/update_newsdata_issues.py
+
       - name: Update USGS earthquake data
         continue-on-error: true
         run: python scripts/update_disaster_issues.py
