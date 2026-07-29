@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29 08:40",
+  "updated": "2026-07-29 08:56",
   "issues": [
     {
       "id": "statedept-laos-2026-07-28",
@@ -20,25 +20,25 @@
       "category": "natural_disaster",
       "severity": "medium",
       "title": "Indonesia - Level 2: Exercise Increased Caution",
-      "summary": "Exercise increased caution in Indonesia due to risk of natural disasters , unrest , and terrorism . Some areas have increased risk. Read the entire Travel Advisory. Unrest Demonstrations occur frequently in Indonesia, and they are a normal part of the political landscape, but the type, size, and imp",
+      "summary": "There was no change to the advisory level or risk indicators. Advisory summary was updated. Exercise increased caution in Indonesia due to risk of natural disasters, unrest, and terrorism. Some areas have increased risk. Read the entire Travel Advisory. Do not travel to the provinces of Central Papu",
       "volunteer_impact": "미국 국무부가 여행자제(2단계)로 지정한 국가입니다. 세부 위험 지역을 확인하는 것이 좋습니다.",
       "recommended_action": "미국 국무부 여행경보 원문을 참고하여 세부 위험 지역 및 주의사항을 확인하세요.",
       "published_at": "2026-07-07",
       "source": "US State Dept",
-      "source_url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.idn.html"
+      "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/indonesia-travel-advisory.html"
     },
     {
       "id": "statedept-vietnam-2026-06-24",
       "country": "베트남",
-      "category": "conflict",
+      "category": "security",
       "severity": "low",
       "title": "Vietnam - Level 1: Exercise Normal Precautions",
-      "summary": "Exercise normal precaution in Vietnam . Vietnam is generally a safe destination for travelers.&nbsp; Petty crime is common, especially in popular tourist locations. Stay aware of your surroundings. Landmines and unexploded ordnance exist in Vietnam. &nbsp;Areas of greatest risk are construction site",
+      "summary": "There were no changes to the advisory level or risk indicators. Advisory summary was updated. Exercise normal precautions in Vietnam. Exercise Normal Precautions in Vietnam. Advisory summary Vietnam is generally a safe destination for travelers.&nbsp; Petty crime is common, especially in popular tou",
       "volunteer_impact": "미국 국무부 기준으로는 낮은 위험도이나, 세부 내용을 참고하세요.",
       "recommended_action": "미국 국무부 여행경보 원문을 참고하여 세부 위험 지역 및 주의사항을 확인하세요.",
       "published_at": "2026-06-24",
       "source": "US State Dept",
-      "source_url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.vnm.html"
+      "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/vietnam-travel-advisory.html"
     },
     {
       "id": "statedept-uganda-2026-06-04",
@@ -72,12 +72,12 @@
       "category": "conflict",
       "severity": "medium",
       "title": "Timor-Leste - Level 2: Exercise Increased Caution",
-      "summary": "Exercise increased caution &nbsp;in Timor-Leste due to risk of unrest and crime . Read the entire Travel Advisory. Police in Timor-Leste sometimes use force and tear gas against protestors.&nbsp; Stone throwing attacks on vehicles can occur during gang conflicts and periods of unrest.&nbsp; Sex-base",
+      "summary": "There was no change to the advisory level or risk indicators. Advisory summary was updated. Exercise Increased Caution in Timor-Leste due to risk of unrest and crime .&nbsp;Read the entire Travel Advisory. Advisory summary Police in Timor-Leste sometimes use force and tear gas against protestors.&nb",
       "volunteer_impact": "미국 국무부가 여행자제(2단계)로 지정한 국가입니다. 세부 위험 지역을 확인하는 것이 좋습니다.",
       "recommended_action": "미국 국무부 여행경보 원문을 참고하여 세부 위험 지역 및 주의사항을 확인하세요.",
       "published_at": "2026-05-21",
       "source": "US State Dept",
-      "source_url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.tls.html"
+      "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/timor-leste-travel-advisory.html"
     },
     {
       "id": "statedept-malawi-2026-05-14",
@@ -111,12 +111,12 @@
       "category": "conflict",
       "severity": "high",
       "title": "Guatemala - Level 3: Reconsider Travel",
-      "summary": "Reconsider travel to Guatemala due to crime and terrorism . Some areas have higher risks. Please read the full Travel Advisory. Some areas of Guatemala have higher levels of gang-related violence. Crimes include robbery, carjacking, drug trafficking, assaults, and murders. Local law enforcement ofte",
+      "summary": "There was no change to the advisory level. The &#8220;terrorism&#8221; risk indicator was added. Advisory summary was updated. Reconsider travel to Guatemala due to &nbsp;crime and terrorism . Some areas have higher risks. Please read the full Travel Advisory. Do not travel to: San Marcos Department",
       "volunteer_impact": "미국 국무부가 철수권고(3단계)로 지정한 국가입니다. 활동 지역의 안전 여부를 확인하세요.",
       "recommended_action": "현지 협력기관 및 담당자와 상황을 공유하고, 미국 국무부 권고 사항을 함께 검토하세요.",
       "published_at": "2026-03-12",
       "source": "US State Dept",
-      "source_url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.gtm.html"
+      "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/guatemala-travel-advisory.html"
     },
     {
       "id": "statedept-bangladesh-2026-01-20",
