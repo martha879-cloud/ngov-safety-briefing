@@ -1,8 +1,22 @@
 {
-  "updated": "2026-07-29 18:23",
+  "updated": "2026-07-29 18:30",
   "issues": [
     {
       "id": "newsdata-001",
+      "country": "방글라데시",
+      "category": "transport",
+      "severity": "low",
+      "title": "에어차이나, 사상 최초로 아이슬란드 직항편 취항",
+      "title_en": "Air China to launch first-ever direct flights to Iceland",
+      "summary": "Air China to launch first-ever direct flights to Iceland",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-07-28",
+      "source": "The Bangladesh Monitor",
+      "source_url": "https://bangladeshmonitor.com.bd/en/air-china-to-launch-first-ever-direct-flights-to-iceland"
+    },
+    {
+      "id": "newsdata-002",
       "country": "모로코",
       "category": "conflict",
       "severity": "high",
@@ -16,7 +30,7 @@
       "source_url": "https://menafn.com/1111458360/US-Forces-Intercepted-Irans-Surprise-Attack-On-American-Forces-In-Middle-East-CENTCOM"
     },
     {
-      "id": "newsdata-002",
+      "id": "newsdata-003",
       "country": "이집트",
       "category": "conflict",
       "severity": "high",
@@ -30,7 +44,7 @@
       "source_url": "https://menafn.com/1111458384/Heads-Of-Ukrainian-Iranian-Foreign-Ministries-Hold-Phone-Call-After-Vessel-Attack"
     },
     {
-      "id": "newsdata-003",
+      "id": "newsdata-004",
       "country": "탄자니아",
       "category": "transport",
       "severity": "low",
