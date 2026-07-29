@@ -21,6 +21,7 @@ import requests
 from bs4 import BeautifulSoup
 
 from config import COUNTRIES
+from time_util import kst_now
 from translate_util import translate_to_korean
 OUTPUT_FILE = Path("docs/data/cdc_issues.json")
 
@@ -162,7 +163,7 @@ def build_issues():
 
     print(f"CDC 알림 전체 수: {len(raw_items)}")
 
-    cutoff = (datetime.now() - timedelta(days=RECENCY_DAYS)).strftime("%Y-%m-%d")
+    cutoff = (kst_now() - timedelta(days=RECENCY_DAYS)).strftime("%Y-%m-%d")
 
     issues = []
 
@@ -215,7 +216,7 @@ def main():
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
 
     output = {
-        "updated": datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "updated": kst_now().strftime("%Y-%m-%d %H:%M"),
         "issues": issues,
     }
 
