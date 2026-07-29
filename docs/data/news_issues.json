@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29 08:30",
+  "updated": "2026-07-29 08:40",
   "issues": [
     {
       "id": "news-001",
@@ -46,20 +46,6 @@
     {
       "id": "news-004",
       "country": "케냐",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "산호세 과학 센터, 케냐 전역에 실습 엔지니어링 교육 확대",
-      "title_en": "San Jose Science Center Scales Hands-On Engineering Education Across Kenya",
-      "summary": "Nearly 1,500 students tested storm-ready shelter designs through an award-winning program that has reached more than 568,000 learners to date in Kenya",
-      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
-      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
-      "published_at": "2026-07-24",
-      "source": "The Manila Times",
-      "source_url": "https://www.manilatimes.net/2026/07/24/tmt-newswire/globenewswire/san-jose-science-center-scales-hands-on-engineering-education-across-kenya/2391158"
-    },
-    {
-      "id": "news-005",
-      "country": "케냐",
       "category": "conflict",
       "severity": "medium",
       "title": "인도, 에볼라 대비를 강화하기 위해 케냐에 4.5톤의 의료 지원 제공",
@@ -70,34 +56,6 @@
       "published_at": "2026-07-23",
       "source": "Outlook India",
       "source_url": "https://www.outlookindia.com/national/india-sends-45-tonnes-of-medical-aid-to-kenya-to-boost-ebola-preparedness"
-    },
-    {
-      "id": "news-006",
-      "country": "과테말라",
-      "category": "conflict",
-      "severity": "low",
-      "title": "과테말라, 무력 충돌 중 학대에 대한 증언이 포함된 60,000건의 사례 파일을 저장하기 위해 노력",
-      "title_en": "Guatemala races to save 60,000 case files of testimony about abuses during armed conflict",
-      "summary": "Guatemala is racing to preserve 60,000 case files of testimony about abuses from its decades of armed conflict before President Bernardo Arévalo's term ends in January 2028. The conflict, from 1960...",
-      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-07-23",
-      "source": "SFGATE",
-      "source_url": "https://www.sfgate.com/news/world/article/guatemala-races-to-save-60-000-case-files-of-22356810.php"
-    },
-    {
-      "id": "news-007",
-      "country": "과테말라",
-      "category": "conflict",
-      "severity": "low",
-      "title": "과테말라, 무력 충돌 중 학대에 대한 증언 기록을 저장하기 위해 경쟁",
-      "title_en": "Guatemala races to save records of testimony about abuses during armed conflict",
-      "summary": "Guatemala is racing to preserve 60,000 case files of testimony about abuses from its decades of armed conflict before President Bernardo Arévalo's term ends in January 2028.",
-      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-07-23",
-      "source": "The Associated Press",
-      "source_url": "https://apnews.com/article/guatemala-testimony-reparations-arevalo-7a71efb417d0ab9360d20a02641a385f"
     }
   ]
 }
