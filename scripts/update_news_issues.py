@@ -8,6 +8,27 @@ import requests
 
 from config import COUNTRIES
 
+try:
+    from deep_translator import GoogleTranslator
+    _TRANSLATOR_AVAILABLE = True
+except ImportError:
+    _TRANSLATOR_AVAILABLE = False
+
+
+def translate_to_korean(text):
+    """영문 뉴스 제목을 한글로 번역. 번역이 안 되면(패키지 없음/네트워크 오류/
+    비공식 구글 번역 엔드포인트 장애 등) 조용히 원문을 그대로 반환한다."""
+
+    if not text or not _TRANSLATOR_AVAILABLE:
+        return text
+
+    try:
+        translated = GoogleTranslator(source="en", target="ko").translate(text)
+        return translated or text
+    except Exception as e:
+        print("번역 실패, 원문 사용:", e)
+        return text
+
 
 # ==========================================
 # 기본 설정
@@ -516,6 +537,10 @@ for korean_name, english_name in (
                 ),
 
                 "title": (
+                    translate_to_korean(title)
+                ),
+
+                "title_en": (
                     title
                 ),
 
