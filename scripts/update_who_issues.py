@@ -17,6 +17,7 @@ import requests
 from bs4 import BeautifulSoup
 
 from config import COUNTRIES
+from translate_util import translate_to_korean
 
 
 DON_LIST_URL = "https://www.who.int/emergencies/emergency-events/item"
@@ -180,7 +181,8 @@ def build_issues():
             "country": country["name"],
             "category": "health",
             "severity": "medium",
-            "title": title,
+            "title": translate_to_korean(title),
+            "title_en": title,
             "summary": f"WHO Disease Outbreak News: {title}",
             "volunteer_impact": get_volunteer_impact(title),
             "recommended_action": get_recommended_action(),
