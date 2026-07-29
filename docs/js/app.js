@@ -94,6 +94,11 @@ async function loadDashboard() {
         { issues: [] }
     );
 
+    const newsdataIssuesData = await safeFetchJson(
+        "data/newsdata_issues.json",
+        { issues: [] }
+    );
+
 
     // 마지막 업데이트
     const lastUpdate = document.getElementById("lastUpdate");
@@ -104,7 +109,7 @@ async function loadDashboard() {
 
 
     // ==========================================
-    // 외교부 안전공지 + 뉴스 이슈 + USGS 지진 + 미국 국무부 + WHO + CDC 통합
+    // 외교부 안전공지 + 뉴스 이슈 + USGS 지진 + 미국 국무부 + WHO + CDC + NewsData.io 통합
     // ==========================================
 
     const safetyIssues = Array.isArray(safetyIssuesData.issues)
@@ -131,7 +136,11 @@ async function loadDashboard() {
         ? cdcIssuesData.issues
         : [];
 
-    const allIssues = [...safetyIssues, ...newsIssues, ...disasterIssues, ...stateDeptIssues, ...whoIssues, ...cdcIssues];
+    const newsdataIssues = Array.isArray(newsdataIssuesData.issues)
+        ? newsdataIssuesData.issues
+        : [];
+
+    const allIssues = [...safetyIssues, ...newsIssues, ...disasterIssues, ...stateDeptIssues, ...whoIssues, ...cdcIssues, ...newsdataIssues];
 
     // 국가별로 이슈를 묶어서 국가 카드 안에 같이 보여줄 수 있게 준비.
     // 심각도 우선, 그 다음 최신순으로 정렬 후 국가당 최대 3개만 사용.
