@@ -1,0 +1,83 @@
+{
+  "updated": "2026-07-29 08:10",
+  "issues": [
+    {
+      "id": "cdc-uganda-2026-07-15-2",
+      "country": "우간다",
+      "category": "health",
+      "severity": "medium",
+      "title": "Ebola Bundibugyo Virus Disease in the Democratic Republic of the Congo and Uganda (Level 2 (Practice Enhanced Precautions))",
+      "summary": "The Democratic Republic of the Congo (DRC) and Uganda are experiencing outbreaks of Bundibugyo virus disease (BVD). CDC recommends practicing enhanced precautions for travel to Uganda or to provinces in the DRC other than those affected by the outbreak.  Country List :  Democratic Republic of the Congo, Uganda Country List :  Democratic Republic of the Congo, Uganda",
+      "volunteer_impact": "CDC가 강화된 예방조치(Level 2)를 권고하는 상황입니다. 예방접종 및 위생수칙을 확인하세요.",
+      "recommended_action": "CDC 여행건강경보 원문을 참고하여 필요한 예방접종·위생수칙을 점검하세요.",
+      "published_at": "2026-07-15",
+      "source": "CDC",
+      "source_url": "https://wwwnc.cdc.gov/travel/notices/level2/ebola-drc-uganda"
+    },
+    {
+      "id": "cdc-timor-leste-2026-06-23-1",
+      "country": "동티모르",
+      "category": "health",
+      "severity": "low",
+      "title": "Global Dengue (Level 1 (Practice Usual Precautions))",
+      "summary": "Dengue is a year-round risk in many parts of the world, with outbreaks commonly occurring every 2–5 years. Travelers to risk areas should prevent mosquito bites.",
+      "volunteer_impact": "CDC 기준으로는 낮은 위험도이나, 예방수칙을 참고하세요.",
+      "recommended_action": "CDC 여행건강경보 원문을 참고하여 필요한 예방접종·위생수칙을 점검하세요.",
+      "published_at": "2026-06-23",
+      "source": "CDC",
+      "source_url": "https://wwwnc.cdc.gov/travel/notices/level1/dengue-global"
+    },
+    {
+      "id": "cdc-vietnam-2026-06-23-1",
+      "country": "베트남",
+      "category": "health",
+      "severity": "low",
+      "title": "Global Dengue (Level 1 (Practice Usual Precautions))",
+      "summary": "Dengue is a year-round risk in many parts of the world, with outbreaks commonly occurring every 2–5 years. Travelers to risk areas should prevent mosquito bites.",
+      "volunteer_impact": "CDC 기준으로는 낮은 위험도이나, 예방수칙을 참고하세요.",
+      "recommended_action": "CDC 여행건강경보 원문을 참고하여 필요한 예방접종·위생수칙을 점검하세요.",
+      "published_at": "2026-06-23",
+      "source": "CDC",
+      "source_url": "https://wwwnc.cdc.gov/travel/notices/level1/dengue-global"
+    },
+    {
+      "id": "cdc-cambodia-2026-06-23-1",
+      "country": "캄보디아",
+      "category": "health",
+      "severity": "low",
+      "title": "Global Dengue (Level 1 (Practice Usual Precautions))",
+      "summary": "Dengue is a year-round risk in many parts of the world, with outbreaks commonly occurring every 2–5 years. Travelers to risk areas should prevent mosquito bites.",
+      "volunteer_impact": "CDC 기준으로는 낮은 위험도이나, 예방수칙을 참고하세요.",
+      "recommended_action": "CDC 여행건강경보 원문을 참고하여 필요한 예방접종·위생수칙을 점검하세요.",
+      "published_at": "2026-06-23",
+      "source": "CDC",
+      "source_url": "https://wwwnc.cdc.gov/travel/notices/level1/dengue-global"
+    },
+    {
+      "id": "cdc-laos-2026-03-09-2",
+      "country": "라오스",
+      "category": "health",
+      "severity": "medium",
+      "title": "Global Polio (Level 2 (Practice Enhanced Precautions))",
+      "summary": "Some international destinations have circulating poliovirus. Before any international travel, make sure you are up to date on your polio vaccines.",
+      "volunteer_impact": "CDC가 강화된 예방조치(Level 2)를 권고하는 상황입니다. 예방접종 및 위생수칙을 확인하세요.",
+      "recommended_action": "CDC 여행건강경보 원문을 참고하여 필요한 예방접종·위생수칙을 점검하세요.",
+      "published_at": "2026-03-09",
+      "source": "CDC",
+      "source_url": "https://wwwnc.cdc.gov/travel/notices/level2/global-polio"
+    },
+    {
+      "id": "cdc-tanzania-2026-03-09-2",
+      "country": "탄자니아",
+      "category": "health",
+      "severity": "medium",
+      "title": "Global Polio (Level 2 (Practice Enhanced Precautions))",
+      "summary": "Some international destinations have circulating poliovirus. Before any international travel, make sure you are up to date on your polio vaccines.",
+      "volunteer_impact": "CDC가 강화된 예방조치(Level 2)를 권고하는 상황입니다. 예방접종 및 위생수칙을 확인하세요.",
+      "recommended_action": "CDC 여행건강경보 원문을 참고하여 필요한 예방접종·위생수칙을 점검하세요.",
+      "published_at": "2026-03-09",
+      "source": "CDC",
+      "source_url": "https://wwwnc.cdc.gov/travel/notices/level2/global-polio"
+    }
+  ]
+}
