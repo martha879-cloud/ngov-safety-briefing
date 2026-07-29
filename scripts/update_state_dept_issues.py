@@ -17,6 +17,7 @@ import requests
 import xml.etree.ElementTree as ET
 
 from config import COUNTRIES
+from time_util import kst_now
 
 
 RSS_URL = "https://travel.state.gov/_res/rss/TAsTWs.xml"
@@ -70,7 +71,7 @@ def parse_pub_date(pub_date_text):
     표준 RFC822 파서(parsedate_to_datetime)가 실패할 수 있으므로 직접 파싱도 시도한다."""
 
     if not pub_date_text:
-        return datetime.now().strftime("%Y-%m-%d")
+        return kst_now().strftime("%Y-%m-%d")
 
     try:
         return parsedate_to_datetime(pub_date_text).strftime("%Y-%m-%d")
@@ -82,7 +83,7 @@ def parse_pub_date(pub_date_text):
     except Exception:
         pass
 
-    return datetime.now().strftime("%Y-%m-%d")
+    return kst_now().strftime("%Y-%m-%d")
 
 
 def classify_category(text):
@@ -203,7 +204,7 @@ def main():
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
 
     output = {
-        "updated": datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "updated": kst_now().strftime("%Y-%m-%d %H:%M"),
         "issues": issues,
     }
 
