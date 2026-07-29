@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29 09:03",
+  "updated": "2026-07-29 18:16",
   "issues": [
     {
       "id": "statedept-laos-2026-07-28",
@@ -39,6 +39,19 @@
       "published_at": "2026-06-24",
       "source": "US State Dept",
       "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/vietnam-travel-advisory.html"
+    },
+    {
+      "id": "statedept-uganda-2026-06-04",
+      "country": "우간다",
+      "category": "health",
+      "severity": "critical",
+      "title": "Uganda - Level 4: Do Not Travel",
+      "summary": "Do not travel to Uganda due to crime , health , terrorism , and unrest . Please read the full text of the advisory. Travel restrictions for government employees The U.S. government has limited ability to provide emergency consular services to U.S. citizens in Uganda due to the Ebola outbreak. Health",
+      "volunteer_impact": "미국 국무부가 여행금지(4단계)로 지정한 국가입니다. 활동 지속 여부를 즉시 재검토해야 합니다.",
+      "recommended_action": "현지 협력기관 및 담당자와 상황을 공유하고, 미국 국무부 권고 사항을 함께 검토하세요.",
+      "published_at": "2026-06-04",
+      "source": "US State Dept",
+      "source_url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.uga.html"
     },
     {
       "id": "statedept-timor-leste-2026-05-21",
@@ -111,25 +124,12 @@
       "category": "conflict",
       "severity": "high",
       "title": "Bangladesh - Level 3: Reconsider Travel",
-      "summary": "There were no changes to the advisory level or risk indicators. Advisory summary was updated. Reconsider travel to Bangladesh due to &nbsp;kidnapping, unrest, crime,&nbsp; and&nbsp; terrorism . Some areas have increased risk. Read the entire Travel Advisory. Advisory summary Unrest Unrest &nbsp; and",
+      "summary": "Reconsider travel in Bangladesh due to kidnapping , unrest , crime , and terrorism . Some areas have increased risk. Read the entire Travel Advisory. Unrest Unrest&nbsp;and violence have decreased since summer 2024. Occasional protests continue with the potential for violent clashes. Conditions may ",
       "volunteer_impact": "미국 국무부가 철수권고(3단계)로 지정한 국가입니다. 활동 지역의 안전 여부를 확인하세요.",
       "recommended_action": "현지 협력기관 및 담당자와 상황을 공유하고, 미국 국무부 권고 사항을 함께 검토하세요.",
       "published_at": "2026-01-20",
       "source": "US State Dept",
-      "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/bangladesh-travel-advisory.html"
-    },
-    {
-      "id": "statedept-uganda-2025-12-08",
-      "country": "우간다",
-      "category": "security",
-      "severity": "critical",
-      "title": "Uganda - Level 4: Do Not Travel",
-      "summary": "There was no change to the advisory level or indicators. Advisory summary was updated. Advisory Summary Crime Violent crime is a real danger in Uganda. &nbsp; This includes armed robbery, home invasion, and sexual assault. Crime can happen anytime. It is more common in larger cities, the Karamoja re",
-      "volunteer_impact": "미국 국무부가 여행금지(4단계)로 지정한 국가입니다. 활동 지속 여부를 즉시 재검토해야 합니다.",
-      "recommended_action": "현지 협력기관 및 담당자와 상황을 공유하고, 미국 국무부 권고 사항을 함께 검토하세요.",
-      "published_at": "2025-12-08",
-      "source": "US State Dept",
-      "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/uganda-travel-advisory.html"
+      "source_url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.bgd.html"
     },
     {
       "id": "statedept-tanzania-2025-10-31",
@@ -163,25 +163,25 @@
       "category": "health",
       "severity": "medium",
       "title": "Egypt - Level 2: Exercise Increased Caution",
-      "summary": "Updated to reflect a change in Travel Advisory level. Exercise increased caution in Egypt due to terrorism, crime, and health. Some areas have increased risk. Read the entire Travel Advisory. Do not travel to: The Northern and Middle Sinai Peninsula due to terrorism .&nbsp; The Western Desert due to",
+      "summary": "Exercise increased caution in Egypt due to terrorism , crime , and health . Some areas have increased risk. The U.S. Embassy has limited ability to help dual national U.S.-Egyptian citizens who are arrested or detained. Egyptian law considers dual citizens to be solely Egyptian citizens. Terrorism T",
       "volunteer_impact": "미국 국무부가 여행자제(2단계)로 지정한 국가입니다. 세부 위험 지역을 확인하는 것이 좋습니다.",
       "recommended_action": "미국 국무부 여행경보 원문을 참고하여 세부 위험 지역 및 주의사항을 확인하세요.",
       "published_at": "2025-07-15",
       "source": "US State Dept",
-      "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/egypt-travel-advisory.html"
+      "source_url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.egy.html"
     },
     {
       "id": "statedept-dominican-republic-2025-06-12",
       "country": "도미니카공화국",
-      "category": "security",
+      "category": "conflict",
       "severity": "medium",
       "title": "Dominican Republic - Level 2: Exercise Increased Caution",
-      "summary": "Updated after periodic review with minor edits. &nbsp;Last updated June 18, 2024. Exercise increased caution in the Dominican Republic due to crime. Advisory Summary: &nbsp; Violent crime is a concern in the Dominican Republic despite more police presence in areas often visited by tourists. Do not d",
+      "summary": "Exercise increased caution in Dominican Republic due to crime. Violent crime is a concern in the Dominican Republic despite more police presence in areas often visited by tourists. Do not display wealth and be wary of meeting individuals from online in secluded locations.",
       "volunteer_impact": "미국 국무부가 여행자제(2단계)로 지정한 국가입니다. 세부 위험 지역을 확인하는 것이 좋습니다.",
       "recommended_action": "미국 국무부 여행경보 원문을 참고하여 세부 위험 지역 및 주의사항을 확인하세요.",
       "published_at": "2025-06-12",
       "source": "US State Dept",
-      "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/dominican-republic-travel-advisory.html"
+      "source_url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.dom.html"
     },
     {
       "id": "statedept-peru-2025-05-16",
