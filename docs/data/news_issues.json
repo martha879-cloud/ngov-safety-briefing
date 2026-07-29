@@ -1,31 +1,31 @@
 {
-  "updated": "2026-07-29 07:33",
+  "updated": "2026-07-29 07:39",
   "issues": [
     {
       "id": "news-001",
-      "country": "과테말라",
-      "category": "conflict",
-      "severity": "low",
-      "title": "Guatemala races to save 60,000 case files of testimony about abuses during armed conflict",
-      "summary": "Guatemala is racing to preserve 60,000 case files of testimony about abuses from its decades of armed conflict before President Bernardo Arévalo's term ends in January 2028. The conflict, from 1960...",
-      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-07-23",
-      "source": "SFGATE",
-      "source_url": "https://www.sfgate.com/news/world/article/guatemala-races-to-save-60-000-case-files-of-22356810.php"
+      "country": "케냐",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "San Jose Science Center Scales Hands-On Engineering Education Across Kenya",
+      "summary": "Nearly 1,500 students tested storm-ready shelter designs through an award-winning program that has reached more than 568,000 learners to date in Kenya",
+      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-07-24",
+      "source": "The Manila Times",
+      "source_url": "https://www.manilatimes.net/2026/07/24/tmt-newswire/globenewswire/san-jose-science-center-scales-hands-on-engineering-education-across-kenya/2391158"
     },
     {
       "id": "news-002",
-      "country": "과테말라",
+      "country": "케냐",
       "category": "conflict",
-      "severity": "low",
-      "title": "Guatemala races to save records of testimony about abuses during armed conflict",
-      "summary": "Guatemala is racing to preserve 60,000 case files of testimony about abuses from its decades of armed conflict before President Bernardo Arévalo's term ends in January 2028.",
+      "severity": "medium",
+      "title": "India Sends 4.5 Tonnes of Medical Aid to Kenya to Boost Ebola Preparedness",
+      "summary": "Social activist Anna Hazare held a two-hour silent protest in Maharashtra to support students protesting in Delhi, urged Prime Minister Narendra Modi to address their concerns through dialogue, and called for Union Education Minister Dharmendra Pradhan's resignation.",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
       "published_at": "2026-07-23",
-      "source": "The Associated Press",
-      "source_url": "https://apnews.com/article/guatemala-testimony-reparations-arevalo-7a71efb417d0ab9360d20a02641a385f"
+      "source": "Outlook India",
+      "source_url": "https://www.outlookindia.com/national/india-sends-45-tonnes-of-medical-aid-to-kenya-to-boost-ebola-preparedness"
     }
   ]
 }
