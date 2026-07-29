@@ -121,6 +121,12 @@ NOISE_KEYWORDS = [
     "memoir",
     "testimony about abuses during",
     "civil war era",
+
+    # 사전 대비/지원성 뉴스 (실제 발생한 위협이 아니라 예방 차원의 지원/대비)
+    "preparedness",
+    "sends medical aid",
+    "donates",
+    "donation of",
 ]
 
 
@@ -482,9 +488,11 @@ for korean_name, english_name in (
             continue
 
 
-        # 안전 키워드가 없는 기사는 제외
+        # 안전 키워드가 없는 기사는 제외.
+        # 제목에서만 판단한다 (description은 GNews 쪽에서 가끔 다른 기사 내용이
+        # 잘못 붙어오는 경우가 있어서, 그걸 근거로 삼으면 엉뚱하게 매칭될 수 있음)
         if not any(
-            keyword in combined_text
+            keyword in title_lower
             for keyword in SAFETY_KEYWORDS
         ):
             continue
