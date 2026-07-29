@@ -91,6 +91,7 @@ def fetch_mofa_alerts():
     choose_representative()로 대표 레코드를 고른다."""
 
     raw_by_country = {}
+    all_country_names_seen = set()
 
     for page in range(1, 21):
         print("Checking page:", page)
@@ -116,14 +117,28 @@ def fetch_mofa_alerts():
 
         print(f"Page {page} items:", len(items))
 
+        if not items:
+            # 응답이 비어있으면 더 이상 페이지가 없다는 뜻이므로 중단
+            break
+
         for item in items:
-            name = item.get("country_nm")
-            name = NAME_MAPPING.get(name, name)
+            raw_name = item.get("country_nm")
+            all_country_names_seen.add(raw_name)
+
+            name = NAME_MAPPING.get(raw_name, raw_name)
 
             if name not in COUNTRY_BY_NAME:
                 continue
 
             raw_by_country.setdefault(name, []).append(item)
+
+    # 진단용 로그: 우리 파견국 중 이번 실행에서 API 응답에 전혀 안 잡힌 국가가 있는지 확인.
+    # (이름 표기가 달라서 놓친 건지, 아니면 API에 정말 해당 국가 레코드가 없는 건지 판단하는 데 사용)
+    missing = [name for name in COUNTRY_BY_NAME if name not in raw_by_country]
+
+    if missing:
+        print("경고: 이번 실행에서 외교부 API 응답에 안 잡힌 파견국:", missing)
+        print("참고: API가 실제로 반환한 국가명 목록(일부):", sorted(all_country_names_seen)[:30])
 
     matched = {}
 
