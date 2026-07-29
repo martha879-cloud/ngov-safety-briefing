@@ -31,10 +31,12 @@ jobs:
       - name: Update MOFA travel alarm data
         env:
           MOFA_API_KEY: ${{ secrets.MOFA_API_KEY }}
+        continue-on-error: true
         run: |
           python scripts/update_data.py
 
       - name: 브리핑 / 변경사항 / 히스토리 생성
+        continue-on-error: true
         run: python scripts/generate_reports.py
 
       - name: Update last_update.json
@@ -43,19 +45,27 @@ jobs:
           echo "{\"updated\": \"$KST_TIME\"}" > docs/data/last_update.json
 
       - name: Update MOFA safety issues
+        continue-on-error: true
         run: |
           python scripts/update_safety_issues.py
       
       - name: Update news safety issues
         env:
           GNEWS_API_KEY: ${{ secrets.GNEWS_API_KEY }}
+        continue-on-error: true
         run: python scripts/update_news_issues.py
 
       - name: Update USGS earthquake data
+        continue-on-error: true
         run: python scripts/update_disaster_issues.py
 
       - name: Update US State Dept travel advisories
+        continue-on-error: true
         run: python scripts/update_state_dept_issues.py
+
+      - name: Update WHO disease outbreak news
+        continue-on-error: true
+        run: python scripts/update_who_issues.py
 
       - name: Commit and push updated data
         run: |
