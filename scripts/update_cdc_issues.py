@@ -21,9 +21,7 @@ import requests
 from bs4 import BeautifulSoup
 
 from config import COUNTRIES
-
-
-NOTICES_URL = "https://wwwnc.cdc.gov/travel/notices"
+from translate_util import translate_to_korean
 OUTPUT_FILE = Path("docs/data/cdc_issues.json")
 
 RECENCY_DAYS = 180
@@ -37,6 +35,13 @@ LEVEL_LABELS = {
     2: "Level 2 (Practice Enhanced Precautions)",
     3: "Level 3 (Reconsider Nonessential Travel)",
     4: "Level 4 (Avoid All Travel)",
+}
+
+LEVEL_LABELS_KO = {
+    1: "1단계 (평상시 예방수칙 준수)",
+    2: "2단계 (강화된 예방조치 권고)",
+    3: "3단계 (비필수 여행 재고 권고)",
+    4: "4단계 (여행 금지 권고)",
 }
 
 
@@ -170,6 +175,13 @@ def build_issues():
 
         matched_countries = match_countries(item, COUNTRIES)
 
+        if not matched_countries:
+            continue
+
+        # 같은 알림이 여러 나라에 매칭돼도 번역은 한 번만 하면 되므로 루프 밖에서 처리
+        translated_title = translate_to_korean(item["title"])
+        translated_summary = translate_to_korean(item["summary"]) if item["summary"] else ""
+
         for country in matched_countries:
 
             severity = SEVERITY_BY_LEVEL[item["level"]]
@@ -179,8 +191,9 @@ def build_issues():
                 "country": country["name"],
                 "category": "health",
                 "severity": severity,
-                "title": f"{item['title']} ({LEVEL_LABELS[item['level']]})",
-                "summary": item["summary"] or item["title"],
+                "title": f"{translated_title} (CDC {LEVEL_LABELS_KO[item['level']]})",
+                "title_en": f"{item['title']} ({LEVEL_LABELS[item['level']]})",
+                "summary": translated_summary or translated_title,
                 "volunteer_impact": get_volunteer_impact(severity),
                 "recommended_action": get_recommended_action(),
                 "published_at": published_at,
