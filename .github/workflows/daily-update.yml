@@ -28,6 +28,10 @@ jobs:
           pip install requests
           pip install beautifulsoup4
 
+      - name: Scrape 0404.go.kr country level list
+        continue-on-error: true
+        run: python scripts/scrape_mofa_country_list.py
+
       - name: Update MOFA travel alarm data
         env:
           MOFA_API_KEY: ${{ secrets.MOFA_API_KEY }}
