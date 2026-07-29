@@ -71,6 +71,10 @@ jobs:
         continue-on-error: true
         run: python scripts/update_who_issues.py
 
+      - name: Update CDC travel health notices
+        continue-on-error: true
+        run: python scripts/update_cdc_issues.py
+
       - name: Commit and push updated data
         run: |
           git config --global user.name "github-actions[bot]"
