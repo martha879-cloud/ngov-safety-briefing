@@ -85,6 +85,46 @@ SAFETY_KEYWORDS = [
 
 
 # ==========================================
+# 안전 이슈와 무관한 화제성/교육/회고성 기사를 걸러내는 키워드.
+# 안전 키워드가 있어도 이 목록에 걸리면 제외한다.
+# (예: "storm-ready shelter를 설계하는 학생 공학 경진대회" 같은 교육 프로그램 기사가
+#  "storm" 키워드 때문에 실제 폭풍 기사로 오인되는 것을 방지)
+# ==========================================
+
+NOISE_KEYWORDS = [
+    # 화제성/바이럴/유머
+    "goes viral",
+    "viral video",
+    "viral after",
+
+    # 교육/경진대회/전시
+    "award-winning program",
+    "hands-on",
+    "stem program",
+    "engineering education",
+    "curriculum",
+    "students tested",
+    "science center",
+    "museum",
+    "exhibit",
+    "documentary",
+    "workshop",
+    "scholarship",
+    "internship",
+
+    # 역사적 회고 (현재 진행 중인 위협이 아님)
+    "decades ago",
+    "decades-old",
+    "historical",
+    "anniversary of",
+    "commemorat",
+    "memoir",
+    "testimony about abuses during",
+    "civil war era",
+]
+
+
+# ==========================================
 # 분류 함수
 # ==========================================
 
@@ -446,6 +486,15 @@ for korean_name, english_name in (
         if not any(
             keyword in combined_text
             for keyword in SAFETY_KEYWORDS
+        ):
+            continue
+
+
+        # 안전 키워드가 있어도, 화제성/교육/역사적 회고 신호가 있으면 제외.
+        # (예: "storm"이 들어간 학생 공학 경진대회 기사, 수십 년 전 내전 회고 기사 등)
+        if any(
+            keyword in combined_text
+            for keyword in NOISE_KEYWORDS
         ):
             continue
 
