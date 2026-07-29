@@ -138,7 +138,8 @@ def fetch_mofa_alerts():
 
     if missing:
         print("경고: 이번 실행에서 외교부 API 응답에 안 잡힌 파견국:", missing)
-        print("참고: API가 실제로 반환한 국가명 목록(일부):", sorted(all_country_names_seen)[:30])
+        print(f"참고: API가 실제로 반환한 국가명 전체 목록 ({len(all_country_names_seen)}개):")
+        print(sorted(all_country_names_seen))
 
     matched = {}
 
