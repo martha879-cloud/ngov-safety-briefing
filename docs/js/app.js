@@ -176,6 +176,48 @@ async function loadDashboard() {
 
     });
 
+    // 국가별로 뽑은(심각도 기준 top3) 이슈를, 화면에 보여줄 때는
+    // 출처 종류 기준의 고정된 순서로 다시 정렬한다.
+    // (외교부 안전공지 → 미국 국무부 → WHO → CDC → 지진(USGS) → 뉴스)
+    const SOURCE_DISPLAY_PRIORITY = {
+        "외교부 해외안전공지": 1,
+        "US State Dept": 2,
+        "WHO": 3,
+        "CDC": 4,
+        "USGS": 5,
+    };
+
+    function sourcePriority(source) {
+        return SOURCE_DISPLAY_PRIORITY[source] || 6;
+    }
+
+    Object.keys(issuesByCountry).forEach(countryName => {
+
+        issuesByCountry[countryName].sort((a, b) => {
+
+            const priorityA = sourcePriority(a.source);
+            const priorityB = sourcePriority(b.source);
+
+            if (priorityA !== priorityB) {
+                return priorityA - priorityB;
+            }
+
+            const rankA = SEVERITY_RANK[a.severity] || 0;
+            const rankB = SEVERITY_RANK[b.severity] || 0;
+
+            if (rankA !== rankB) {
+                return rankB - rankA;
+            }
+
+            const dateA = new Date(a.published_at || "1900-01-01");
+            const dateB = new Date(b.published_at || "1900-01-01");
+
+            return dateB - dateA;
+
+        });
+
+    });
+
 
     // -----------------------------------------
     // 각 렌더링 단계도 서로 독립적으로 실패하도록 분리.
