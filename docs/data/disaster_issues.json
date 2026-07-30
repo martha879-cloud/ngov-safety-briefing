@@ -1,6 +1,22 @@
 {
-  "updated": "2026-07-30 15:43",
+  "updated": "2026-07-30 16:14",
   "issues": [
+    {
+      "id": "usgs-us6000tgw4",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.7 지진 발생 (186 km W of Abepura, Indonesia)",
+      "summary": "USGS 관측 기준 M4.7 규모의 지진이 발생했습니다 (186 km W of Abepura, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-07-30",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgw4",
+      "lat": -2.5747,
+      "lng": 138.9512,
+      "magnitude": 4.7
+    },
     {
       "id": "usgs-us6000tgvu",
       "country": "인도네시아",
