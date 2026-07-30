@@ -3,6 +3,12 @@ NewsData.io(https://newsdata.io)에서 파견국 20개국의 최근 뉴스를 �
 안전 관련 이슈만 걸러서 docs/data/newsdata_issues.json 으로 저장하는 스크립트.
 
 GNews와 같은 성격의 소스라서, 필터링 철학도 동일하게 맞춘다:
+- 제목(title)에 해당 국가명(또는 별칭)이 실제로 포함된 기사만 채택
+  (country 파라미터로 그 나라 코드의 뉴스를 요청해도, Menafn/GlobeNewswire 같은
+   와이어 통신사 기사가 여러 국가 코드에 동시에 배포되는 경우가 많아서,
+   전혀 무관한 나라/지역 기사가 안전 키워드 때문에 걸려 들어오는 문제가 있었음.
+   예: "guatemala" 코드로 요청했는데 미국 테네시주 총격 사건이 반환되는 식.
+   그래서 GNews 스크립트와 동일하게 국가명 체크를 추가함)
 - 제목(title)에서만 안전 키워드를 판단 (요약 필드가 가끔 다른 기사 내용과 섞여오는 걸 방지)
 - 교육/화제성/역사적 회고 신호가 있으면 제외
 - 최대한 무료 요청 한도(하루 200건) 안에서, 국가당 1회 요청만 사용
@@ -169,9 +175,14 @@ def build_issues():
             if not title or not link:
                 continue
 
-            # NewsData.io는 country 파라미터로 이미 그 나라 현지 언론사 기사를 주기 때문에
-            # (GNews처럼 해외 언론이 "케냐에서~"라고 쓰는 것과 다르게, 케냐 현지 신문은
-            #  제목에 굳이 "케냐"라고 안 씀), 제목에 국가명이 있어야 한다는 조건은 걸지 않는다.
+            # country 파라미터가 "그 나라 관련 기사"를 보장하지 않는다.
+            # Menafn, GlobeNewswire 같은 와이어 통신사는 완전히 무관한 지역 기사를
+            # 여러 국가 코드에 동시에 배포하는 경우가 많아서, 제목에 국가명(또는 별칭)이
+            # 실제로 들어있는지 확인해야 엉뚱한 나라 이슈로 오분류되는 걸 막을 수 있다.
+            country_keywords = country.get("keywords") or [country["name_en"]]
+
+            if not any(kw.lower() in title_lower for kw in country_keywords):
+                continue
 
             # 제목에서만 안전 키워드 판단
             if not any(k in title_lower for k in SAFETY_KEYWORDS):
