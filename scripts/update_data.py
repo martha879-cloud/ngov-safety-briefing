@@ -16,6 +16,10 @@ URL = "https://apis.data.go.kr/1262000/TravelAlarmService2/getTravelAlarmList2"
 # 특별여행주의보 여부를 알려주는 데 사용한다.
 SUPPLEMENT_FILE = Path("data/processed/mofa_country_levels.json")
 
+# 0404.go.kr '여행경보 조정' 게시판 스크래핑 결과 (scrape_travel_alert_reasons.py가 생성).
+# TravelAlarmService2 API는 조정 사유 텍스트를 안 주기 때문에, 여기서 보완한다.
+REASON_FILE = Path("data/processed/travel_alert_reasons.json")
+
 # 외교부 API 국가명과 우리 목록명이 다른 경우 매핑
 NAME_MAPPING = {
     "티모르레스테": "동티모르",
@@ -34,6 +38,16 @@ def load_supplement():
         return {}
 
     with open(SUPPLEMENT_FILE, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def load_reasons():
+    """여행경보 조정 사유 스크래핑 결과를 불러온다. 없으면 빈 dict."""
+
+    if not REASON_FILE.exists():
+        return {}
+
+    with open(REASON_FILE, encoding="utf-8") as f:
         return json.load(f)
 
 
@@ -217,6 +231,24 @@ def apply_supplement(entry, country_name, supplement):
     return entry
 
 
+def apply_reason(entry, country_name, reasons):
+    """여행경보 조정 게시판에서 찾은 사유가 있으면 entry에 붙여준다.
+    (외교부 API 자체는 사유 텍스트가 없어서, 있으면 항상 참고용으로 덧붙이는 것.
+    현재 단계(level)와 이 사유가 같은 조정 건인지까지는 확인하지 않으므로,
+    화면에는 "최근 조정 사유(날짜)"로 표시해 시점을 알 수 있게 한다.)"""
+
+    info = reasons.get(country_name)
+
+    if not info:
+        return entry
+
+    entry["adjustment_reason"] = info.get("reason", "")
+    entry["adjustment_reason_date"] = info.get("published_at")
+    entry["adjustment_reason_url"] = info.get("detail_url")
+
+    return entry
+
+
 def build_countries():
     """config/countries.json에 있는 20개국을 항상 전부 포함해서 반환.
     API에서 매칭되지 않은 국가는 기본값(green/여행경보 미지정)을 사용하고,
@@ -224,6 +256,7 @@ def build_countries():
 
     alerts = fetch_mofa_alerts()
     supplement = load_supplement()
+    reasons = load_reasons()
 
     result = []
     for country in COUNTRIES:
@@ -234,6 +267,7 @@ def build_countries():
             entry.update(alert)
 
         entry = apply_supplement(entry, country["name"], supplement)
+        entry = apply_reason(entry, country["name"], reasons)
 
         result.append(entry)
 
