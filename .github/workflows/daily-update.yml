@@ -40,10 +40,6 @@ jobs:
         run: |
           python scripts/update_data.py
 
-      - name: 브리핑 / 변경사항 / 히스토리 생성
-        continue-on-error: true
-        run: python scripts/generate_reports.py
-
       - name: Update last_update.json
         run: |
           KST_TIME=$(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M')
@@ -81,6 +77,12 @@ jobs:
       - name: Update CDC travel health notices
         continue-on-error: true
         run: python scripts/update_cdc_issues.py
+
+      # 외교부/국무부/CDC 변경사항을 비교하려면 이 셋의 데이터가 전부 갱신된 뒤에 실행되어야 해서
+      # (국무부/CDC 스텝보다 앞에 있으면 어제 데이터랑 비교하게 되는 문제가 있었음) 맨 뒤로 옮김
+      - name: 브리핑 / 변경사항 / 히스토리 생성
+        continue-on-error: true
+        run: python scripts/generate_reports.py
 
       - name: Commit and push updated data
         run: |
