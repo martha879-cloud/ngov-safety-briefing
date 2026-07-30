@@ -21,7 +21,7 @@ async function loadDashboard() {
 
     try {
 
-        const countriesRes = await fetch("data/countries.json");
+        const countriesRes = await fetch(`data/countries.json?t=${Date.now()}`, { cache: "no-store" });
 
         if (!countriesRes.ok) {
             throw new Error(`HTTP ${countriesRes.status}`);
@@ -329,7 +329,9 @@ async function safeFetchJson(url, fallback) {
 
     try {
 
-        const res = await fetch(url);
+        const bustedUrl = url + (url.includes("?") ? "&" : "?") + "t=" + Date.now();
+
+        const res = await fetch(bustedUrl, { cache: "no-store" });
 
         if (!res.ok) {
             throw new Error(`HTTP ${res.status}`);
