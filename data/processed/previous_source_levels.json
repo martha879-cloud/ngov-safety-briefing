@@ -1,0 +1,110 @@
+{
+  "몽골": {
+    "state_dept": {
+      "severity": "low",
+      "title": "Mongolia - Level 1: Exercise Normal Precautions"
+    }
+  },
+  "라오스": {
+    "state_dept": {
+      "severity": "medium",
+      "title": "Laos - Level 2: Exercise Increased Caution"
+    }
+  },
+  "인도네시아": {
+    "state_dept": {
+      "severity": "medium",
+      "title": "Indonesia - Level 2: Exercise Increased Caution"
+    }
+  },
+  "베트남": {
+    "state_dept": {
+      "severity": "low",
+      "title": "Vietnam - Level 1: Exercise Normal Precautions"
+    }
+  },
+  "동티모르": {
+    "state_dept": {
+      "severity": "medium",
+      "title": "Timor-Leste - Level 2: Exercise Increased Caution"
+    }
+  },
+  "르완다": {
+    "state_dept": {
+      "severity": "high",
+      "title": "Rwanda - Level 3: Reconsider Travel"
+    }
+  },
+  "요르단": {
+    "state_dept": {
+      "severity": "high",
+      "title": "Jordan - Level 3: Reconsider Travel"
+    }
+  },
+  "과테말라": {
+    "state_dept": {
+      "severity": "high",
+      "title": "Guatemala - Level 3: Reconsider Travel"
+    }
+  },
+  "말라위": {
+    "state_dept": {
+      "severity": "medium",
+      "title": "Malawi - Level 2: Exercise Increased Caution"
+    }
+  },
+  "방글라데시": {
+    "state_dept": {
+      "severity": "high",
+      "title": "Bangladesh - Level 3: Reconsider Travel"
+    }
+  },
+  "우간다": {
+    "state_dept": {
+      "severity": "critical",
+      "title": "Uganda - Level 4: Do Not Travel"
+    }
+  },
+  "탄자니아": {
+    "state_dept": {
+      "severity": "high",
+      "title": "Tanzania - Level 3: Reconsider Travel"
+    }
+  },
+  "캄보디아": {
+    "state_dept": {
+      "severity": "medium",
+      "title": "Cambodia - Level 2: Exercise Increased Caution"
+    }
+  },
+  "이집트": {
+    "state_dept": {
+      "severity": "medium",
+      "title": "Egypt - Level 2: Exercise Increased Caution"
+    }
+  },
+  "도미니카공화국": {
+    "state_dept": {
+      "severity": "medium",
+      "title": "Dominican Republic - Level 2: Exercise Increased Caution"
+    }
+  },
+  "페루": {
+    "state_dept": {
+      "severity": "medium",
+      "title": "Peru - Level 2: Exercise Increased Caution"
+    }
+  },
+  "필리핀": {
+    "state_dept": {
+      "severity": "medium",
+      "title": "Philippines - Level 2: Exercise Increased Caution"
+    }
+  },
+  "모로코": {
+    "state_dept": {
+      "severity": "medium",
+      "title": "Morocco - Level 2: Exercise Increased Caution"
+    }
+  }
+}

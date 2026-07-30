@@ -1,4 +1,19 @@
 {
-  "updated": "2026-07-30 16:33",
-  "issues": []
+  "updated": "2026-07-30 16:49",
+  "issues": [
+    {
+      "id": "newsdata-001",
+      "country": "이집트",
+      "category": "conflict",
+      "severity": "high",
+      "title": "이집트, 미국-사우디가 이라크 내 이란 지원 단체를 공격하자 아랍 국가에 대한 공격 비난",
+      "title_en": "Egypt condemns attacks on Arab states as US-Saudi strikes target Iran-backed groups in Iraq",
+      "summary": "Egypt on Wednesday strongly condemned attacks on oil facilities in eastern Saudi Arabia and missile strikes targeting Jordan, describing them as unacceptable assaults on state sovereignty and civilian infrastructure that threaten regional stability and global energy security. In a statement, Egypt’s Ministry of Foreign Affairs reaffirmed Cairo’s full solidarity with Saudi Arabia and Jordan, expressing [...] The post Egypt condemns attacks on Arab states as US-Saudi strikes target Iran-backed groups in Iraq first appeared on Dailynewsegypt .",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 활동 지속 여부를 검토하세요.",
+      "published_at": "2026-07-29",
+      "source": "Daily News Egypt",
+      "source_url": "https://www.dailynewsegypt.com/2026/07/29/egypt-condemns-attacks-on-arab-states-as-us-saudi-strikes-target-iran-backed-groups-in-iraq/"
+    }
+  ]
 }
