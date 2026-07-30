@@ -656,6 +656,24 @@ function createCountryCard(
     const searchUrl = "https://www.google.com/search?q=" +
         encodeURIComponent(country.name + " 외교부 해외안전여행");
 
+    // 사유(summary)가 있어도, 실제 수집이 안 됐을 때 쓰는 기본 문구면
+    // 보여줘봐야 정보 가치가 없으니 걸러낸다.
+    const GENERIC_SUMMARIES = new Set([
+        "미국 국무부 여행경보 갱신 내역입니다.",
+        "외교부 해외안전여행 안전공지에 등록된 최근 안전 관련 정보입니다.",
+        "최근 뉴스에서 확인된 안전 관련 정보입니다.",
+    ]);
+
+    function meaningfulReason(issue) {
+        if (!issue || !issue.summary) {
+            return "";
+        }
+        if (GENERIC_SUMMARIES.has(issue.summary)) {
+            return "";
+        }
+        return issue.summary;
+    }
+
     function issueLine(label, issue, placeholder) {
 
         if (!issue) {
@@ -666,6 +684,7 @@ function createCountryCard(
             label,
             text: `${issue.title}${issue.published_at ? ` (${issue.published_at})` : ""}`,
             url: issue.source_url,
+            reason: meaningfulReason(issue),
         };
 
     }
@@ -676,6 +695,7 @@ function createCountryCard(
         {
             label: "🏛️ 외교부",
             text: country.issue || "특이사항 없음",
+            // 외교부 API는 단계 변경 사유 텍스트를 제공하지 않아서 이 줄만 사유가 없음
         },
         issueLine("🇺🇸 미국 국무부", guaranteed["US State Dept"], "최신 정보 없음"),
         issueLine("🏥 WHO", guaranteed["WHO"], "최신 발병 정보 없음"),
@@ -689,6 +709,7 @@ function createCountryCard(
             label: getSourceLabel(issue.source),
             text: `${issue.title}${issue.published_at ? ` (${issue.published_at})` : ""}`,
             url: issue.source_url,
+            reason: meaningfulReason(issue),
         });
 
     });
@@ -699,9 +720,14 @@ function createCountryCard(
             ? `<a href="${line.url}" target="_blank" rel="noopener noreferrer">${line.text}</a>`
             : line.text;
 
+        const reasonHtml = line.reason
+            ? `<div class="text-muted small mt-1">↳ ${line.reason}</div>`
+            : "";
+
         return `
             <li class="mb-2">
                 <strong>${line.label}</strong>: ${content}
+                ${reasonHtml}
             </li>
         `;
 
