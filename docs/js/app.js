@@ -695,7 +695,12 @@ function createCountryCard(
         {
             label: "🏛️ 외교부",
             text: country.issue || "특이사항 없음",
-            // 외교부 API는 단계 변경 사유 텍스트를 제공하지 않아서 이 줄만 사유가 없음
+            // 여행경보 조정 게시판에서 사유를 찾았으면 보여주고, 없으면 위와 동일하게 사유 없이 표시
+            reason: meaningfulReason({
+                summary: country.adjustment_reason
+                    ? `${country.adjustment_reason}${country.adjustment_reason_date ? ` (조정 공지 ${country.adjustment_reason_date})` : ""}`
+                    : "",
+            }),
         },
         issueLine("🇺🇸 미국 국무부", guaranteed["US State Dept"], "최신 정보 없음"),
         issueLine("🏥 WHO", guaranteed["WHO"], "최신 발병 정보 없음"),
