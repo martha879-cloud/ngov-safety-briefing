@@ -55,8 +55,8 @@
   },
   "방글라데시": {
     "state_dept": {
-      "severity": "high",
-      "title": "Bangladesh - Level 3: Reconsider Travel"
+      "severity": "medium",
+      "title": "Bangladesh - Level 2: Exercise Increased Caution"
     }
   },
   "우간다": {
@@ -105,6 +105,12 @@
     "state_dept": {
       "severity": "medium",
       "title": "Morocco - Level 2: Exercise Increased Caution"
+    }
+  },
+  "케냐": {
+    "state_dept": {
+      "severity": "medium",
+      "title": "Kenya - Level 2: Exercise Increased Caution"
     }
   }
 }

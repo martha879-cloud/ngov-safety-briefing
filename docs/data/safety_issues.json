@@ -1,18 +1,18 @@
 {
-  "updated": "2026-07-30 16:33",
+  "updated": "2026-07-31 08:11",
   "issues": [
     {
-      "id": "요르단-2026-07-20-1",
-      "country": "요르단",
-      "category": "official_notice",
+      "id": "인도네시아-2026-07-30-1",
+      "country": "인도네시아",
+      "category": "conflict",
       "severity": "medium",
-      "title": "주의 중동 상황 관련 안전공지(7.19.)",
+      "title": "[대사관 안전공지] 자카르타 시위 주의 안내(7/30)",
       "summary": "외교부 해외안전여행 안전공지에 등록된 최근 안전 관련 정보입니다.",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
       "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
-      "published_at": "2026-07-20",
+      "published_at": "2026-07-30",
       "source": "외교부 해외안전공지",
-      "source_url": "https://www.0404.go.kr/bbs/safetyNtc/ATC0000000048584/detail"
+      "source_url": "https://www.0404.go.kr/bbs/safetyNtc/217/detail2?ntnCd=181"
     }
   ]
 }
