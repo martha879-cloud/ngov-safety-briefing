@@ -65,9 +65,9 @@ def build_daily_report(countries, previous_by_id, today_str):
                 "flag": c["flag"],
                 "source": "🏛️ 외교부",
                 "change": f"{STATUS_EMOJI.get(prev.get('status'), '⚪')} → {STATUS_EMOJI[c['status']]}",
-                # 외교부 TravelAlarmService2 API는 단계 변경 사유(alarm_msg)를 제공하지 않아서,
-                # 현재로선 단계/발령일 텍스트(c["issue"])가 우리가 보여줄 수 있는 최선의 정보다.
-                "reason": c["issue"],
+                # scrape_travel_alert_reasons.py로 실제 조정 사유를 찾았으면 그걸 우선 쓰고,
+                # 없으면 예전처럼 단계/발령일 텍스트(c["issue"])로 대체한다.
+                "reason": c.get("adjustment_reason") or c["issue"],
             })
 
     return {"date": today_str, "changes": changes}
