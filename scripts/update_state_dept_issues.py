@@ -18,6 +18,7 @@ import xml.etree.ElementTree as ET
 
 from config import COUNTRIES
 from time_util import kst_now
+from translate_util import translate_to_korean
 
 
 RSS_URL = "https://travel.state.gov/_res/rss/TAsTWs.xml"
@@ -173,8 +174,9 @@ def build_issues():
         level = parse_level(threat_level_text)
         severity = LEVEL_SEVERITY.get(level, "low")
 
-        summary = strip_html(description)
-        category = classify_category(f"{title} {summary}")
+        summary_en = strip_html(description)
+        summary = translate_to_korean(summary_en) if summary_en else ""
+        category = classify_category(f"{title} {summary_en}")
 
         issues.append({
             "id": f"statedept-{country['id']}-{parse_pub_date(pub_date)}",
@@ -183,6 +185,7 @@ def build_issues():
             "severity": severity,
             "title": title,
             "summary": summary or "미국 국무부 여행경보 갱신 내역입니다.",
+            "summary_en": summary_en,
             "volunteer_impact": get_volunteer_impact(severity),
             "recommended_action": get_recommended_action(severity),
             "published_at": parse_pub_date(pub_date),
