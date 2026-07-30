@@ -1,6 +1,22 @@
 {
-  "updated": "2026-07-30 16:14",
+  "updated": "2026-07-30 16:33",
   "issues": [
+    {
+      "id": "usgs-us6000tgwd",
+      "country": "과테말라",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "M5.0 지진 발생 (8 km WNW of La Democracia, Guatemala)",
+      "summary": "USGS 관측 기준 M5.0 규모의 지진이 발생했습니다 (8 km WNW of La Democracia, Guatemala).",
+      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-07-30",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgwd",
+      "lat": 14.2453,
+      "lng": -91.0265,
+      "magnitude": 5
+    },
     {
       "id": "usgs-us6000tgw4",
       "country": "인도네시아",
