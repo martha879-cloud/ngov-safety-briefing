@@ -36,12 +36,24 @@ LEVEL_CODES = {"t01": 1, "t02": 2, "t03": 3, "t04": 4}
 
 def fetch_list_page():
 
-    response = requests.get(LIST_URL, timeout=30, headers={
-        "User-Agent": "KOICA-NGO-Safety-Dashboard"
-    })
-    response.raise_for_status()
+    last_error = None
 
-    return response.text
+    # 정부 사이트라 가끔 타임아웃/일시적 오류가 나는 경우가 있어서,
+    # 한 번 더 재시도해서 일시적인 실패로 인한 빈 결과를 줄인다.
+    for attempt in range(2):
+        try:
+            response = requests.get(LIST_URL, timeout=30, headers={
+                "User-Agent": "KOICA-NGO-Safety-Dashboard"
+            })
+            response.raise_for_status()
+
+            return response.text
+
+        except requests.RequestException as e:
+            last_error = e
+            print(f"0404.go.kr 요청 실패 (시도 {attempt + 1}/2):", e)
+
+    raise last_error
 
 
 def parse_country_levels(html):
@@ -101,6 +113,19 @@ def parse_country_levels(html):
     return result
 
 
+def load_previous_output():
+    """이전 실행에서 저장된 결과를 불러온다. 없으면 빈 dict."""
+
+    if not OUTPUT_FILE.exists():
+        return {}
+
+    try:
+        with open(OUTPUT_FILE, encoding="utf-8") as f:
+            return json.load(f)
+    except (json.JSONDecodeError, OSError):
+        return {}
+
+
 def main():
 
     print("0404.go.kr 국가/지역별 정보 목록 수집 시작")
@@ -113,6 +138,23 @@ def main():
         levels = {}
 
     print(f"파견국 중 매칭된 국가 수: {len(levels)} / {len(COUNTRIES)}")
+
+    # 스크래핑이 실패했거나(예외) 결과가 비어있으면, 사이트 구조가 바뀐 게 아니라
+    # 일시적인 접속 실패일 가능성이 높다. 이럴 때 빈 결과로 덮어써버리면
+    # 우간다처럼 API에 아예 없고 이 스크래핑에만 의존하는 국가의 특별여행주의보 정보가
+    # 통째로 사라지는 문제가 생긴다 (실제로 반복 발생했던 문제).
+    # 그래서 결과가 비어있을 때는 이전에 저장된 값을 그대로 유지한다.
+    if not levels:
+        previous = load_previous_output()
+
+        if previous:
+            print(
+                "경고: 이번 수집 결과가 비어있어서 이전 데이터를 그대로 유지합니다 "
+                f"(이전 데이터 {len(previous)}개국 보존)."
+            )
+            levels = previous
+        else:
+            print("경고: 이번 수집 결과가 비어있고, 이전에 저장된 데이터도 없습니다.")
 
     missing = [c["name"] for c in COUNTRIES if c["name"] not in levels]
     if missing:
