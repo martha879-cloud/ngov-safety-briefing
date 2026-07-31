@@ -1,6 +1,38 @@
 {
-  "updated": "2026-07-31 08:11",
+  "updated": "2026-07-31 18:35",
   "issues": [
+    {
+      "id": "usgs-us6000th68",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.9 지진 발생 (287 km SW of Banda Aceh, Indonesia)",
+      "summary": "USGS 관측 기준 M4.9 규모의 지진이 발생했습니다 (287 km SW of Banda Aceh, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-07-31",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000th68",
+      "lat": 4.0899,
+      "lng": 93.1811,
+      "magnitude": 4.9
+    },
+    {
+      "id": "usgs-us6000th4k",
+      "country": "페루",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "M5.6 지진 발생 (13 km ENE of San Fernando, Peru)",
+      "summary": "USGS 관측 기준 M5.6 규모의 지진이 발생했습니다 (13 km ENE of San Fernando, Peru).",
+      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-07-31",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000th4k",
+      "lat": -8.3349,
+      "lng": -74.4353,
+      "magnitude": 5.6
+    },
     {
       "id": "usgs-us6000th1p",
       "country": "인도네시아",

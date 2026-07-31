@@ -1,19 +1,19 @@
 {
-  "updated": "2026-07-31 08:11",
+  "updated": "2026-07-31 18:35",
   "issues": [
     {
       "id": "newsdata-001",
-      "country": "키르기스스탄",
-      "category": "security",
+      "country": "이집트",
+      "category": "conflict",
       "severity": "low",
-      "title": "미르지요예프 대통령, 키르기스스탄의 유엔 안전보장이사회 당선을 축하",
-      "title_en": "President Mirziyoyev congratulates Kyrgyzstan on election to UN Security Council",
-      "summary": "News and analytical articles about Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, Uzbekistan.",
+      "title": "미국-이란 전쟁 LIVE: 분쟁이 확대되면서 이집트가 '처음' 공격을 당했으며 사우디아라비아, 해양 방위 동맹 발표",
+      "title_en": "US-Iran War LIVE: Egypt Struck For 'First Time' As Conflict Widens, Saudi Arabia Announces Maritime Defence Alliance",
+      "summary": "(MENAFN - Live Mint) US-Iran war LIVE Updates: The conflict in Iran is expanding, with Egypt and Saudi Arabia becoming increasingly drawn into regional hostilities authorities said a drone attack ...",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
       "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
       "published_at": "2026-07-30",
-      "source": "Akipress",
-      "source_url": "https://akipress.com/news:910019"
+      "source": "Menafn",
+      "source_url": "https://menafn.com/1111469931/US-Iran-War-LIVE-Egypt-Struck-For-First-Time-As-Conflict-Widens-Saudi-Arabia-Announces-Maritime-Defence-Alliance"
     }
   ]
 }
