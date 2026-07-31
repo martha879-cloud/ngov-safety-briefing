@@ -1,4 +1,47 @@
 {
-  "updated": "2026-07-31 18:35",
-  "issues": []
+  "updated": "2026-08-01 08:11",
+  "issues": [
+    {
+      "id": "news-002",
+      "country": "이집트",
+      "category": "conflict",
+      "severity": "high",
+      "title": "이란 전쟁: 사우디가 \"방어\" 연합을 형성함에 따라 갈등이 확대될 위험, 이란은 이집트 LNG 플랫폼 공격을 이스라엘의 거짓 깃발로 묘사; Postol - Oreshnik보다 더 강력한 이란 미사일; IRCG가 제공하는",
+      "title_en": "Iran War: Risk of Widening Conflict as Saudis Form \"Defensive\" Coalition, Iran Depicts Egypt LNG Platform Attack as Israel False Flag; Postol - Iran Missiles More Powerful Than Oreshnik; IRCG Provides",
+      "summary": "Today's Iran war news: The Saudis rearrange deck chairs on their Titanic as the IRCG documents their successful F-35 hits.",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
+      "published_at": "2026-07-31",
+      "source": "Naked Capitalism",
+      "source_url": "https://www.nakedcapitalism.com/2026/07/iran-war-risk-of-widening-conflict-as-saudis-form-defensive-coalition-iran-depicts-egypt-lng-platform-attack-as-israel-false-flag-postol-iran-missiles-more-powerful-than-oreshnik-ircg-provid.html"
+    },
+    {
+      "id": "news-001",
+      "country": "우간다",
+      "category": "health",
+      "severity": "medium",
+      "title": "콩고가 에볼라 발병으로 계속 어려움을 겪고 있는 가운데 우간다는 에볼라 종식을 선언했습니다.",
+      "title_en": "Uganda declares itself Ebola-free as Congo continues to struggle with the outbreak",
+      "summary": "Authorities in Uganda declared the East Africa nation free of Ebola on Tuesday following the discharge of the country's last patient in mid-June, a delicate milestone as the virus continues to plague neighboring Congo.",
+      "volunteer_impact": "봉사단 건강관리 및 예방조치 확인이 필요할 수 있습니다.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-07-29",
+      "source": "PBS News",
+      "source_url": "https://www.pbs.org/newshour/health/uganda-declares-itself-ebola-free-as-congo-continues-to-struggle-with-the-outbreak"
+    },
+    {
+      "id": "news-003",
+      "country": "페루",
+      "category": "security",
+      "severity": "low",
+      "title": "범죄가 급증함에 따라 후지모리 추종자들은 친숙한 이름이 페루의 질서를 회복할 수 있기를 바라고 있습니다.",
+      "title_en": "As crime surges, Fujimori loyalists hope a familiar name can restore order in Peru",
+      "summary": "LIMA, July 29 — We are offering the following story that has been selected by AFP’s chief editors for re-publication as among the best of the week.For fervent Keiko Fujimori...",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-07-29",
+      "source": "Malay Mail",
+      "source_url": "https://www.malaymail.com/news/world/2026/07/29/as-crime-surges-fujimori-loyalists-hope-a-familiar-name-can-restore-order-in-peru/229384"
+    }
+  ]
 }
