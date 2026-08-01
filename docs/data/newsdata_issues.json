@@ -1,4 +1,19 @@
 {
-  "updated": "2026-08-01 08:11",
-  "issues": []
+  "updated": "2026-08-01 16:40",
+  "issues": [
+    {
+      "id": "newsdata-001",
+      "country": "케냐",
+      "category": "conflict",
+      "severity": "high",
+      "title": "Moses Kuria는 CS Ruku에게 Gachagua 공격 이후 케냐 산을 나누지 말라고 말했습니다.",
+      "title_en": "Moses Kuria tells CS Ruku not to divide Mt Kenya after attack on Gachagua",
+      "summary": "Former Trade Cabinet Secretary Moses Kuria has urged Public Service Cabinet Secretary Geoffrey Ruku to avoid deepening political divisions in the Mt Kenya region following his latest criticism of former Deputy President Rigathi Gachagua. Kuria’s appeal came after Ruku defended Deputy President Kithure Kindiki against sustained criticism from Gachagua, insisting that the Mt Kenya region [...]",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 활동 지속 여부를 검토하세요.",
+      "published_at": "2026-07-31",
+      "source": "People Daily",
+      "source_url": "https://peopledaily.digital/inside-politics/moses-kuria-tells-cs-ruku-not-to-divide-mt-kenya-after-attack-on-gachagua"
+    }
+  ]
 }

@@ -1,6 +1,70 @@
 {
-  "updated": "2026-08-01 08:11",
+  "updated": "2026-08-01 16:40",
   "issues": [
+    {
+      "id": "usgs-us6000thef",
+      "country": "필리핀",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.6 지진 발생 (25 km S of Daliao, Philippines)",
+      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (25 km S of Daliao, Philippines).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-08-01",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thef",
+      "lat": 5.6352,
+      "lng": 124.9258,
+      "magnitude": 4.6
+    },
+    {
+      "id": "usgs-us6000thcu",
+      "country": "필리핀",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.5 지진 발생 (40 km ESE of Sulangan, Philippines)",
+      "summary": "USGS 관측 기준 M4.5 규모의 지진이 발생했습니다 (40 km ESE of Sulangan, Philippines).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-07-31",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thcu",
+      "lat": 10.7428,
+      "lng": 126.1452,
+      "magnitude": 4.5
+    },
+    {
+      "id": "usgs-us6000thcs",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "M5.1 지진 발생 (132 km ENE of Masohi, Indonesia)",
+      "summary": "USGS 관측 기준 M5.1 규모의 지진이 발생했습니다 (132 km ENE of Masohi, Indonesia).",
+      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-07-31",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thcs",
+      "lat": -3.0027,
+      "lng": 130.1237,
+      "magnitude": 5.1
+    },
+    {
+      "id": "usgs-us6000thcq",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "M5.1 지진 발생 (153 km ENE of Masohi, Indonesia)",
+      "summary": "USGS 관측 기준 M5.1 규모의 지진이 발생했습니다 (153 km ENE of Masohi, Indonesia).",
+      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-07-31",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thcq",
+      "lat": -2.8982,
+      "lng": 130.2942,
+      "magnitude": 5.1
+    },
     {
       "id": "usgs-us6000thbq",
       "country": "인도네시아",
@@ -288,22 +352,6 @@
       "lat": -10.007,
       "lng": 123.4402,
       "magnitude": 5.3
-    },
-    {
-      "id": "usgs-us7000t3a4",
-      "country": "필리핀",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "M5.0 지진 발생 (57 km S of Sarangani, Philippines)",
-      "summary": "USGS 관측 기준 M5.0 규모의 지진이 발생했습니다 (57 km S of Sarangani, Philippines).",
-      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-07-25",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3a4",
-      "lat": 4.8793,
-      "lng": 125.4791,
-      "magnitude": 5
     }
   ]
 }
