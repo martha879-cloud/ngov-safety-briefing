@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-01 16:40",
+  "updated": "2026-08-02 08:17",
   "issues": [
     {
       "id": "usgs-us6000thef",
@@ -66,20 +66,36 @@
       "magnitude": 5.1
     },
     {
+      "id": "usgs-us6000thbu",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.6 지진 발생 (132 km ENE of Masohi, Indonesia)",
+      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (132 km ENE of Masohi, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-07-31",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thbu",
+      "lat": -2.9125,
+      "lng": 130.0959,
+      "magnitude": 4.6
+    },
+    {
       "id": "usgs-us6000thbq",
       "country": "인도네시아",
       "category": "natural_disaster",
       "severity": "medium",
-      "title": "M5.2 지진 발생 (141 km ENE of Masohi, Indonesia)",
-      "summary": "USGS 관측 기준 M5.2 규모의 지진이 발생했습니다 (141 km ENE of Masohi, Indonesia).",
+      "title": "M5.3 지진 발생 (140 km ENE of Masohi, Indonesia)",
+      "summary": "USGS 관측 기준 M5.3 규모의 지진이 발생했습니다 (140 km ENE of Masohi, Indonesia).",
       "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
       "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
       "published_at": "2026-07-31",
       "source": "USGS",
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thbq",
-      "lat": -2.8451,
-      "lng": 130.1548,
-      "magnitude": 5.2
+      "lat": -2.8782,
+      "lng": 130.1637,
+      "magnitude": 5.3
     },
     {
       "id": "usgs-us6000th68",
