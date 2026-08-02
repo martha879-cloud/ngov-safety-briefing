@@ -1,6 +1,54 @@
 {
-  "updated": "2026-08-02 16:44",
+  "updated": "2026-08-03 08:18",
   "issues": [
+    {
+      "id": "usgs-us6000thp0",
+      "country": "필리핀",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.5 지진 발생 (16 km SW of Sarangani, Philippines)",
+      "summary": "USGS 관측 기준 M4.5 규모의 지진이 발생했습니다 (16 km SW of Sarangani, Philippines).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-08-02",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thp0",
+      "lat": 5.2977,
+      "lng": 125.3608,
+      "magnitude": 4.5
+    },
+    {
+      "id": "usgs-us6000thmn",
+      "country": "필리핀",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.7 지진 발생 (170 km SE of Sarangani, Philippines)",
+      "summary": "USGS 관측 기준 M4.7 규모의 지진이 발생했습니다 (170 km SE of Sarangani, Philippines).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-08-02",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thmn",
+      "lat": 4.1753,
+      "lng": 126.3895,
+      "magnitude": 4.7
+    },
+    {
+      "id": "usgs-us6000thm6",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.6 지진 발생 (65 km NW of Ende, Indonesia)",
+      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (65 km NW of Ende, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-08-02",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thm6",
+      "lat": -8.453,
+      "lng": 121.2141,
+      "magnitude": 4.6
+    },
     {
       "id": "usgs-us6000thi4",
       "country": "인도네시아",
@@ -368,22 +416,6 @@
       "lat": -2.5548,
       "lng": 138.7744,
       "magnitude": 4.9
-    },
-    {
-      "id": "usgs-us7000t3g4",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "M5.3 지진 발생 (25 km NW of Kupang, Indonesia)",
-      "summary": "USGS 관측 기준 M5.3 규모의 지진이 발생했습니다 (25 km NW of Kupang, Indonesia).",
-      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-07-26",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3g4",
-      "lat": -10.007,
-      "lng": 123.4402,
-      "magnitude": 5.3
     }
   ]
 }
