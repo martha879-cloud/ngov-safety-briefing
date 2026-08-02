@@ -1,6 +1,22 @@
 {
-  "updated": "2026-08-02 08:17",
+  "updated": "2026-08-02 16:44",
   "issues": [
+    {
+      "id": "usgs-us6000thi4",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.5 지진 발생 (188 km W of Abepura, Indonesia)",
+      "summary": "USGS 관측 기준 M4.5 규모의 지진이 발생했습니다 (188 km W of Abepura, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-08-01",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thi4",
+      "lat": -2.6121,
+      "lng": 138.9386,
+      "magnitude": 4.5
+    },
     {
       "id": "usgs-us6000thef",
       "country": "필리핀",

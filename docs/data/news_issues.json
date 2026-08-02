@@ -1,33 +1,4 @@
 {
-  "updated": "2026-08-02 08:17",
-  "issues": [
-    {
-      "id": "news-001",
-      "country": "이집트",
-      "category": "conflict",
-      "severity": "high",
-      "title": "이집트 항구에 소유된 가스 유조선, 중동 갈등 고조 – NaturalNews.com",
-      "title_en": "owned gas tanker at Egyptian port escalates Middle East conflict – NaturalNews.com",
-      "summary": "A suspected drone struck the U.S.-owned floating LNG facility Energos Winter at Egypt’s Damietta port on July 29, with fire spreading to a second vessel, the GasLog Salem. No casualties were reported, but the attack threatens approximately 35% of Egypt’s natural gas supply, as Energos Infrastructure operates four such facilities in the country. President Donald […]",
-      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
-      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
-      "published_at": "2026-08-01",
-      "source": "Natural News",
-      "source_url": "https://www.naturalnews.com/2026-08-01-drone-strike-egyptian-port-escalates-middle-east-conflict.html"
-    },
-    {
-      "id": "news-002",
-      "country": "페루",
-      "category": "security",
-      "severity": "low",
-      "title": "범죄가 급증함에 따라 후지모리 추종자들은 친숙한 이름이 페루의 질서를 회복할 수 있기를 바라고 있습니다.",
-      "title_en": "As crime surges, Fujimori loyalists hope a familiar name can restore order in Peru",
-      "summary": "LIMA, July 29 — We are offering the following story that has been selected by AFP’s chief editors for re-publication as among the best of the week.For fervent Keiko Fujimori...",
-      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-07-29",
-      "source": "Malay Mail",
-      "source_url": "https://www.malaymail.com/news/world/2026/07/29/as-crime-surges-fujimori-loyalists-hope-a-familiar-name-can-restore-order-in-peru/229384"
-    }
-  ]
+  "updated": "2026-08-02 16:43",
+  "issues": []
 }
