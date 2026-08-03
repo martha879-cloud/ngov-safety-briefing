@@ -1,6 +1,22 @@
 {
-  "updated": "2026-08-03 21:07",
+  "updated": "2026-08-04 08:17",
   "issues": [
+    {
+      "id": "usgs-us6000thv7",
+      "country": "모로코",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.7 지진 발생 (64 km SSW of Midelt, Morocco)",
+      "summary": "USGS 관측 기준 M4.7 규모의 지진이 발생했습니다 (64 km SSW of Midelt, Morocco).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-08-03",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thv7",
+      "lat": 32.2009,
+      "lng": -5.1249,
+      "magnitude": 4.7
+    },
     {
       "id": "usgs-us6000thqe",
       "country": "도미니카공화국",
@@ -431,38 +447,6 @@
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgbx",
       "lat": -7.4435,
       "lng": 108.2848,
-      "magnitude": 4.9
-    },
-    {
-      "id": "usgs-us6000tg94",
-      "country": "필리핀",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "M5.3 지진 발생 (23 km E of Kinablangan, Philippines)",
-      "summary": "USGS 관측 기준 M5.3 규모의 지진이 발생했습니다 (23 km E of Kinablangan, Philippines).",
-      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-07-27",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tg94",
-      "lat": 7.6738,
-      "lng": 126.7653,
-      "magnitude": 5.3
-    },
-    {
-      "id": "usgs-us6000tg2t",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.9 지진 발생 (206 km W of Abepura, Indonesia)",
-      "summary": "USGS 관측 기준 M4.9 규모의 지진이 발생했습니다 (206 km W of Abepura, Indonesia).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-07-27",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tg2t",
-      "lat": -2.5548,
-      "lng": 138.7744,
       "magnitude": 4.9
     }
   ]
