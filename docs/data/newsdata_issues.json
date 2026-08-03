@@ -1,4 +1,19 @@
 {
-  "updated": "2026-08-03 08:18",
-  "issues": []
+  "updated": "2026-08-03 21:07",
+  "issues": [
+    {
+      "id": "newsdata-001",
+      "country": "우간다",
+      "category": "transport",
+      "severity": "low",
+      "title": "우간다 항공이 성장 과정에서 보잉과 '달콤한' 계약을 체결한 방법",
+      "title_en": "How Uganda Airlines secured ‘sweet’ deal with Boeing in its growth quest",
+      "summary": "최근 뉴스에서 확인된 안전 관련 정보입니다.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-08-02",
+      "source": "Monitor",
+      "source_url": "https://www.monitor.co.ug/uganda/news/national/how-uganda-airlines-secured-sweet-deal-with-boeing-in-its-growth-quest-5544794"
+    }
+  ]
 }
