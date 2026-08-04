@@ -1,6 +1,22 @@
 {
-  "updated": "2026-08-04 17:10",
+  "updated": "2026-08-05 08:18",
   "issues": [
+    {
+      "id": "usgs-us6000ti49",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "M5.7 지진 발생 (127 km NW of Ternate, Indonesia)",
+      "summary": "USGS 관측 기준 M5.7 규모의 지진이 발생했습니다 (127 km NW of Ternate, Indonesia).",
+      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-08-04",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti49",
+      "lat": 1.5066,
+      "lng": 126.4856,
+      "magnitude": 5.7
+    },
     {
       "id": "usgs-us6000thv7",
       "country": "모로코",
@@ -416,38 +432,6 @@
       "lat": 10.2364,
       "lng": 126.0529,
       "magnitude": 4.8
-    },
-    {
-      "id": "usgs-us6000tgcx",
-      "country": "페루",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "M5.3 지진 발생 (151 km WSW of Puerto Santa, Peru)",
-      "summary": "USGS 관측 기준 M5.3 규모의 지진이 발생했습니다 (151 km WSW of Puerto Santa, Peru).",
-      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-07-28",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgcx",
-      "lat": -9.7052,
-      "lng": -79.8217,
-      "magnitude": 5.3
-    },
-    {
-      "id": "usgs-us6000tgbx",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.9 지진 발생 (10 km SE of Kawalu, Indonesia)",
-      "summary": "USGS 관측 기준 M4.9 규모의 지진이 발생했습니다 (10 km SE of Kawalu, Indonesia).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-07-28",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgbx",
-      "lat": -7.4435,
-      "lng": 108.2848,
-      "magnitude": 4.9
     }
   ]
 }
