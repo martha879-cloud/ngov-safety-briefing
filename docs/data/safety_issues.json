@@ -1,31 +1,44 @@
 {
-  "updated": "2026-08-02 16:43",
+  "updated": "2026-08-04 17:10",
   "issues": [
     {
-      "id": "요르단-2026-08-01-1",
-      "country": "요르단",
-      "category": "official_notice",
-      "severity": "low",
-      "title": "중동 상황 관련 안전공지(8.1.)",
-      "summary": "외교부 해외안전여행 안전공지에 등록된 최근 안전 관련 정보입니다.",
-      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "외교부 안전공지와 현지 상황을 지속적으로 확인하세요.",
-      "published_at": "2026-08-01",
-      "source": "외교부 해외안전공지",
-      "source_url": "https://www.0404.go.kr/bbs/safetyNtc/1279978/detail2?ntnCd=165"
-    },
-    {
-      "id": "인도네시아-2026-07-31-2",
+      "id": "인도네시아-2026-08-04-1",
       "country": "인도네시아",
       "category": "conflict",
       "severity": "medium",
-      "title": "[대사관 안전공지] 자카르타 시위 주의 안내(7/31)",
+      "title": "[대사관 안전공지] 자카르타 시위 주의 안내(8/4)",
       "summary": "외교부 해외안전여행 안전공지에 등록된 최근 안전 관련 정보입니다.",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
       "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
-      "published_at": "2026-07-31",
+      "published_at": "2026-08-04",
       "source": "외교부 해외안전공지",
-      "source_url": "https://www.0404.go.kr/bbs/safetyNtc/218/detail2?ntnCd=181"
+      "source_url": "https://www.0404.go.kr/bbs/safetyNtc/222/detail2?ntnCd=181"
+    },
+    {
+      "id": "베트남-2026-08-04-2",
+      "country": "베트남",
+      "category": "official_notice",
+      "severity": "low",
+      "title": "베트남 내 외국인 숙박(임시거주) 신고 관련 안내",
+      "summary": "외교부 해외안전여행 안전공지에 등록된 최근 안전 관련 정보입니다.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "외교부 안전공지와 현지 상황을 지속적으로 확인하세요.",
+      "published_at": "2026-08-04",
+      "source": "외교부 해외안전공지",
+      "source_url": "https://www.0404.go.kr/bbs/safetyNtc/1339320/detail2?ntnCd=86"
+    },
+    {
+      "id": "방글라데시-2026-08-04-3",
+      "country": "방글라데시",
+      "category": "official_notice",
+      "severity": "medium",
+      "title": "[안전공지] 8.5.(수) 대규모 봉기의 날 휴일 안전 유의",
+      "summary": "외교부 해외안전여행 안전공지에 등록된 최근 안전 관련 정보입니다.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-08-04",
+      "source": "외교부 해외안전공지",
+      "source_url": "https://www.0404.go.kr/bbs/safetyNtc/1320155/detail2?ntnCd=82"
     }
   ]
 }
