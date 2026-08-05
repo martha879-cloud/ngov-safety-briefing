@@ -1,33 +1,33 @@
 {
-  "updated": "2026-08-05 17:16",
+  "updated": "2026-08-06 08:11",
   "issues": [
     {
       "id": "newsdata-001",
-      "country": "과테말라",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "화산 폭발로 대피한 과테말라의 가족 – 비디오",
-      "title_en": "Families in Guatemala evacuated as volcano erupts – video",
-      "summary": "Guatemala's Volcán de Fuego erupted on 3 August, prompting families in the area to evacuate. Continue reading...",
+      "country": "키르기스스탄",
+      "category": "conflict",
+      "severity": "low",
+      "title": "CIS 군사사격선수권대회, 키르기스스탄에서 개막",
+      "title_en": "CIS military shooting championship begins in Kyrgyzstan",
+      "summary": "News and analytical articles about Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, Uzbekistan.",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
       "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-08-04",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/world/video/2026/aug/04/guatemala-volcano-erupts-video"
+      "published_at": "2026-08-05",
+      "source": "Akipress",
+      "source_url": "https://akipress.com/news:910942"
     },
     {
       "id": "newsdata-002",
       "country": "과테말라",
       "category": "natural_disaster",
       "severity": "medium",
-      "title": "과테말라 화산 폭발로 수백명 대피",
-      "title_en": "Guatemala volcano eruption prompts evacuation of hundreds of people",
-      "summary": "Eruption of the Fuego volcano sends lava and ash nearly four miles into the sky as country declares alert warning Hundreds of people living on the slopes of Guatemala ’s Fuego volcano have evacuated their homes after a huge eruption spewed lava and plumes of ash. Central America’s most active volcano erupted on Monday morning, with conditions intensifying by nightfall and prompting authorities to issue the country’s second-most severe alert warning. Continue reading...",
+      "title": "Guatemala volcano eruption forces hundreds to flee ash, gas and lava",
+      "title_en": "Guatemala volcano eruption forces hundreds to flee ash, gas and lava",
+      "summary": "In Guatemala, authorities have declared a red alert – the most severe danger warning – in areas affected by the eruption of the Fuego Volcano, located about 35 kilometers from the country's capital. The alert covers the areas of Sacatepéquez, Chimaltenango, and Escuintla, home to around 1.6 million people. Story by Charlotte Hughes.",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
       "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-08-04",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/world/2026/aug/04/guatemala-volcano-eruption-prompts-evacuation-of-hundreds-of-people"
+      "published_at": "2026-08-05",
+      "source": "France 24",
+      "source_url": "https://www.france24.com/en/guatemala-volcano-eruption-forces-hundreds-to-flee-ash-gas-and-lava"
     }
   ]
 }

@@ -1,12 +1,12 @@
 {
-  "updated": "2026-08-05 17:16",
+  "updated": "2026-08-06 08:11",
   "issues": [
     {
       "id": "who-uganda-2026-07-17",
       "country": "우간다",
       "category": "health",
       "severity": "medium",
-      "title": "Bundibugyo 바이러스로 인한 에볼라 질병, 콩고 민주 공화국 및 우간다",
+      "title": "콩고민주공화국 및 우간다 Bundibugyo 바이러스로 인한 에볼라병",
       "title_en": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda",
       "summary": "WHO Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda",
       "volunteer_impact": "WHO가 발표한 발병 정보입니다 (Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda). 관련 예방수칙 및 건강관리 여부를 확인하세요.",
@@ -20,7 +20,7 @@
       "country": "방글라데시",
       "category": "health",
       "severity": "medium",
-      "title": "홍역 - 방글라데시",
+      "title": "Measles - Bangladesh",
       "title_en": "Measles - Bangladesh",
       "summary": "WHO Disease Outbreak News: Measles - Bangladesh",
       "volunteer_impact": "WHO가 발표한 발병 정보입니다 (Measles - Bangladesh). 관련 예방수칙 및 건강관리 여부를 확인하세요.",
@@ -28,20 +28,6 @@
       "published_at": "2026-04-23",
       "source": "WHO",
       "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON598"
-    },
-    {
-      "id": "who-bangladesh-2026-02-06",
-      "country": "방글라데시",
-      "category": "health",
-      "severity": "medium",
-      "title": "니파 바이러스 감염 - 방글라데시",
-      "title_en": "Nipah virus infection - Bangladesh",
-      "summary": "WHO Disease Outbreak News: Nipah virus infection - Bangladesh",
-      "volunteer_impact": "WHO가 발표한 발병 정보입니다 (Nipah virus infection - Bangladesh). 관련 예방수칙 및 건강관리 여부를 확인하세요.",
-      "recommended_action": "WHO 발병정보 원문과 현지 보건당국 발표를 확인하고, 필요한 예방접종·위생수칙을 점검하세요.",
-      "published_at": "2026-02-06",
-      "source": "WHO",
-      "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON594"
     }
   ]
 }
