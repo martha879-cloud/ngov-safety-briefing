@@ -1,33 +1,33 @@
 {
-  "updated": "2026-08-05 08:18",
+  "updated": "2026-08-05 17:16",
   "issues": [
     {
       "id": "newsdata-001",
-      "country": "말라위",
+      "country": "과테말라",
       "category": "natural_disaster",
-      "severity": "low",
-      "title": "말라위의 40년 영연방 게임 메달 가뭄이 계속되는 것에 정부는 '우려'",
-      "title_en": "Govt ‘concerned’ as Malawi’s 40-year Commonwealth Games medal drought continues",
-      "summary": "Ministry of Youth, Sports and Culture says it is concerned after Team Malawi completed its campaign at the 2026 Commonwealth Games in Glasgow without winning a single medal. Before the Games, Sports Minister Alfred Gangata had urged the team to end a medal drought stretching back 40 years. But athletes competing across swimming, judo, boxing, [...] The post Govt ‘concerned’ as Malawi’s 40-year Commonwealth Games medal drought continues appeared first on Malawi News | Breaking News, Politics, Business & Sports | Nyasa Times .",
+      "severity": "medium",
+      "title": "화산 폭발로 대피한 과테말라의 가족 – 비디오",
+      "title_en": "Families in Guatemala evacuated as volcano erupts – video",
+      "summary": "Guatemala's Volcán de Fuego erupted on 3 August, prompting families in the area to evacuate. Continue reading...",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
       "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
       "published_at": "2026-08-04",
-      "source": "Nyasa Times",
-      "source_url": "https://www.nyasatimes.com/govt-concerned-as-malawis-40-year-commonwealth-games-medal-drought-continues/"
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/world/video/2026/aug/04/guatemala-volcano-erupts-video"
     },
     {
       "id": "newsdata-002",
       "country": "과테말라",
       "category": "natural_disaster",
       "severity": "medium",
-      "title": "과테말라, 활화산 푸에고 화산 폭발 후 적색경보 발령",
-      "title_en": "Guatemala issues red alert after active Fuego volcano erupts",
-      "summary": "Emergency services in Guatemala issued a red alert, the most severe warning, after the Fuego volcano – located less than 100 kilometres from its capital – erupted Monday morning. Hundreds of people living nearby evacuated their homes Tuesday as rivers of lava streamed down its slopes and ash rose some six kilometres into the sky.",
+      "title": "과테말라 화산 폭발로 수백명 대피",
+      "title_en": "Guatemala volcano eruption prompts evacuation of hundreds of people",
+      "summary": "Eruption of the Fuego volcano sends lava and ash nearly four miles into the sky as country declares alert warning Hundreds of people living on the slopes of Guatemala ’s Fuego volcano have evacuated their homes after a huge eruption spewed lava and plumes of ash. Central America’s most active volcano erupted on Monday morning, with conditions intensifying by nightfall and prompting authorities to issue the country’s second-most severe alert warning. Continue reading...",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
       "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
       "published_at": "2026-08-04",
-      "source": "France 24",
-      "source_url": "https://www.france24.com/en/americas/20260804-guatemala-issues-red-alert-after-fuego-volcano-erupts"
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/world/2026/aug/04/guatemala-volcano-eruption-prompts-evacuation-of-hundreds-of-people"
     }
   ]
 }
