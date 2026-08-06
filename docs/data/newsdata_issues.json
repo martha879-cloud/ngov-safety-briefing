@@ -1,47 +1,19 @@
 {
-  "updated": "2026-08-06 17:06",
+  "updated": "2026-08-07 08:11",
   "issues": [
     {
       "id": "newsdata-001",
-      "country": "우간다",
-      "category": "transport",
+      "country": "케냐",
+      "category": "security",
       "severity": "low",
-      "title": "우간다 항공: 향후 2년 동안 항공기 차질 이후의 전환이 결정될 것이라고 CEO Girma Wake는 말했습니다.",
-      "title_en": "Uganda Airlines: Next Two Years Will Determine Turnaround After Fleet Setbacks, Says CEO Girma Wake",
-      "summary": "Uganda Airlines' acting Chief Executive Officer Girma Wake said the next two years will determine the future of the state-owned carrier as it works to return to profitability after engine problems gro",
+      "title": "나이로비 법원, 사이버 범죄 혐의로 케냐인 3명 미국 송환 승인",
+      "title_en": "Nairobi court approves extradition of three Kenyans to the U.S. over cybercrime charges",
+      "summary": "The three suspects are wanted by American authorities to face charges concerning conspiracy to commit computer intrusions, conspiracy to commit wire fraud, aggravated identity theft, as well as aiding and abetting under United States federal law.",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
       "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-08-05",
-      "source": "Chimpreports",
-      "source_url": "https://chimpreports.com/uganda-airlines-next-two-years-will-determine-turnaround-after-fleet-setbacks-says-ceo-girma-wake/"
-    },
-    {
-      "id": "newsdata-002",
-      "country": "우간다",
-      "category": "transport",
-      "severity": "low",
-      "title": "정부, 우간다 항공 항공기 확장에 3조 6천억 달러 투입",
-      "title_en": "Gov’t Commits Shs 3.6 Trillion on Uganda Airlines Fleet Expansion",
-      "summary": "Uganda will invest 3.6 trillion shillings in expanding its national airline's fleet, Transport Minister Fred Byamukama said on Wednesday, as the government seeks to transform Uganda Airlines into a re",
-      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-08-05",
-      "source": "Chimpreports",
-      "source_url": "https://chimpreports.com/govt-commits-shs-3-6-trillion-on-uganda-airlines-fleet-expansion/"
-    },
-    {
-      "id": "newsdata-003",
-      "country": "과테말라",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "과테말라 화산 폭발로 수백 명이 화산재, 가스, 용암을 피해 대피",
-      "title_en": "Guatemala volcano eruption forces hundreds to flee ash, gas and lava",
-      "summary": "In Guatemala, authorities have declared a red alert – the most severe danger warning – in areas affected by the eruption of the Fuego Volcano, located about 35 kilometers from the country's capital. The alert covers the areas of Sacatepéquez, Chimaltenango, and Escuintla, home to around 1.6 million people. Story by Charlotte Hughes.",
-      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-08-05",
-      "source": "France 24",
-      "source_url": "https://www.france24.com/en/guatemala-volcano-eruption-forces-hundreds-to-flee-ash-gas-and-lava"
+      "published_at": "2026-08-06",
+      "source": "Citizen Digital",
+      "source_url": "https://citizen.digital/article/nairobi-court-approves-extradition-of-three-kenyans-to-the-us-over-cybercrime-charges-n387834"
     }
   ]
 }

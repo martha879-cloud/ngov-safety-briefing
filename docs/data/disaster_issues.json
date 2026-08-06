@@ -1,6 +1,22 @@
 {
-  "updated": "2026-08-06 17:06",
+  "updated": "2026-08-07 08:11",
   "issues": [
+    {
+      "id": "usgs-us6000tip9",
+      "country": "페루",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "M5.3 지진 발생 (7 km SSW of Huayucachi, Peru)",
+      "summary": "USGS 관측 기준 M5.3 규모의 지진이 발생했습니다 (7 km SSW of Huayucachi, Peru).",
+      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-08-06",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tip9",
+      "lat": -12.1948,
+      "lng": -75.2574,
+      "magnitude": 5.3
+    },
     {
       "id": "usgs-us6000tihf",
       "country": "필리핀",
@@ -454,15 +470,15 @@
       "country": "인도네시아",
       "category": "natural_disaster",
       "severity": "low",
-      "title": "M4.9 지진 발생 (287 km SW of Banda Aceh, Indonesia)",
-      "summary": "USGS 관측 기준 M4.9 규모의 지진이 발생했습니다 (287 km SW of Banda Aceh, Indonesia).",
+      "title": "M4.9 지진 발생 (279 km SW of Banda Aceh, Indonesia)",
+      "summary": "USGS 관측 기준 M4.9 규모의 지진이 발생했습니다 (279 km SW of Banda Aceh, Indonesia).",
       "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
       "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
       "published_at": "2026-07-31",
       "source": "USGS",
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000th68",
-      "lat": 4.0899,
-      "lng": 93.1811,
+      "lat": 4.1382,
+      "lng": 93.2336,
       "magnitude": 4.9
     },
     {
@@ -480,22 +496,6 @@
       "lat": -8.3349,
       "lng": -74.4353,
       "magnitude": 5.6
-    },
-    {
-      "id": "usgs-us6000th1p",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.5 지진 발생 (211 km SSE of Ambon, Indonesia)",
-      "summary": "USGS 관측 기준 M4.5 규모의 지진이 발생했습니다 (211 km SSE of Ambon, Indonesia).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-07-30",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000th1p",
-      "lat": -5.3977,
-      "lng": 129.0625,
-      "magnitude": 4.5
     }
   ]
 }
