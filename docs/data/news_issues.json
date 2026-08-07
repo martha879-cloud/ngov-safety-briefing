@@ -1,19 +1,4 @@
 {
-  "updated": "2026-08-07 14:22",
-  "issues": [
-    {
-      "id": "news-001",
-      "country": "케냐",
-      "category": "conflict",
-      "severity": "high",
-      "title": "케냐 여행 주의보: 범죄, 테러, 불안 등으로 '더욱 주의'",
-      "title_en": "Kenya travel advisory: 'Exercise increased caution' due to crime, terrorism, unrest, more",
-      "summary": "The U.S. State Department is urging visitors to this African destination to \"exercise increased caution\" on their next trip",
-      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
-      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
-      "published_at": "2026-08-01",
-      "source": "NJ.com",
-      "source_url": "https://www.nj.com/news/2026/08/travel-advisory-us-warns-travelers-to-exercise-increased-caution-in-this-african-nation.html"
-    }
-  ]
+  "updated": "2026-08-08 08:18",
+  "issues": []
 }
