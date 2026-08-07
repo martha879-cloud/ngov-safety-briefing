@@ -1,19 +1,4 @@
 {
-  "updated": "2026-08-07 08:11",
-  "issues": [
-    {
-      "id": "newsdata-001",
-      "country": "케냐",
-      "category": "security",
-      "severity": "low",
-      "title": "나이로비 법원, 사이버 범죄 혐의로 케냐인 3명 미국 송환 승인",
-      "title_en": "Nairobi court approves extradition of three Kenyans to the U.S. over cybercrime charges",
-      "summary": "The three suspects are wanted by American authorities to face charges concerning conspiracy to commit computer intrusions, conspiracy to commit wire fraud, aggravated identity theft, as well as aiding and abetting under United States federal law.",
-      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-08-06",
-      "source": "Citizen Digital",
-      "source_url": "https://citizen.digital/article/nairobi-court-approves-extradition-of-three-kenyans-to-the-us-over-cybercrime-charges-n387834"
-    }
-  ]
+  "updated": "2026-08-07 14:22",
+  "issues": []
 }

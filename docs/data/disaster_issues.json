@@ -1,6 +1,22 @@
 {
-  "updated": "2026-08-07 08:11",
+  "updated": "2026-08-07 14:22",
   "issues": [
+    {
+      "id": "usgs-us6000tivb",
+      "country": "필리핀",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "M5.0 지진 발생 (7 km NW of Cabacao, Philippines)",
+      "summary": "USGS 관측 기준 M5.0 규모의 지진이 발생했습니다 (7 km NW of Cabacao, Philippines).",
+      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-08-07",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tivb",
+      "lat": 13.3855,
+      "lng": 120.6108,
+      "magnitude": 5
+    },
     {
       "id": "usgs-us6000tip9",
       "country": "페루",
@@ -480,22 +496,6 @@
       "lat": 4.1382,
       "lng": 93.2336,
       "magnitude": 4.9
-    },
-    {
-      "id": "usgs-us6000th4k",
-      "country": "페루",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "M5.6 지진 발생 (13 km ENE of San Fernando, Peru)",
-      "summary": "USGS 관측 기준 M5.6 규모의 지진이 발생했습니다 (13 km ENE of San Fernando, Peru).",
-      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-07-31",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000th4k",
-      "lat": -8.3349,
-      "lng": -74.4353,
-      "magnitude": 5.6
     }
   ]
 }
