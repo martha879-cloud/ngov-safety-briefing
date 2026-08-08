@@ -1,6 +1,54 @@
 {
-  "updated": "2026-08-08 09:05",
+  "updated": "2026-08-09 08:11",
   "issues": [
+    {
+      "id": "usgs-us6000tj8e",
+      "country": "필리핀",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.8 지진 발생 (54 km SW of Sarangani, Philippines)",
+      "summary": "USGS 관측 기준 M4.8 규모의 지진이 발생했습니다 (54 km SW of Sarangani, Philippines).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-08-08",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tj8e",
+      "lat": 5.095,
+      "lng": 125.0834,
+      "magnitude": 4.8
+    },
+    {
+      "id": "usgs-us6000tj65",
+      "country": "필리핀",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.6 지진 발생 (33 km SSW of Sarangani, Philippines)",
+      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (33 km SSW of Sarangani, Philippines).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-08-08",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tj65",
+      "lat": 5.1189,
+      "lng": 125.3651,
+      "magnitude": 4.6
+    },
+    {
+      "id": "usgs-us6000tj4x",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.5 지진 발생 (122 km WSW of Gorontalo, Indonesia)",
+      "summary": "USGS 관측 기준 M4.5 규모의 지진이 발생했습니다 (122 km WSW of Gorontalo, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-08-07",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tj4x",
+      "lat": 0.2552,
+      "lng": 122.0018,
+      "magnitude": 4.5
+    },
     {
       "id": "usgs-us6000tj4s",
       "country": "페루",
@@ -16,6 +64,22 @@
       "lat": -12.1235,
       "lng": -75.5241,
       "magnitude": 4.7
+    },
+    {
+      "id": "usgs-us6000tj4i",
+      "country": "필리핀",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.6 지진 발생 (7 km SSW of Caburan, Philippines)",
+      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (7 km SSW of Caburan, Philippines).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-08-07",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tj4i",
+      "lat": 5.8489,
+      "lng": 125.622,
+      "magnitude": 4.6
     },
     {
       "id": "usgs-us6000tj2p",
@@ -463,38 +527,6 @@
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thm6",
       "lat": -8.453,
       "lng": 121.2141,
-      "magnitude": 4.6
-    },
-    {
-      "id": "usgs-us6000thi4",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.5 지진 발생 (188 km W of Abepura, Indonesia)",
-      "summary": "USGS 관측 기준 M4.5 규모의 지진이 발생했습니다 (188 km W of Abepura, Indonesia).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-08-01",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thi4",
-      "lat": -2.6121,
-      "lng": 138.9386,
-      "magnitude": 4.5
-    },
-    {
-      "id": "usgs-us6000thef",
-      "country": "필리핀",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.6 지진 발생 (25 km S of Daliao, Philippines)",
-      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (25 km S of Daliao, Philippines).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-08-01",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thef",
-      "lat": 5.6352,
-      "lng": 124.9258,
       "magnitude": 4.6
     }
   ]
