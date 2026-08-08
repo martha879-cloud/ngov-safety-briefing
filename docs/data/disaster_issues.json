@@ -1,6 +1,22 @@
 {
-  "updated": "2026-08-08 08:18",
+  "updated": "2026-08-08 09:05",
   "issues": [
+    {
+      "id": "usgs-us6000tj4s",
+      "country": "페루",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.7 지진 발생 (17 km WNW of Yanacancha, Peru)",
+      "summary": "USGS 관측 기준 M4.7 규모의 지진이 발생했습니다 (17 km WNW of Yanacancha, Peru).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-08-07",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tj4s",
+      "lat": -12.1235,
+      "lng": -75.5241,
+      "magnitude": 4.7
+    },
     {
       "id": "usgs-us6000tj2p",
       "country": "필리핀",
@@ -480,22 +496,6 @@
       "lat": 5.6352,
       "lng": 124.9258,
       "magnitude": 4.6
-    },
-    {
-      "id": "usgs-us6000thcu",
-      "country": "필리핀",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.5 지진 발생 (40 km ESE of Sulangan, Philippines)",
-      "summary": "USGS 관측 기준 M4.5 규모의 지진이 발생했습니다 (40 km ESE of Sulangan, Philippines).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-07-31",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thcu",
-      "lat": 10.7428,
-      "lng": 126.1452,
-      "magnitude": 4.5
     }
   ]
 }
