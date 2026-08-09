@@ -1,19 +1,4 @@
 {
-  "updated": "2026-08-09 09:07",
-  "issues": [
-    {
-      "id": "newsdata-001",
-      "country": "캄보디아",
-      "category": "security",
-      "severity": "low",
-      "title": "Cambodia and Vietnam Strengthen Defence and Public Security Cooperation",
-      "title_en": "Cambodia and Vietnam Strengthen Defence and Public Security Cooperation",
-      "summary": "Cambodia and Vietnam have pledged to deepen cooperation in defence and public security, as Phnom Penh seeks to strengthen ties with Hanoi amid continuing tensions in its relationship with Thailand.",
-      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-08-08",
-      "source": "The Cambodia Daily",
-      "source_url": "https://english.cambodiadaily.com/2026/08/08/cambodia-and-vietnam-strengthen-defence-and-public-security-cooperation/"
-    }
-  ]
+  "updated": "2026-08-10 08:18",
+  "issues": []
 }
