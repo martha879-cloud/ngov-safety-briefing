@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10 08:18",
+  "updated": "2026-08-10 09:11",
   "issues": [
     {
       "id": "usgs-us6000tji3",
@@ -624,22 +624,6 @@
       "lat": -8.5724,
       "lng": -75.7603,
       "magnitude": 5.2
-    },
-    {
-      "id": "usgs-us6000thpb",
-      "country": "이집트",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "M5.0 지진 발생 (36 km NNE of Suez, Egypt)",
-      "summary": "USGS 관측 기준 M5.0 규모의 지진이 발생했습니다 (36 km NNE of Suez, Egypt).",
-      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-08-03",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thpb",
-      "lat": 30.2922,
-      "lng": 32.6273,
-      "magnitude": 5
     }
   ]
 }
