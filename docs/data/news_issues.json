@@ -1,47 +1,4 @@
 {
-  "updated": "2026-08-11 13:06",
-  "issues": [
-    {
-      "id": "news-003",
-      "country": "필리핀",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "태풍 돌고래로 인해 필리핀과 중국 동부의 기상이변이 심해졌습니다.",
-      "title_en": "Typhoon Dolphin compounds extreme weather woes in the Philippines and eastern China",
-      "summary": "The influence of Typhoon Dolphin has reached the Philippines, causing floods in the northern region as it intensifies seasonal monsoon rains. Jhesset Enano reports from Manila. Meanwhile Hong Kong is sweltering in a heatwave fuelled by Typhoon Dolphin, with record temperatures logged on Sunday. Jeraldine Yap reports.",
-      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
-      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
-      "published_at": "2026-08-10",
-      "source": "CNA",
-      "source_url": "https://www.channelnewsasia.com/watch/typhoon-dolphin-compounds-extreme-weather-woes-in-philippines-and-eastern-china-6309906"
-    },
-    {
-      "id": "news-001",
-      "country": "인도네시아",
-      "category": "conflict",
-      "severity": "high",
-      "title": "인도네시아 원숭이 공격: 18명 부상",
-      "title_en": "Monkey attack in Indonesia: 18 injured",
-      "summary": "Animal trappers have captured a monkey in Indonesia after a two-week rampage that injured 18 people and led to school closures. Read more at straitstimes.com.",
-      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
-      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
-      "published_at": "2026-08-07",
-      "source": "The Straits Times",
-      "source_url": "https://www.straitstimes.com/asia/se-asia/indonesia-traps-monkey-to-end-rampage-that-wounded-18-people"
-    },
-    {
-      "id": "news-002",
-      "country": "캄보디아",
-      "category": "security",
-      "severity": "low",
-      "title": "안와르 \"말레이시아, 캄보디아, AI, 디지털 경제, 국경 간 범죄 분야 협력 강화\"",
-      "title_en": "Malaysia, Cambodia to strengthen cooperation in AI, digital economy and cross-border crime, says Anwar",
-      "summary": "KUALA LUMPUR, Aug 4 — Malaysia and Cambodia have reaffirmed their commitment to strengthening strategic cooperation across various sectors, including the digital economy,...",
-      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-08-04",
-      "source": "Malay Mail",
-      "source_url": "https://www.malaymail.com/news/malaysia/2026/08/04/malaysia-cambodia-to-strengthen-cooperation-in-ai-digital-economy-and-cross-border-crime-says-anwar/230136"
-    }
-  ]
+  "updated": "2026-08-12 08:18",
+  "issues": []
 }
