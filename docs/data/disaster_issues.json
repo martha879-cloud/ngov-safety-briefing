@@ -1,20 +1,20 @@
 {
-  "updated": "2026-08-13 08:18",
+  "updated": "2026-08-13 08:42",
   "issues": [
     {
       "id": "usgs-us6000tkax",
       "country": "필리핀",
       "category": "natural_disaster",
       "severity": "low",
-      "title": "M4.7 지진 발생 (21 km NE of Basco, Philippines)",
-      "summary": "USGS 관측 기준 M4.7 규모의 지진이 발생했습니다 (21 km NE of Basco, Philippines).",
+      "title": "M4.7 지진 발생 (31 km E of Basco, Philippines)",
+      "summary": "USGS 관측 기준 M4.7 규모의 지진이 발생했습니다 (31 km E of Basco, Philippines).",
       "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
       "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
       "published_at": "2026-08-12",
       "source": "USGS",
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkax",
-      "lat": 20.56,
-      "lng": 122.1435,
+      "lat": 20.4966,
+      "lng": 122.2726,
       "magnitude": 4.7
     },
     {
