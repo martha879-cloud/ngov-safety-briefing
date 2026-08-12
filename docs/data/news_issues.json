@@ -1,4 +1,33 @@
 {
-  "updated": "2026-08-12 08:18",
-  "issues": []
+  "updated": "2026-08-12 14:17",
+  "issues": [
+    {
+      "id": "news-001",
+      "country": "우간다",
+      "category": "health",
+      "severity": "medium",
+      "title": "동물로부터의 새로운 전염이 콩고-우간다 에볼라 발병을 일으켰을 가능성이 있다는 연구 결과가 나왔습니다.",
+      "title_en": "New transmission from animals likely caused Congo-Uganda Ebola outbreak, study says",
+      "summary": "DAKAR, Aug 11 - The ongoing Ebola outbreak in Democratic Republic of Congo concerns a previously unseen variant of the rare Bundibugyo species of the virus, indicating it stemmed from a new transmission from animals to humans rather than from variants linked to earlier outbreaks, a new study said. Read more at straitstimes.com.",
+      "volunteer_impact": "봉사단 건강관리 및 예방조치 확인이 필요할 수 있습니다.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-08-11",
+      "source": "The Straits Times",
+      "source_url": "https://www.straitstimes.com/world/new-transmission-from-animals-likely-caused-congo-uganda-ebola-outbreak-study-says"
+    },
+    {
+      "id": "news-002",
+      "country": "케냐",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "우크라이나의 가뭄과 전쟁은 케냐의 가족들이 먹을 수 있는 식량을 변화시켰습니다",
+      "title_en": "Drought and the war in Ukraine changed what families in Kenya could afford to eat",
+      "summary": "Russia's invasion of Ukraine in February 2022 had an almost immediate impact on global energy markets and the movement of food around the world. During the first year of the conflict, international crude oil and natural gas prices rose sharply. Disruptions to exports of wheat, maize, sunflower oil and fertilizers from Russia and Ukraine contributed to record global food prices.",
+      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-08-10",
+      "source": "Phys.org",
+      "source_url": "https://phys.org/news/2026-08-drought-war-ukraine-families-kenya.html"
+    }
+  ]
 }

@@ -1,4 +1,19 @@
 {
-  "updated": "2026-08-12 08:18",
-  "issues": []
+  "updated": "2026-08-12 14:17",
+  "issues": [
+    {
+      "id": "newsdata-001",
+      "country": "방글라데시",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "Mercy Relief, HEED 방글라데시는 Ctg의 홍수 피해 가구 2,550명에게 구호품을 배포했습니다.",
+      "title_en": "Mercy Relief, HEED Bangladesh distribute relief to 2,550 flood-affected families in Ctg",
+      "summary": "HEED Bangladesh, with financial support from Mercy Relief, has distributed emergency relief supplies among 2,550 flood-affected families in Chattogram's Chandanaish and Banshkhali upazilas.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-08-11",
+      "source": "The Daily Star",
+      "source_url": "https://www.thedailystar.net/news/news/mercy-relief-heed-bangladesh-distribute-relief-2550-flood-affected-families-ctg-4245486"
+    }
+  ]
 }
