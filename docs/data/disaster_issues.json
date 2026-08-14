@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15 08:11",
+  "updated": "2026-08-15 08:23",
   "issues": [
     {
       "id": "usgs-us6000tkuf",
@@ -544,22 +544,6 @@
       "lat": 0.2552,
       "lng": 122.0018,
       "magnitude": 4.5
-    },
-    {
-      "id": "usgs-us6000tj4s",
-      "country": "페루",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.7 지진 발생 (17 km WNW of Yanacancha, Peru)",
-      "summary": "USGS 관측 기준 M4.7 규모의 지진이 발생했습니다 (17 km WNW of Yanacancha, Peru).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-08-07",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tj4s",
-      "lat": -12.1235,
-      "lng": -75.5241,
-      "magnitude": 4.7
     }
   ]
 }
