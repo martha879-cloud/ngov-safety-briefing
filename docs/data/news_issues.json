@@ -1,19 +1,4 @@
 {
-  "updated": "2026-08-14 08:35",
-  "issues": [
-    {
-      "id": "news-001",
-      "country": "우간다",
-      "category": "health",
-      "severity": "medium",
-      "title": "동물로부터의 새로운 전염으로 인해 콩고-우간다 에볼라 발병이 발생했을 가능성이 있다는 연구 결과가 나왔습니다.",
-      "title_en": "New transmission from animals likely caused Congo-Uganda Ebola outbreak, study says",
-      "summary": "DAKAR, Aug 11 - The ongoing Ebola outbreak in Democratic Republic of Congo concerns a previously unseen variant of the rare Bundibugyo species of the virus, indicating it stemmed from a new transmission from animals to humans rather than from variants linked to earlier outbreaks, a new study said. Read more at straitstimes.com.",
-      "volunteer_impact": "봉사단 건강관리 및 예방조치 확인이 필요할 수 있습니다.",
-      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
-      "published_at": "2026-08-11",
-      "source": "The Straits Times",
-      "source_url": "https://www.straitstimes.com/world/new-transmission-from-animals-likely-caused-congo-uganda-ebola-outbreak-study-says"
-    }
-  ]
+  "updated": "2026-08-15 08:10",
+  "issues": []
 }
