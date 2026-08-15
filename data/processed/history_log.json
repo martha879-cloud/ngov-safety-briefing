@@ -1,12 +1,5 @@
 [
   {
-    "label": "8/9",
-    "green": 11,
-    "yellow": 7,
-    "orange": 2,
-    "red": 0
-  },
-  {
     "label": "8/10",
     "green": 11,
     "yellow": 7,
@@ -43,6 +36,13 @@
   },
   {
     "label": "8/15",
+    "green": 11,
+    "yellow": 7,
+    "orange": 2,
+    "red": 0
+  },
+  {
+    "label": "8/16",
     "green": 11,
     "yellow": 7,
     "orange": 2,

@@ -1,8 +1,34 @@
 {
-  "updated": "2026-08-15 08:10",
+  "updated": "2026-08-16 08:11",
   "issues": [
     {
-      "id": "인도네시아-2026-08-14-1",
+      "id": "인도네시아-2026-08-15-1",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "동부누사떵가라 플로레스 지역 규모 7.7 지진 발생",
+      "summary": "외교부 해외안전여행 안전공지에 등록된 최근 안전 관련 정보입니다.",
+      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동 일정이 변경될 수 있습니다.",
+      "recommended_action": "외교부 안전공지와 현지 상황을 지속적으로 확인하세요.",
+      "published_at": "2026-08-15",
+      "source": "외교부 해외안전공지",
+      "source_url": "https://www.0404.go.kr/bbs/safetyNtc/229/detail2?ntnCd=181"
+    },
+    {
+      "id": "필리핀-2026-08-15-2",
+      "country": "필리핀",
+      "category": "security",
+      "severity": "low",
+      "title": "필리핀 연안 해상강도 발생 관련 안전공지",
+      "summary": "외교부 해외안전여행 안전공지에 등록된 최근 안전 관련 정보입니다.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "외교부 안전공지와 현지 상황을 지속적으로 확인하세요.",
+      "published_at": "2026-08-15",
+      "source": "외교부 해외안전공지",
+      "source_url": "https://www.0404.go.kr/bbs/safetyNtc/1346433/detail2?ntnCd=252"
+    },
+    {
+      "id": "인도네시아-2026-08-14-3",
       "country": "인도네시아",
       "category": "official_notice",
       "severity": "medium",
