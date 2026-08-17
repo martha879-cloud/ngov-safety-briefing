@@ -1,44 +1,44 @@
 {
-  "updated": "2026-08-17 08:14",
+  "updated": "2026-08-18 08:17",
   "issues": [
     {
-      "id": "인도네시아-2026-08-15-1",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "동부누사떵가라 플로레스 지역 규모 7.7 지진 발생",
-      "summary": "외교부 해외안전여행 안전공지에 등록된 최근 안전 관련 정보입니다.",
-      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동 일정이 변경될 수 있습니다.",
-      "recommended_action": "외교부 안전공지와 현지 상황을 지속적으로 확인하세요.",
-      "published_at": "2026-08-15",
-      "source": "외교부 해외안전공지",
-      "source_url": "https://www.0404.go.kr/bbs/safetyNtc/229/detail2?ntnCd=181"
-    },
-    {
-      "id": "필리핀-2026-08-15-2",
-      "country": "필리핀",
-      "category": "security",
-      "severity": "low",
-      "title": "필리핀 연안 해상강도 발생 관련 안전공지",
-      "summary": "외교부 해외안전여행 안전공지에 등록된 최근 안전 관련 정보입니다.",
-      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "외교부 안전공지와 현지 상황을 지속적으로 확인하세요.",
-      "published_at": "2026-08-15",
-      "source": "외교부 해외안전공지",
-      "source_url": "https://www.0404.go.kr/bbs/safetyNtc/1346433/detail2?ntnCd=252"
-    },
-    {
-      "id": "인도네시아-2026-08-14-3",
-      "country": "인도네시아",
+      "id": "모로코-2026-08-18-1",
+      "country": "모로코",
       "category": "official_notice",
       "severity": "medium",
-      "title": "[대사관 안전공지] 지카 바이러스 감염 주의",
+      "title": "모로코 북부 세우타 사태 및 뇌우,강풍 관련 안전 주의",
       "summary": "외교부 해외안전여행 안전공지에 등록된 최근 안전 관련 정보입니다.",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
       "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
-      "published_at": "2026-08-14",
+      "published_at": "2026-08-18",
       "source": "외교부 해외안전공지",
-      "source_url": "https://www.0404.go.kr/bbs/safetyNtc/228/detail2?ntnCd=181"
+      "source_url": "https://www.0404.go.kr/bbs/safetyNtc/1321297/detail2?ntnCd=60"
+    },
+    {
+      "id": "필리핀-2026-08-17-2",
+      "country": "필리핀",
+      "category": "health",
+      "severity": "medium",
+      "title": "뎅기열 확산 주의 안전공지(2차)",
+      "summary": "외교부 해외안전여행 안전공지에 등록된 최근 안전 관련 정보입니다.",
+      "volunteer_impact": "봉사단의 건강관리와 예방조치 확인이 필요할 수 있습니다.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-08-17",
+      "source": "외교부 해외안전공지",
+      "source_url": "https://www.0404.go.kr/bbs/safetyNtc/1346435/detail2?ntnCd=252"
+    },
+    {
+      "id": "필리핀-2026-08-17-3",
+      "country": "필리핀",
+      "category": "official_notice",
+      "severity": "medium",
+      "title": "마닐라 및 수도권 지역 침수 및 안전 유의",
+      "summary": "외교부 해외안전여행 안전공지에 등록된 최근 안전 관련 정보입니다.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-08-17",
+      "source": "외교부 해외안전공지",
+      "source_url": "https://www.0404.go.kr/bbs/safetyNtc/1346434/detail2?ntnCd=252"
     }
   ]
 }
