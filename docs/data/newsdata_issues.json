@@ -1,19 +1,33 @@
 {
-  "updated": "2026-08-17 08:14",
+  "updated": "2026-08-18 08:15",
   "issues": [
     {
       "id": "newsdata-001",
-      "country": "말라위",
-      "category": "security",
-      "severity": "low",
-      "title": "공황의 정치: 말라위 대통령의 불안이 초래한 높은 대가",
-      "title_en": "Politics of Panic: The high price of presidential insecurity in Malawi",
-      "summary": "By Rick Dzida Our constitution is actively draining Malawi’s national treasury. By framing the office of the Vice President as an automatic “President-in-waiting” who inherits the rest of a five-year term, the law builds a foundation of permanent political warfare. Presidents view their deputies as ambitious rivals waiting for them to fall. This paranoia triggers [...] The post Politics of Panic: The high price of presidential insecurity in Malawi appeared first on The Maravi Post .",
+      "country": "필리핀",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "몬순 폭우로 마닐라 주택 침수, 필리핀 북부 도로 침수",
+      "title_en": "Monsoon rains flood Manila homes, submerge roads in northern Philippines",
+      "summary": "Floodwaters submerged homes and inundated roads in Manila on Monday, as the southwest monsoon, known locally as \"Habagat,\" brought heavy rains across the Philippines' northern island of Luzon.",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
       "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-08-16",
-      "source": "The Maravi Post",
-      "source_url": "https://www.maravipost.com/politics-of-panic-the-high-price-of-presidential-insecurity-in-malawi/"
+      "published_at": "2026-08-17",
+      "source": "Abs-cbn",
+      "source_url": "https://www.abs-cbn.com/news/weather-traffic/2026/8/17/monsoon-rains-flood-manila-homes-submerge-roads-in-northern-philippines-1909"
+    },
+    {
+      "id": "newsdata-002",
+      "country": "우간다",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "MTN 우간다는 Y'ello Storm이 Luweero 추천 병원에 새로운 네트워크 사이트와 커뮤니티 지원을 제공하면서 Digida 시즌 II를 출시합니다.",
+      "title_en": "MTN Uganda launches Digida Season II as Y’ello Storm brings new network sites, community support to Luweero Referral Hospital",
+      "summary": "Luweero, Uganda | THE INDEPENDENT | MTN Uganda launched the second season of its Digida Caller Tunez promotion in Luweero on Friday, combining customer rewards with new network sites and community support as part of its Y’ello Storm campaign. Customers who activate their preferred MTN Caller Tunez by dialing *170*12# will stand a chance to ... The post MTN Uganda launches Digida Season II as Y’ello Storm brings new network sites, community support to Luweero Referral Hospital appeared first on The Independent Uganda: .",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-08-17",
+      "source": "The Independent",
+      "source_url": "https://www.independent.co.ug/mtn-uganda-launches-digida-season-ii-as-yello-storm-brings-new-network-sites-community-support-to-luweero-referral-hospital/"
     }
   ]
 }
