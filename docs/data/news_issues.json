@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18 09:35",
+  "updated": "2026-08-18 09:41",
   "issues": [
     {
       "id": "news-001",
@@ -14,6 +14,20 @@
       "published_at": "2026-08-13",
       "source": "The daily Star",
       "source_url": "https://www.dailystar.co.uk/news/latest-news/breaking-body-girl-1-pulled-37546138"
+    },
+    {
+      "id": "news-002",
+      "country": "요르단",
+      "category": "conflict",
+      "severity": "high",
+      "title": "조던의 드론 공격 이후 타일러 피한(Tyler Feehan) 중위의 가족이 그를 추모했습니다.",
+      "title_en": "Slain Army 1st Lt Tyler Feehan's family honors him after Jordan drone attack",
+      "summary": "Army 1st Lt. Tyler Feehan's family remembers him as brave after he was killed by an Iranian drone attack. He will posthumously receive the Bronze Star and Purple Heart.",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
+      "published_at": "2026-08-11",
+      "source": "Fox News",
+      "source_url": "https://www.foxnews.com/media/tyler-feehan-mother-fiancee-recall-excitement-fatal-middle-east-deployment"
     }
   ]
 }
