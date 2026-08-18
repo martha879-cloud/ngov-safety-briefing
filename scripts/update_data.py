@@ -134,7 +134,15 @@ def fetch_mofa_alerts():
             "pageNo": page,
         }
 
-        response = requests.get(URL, params=params)
+        try:
+            response = requests.get(URL, params=params, timeout=30)
+        except requests.RequestException as e:
+            # 이 API가 가끔 타임아웃/접속 실패를 일으키는 걸 실제로 겪었다.
+            # 여기서 예외를 그냥 던지면 스크립트 전체가 죽어서(exit code 1),
+            # 이 실행에서는 국가 데이터가 아예 갱신이 안 되는 상황이 생긴다.
+            # 지금까지 모은 페이지만이라도 쓰도록 반복을 멈추고 넘어간다.
+            print(f"페이지 {page} 요청 실패, 지금까지 모은 데이터로 진행:", e)
+            break
 
         if response.status_code != 200:
             continue
