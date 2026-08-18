@@ -17,6 +17,7 @@ update_data.py가 이 파일을 읽어서 국가별 entry에 "adjustment_reason"
 
 import json
 import re
+import html
 from pathlib import Path
 
 import requests
@@ -31,7 +32,7 @@ OUTPUT_FILE = Path("data/processed/travel_alert_reasons.json")
 
 TARGET_COUNTRIES = [c["name"] for c in COUNTRIES]
 
-MAX_REASON_LENGTH = 300
+MAX_REASON_LENGTH = 400
 
 # 이 게시판은 페이지네이션이 있을 수 있어서, 최근 조정분을 놓치지 않도록
 # 앞쪽 몇 페이지 정도만 확인한다 (매일 도는 스크립트라 이 정도면 충분).
@@ -47,16 +48,44 @@ def fetch_page(url, params=None):
 
 
 def clean_text(text):
+    """실제로 돌려본 결과, 이 게시판의 본문 영역에는
+    (1) '국가 우간다 인접국가 콩고민주공화국 구분 안내 등록일 2026-05-22 조회수 3263 우간다.PNG' 같은
+        게시판 메타데이터(제목 반복/카테고리/등록일/조회수/첨부파일명)가 앞에 붙어 있고,
+    (2) 본문 자체도 실제 DOM으로 렌더링되기 전 원본 HTML 문자열이 텍스트로 그대로 노출되어
+        <p>, </p>, <span style="..."> 같은 태그가 문자 그대로 섞여 나오는 경우가 있었다.
+    그래서 일반적인 공백 정리 외에, 이 두 가지를 추가로 제거한다."""
+
+    if not text:
+        return ""
+
+    # get_text()로도 안 걸러지는, 문자 그대로 남아있는 태그 흔적 제거
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = html.unescape(text)
     text = re.sub(r"\s+", " ", text).strip()
+
+    # 게시판 메타데이터 프리픽스 제거: "... 조회수 1234 첨부파일명.png" 까지를 잘라낸다
+    meta_match = re.search(r"조회수\s*\d+\s*", text)
+    if meta_match:
+        text = text[meta_match.end():]
+        # 조회수 뒤에 바로 붙는 첨부파일명(예: "우간다.PNG", "탄자니아_전후이미지_다운로드.png") 제거
+        text = re.sub(
+            r"^\S+\.(png|jpg|jpeg|pdf|hwp|hwpx|docx?|xlsx?)(\s+\S+\.(png|jpg|jpeg|pdf|hwp|hwpx|docx?|xlsx?))*\s*",
+            "",
+            text,
+            flags=re.IGNORECASE,
+        )
+
+    text = text.strip()
+
     return text[:MAX_REASON_LENGTH]
 
 
-def extract_detail_text(html):
+def extract_detail_text(html_text):
     """상세 페이지 본문에서 실제 조정 사유 문단을 최대한 뽑아낸다.
     사이트 마크업을 정확히 모르는 상태라, 흔히 쓰이는 본문 셀렉터를 순서대로 시도하고,
     전부 실패하면 <p> 태그들을 모아 쓴다. 그것도 없으면 빈 문자열(호출부에서 제목으로 대체)."""
 
-    soup = BeautifulSoup(html, "html.parser")
+    soup = BeautifulSoup(html_text, "html.parser")
 
     for selector in [
         ".view-content", ".board-view", ".bbs-view", ".cont-view",
@@ -77,10 +106,10 @@ def extract_detail_text(html):
     return ""
 
 
-def parse_list(html):
+def parse_list(html_text):
     """목록 페이지에서 우리 파견국 이름이 제목에 들어간 행만 뽑아낸다."""
 
-    soup = BeautifulSoup(html, "html.parser")
+    soup = BeautifulSoup(html_text, "html.parser")
     rows = soup.find_all("tr")
 
     items = []
