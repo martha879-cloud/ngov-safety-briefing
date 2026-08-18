@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18 14:14",
+  "updated": "2026-08-18 14:19",
   "issues": [
     {
       "id": "statedept-mongolia-2026-07-29-1",
@@ -7,7 +7,7 @@
       "category": "official_notice",
       "severity": "low",
       "title": "Mongolia - Level 1: Exercise Normal Precautions",
-      "summary": "권고 수준이나 위험 지표에는 변경 사항이 없습니다. 권고 요약이 업데이트되었습니다. 몽골에서는 일반적인 예방 조치를 취하십시오. 권고 요약 몽골은 일반적으로 여행자에게 안전한 여행지입니다. 안전한 여행을 준비하는 방법을 알아보려면 몽골 여행 지침을 검토하세요. 당신이 12월이라면",
+      "summary": "권고 수준이나 위험 지표에는 변경 사항이 없습니다. 권고 요약이 업데이트되었습니다. 몽골에서는 일반적인 예방 조치를 취하십시오. 권고 요약 몽골은 일반적으로 여행자에게 안전한 여행지입니다. 안전한 여행을 준비하는 방법을 알아보려면 몽골 여행 가이드를 검토하세요. 당신이 12월이라면",
       "summary_en": "There were no changes to the advisory level or risk indicators. Advisory summary was updated. Exercise normal precautions in Mongolia . Advisory summary Mongolia is generally a safe destination for travelers. Review our travel guidance for Mongolia to learn how to prepare for a safe trip. If you dec",
       "volunteer_impact": "미국 국무부 기준으로는 낮은 위험도이나, 세부 내용을 참고하세요.",
       "recommended_action": "미국 국무부 여행경보 원문을 참고하여 세부 위험 지역 및 주의사항을 확인하세요.",
@@ -252,20 +252,6 @@
       "published_at": "2025-05-08",
       "source": "US State Dept",
       "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/philippines-travel-advisory.html"
-    },
-    {
-      "id": "statedept-morocco-2025-04-21-2",
-      "country": "모로코",
-      "category": "conflict",
-      "severity": "medium",
-      "title": "Morocco - Level 2: Exercise Increased Caution",
-      "summary": "테러로 인해 모로코에서는 더욱 주의를 기울이십시오. 테러리스트 그룹은 모로코에서 공격 가능성을 계속 계획하고 있습니다. 테러리스트는 경고가 거의 또는 전혀 없이 공격할 수 있습니다. 관광지, 교통 중심지, 시장, 쇼핑몰, 지방 정부 시설을 대상으로 합니다. 여행 구를 검토",
-      "summary_en": "Exercise increased caution in Morocco due to terrorism . Terrorist groups continue plotting possible attacks in Morocco. Terrorists may attack with little or no warning. They target tourist locations, transportation hubs, markets, shopping malls, and local government facilities. Review the Travel Gu",
-      "volunteer_impact": "미국 국무부가 여행자제(2단계)로 지정한 국가입니다. 세부 위험 지역을 확인하는 것이 좋습니다.",
-      "recommended_action": "미국 국무부 여행경보 원문을 참고하여 세부 위험 지역 및 주의사항을 확인하세요.",
-      "published_at": "2025-04-21",
-      "source": "US State Dept",
-      "source_url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.mar.html"
     },
     {
       "id": "statedept-morocco-2025-04-21-2",
