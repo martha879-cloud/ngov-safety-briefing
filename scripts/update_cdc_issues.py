@@ -25,6 +25,8 @@ from time_util import kst_now
 from translate_util import translate_to_korean
 OUTPUT_FILE = Path("docs/data/cdc_issues.json")
 
+NOTICES_URL = "https://wwwnc.cdc.gov/travel/notices"
+
 RECENCY_DAYS = 180
 
 LEVEL_TO_NUM = {"level1": 1, "level2": 2, "level3": 3, "level4": 4}
