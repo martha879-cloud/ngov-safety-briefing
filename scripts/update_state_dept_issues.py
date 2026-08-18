@@ -8,6 +8,7 @@ docs/data/state_dept_issues.json 으로 저장하는 스크립트.
 """
 
 import json
+import html
 import re
 from datetime import datetime
 from email.utils import parsedate_to_datetime
@@ -36,12 +37,13 @@ LEVEL_SEVERITY = {
 
 
 def strip_html(text):
-    """설명(description)의 HTML 태그를 제거하고 짧게 자름"""
+    """설명(description)의 HTML 태그와 엔티티(&nbsp; 등)를 제거하고 짧게 자름"""
 
     if not text:
         return ""
 
     text = re.sub(r"<[^>]+>", " ", text)
+    text = html.unescape(text)
     text = re.sub(r"\s+", " ", text).strip()
 
     return text[:300]
