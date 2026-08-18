@@ -266,6 +266,9 @@ def append_news_log(news_issues, newsdata_issues, today_str, news_log):
         news_log.append(entry)
 
     return news_log
+
+
+def append_event_log(changes, today_str, event_log):
     """오늘 감지된 변경사항(외교부/국무부/국무부 안전공지/CDC, 사유 포함)을
     영구 이벤트 로그에 누적한다. 위기상황이 시간에 따라 어떻게 흘러왔는지
     나중에 국가별로 돌아볼 수 있게 하는 게 목적이라, 별도로 자르지 않고 계속 쌓는다.
