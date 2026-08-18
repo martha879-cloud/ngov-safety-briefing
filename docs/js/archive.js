@@ -26,6 +26,7 @@ let allCountries = [];
 let allEventLog = [];
 let allTimeseries = {};
 let allHistoryFull = [];
+let allNewsLog = [];
 
 async function safeFetchJson(url, fallback) {
 
@@ -223,9 +224,46 @@ function renderCountryEvents(countryName) {
 
 }
 
+function renderCountryNews(countryName) {
+
+    const container = document.getElementById("countryNews");
+    const labelEl = document.getElementById("newsCountryLabel");
+
+    if (labelEl) {
+        labelEl.textContent = countryName;
+    }
+
+    const news = allNewsLog
+        .filter(n => n.country === countryName)
+        .sort((a, b) => ((a.published_at || a.first_seen_date || "") < (b.published_at || b.first_seen_date || "") ? 1 : -1))
+        .slice(0, 30);
+
+    if (!news.length) {
+        container.innerHTML = `<p class="text-muted mb-0">아직 수집된 뉴스가 없습니다.</p>`;
+        return;
+    }
+
+    container.innerHTML = news.map(n => `
+        <div class="change-item">
+            <div class="d-flex justify-content-between flex-wrap">
+                <h6 class="mb-1">
+                    ${n.source_url
+                        ? `<a href="${n.source_url}" target="_blank" rel="noopener noreferrer">${n.title}</a>`
+                        : n.title}
+                </h6>
+                <span class="text-muted small">${n.published_at || n.first_seen_date || ""}</span>
+            </div>
+            <div class="small text-muted mb-1">${n.source || ""} · ${n.feed || ""}</div>
+            ${n.summary ? `<div class="small">${n.summary}</div>` : ""}
+        </div>
+    `).join("");
+
+}
+
 function renderCountrySection(countryName) {
     renderCountryChart(countryName);
     renderCountryEvents(countryName);
+    renderCountryNews(countryName);
 }
 
 function renderAllEvents() {
@@ -268,17 +306,19 @@ function setupRangeButtons() {
 
 async function init() {
 
-    const [countries, eventLog, timeseries, historyFull] = await Promise.all([
+    const [countries, eventLog, timeseries, historyFull, newsLog] = await Promise.all([
         safeFetchJson("data/countries.json", []),
         safeFetchJson("data/archive/event_log.json", []),
         safeFetchJson("data/archive/status_timeseries.json", {}),
         safeFetchJson("data/archive/status_history_full.json", []),
+        safeFetchJson("data/archive/news_log.json", []),
     ]);
 
     allCountries = countries;
     allEventLog = eventLog;
     allTimeseries = timeseries;
     allHistoryFull = historyFull;
+    allNewsLog = newsLog;
 
     setupRangeButtons();
     renderOverallChart("all");
