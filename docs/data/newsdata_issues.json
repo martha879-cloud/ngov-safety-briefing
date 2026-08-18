@@ -1,4 +1,19 @@
 {
-  "updated": "2026-08-18 14:19",
-  "issues": []
+  "updated": "2026-08-19 08:16",
+  "issues": [
+    {
+      "id": "newsdata-001",
+      "country": "요르단",
+      "category": "transport",
+      "severity": "low",
+      "title": "Jordan condemns Israeli strikes on Syrian military airport",
+      "title_en": "Jordan condemns Israeli strikes on Syrian military airport",
+      "summary": "The Ministry of Foreign and Expatriate Affairs on Tuesday condemned Israeli airstrikes on the Abu al-Duhur military airport in Syria's Idlib province, as an unjustified aggression and a flagrant violation of Syrian sovereignty, territorial integrity and international law.In a statement, the ministry...",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-08-18",
+      "source": "Ammon News",
+      "source_url": "https://en.ammonnews.net/article/94388"
+    }
+  ]
 }
