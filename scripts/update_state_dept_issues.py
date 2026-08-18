@@ -35,6 +35,23 @@ LEVEL_SEVERITY = {
     "4": "critical",
 }
 
+# Level 단계가 없는 개별 안전공지(Security Alert 등)는 숫자 등급이 없어서,
+# 제목/본문에 위험도가 높은 단어가 있으면 high, 아니면 기본 medium으로 취급한다.
+# (공지로 올라온 시점에서 이미 어느 정도 중요하다고 보고, low로는 두지 않는다.)
+ALERT_HIGH_KEYWORDS = [
+    "attack", "terror", "explosion", "bombing", "gunfire", "shooting",
+    "hostage", "kidnap", "coup", "evacuate", "war", "conflict",
+]
+
+
+def guess_alert_severity(text):
+    text_lower = (text or "").lower()
+
+    if any(keyword in text_lower for keyword in ALERT_HIGH_KEYWORDS):
+        return "high"
+
+    return "medium"
+
 
 def strip_html(text):
     """설명(description)의 HTML 태그와 엔티티(&nbsp; 등)를 제거하고 짧게 자름"""
@@ -51,10 +68,15 @@ def strip_html(text):
 
 def match_country(title):
     """제목 앞부분에서 우리 파견국 영문명을 찾아 country dict 반환.
-    못 찾으면 None."""
+    못 찾으면 None.
+
+    예전에는 "{국가명} - Level"로 시작하는 것만 잡았는데, 이러면 같은 RSS에
+    섞여 있는 "{국가명} - Security Alert"류의 개별 안전공지(Level 표기가 없는 것들)가
+    전부 매칭 실패로 버려지는 문제가 있었다. 그래서 "{국가명} - " 또는 "{국가명}: "로
+    시작하기만 하면 국가는 일단 매칭하고, Level 유무는 build_issues()에서 별도로 판단한다."""
 
     for name_en, country in COUNTRY_BY_NAME_EN.items():
-        if title.startswith(name_en + " - Level"):
+        if title.startswith(name_en + " - ") or title.startswith(name_en + ": "):
             return country
 
     return None
@@ -133,6 +155,25 @@ def get_recommended_action(severity):
     return "미국 국무부 여행경보 원문을 참고하여 세부 위험 지역 및 주의사항을 확인하세요."
 
 
+def get_alert_volunteer_impact(severity):
+    """Level 단계가 아니라 개별 안전공지(Security Alert 등)라서,
+    '2단계' 같은 단계 표현을 쓰면 실제로 없는 단계를 있는 것처럼 오해하게 만든다.
+    그래서 이 경우엔 단계 언급 없이 공지 자체의 중요도만 안내한다."""
+
+    if severity == "high":
+        return "미국 국무부가 위험도가 높은 안전공지를 발령했습니다. 현지 상황을 즉시 확인하세요."
+
+    return "미국 국무부가 안전공지를 발령했습니다. 내용을 확인하고 필요시 활동 계획에 반영하세요."
+
+
+def get_alert_recommended_action(severity):
+
+    if severity == "high":
+        return "현지 협력기관 및 담당자와 상황을 즉시 공유하고, 공지 원문의 세부 지침을 따르세요."
+
+    return "공지 원문을 참고하여 해당 지역 방문·이동 계획에 참고하세요."
+
+
 def fetch_advisories():
 
     response = requests.get(RSS_URL, timeout=30, headers={
@@ -174,24 +215,38 @@ def build_issues():
         threat_level_text = threat_level_el.text if threat_level_el is not None else ""
 
         level = parse_level(threat_level_text)
-        severity = LEVEL_SEVERITY.get(level, "low")
 
         summary_en = strip_html(description)
         summary = translate_to_korean(summary_en) if summary_en else ""
         category = classify_category(f"{title} {summary_en}")
 
+        if level:
+            # 기존처럼 "여행경보 단계" 변경 항목
+            severity = LEVEL_SEVERITY.get(level, "low")
+            source = "US State Dept"
+            volunteer_impact = get_volunteer_impact(severity)
+            recommended_action = get_recommended_action(severity)
+        else:
+            # Level 표기가 없는 개별 안전공지(Security Alert 등).
+            # "US State Dept"와 소스명을 다르게 둬서, 국가 카드의 국무부 대표 한 줄(guaranteed)
+            # 자리를 이 공지가 차지해 버리고 정작 여행경보 단계 정보가 밀려나는 일이 없게 한다.
+            severity = guess_alert_severity(f"{title} {summary_en}")
+            source = "US State Dept Alert"
+            volunteer_impact = get_alert_volunteer_impact(severity)
+            recommended_action = get_alert_recommended_action(severity)
+
         issues.append({
-            "id": f"statedept-{country['id']}-{parse_pub_date(pub_date)}",
+            "id": f"statedept-{country['id']}-{parse_pub_date(pub_date)}-{level or 'alert'}",
             "country": country["name"],
             "category": category,
             "severity": severity,
             "title": title,
             "summary": summary or "미국 국무부 여행경보 갱신 내역입니다.",
             "summary_en": summary_en,
-            "volunteer_impact": get_volunteer_impact(severity),
-            "recommended_action": get_recommended_action(severity),
+            "volunteer_impact": volunteer_impact,
+            "recommended_action": recommended_action,
             "published_at": parse_pub_date(pub_date),
-            "source": "US State Dept",
+            "source": source,
             "source_url": link,
         })
 
