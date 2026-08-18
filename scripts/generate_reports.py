@@ -29,6 +29,8 @@ HISTORY_LOG_PATH = os.path.join(BASE_DIR, "data", "processed", "history_log.json
 
 STATE_DEPT_PATH = os.path.join(BASE_DIR, "docs", "data", "state_dept_issues.json")
 CDC_PATH = os.path.join(BASE_DIR, "docs", "data", "cdc_issues.json")
+NEWS_ISSUES_PATH = os.path.join(BASE_DIR, "docs", "data", "news_issues.json")
+NEWSDATA_ISSUES_PATH = os.path.join(BASE_DIR, "docs", "data", "newsdata_issues.json")
 PREV_SOURCE_LEVELS_PATH = os.path.join(
     BASE_DIR, "data", "processed", "previous_source_levels.json"
 )
@@ -41,6 +43,7 @@ ARCHIVE_DIR = os.path.join(BASE_DIR, "docs", "data", "archive")
 EVENT_LOG_PATH = os.path.join(ARCHIVE_DIR, "event_log.json")
 STATUS_TIMESERIES_PATH = os.path.join(ARCHIVE_DIR, "status_timeseries.json")
 STATUS_HISTORY_FULL_PATH = os.path.join(ARCHIVE_DIR, "status_history_full.json")
+NEWS_LOG_PATH = os.path.join(ARCHIVE_DIR, "news_log.json")
 
 DAILY_SNAPSHOT_DIR = os.path.join(BASE_DIR, "data", "archive", "countries")
 
@@ -226,7 +229,43 @@ def build_history(countries, today_label, today_str, history_log):
     return history, history_log
 
 
-def append_event_log(changes, today_str, event_log):
+def append_news_log(news_issues, newsdata_issues, today_str, news_log):
+    """GNews(news_issues.json)/NewsData.io(newsdata_issues.json)로 수집된 뉴스를
+    영구 아카이브에 누적한다.
+
+    두 스크립트 모두 "이 시점 기준 최근 뉴스"만 담아서 매일 덮어쓰기 때문에,
+    시간이 지나면 예전 뉴스가 통째로 사라진다. 그래서 여기서 source_url(기사 원문 링크,
+    가장 안정적인 고유 키) 기준으로 중복 없이 계속 쌓아서, 국가별 뉴스 흐름을
+    나중에도 돌아볼 수 있게 한다. (각 스크립트의 "id" 필드는 그날 실행 내에서만
+    유효한 일련번호라 날짜를 넘어서는 중복 판단에 쓸 수 없다.)"""
+
+    seen_urls = {e.get("source_url") for e in news_log if e.get("source_url")}
+    seen_keys = {(e.get("country"), e.get("title")) for e in news_log}
+
+    combined = [(item, "GNews") for item in news_issues] + \
+               [(item, "NewsData.io") for item in newsdata_issues]
+
+    for item, feed in combined:
+
+        url = item.get("source_url")
+        key = (item.get("country"), item.get("title"))
+
+        if url:
+            if url in seen_urls:
+                continue
+            seen_urls.add(url)
+        elif key in seen_keys:
+            continue
+
+        seen_keys.add(key)
+
+        entry = dict(item)
+        entry["feed"] = feed
+        entry["first_seen_date"] = today_str
+
+        news_log.append(entry)
+
+    return news_log
     """오늘 감지된 변경사항(외교부/국무부/국무부 안전공지/CDC, 사유 포함)을
     영구 이벤트 로그에 누적한다. 위기상황이 시간에 따라 어떻게 흘러왔는지
     나중에 국가별로 돌아볼 수 있게 하는 게 목적이라, 별도로 자르지 않고 계속 쌓는다.
@@ -284,6 +323,8 @@ def main():
 
     state_dept_issues = load_json(STATE_DEPT_PATH, {"issues": []}).get("issues", [])
     cdc_issues = load_json(CDC_PATH, {"issues": []}).get("issues", [])
+    news_issues = load_json(NEWS_ISSUES_PATH, {"issues": []}).get("issues", [])
+    newsdata_issues = load_json(NEWSDATA_ISSUES_PATH, {"issues": []}).get("issues", [])
     previous_source_levels = load_json(PREV_SOURCE_LEVELS_PATH, {})
 
     daily_report = build_daily_report(countries, previous_by_id, today_str)
@@ -324,6 +365,9 @@ def main():
     status_timeseries = append_status_timeseries(countries, today_str, status_timeseries)
     save_daily_snapshot(countries, today_str)
 
+    news_log = load_json(NEWS_LOG_PATH, [])
+    news_log = append_news_log(news_issues, newsdata_issues, today_str, news_log)
+
     save_json(DAILY_REPORT_PATH, daily_report)
     save_json(BRIEFING_PATH, briefing)
     save_json(HISTORY_PATH, history)
@@ -334,6 +378,7 @@ def main():
     save_json(EVENT_LOG_PATH, event_log)
     save_json(STATUS_TIMESERIES_PATH, status_timeseries)
     save_json(STATUS_HISTORY_FULL_PATH, history_log)
+    save_json(NEWS_LOG_PATH, news_log)
 
     print("오늘 변경사항:", len(daily_report["changes"]), "건")
     mofa_count = (
@@ -350,6 +395,7 @@ def main():
     )
     print("히스토리 누적 일수(전체):", len(history_log))
     print("이벤트 로그 누적 건수(전체):", len(event_log))
+    print("뉴스 로그 누적 건수(전체):", len(news_log))
 
 
 if __name__ == "__main__":
