@@ -9,8 +9,8 @@
   "라오스": [
     {
       "date": "2026-08-18",
-      "status": "red",
-      "severity_num": 3
+      "status": "green",
+      "severity_num": 0
     }
   ],
   "몽골": [
@@ -23,8 +23,8 @@
   "방글라데시": [
     {
       "date": "2026-08-18",
-      "status": "orange",
-      "severity_num": 2
+      "status": "yellow",
+      "severity_num": 1
     }
   ],
   "베트남": [
@@ -37,22 +37,22 @@
   "인도네시아": [
     {
       "date": "2026-08-18",
-      "status": "yellow",
-      "severity_num": 1
+      "status": "green",
+      "severity_num": 0
     }
   ],
   "캄보디아": [
     {
       "date": "2026-08-18",
-      "status": "orange",
-      "severity_num": 2
+      "status": "green",
+      "severity_num": 0
     }
   ],
   "필리핀": [
     {
       "date": "2026-08-18",
-      "status": "red",
-      "severity_num": 3
+      "status": "green",
+      "severity_num": 0
     }
   ],
   "키르기스스탄": [
@@ -65,8 +65,8 @@
   "르완다": [
     {
       "date": "2026-08-18",
-      "status": "orange",
-      "severity_num": 2
+      "status": "yellow",
+      "severity_num": 1
     }
   ],
   "말라위": [
@@ -79,8 +79,8 @@
   "모로코": [
     {
       "date": "2026-08-18",
-      "status": "orange",
-      "severity_num": 2
+      "status": "green",
+      "severity_num": 0
     }
   ],
   "우간다": [
@@ -93,22 +93,22 @@
   "이집트": [
     {
       "date": "2026-08-18",
-      "status": "orange",
-      "severity_num": 2
+      "status": "green",
+      "severity_num": 0
     }
   ],
   "탄자니아": [
     {
       "date": "2026-08-18",
-      "status": "orange",
-      "severity_num": 2
+      "status": "yellow",
+      "severity_num": 1
     }
   ],
   "케냐": [
     {
       "date": "2026-08-18",
-      "status": "orange",
-      "severity_num": 2
+      "status": "yellow",
+      "severity_num": 1
     }
   ],
   "과테말라": [
@@ -128,8 +128,8 @@
   "페루": [
     {
       "date": "2026-08-18",
-      "status": "orange",
-      "severity_num": 2
+      "status": "yellow",
+      "severity_num": 1
     }
   ],
   "요르단": [
