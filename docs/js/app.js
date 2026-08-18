@@ -820,6 +820,9 @@ function getSourceLabel(source) {
         case "US State Dept":
             return "🇺🇸 미국 국무부";
 
+        case "US State Dept Alert":
+            return "🇺🇸 국무부 안전공지";
+
         case "WHO":
             return "🏥 WHO";
 
