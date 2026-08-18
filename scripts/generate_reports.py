@@ -5,12 +5,19 @@ docs/data/briefing.json, daily_report.json, history.json 을
 update_data.py가 docs/data/countries.json 을 먼저 갱신한 뒤에 실행되어야 합니다.
 
 전날 상태와 비교하기 위해 data/processed/previous_countries.json 에 스냅샷을 저장하고,
-history.json의 지난 7일치 흐름을 위해 data/processed/history_log.json 에 누적 로그를 남깁니다.
+history.json의 최근 N일치 흐름을 위해 data/processed/history_log.json 에 누적 로그를 남깁니다.
+
++ 장기 아카이빙(위기상황 흐름 분석용) 3종:
+  - docs/data/archive/event_log.json         : 지금까지 감지된 모든 변경사항(외교부/국무부/CDC) 누적, 사유 포함
+  - docs/data/archive/status_timeseries.json : 국가별 상태(색상) 일별 시계열 (차트용, 압축된 형태)
+  - docs/data/archive/status_history_full.json : 전체 기간 국가수 색상별 분포 (history.json의 무제한 버전)
+  - data/archive/countries/YYYY-MM-DD.json   : 그날의 countries.json 원본 그대로 보관 (감사/상세조회용, 사이트에서는 안 씀)
 """
 
 import json
 import os
 from datetime import datetime, timedelta, timezone
+from pathlib import Path
 
 KST = timezone(timedelta(hours=9))
 
@@ -30,9 +37,19 @@ BRIEFING_PATH = os.path.join(BASE_DIR, "docs", "data", "briefing.json")
 DAILY_REPORT_PATH = os.path.join(BASE_DIR, "docs", "data", "daily_report.json")
 HISTORY_PATH = os.path.join(BASE_DIR, "docs", "data", "history.json")
 
+ARCHIVE_DIR = os.path.join(BASE_DIR, "docs", "data", "archive")
+EVENT_LOG_PATH = os.path.join(ARCHIVE_DIR, "event_log.json")
+STATUS_TIMESERIES_PATH = os.path.join(ARCHIVE_DIR, "status_timeseries.json")
+STATUS_HISTORY_FULL_PATH = os.path.join(ARCHIVE_DIR, "status_history_full.json")
+
+DAILY_SNAPSHOT_DIR = os.path.join(BASE_DIR, "data", "archive", "countries")
+
 STATUS_EMOJI = {"green": "🟢", "yellow": "🟡", "orange": "🟠", "red": "🔴"}
 
-HISTORY_WINDOW = 7  # 그래프에 보여줄 최근 일수
+# 국가 카드 색상 상태를 숫자로 (아카이브 페이지에서 타임라인 차트를 그릴 때 사용)
+STATUS_SEVERITY_NUM = {"green": 0, "yellow": 1, "orange": 2, "red": 3}
+
+HISTORY_WINDOW = 7  # docs/data/history.json(짧은 요약)에 보여줄 최근 일수. 전체 로그 자체는 안 자름.
 
 
 def load_json(path, default):
@@ -181,26 +198,78 @@ def build_briefing(countries, changes):
     return {"summary": summary}
 
 
-def build_history(countries, today_label, history_log):
-    """오늘자 상태 분포를 누적 로그에 반영하고, 최근 7일치만 프론트에 넘김"""
+def build_history(countries, today_label, today_str, history_log):
+    """오늘자 상태 분포를 누적 로그에 반영한다.
+    이전에는 여기서 history_log 자체를 HISTORY_WINDOW로 잘라서 저장했는데,
+    그러면 저장소에 남는 로그 자체가 최근 7일치 뿐이라 장기 추이를 볼 수 없었다.
+    그래서 이제 history_log는 무제한으로 누적 보관하고, 짧은 요약(history.json)만
+    최근 HISTORY_WINDOW일치로 잘라서 만든다."""
+
     counts = {"green": 0, "yellow": 0, "orange": 0, "red": 0}
     for c in countries:
         counts[c["status"]] = counts.get(c["status"], 0) + 1
 
     # 같은 날 중복 실행 시 오늘 항목을 갱신 (중복 추가 방지)
     history_log = [e for e in history_log if e["label"] != today_label]
-    history_log.append({"label": today_label, **counts})
-    history_log = history_log[-HISTORY_WINDOW:]
+    history_log.append({"label": today_label, "date": today_str, **counts})
+
+    recent = history_log[-HISTORY_WINDOW:]
 
     history = {
-        "labels": [e["label"] for e in history_log],
-        "green": [e["green"] for e in history_log],
-        "yellow": [e["yellow"] for e in history_log],
-        "orange": [e["orange"] for e in history_log],
-        "red": [e["red"] for e in history_log],
+        "labels": [e["label"] for e in recent],
+        "green": [e["green"] for e in recent],
+        "yellow": [e["yellow"] for e in recent],
+        "orange": [e["orange"] for e in recent],
+        "red": [e["red"] for e in recent],
     }
 
     return history, history_log
+
+
+def append_event_log(changes, today_str, event_log):
+    """오늘 감지된 변경사항(외교부/국무부/국무부 안전공지/CDC, 사유 포함)을
+    영구 이벤트 로그에 누적한다. 위기상황이 시간에 따라 어떻게 흘러왔는지
+    나중에 국가별로 돌아볼 수 있게 하는 게 목적이라, 별도로 자르지 않고 계속 쌓는다.
+    같은 날 여러 번 실행돼도 중복 추가되지 않게, 오늘 날짜 항목은 지우고 다시 넣는다."""
+
+    event_log = [e for e in event_log if e.get("date") != today_str]
+
+    for change in changes:
+        event_log.append({"date": today_str, **change})
+
+    return event_log
+
+
+def append_status_timeseries(countries, today_str, timeseries):
+    """국가별 상태(색상)를 일별 시계열로 누적한다.
+    아카이브 페이지에서 국가를 골랐을 때 상태 추이 차트를 그리는 데 쓰는,
+    country_history_full보다 훨씬 가벼운 압축 데이터."""
+
+    for c in countries:
+        series = timeseries.setdefault(c["name"], [])
+        series[:] = [e for e in series if e.get("date") != today_str]
+
+        series.append({
+            "date": today_str,
+            "status": c["status"],
+            "severity_num": STATUS_SEVERITY_NUM.get(c["status"], 0),
+        })
+
+    return timeseries
+
+
+def save_daily_snapshot(countries, today_str):
+    """그날의 countries.json 원본을 그대로 하루 하나씩 영구 보관한다.
+    (감사/상세 조회용 원본 아카이브. 용량이 크지 않으니 사이트 표시용과 별도로 계속 쌓는다.
+    docs/ 밖에 두어서 사이트 배포 용량에는 영향을 주지 않는다.)"""
+
+    snapshot_dir = Path(DAILY_SNAPSHOT_DIR)
+    snapshot_dir.mkdir(parents=True, exist_ok=True)
+
+    path = snapshot_dir / f"{today_str}.json"
+
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(countries, f, ensure_ascii=False, indent=2)
 
 
 def main():
@@ -219,14 +288,23 @@ def main():
 
     daily_report = build_daily_report(countries, previous_by_id, today_str)
 
+    # "US State Dept" 소스에는 "여행경보 단계" 항목과 "US State Dept Alert"(개별 안전공지)가
+    # 둘 다 섞여서 저장되어 있어서(update_state_dept_issues.py 참고), 소스별로 나눠서 비교한다.
+    level_change_issues = [i for i in state_dept_issues if i.get("source") == "US State Dept"]
+    alert_issues = [i for i in state_dept_issues if i.get("source") == "US State Dept Alert"]
+
     state_dept_changes, previous_source_levels = build_source_changes(
-        "🇺🇸 미국 국무부", state_dept_issues, previous_source_levels, "state_dept"
+        "🇺🇸 미국 국무부", level_change_issues, previous_source_levels, "state_dept"
+    )
+    state_dept_alert_changes, previous_source_levels = build_source_changes(
+        "🇺🇸 국무부 안전공지", alert_issues, previous_source_levels, "state_dept_alert"
     )
     cdc_changes, previous_source_levels = build_source_changes(
         "🇺🇸 CDC", cdc_issues, previous_source_levels, "cdc"
     )
 
     daily_report["changes"].extend(state_dept_changes)
+    daily_report["changes"].extend(state_dept_alert_changes)
     daily_report["changes"].extend(cdc_changes)
 
     # 국무부/CDC 변경사항은 flag를 안 갖고 있으니 countries.json 기준으로 채워준다
@@ -236,7 +314,15 @@ def main():
             change["flag"] = flag_by_country.get(change["country"], "🌍")
 
     briefing = build_briefing(countries, daily_report["changes"])
-    history, history_log = build_history(countries, today_label, history_log)
+    history, history_log = build_history(countries, today_label, today_str, history_log)
+
+    # --- 장기 아카이빙 ---
+    event_log = load_json(EVENT_LOG_PATH, [])
+    status_timeseries = load_json(STATUS_TIMESERIES_PATH, {})
+
+    event_log = append_event_log(daily_report["changes"], today_str, event_log)
+    status_timeseries = append_status_timeseries(countries, today_str, status_timeseries)
+    save_daily_snapshot(countries, today_str)
 
     save_json(DAILY_REPORT_PATH, daily_report)
     save_json(BRIEFING_PATH, briefing)
@@ -245,10 +331,25 @@ def main():
     save_json(PREV_PATH, countries)
     save_json(PREV_SOURCE_LEVELS_PATH, previous_source_levels)
 
+    save_json(EVENT_LOG_PATH, event_log)
+    save_json(STATUS_TIMESERIES_PATH, status_timeseries)
+    save_json(STATUS_HISTORY_FULL_PATH, history_log)
+
     print("오늘 변경사항:", len(daily_report["changes"]), "건")
-    print("  (외교부:", len(daily_report["changes"]) - len(state_dept_changes) - len(cdc_changes),
-          "/ 국무부:", len(state_dept_changes), "/ CDC:", len(cdc_changes), ")")
-    print("히스토리 누적 일수:", len(history_log))
+    mofa_count = (
+        len(daily_report["changes"])
+        - len(state_dept_changes)
+        - len(state_dept_alert_changes)
+        - len(cdc_changes)
+    )
+    print(
+        "  (외교부:", mofa_count,
+        "/ 국무부 단계:", len(state_dept_changes),
+        "/ 국무부 안전공지:", len(state_dept_alert_changes),
+        "/ CDC:", len(cdc_changes), ")",
+    )
+    print("히스토리 누적 일수(전체):", len(history_log))
+    print("이벤트 로그 누적 건수(전체):", len(event_log))
 
 
 if __name__ == "__main__":
