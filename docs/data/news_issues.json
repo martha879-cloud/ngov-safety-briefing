@@ -1,4 +1,47 @@
 {
-  "updated": "2026-08-18 10:10",
-  "issues": []
+  "updated": "2026-08-18 14:13",
+  "issues": [
+    {
+      "id": "news-001",
+      "country": "필리핀",
+      "category": "conflict",
+      "severity": "high",
+      "title": "마르코스 대통령 \"대만 분쟁시 필리핀은 미국 공격 수용하지 않을 것\"",
+      "title_en": "Philippines won’t host US attacks in case of a Taiwan conflict, says President Marcos",
+      "summary": "The Philippines won't allow the US to launch attacks from its soil in case the conflict over Taiwan escalates, President Ferdinand Marcos Jr. has said.",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
+      "published_at": "2026-08-17",
+      "source": "The Star",
+      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/17/philippines-wont-host-us-attacks-in-case-of-a-taiwan-conflict-says-president-marcos"
+    },
+    {
+      "id": "news-002",
+      "country": "필리핀",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "한국에서 폭우로 1명 사망, 필리핀 주요 도로 침수",
+      "title_en": "Heavy rains kill 1 in South Korea and flood major streets in Philippines",
+      "summary": "SEOUL, South Korea (AP) — Torrential rains have pounded southern South Korea, leaving one person dead and four others injured, officials said Monday.",
+      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-08-17",
+      "source": "WTOP",
+      "source_url": "https://wtop.com/asia/2026/08/heavy-rains-kill-1-in-south-korea-and-flood-major-streets-in-philippines/"
+    },
+    {
+      "id": "news-003",
+      "country": "필리핀",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "한국에서 폭우로 1명 사망, 필리핀 주요 도로 침수",
+      "title_en": "Heavy rains kill 1 in South Korea and flood major streets in Philippines",
+      "summary": "Torrential rains have pounded southern South Korea, leaving one person dead and four others injured.",
+      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-08-17",
+      "source": "The Associated Press",
+      "source_url": "https://apnews.com/article/south-korea-philippines-rains-landslide-d21d2fdcc8391e152bce35686a62dc96"
+    }
+  ]
 }

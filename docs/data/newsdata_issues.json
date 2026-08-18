@@ -1,19 +1,4 @@
 {
-  "updated": "2026-08-18 10:10",
-  "issues": [
-    {
-      "id": "newsdata-001",
-      "country": "베트남",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "총리, 베트남 북부의 폭우, 돌발 홍수, 산사태에 대한 적극적인 대응 명령",
-      "title_en": "PM orders proactive response to heavy rains, flash floods, landslides in northern Vietnam",
-      "summary": "Prime Minister Pham Minh Chinh urged authorities in provinces and cities from Quang Tri northward, along with relevant ministries and agencies, to take urgent measures to ensure public safety and minimise damage caused by natural disasters. Heavy rains batter northern provinces as flood, landslide risks rise Floods, whirlwinds leave four dead or injured in northern localities Floods, landslides wreak havoc on northern mountainous region",
-      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-08-17",
-      "source": "Vietnam+",
-      "source_url": "https://en.vietnamplus.vn/pm-orders-proactive-response-to-heavy-rains-flash-floods-landslides-in-northern-vietnam-post350220.vnp"
-    }
-  ]
+  "updated": "2026-08-18 14:13",
+  "issues": []
 }
