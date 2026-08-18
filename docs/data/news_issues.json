@@ -1,47 +1,19 @@
 {
-  "updated": "2026-08-18 08:18",
+  "updated": "2026-08-18 09:35",
   "issues": [
     {
       "id": "news-001",
-      "country": "인도네시아",
-      "category": "natural_disaster",
+      "country": "케냐",
+      "category": "conflict",
       "severity": "high",
-      "title": "인도네시아 지진으로 광범위한 피해가 발생한 후 수천 명이 구호를 기다리고 있습니다",
-      "title_en": "Thousands await aid after Indonesia earthquake causes widespread devastation",
-      "summary": "Quake killed at least 68 people, injured more than 200 others and damaged hundreds of homes and other buildings",
+      "title": "케냐 강 하마 공격 후 물에서 건져낸 1세 소녀 시신",
+      "title_en": "Body of girl, 1, pulled from water after Kenya river hippo attack with another missing",
+      "summary": "A horror hippo attack on Kenya's longest river has claimed the life of a one-year-old little girl after the canoe capsized. Another teenage girl is also feared dead",
       "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
       "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
-      "published_at": "2026-08-17",
-      "source": "The Globe and Mail",
-      "source_url": "https://www.theglobeandmail.com/world/article-indonesia-earthquake-aid-rescue/"
-    },
-    {
-      "id": "news-002",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "critical",
-      "title": "여진이 1,576회 발생하면서 인도네시아 플로레스 지진 생존자들이 구호를 기다리고 있습니다.",
-      "title_en": "Indonesia Flores earthquake survivors await aid as aftershocks hit 1,576 times",
-      "summary": "Thousands on Indonesia's Flores island are still waiting for aid after a deadly earthquake wrecked homes and cut off communities. Relief efforts are battling relentless aftershocks and landslide-hit routes as fear and frustration grow.",
-      "volunteer_impact": "봉사단 활동 및 이동 계획을 즉시 재검토할 필요가 있습니다.",
-      "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 활동 지속 여부를 검토하세요.",
-      "published_at": "2026-08-17",
-      "source": "India Today",
-      "source_url": "https://www.indiatoday.in/world/story/indonesia-flores-earthquake-survivors-await-aid-aftershocks-east-nusa-tenggara-ptag-2973183-2026-08-17"
-    },
-    {
-      "id": "news-003",
-      "country": "모로코",
-      "category": "conflict",
-      "severity": "medium",
-      "title": "스페인 세우타 거주지에서 수백 명의 이주민들이 망명과 모로코 추방 반대 시위를 벌이고 있다.",
-      "title_en": "Hundreds of migrants in Spain's Ceuta enclave protest for asylum, against deportation to Morocco",
-      "summary": "Hundreds of migrants who recently entered Spain's North African enclave of Ceuta staged a protest on a popular urban beach on Sunday, urging Spanish authorities to grant them asylum instead of sending them back to Morocco.",
-      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
-      "published_at": "2026-08-16",
-      "source": "CBC.ca",
-      "source_url": "https://www.cbc.ca/news/world/protest-migrant-spain-ceuta-morocco-9.7309187"
+      "published_at": "2026-08-13",
+      "source": "The daily Star",
+      "source_url": "https://www.dailystar.co.uk/news/latest-news/breaking-body-girl-1-pulled-37546138"
     }
   ]
 }

@@ -9,12 +9,20 @@
     "state_dept": {
       "severity": "medium",
       "title": "Laos - Level 2: Exercise Increased Caution"
+    },
+    "cdc": {
+      "severity": "medium",
+      "title": "글로벌 소아마비 (CDC 2단계 (강화된 예방조치 권고))"
     }
   },
   "인도네시아": {
     "state_dept": {
       "severity": "medium",
       "title": "Indonesia - Level 2: Exercise Increased Caution"
+    },
+    "cdc": {
+      "severity": "medium",
+      "title": "인도네시아의 지카 (CDC 2단계 (강화된 예방조치 권고))"
     }
   },
   "베트남": {
@@ -63,12 +71,20 @@
     "state_dept": {
       "severity": "critical",
       "title": "Uganda - Level 4: Do Not Travel"
+    },
+    "cdc": {
+      "severity": "medium",
+      "title": "콩고민주공화국 및 우간다의 에볼라 분디부교 바이러스병 (CDC 2단계 (강화된 예방조치 권고))"
     }
   },
   "탄자니아": {
     "state_dept": {
       "severity": "high",
       "title": "Tanzania - Level 3: Reconsider Travel"
+    },
+    "cdc": {
+      "severity": "medium",
+      "title": "글로벌 소아마비 (CDC 2단계 (강화된 예방조치 권고))"
     }
   },
   "캄보디아": {
