@@ -1,19 +1,19 @@
 {
-  "updated": "2026-08-19 08:16",
+  "updated": "2026-08-20 08:11",
   "issues": [
     {
       "id": "newsdata-001",
-      "country": "요르단",
-      "category": "transport",
+      "country": "탄자니아",
+      "category": "health",
       "severity": "low",
-      "title": "Jordan condemns Israeli strikes on Syrian military airport",
-      "title_en": "Jordan condemns Israeli strikes on Syrian military airport",
-      "summary": "The Ministry of Foreign and Expatriate Affairs on Tuesday condemned Israeli airstrikes on the Abu al-Duhur military airport in Syria's Idlib province, as an unjustified aggression and a flagrant violation of Syrian sovereignty, territorial integrity and international law.In a statement, the ministry...",
+      "title": "탄자니아: Tz, 2030년까지 말라리아 퇴치를 위한 투쟁 강화",
+      "title_en": "Tanzania: Tz Intensifies Fight to Eliminate Malaria By 2030",
+      "summary": "[Daily News] Dodoma -- THE government has intensified its fight against Malaria by strengthening prevention, testing and treatment interventions, with the aim of eliminating the disease by 2030.",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
       "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-08-18",
-      "source": "Ammon News",
-      "source_url": "https://en.ammonnews.net/article/94388"
+      "published_at": "2026-08-19",
+      "source": "Allafrica Tanzania",
+      "source_url": "https://allafrica.com/stories/202608190338.html"
     }
   ]
 }
