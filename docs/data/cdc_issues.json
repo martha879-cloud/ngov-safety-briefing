@@ -1,14 +1,14 @@
 {
-  "updated": "2026-08-21 08:11",
+  "updated": "2026-08-21 08:21",
   "issues": [
     {
       "id": "cdc-indonesia-2026-08-07-2",
       "country": "인도네시아",
       "category": "health",
       "severity": "medium",
-      "title": "Zika in Indonesia (CDC 2단계 (강화된 예방조치 권고))",
+      "title": "인도네시아의 지카 (CDC 2단계 (강화된 예방조치 권고))",
       "title_en": "Zika in Indonesia (Level 2 (Practice Enhanced Precautions))",
-      "summary": "인도네시아 발리에서 돌아온 여행자에게서 지카 바이러스 사례가 보고되고 있습니다. 발리를 방문하는 모든 여행자는 여행 중 및 여행 후에 모기 물림과 지카 바이러스의 성적 전염을 예방하기 위한 조치를 취해야 합니다.",
+      "summary": "인도네시아 발리에서 돌아온 여행자에게서 지카 바이러스 사례가 보고되고 있습니다. 발리를 방문하는 모든 여행자는 여행 중과 여행 후에 모기 물림과 지카 바이러스의 성적 전염을 예방하기 위한 조치를 취해야 합니다.",
       "volunteer_impact": "CDC가 강화된 예방조치(Level 2)를 권고하는 상황입니다. 예방접종 및 위생수칙을 확인하세요.",
       "recommended_action": "CDC 여행건강경보 원문을 참고하여 필요한 예방접종·위생수칙을 점검하세요.",
       "published_at": "2026-08-07",
@@ -20,7 +20,7 @@
       "country": "우간다",
       "category": "health",
       "severity": "medium",
-      "title": "콩고민주공화국 및 우간다의 에볼라 분디부교 바이러스병 (CDC 2단계 (강화된 예방조치 권고))",
+      "title": "콩고민주공화국 및 우간다의 에볼라 Bundibugyo 바이러스 질환 (CDC 2단계 (강화된 예방조치 권고))",
       "title_en": "Ebola Bundibugyo Virus Disease in the Democratic Republic of the Congo and Uganda (Level 2 (Practice Enhanced Precautions))",
       "summary": "CDC는 현재 Bundibugyo 바이러스병(BVD) 발병의 영향을 받지 않는 우간다 또는 콩고민주공화국(DRC) 지역으로 여행할 때 강화된 예방 조치를 취할 것을 권장합니다. 국가 목록: 콩고민주공화국, 우간다 국가 목록: 콩고민주공화국, 우간다 국가 목록: 콩고민주공화국, 우간다",
       "volunteer_impact": "CDC가 강화된 예방조치(Level 2)를 권고하는 상황입니다. 예방접종 및 위생수칙을 확인하세요.",
