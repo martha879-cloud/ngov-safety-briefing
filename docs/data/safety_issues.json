@@ -1,18 +1,4 @@
 {
-  "updated": "2026-08-20 08:18",
-  "issues": [
-    {
-      "id": "라오스-2026-08-19-1",
-      "country": "라오스",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "전국 폭우 주의보(8.19.~21.간)",
-      "summary": "외교부 해외안전여행 안전공지에 등록된 최근 안전 관련 정보입니다.",
-      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동 일정이 변경될 수 있습니다.",
-      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
-      "published_at": "2026-08-19",
-      "source": "외교부 해외안전공지",
-      "source_url": "https://www.0404.go.kr/bbs/safetyNtc/1337703/detail2?ntnCd=36"
-    }
-  ]
+  "updated": "2026-08-21 08:11",
+  "issues": []
 }
