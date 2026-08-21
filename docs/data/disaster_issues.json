@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22 08:11",
+  "updated": "2026-08-22 08:18",
   "issues": [
     {
       "id": "usgs-us6000tmlu",
@@ -1808,38 +1808,6 @@
       "lat": -8.2074,
       "lng": 121.3939,
       "magnitude": 4.5
-    },
-    {
-      "id": "usgs-us6000tkv9",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "M5.0 지진 발생 (65 km NNW of Ende, Indonesia)",
-      "summary": "USGS 관측 기준 M5.0 규모의 지진이 발생했습니다 (65 km NNW of Ende, Indonesia).",
-      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-08-14",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkv9",
-      "lat": -8.3348,
-      "lng": 121.359,
-      "magnitude": 5
-    },
-    {
-      "id": "usgs-us6000tkv7",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "M5.1 지진 발생 (49 km N of Ruteng, Indonesia)",
-      "summary": "USGS 관측 기준 M5.1 규모의 지진이 발생했습니다 (49 km N of Ruteng, Indonesia).",
-      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-08-14",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkv7",
-      "lat": -8.1694,
-      "lng": 120.4166,
-      "magnitude": 5.1
     }
   ]
 }

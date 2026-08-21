@@ -22,7 +22,7 @@
     },
     "cdc": {
       "severity": "medium",
-      "title": "인도네시아의 지카 (CDC 2단계 (강화된 예방조치 권고))"
+      "title": "Zika in Indonesia (CDC 2단계 (강화된 예방조치 권고))"
     }
   },
   "베트남": {
@@ -63,8 +63,8 @@
   },
   "방글라데시": {
     "state_dept": {
-      "severity": "medium",
-      "title": "Bangladesh - Level 2: Exercise Increased Caution"
+      "severity": "high",
+      "title": "Bangladesh - Level 3: Reconsider Travel"
     }
   },
   "우간다": {
