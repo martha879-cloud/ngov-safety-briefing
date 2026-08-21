@@ -190,5 +190,21 @@
     "source_url": "https://allafrica.com/stories/202608190338.html",
     "feed": "NewsData.io",
     "first_seen_date": "2026-08-20"
+  },
+  {
+    "id": "newsdata-001",
+    "country": "페루",
+    "category": "natural_disaster",
+    "severity": "medium",
+    "title": "페루 남부에서 규모 6.7의 강력한 지진이 발생해 가옥과 학교가 피해를 입었습니다.",
+    "title_en": "Strong 6.7-magnitude earthquake strikes southern Peru, damaging homes and schools",
+    "summary": "A 6.7-magnitude earthquake struck southern Peru on Thursday, injuring three people and damaging at least 22 homes, six schools and 12 medical centres, according to preliminary assessments. The quake was also felt in Lima and several other parts of the country.",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-08-21",
+    "source": "France 24",
+    "source_url": "https://www.france24.com/en/americas/20260821-strong-6-7-magnitude-earthquake-strikes-southern-peru-damaging-homes-and-schools",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-08-22"
   }
 ]
