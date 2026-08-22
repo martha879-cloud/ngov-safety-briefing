@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23 08:11",
+  "updated": "2026-08-23 08:21",
   "issues": [
     {
       "id": "usgs-us6000tmut",
@@ -1503,22 +1503,6 @@
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl55",
       "lat": -8.4615,
       "lng": 121.5082,
-      "magnitude": 5
-    },
-    {
-      "id": "usgs-us6000tl44",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "M5.0 지진 발생 (80 km N of Ruteng, Indonesia)",
-      "summary": "USGS 관측 기준 M5.0 규모의 지진이 발생했습니다 (80 km N of Ruteng, Indonesia).",
-      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-08-15",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl44",
-      "lat": -7.8894,
-      "lng": 120.5156,
       "magnitude": 5
     }
   ]

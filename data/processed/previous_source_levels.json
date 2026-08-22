@@ -74,7 +74,7 @@
     },
     "cdc": {
       "severity": "medium",
-      "title": "콩고민주공화국 및 우간다의 에볼라 Bundibugyo 바이러스 질환 (CDC 2단계 (강화된 예방조치 권고))"
+      "title": "Ebola Bundibugyo Virus Disease in the Democratic Republic of the Congo and Uganda (CDC 2단계 (강화된 예방조치 권고))"
     }
   },
   "탄자니아": {
@@ -107,8 +107,8 @@
   },
   "페루": {
     "state_dept": {
-      "severity": "medium",
-      "title": "Peru - Level 2: Exercise Increased Caution"
+      "severity": "low",
+      "title": "Peru - Level 1: Exercise Normal Precautions"
     }
   },
   "필리핀": {

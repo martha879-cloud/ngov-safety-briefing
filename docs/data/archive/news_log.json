@@ -270,5 +270,21 @@
     "source_url": "https://en.vietnamplus.vn/vietnamese-diplomatic-public-security-missions-in-china-mark-august-revolutions-81st-anniversary-post350533.vnp",
     "feed": "NewsData.io",
     "first_seen_date": "2026-08-22"
+  },
+  {
+    "id": "news-002",
+    "country": "인도네시아",
+    "category": "conflict",
+    "severity": "high",
+    "title": "폴 두간(Paul Dougan): 퍼스 아버지를 폭행한 용의자 4명이 심야 공격 혐의로 인도네시아를 떠났습니다.",
+    "title_en": "Paul Dougan: Four suspects in bashing of Perth dad fled Indonesia after alleged late-night attack",
+    "summary": "Bali police are investigating whether Perth father Paul Dougan was assaulted after he stepped in to confront a group of tourists over a separate assault of a woman.",
+    "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+    "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
+    "published_at": "2026-08-21",
+    "source": "7NEWS Australia",
+    "source_url": "https://7news.com.au/news/paul-dougan-four-suspects-in-bashing-of-perth-dad-fled-indonesia-after-alleged-late-night-attack-c-22760935",
+    "feed": "GNews",
+    "first_seen_date": "2026-08-23"
   }
 ]
