@@ -1,8 +1,21 @@
 {
-  "updated": "2026-08-23 08:10",
+  "updated": "2026-08-24 08:11",
   "issues": [
     {
-      "id": "르완다-2026-08-22-1",
+      "id": "방글라데시-2026-08-23-1",
+      "country": "방글라데시",
+      "category": "conflict",
+      "severity": "high",
+      "title": "[안전 공지] 방글라데시 내 테러 위협 및 치안 악화(강도·날치기)에 따른 신변안전 유의",
+      "summary": "외교부 해외안전여행 안전공지에 등록된 최근 안전 관련 정보입니다.",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 우선 확인이 필요합니다.",
+      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
+      "published_at": "2026-08-23",
+      "source": "외교부 해외안전공지",
+      "source_url": "https://www.0404.go.kr/bbs/safetyNtc/1320158/detail2?ntnCd=82"
+    },
+    {
+      "id": "르완다-2026-08-22-2",
       "country": "르완다",
       "category": "official_notice",
       "severity": "low",
@@ -13,19 +26,6 @@
       "published_at": "2026-08-22",
       "source": "외교부 해외안전공지",
       "source_url": "https://www.0404.go.kr/bbs/safetyNtc/1602/detail2?ntnCd=45"
-    },
-    {
-      "id": "인도네시아-2026-08-21-2",
-      "country": "인도네시아",
-      "category": "conflict",
-      "severity": "medium",
-      "title": "[대사관 안전공지] 자카르타 시위 주의 안내(8/21)",
-      "summary": "외교부 해외안전여행 안전공지에 등록된 최근 안전 관련 정보입니다.",
-      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
-      "published_at": "2026-08-21",
-      "source": "외교부 해외안전공지",
-      "source_url": "https://www.0404.go.kr/bbs/safetyNtc/231/detail2?ntnCd=181"
     }
   ]
 }

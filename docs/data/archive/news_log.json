@@ -286,5 +286,21 @@
     "source_url": "https://7news.com.au/news/paul-dougan-four-suspects-in-bashing-of-perth-dad-fled-indonesia-after-alleged-late-night-attack-c-22760935",
     "feed": "GNews",
     "first_seen_date": "2026-08-23"
+  },
+  {
+    "id": "newsdata-001",
+    "country": "케냐",
+    "category": "security",
+    "severity": "low",
+    "title": "Murkomen reassures Kenyans of security amid fears of goons’ menace",
+    "title_en": "Murkomen reassures Kenyans of security amid fears of goons’ menace",
+    "summary": "Interior Cabinet Secretary Kipchumba Murkomen has assured Kenyans that the country remains secure despite growing concerns over political violence and the use of goons during political rallies. Speaking in Belgut, Kericho County, on Saturday, August 23, 2026, Murkomen said the government had contained major security threats, including banditry, terrorism and robberies. “Ningependa tukuwakikishia Wakenya mkiwa [...]",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-08-23",
+    "source": "People Daily",
+    "source_url": "https://peopledaily.digital/inside-politics/murkomen-reassures-kenyans-of-security-amid-fears-of-goons-menace",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-08-24"
   }
 ]

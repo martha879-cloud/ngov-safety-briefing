@@ -12,7 +12,7 @@
     },
     "cdc": {
       "severity": "medium",
-      "title": "글로벌 소아마비 (CDC 2단계 (강화된 예방조치 권고))"
+      "title": "Global Polio (CDC 2단계 (강화된 예방조치 권고))"
     }
   },
   "인도네시아": {
@@ -22,7 +22,7 @@
     },
     "cdc": {
       "severity": "medium",
-      "title": "인도네시아의 지카 (CDC 2단계 (강화된 예방조치 권고))"
+      "title": "Zika in Indonesia (CDC 2단계 (강화된 예방조치 권고))"
     }
   },
   "베트남": {
@@ -84,7 +84,7 @@
     },
     "cdc": {
       "severity": "medium",
-      "title": "글로벌 소아마비 (CDC 2단계 (강화된 예방조치 권고))"
+      "title": "Global Polio (CDC 2단계 (강화된 예방조치 권고))"
     }
   },
   "캄보디아": {
@@ -107,8 +107,8 @@
   },
   "페루": {
     "state_dept": {
-      "severity": "low",
-      "title": "Peru - Level 1: Exercise Normal Precautions"
+      "severity": "medium",
+      "title": "Peru - Level 2: Exercise Increased Caution"
     }
   },
   "필리핀": {
