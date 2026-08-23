@@ -260,31 +260,31 @@
     "country": "라오스",
     "flag": "🇱🇦",
     "source": "🏛️ 외교부",
-    "change": "🔴 → 🟢",
-    "reason": "외교부 여행경보: 여행유의(남색경보) (일부 지역 한정 경보이며, 지역별로 상이할 수 있음 · 0404.go.kr 확인 권장)"
+    "change": "🟢 → 🔴",
+    "reason": "외교부 여행경보: 여행금지(흑색경보)"
   },
   {
     "date": "2026-08-24",
     "country": "방글라데시",
     "flag": "🇧🇩",
     "source": "🏛️ 외교부",
-    "change": "🟠 → 🟡",
-    "reason": "외교부 여행경보: 여행자제(황색경보) (일부 지역 한정 경보이며, 지역별로 상이할 수 있음 · 0404.go.kr 확인 권장)"
+    "change": "🟡 → 🟠",
+    "reason": "외교부 여행경보: 철수권고(적색경보)"
   },
   {
     "date": "2026-08-24",
     "country": "인도네시아",
     "flag": "🇮🇩",
     "source": "🏛️ 외교부",
-    "change": "🟡 → 🟢",
-    "reason": "외교부 여행경보: 여행유의(남색경보) (일부 지역 한정 경보이며, 지역별로 상이할 수 있음 · 0404.go.kr 확인 권장)"
+    "change": "🟢 → 🟡",
+    "reason": "외교부 여행경보: 여행자제(황색경보)"
   },
   {
     "date": "2026-08-24",
     "country": "캄보디아",
     "flag": "🇰🇭",
     "source": "🏛️ 외교부",
-    "change": "🟠 → 🟢",
+    "change": "🟢 → 🟠",
     "reason": "□ 외교부는 국가별 치안, 보건 및 재난 상황 등을 감안하여, 국가별 위험 수준에 따른 여행경보 단계를 2026.6.30(화) 18:00부로 조정하였습니다. 이번 조정으로 캄보디아 및 네팔 일부지역에 대한 여행경보가 하향 조정되었습니다. □ 캄보디아는 스캠범죄 관련 상황 개선 및 캄-태국 국경 분쟁 휴전 상태 지속을 감안, 현재 여행경보 3단계(출국권고)인 시하누크빌 주에 대한 여행경보를 2단계(여행자제)로 하향하고(시하누크빌 시는 3단계 유지), 푸르사트 주 등 캄-태국 국경 7개 주에 발령된 특별여행주의보를 해제하고 1단계(여행유의)로 하향하였습니다. ※ 금번 조정 후 캄보디아 여행경보 단계 - 4단계(여행금지) : 캄폿 주 보코산 지역, 바벳 시, 포이펫 시 - 3단계(철수권고) : 캄보디아-태국 국경"
   },
   {
@@ -292,39 +292,39 @@
     "country": "필리핀",
     "flag": "🇵🇭",
     "source": "🏛️ 외교부",
-    "change": "🔴 → 🟢",
-    "reason": "외교부 여행경보: 여행유의(남색경보) (일부 지역 한정 경보이며, 지역별로 상이할 수 있음 · 0404.go.kr 확인 권장)"
+    "change": "🟢 → 🔴",
+    "reason": "외교부 여행경보: 여행금지(흑색경보)"
   },
   {
     "date": "2026-08-24",
     "country": "르완다",
     "flag": "🇷🇼",
     "source": "🏛️ 외교부",
-    "change": "🟠 → 🟡",
-    "reason": "외교부 여행경보: 여행자제(황색경보) (일부 지역 한정 경보이며, 지역별로 상이할 수 있음 · 0404.go.kr 확인 권장)"
+    "change": "🟡 → 🟠",
+    "reason": "외교부 여행경보: 철수권고(적색경보)"
   },
   {
     "date": "2026-08-24",
     "country": "모로코",
     "flag": "🇲🇦",
     "source": "🏛️ 외교부",
-    "change": "🟠 → 🟢",
-    "reason": "외교부 여행경보: 여행유의(남색경보) (일부 지역 한정 경보이며, 지역별로 상이할 수 있음 · 0404.go.kr 확인 권장)"
+    "change": "🟢 → 🟠",
+    "reason": "외교부 여행경보: 철수권고(적색경보)"
   },
   {
     "date": "2026-08-24",
     "country": "이집트",
     "flag": "🇪🇬",
     "source": "🏛️ 외교부",
-    "change": "🟠 → 🟢",
-    "reason": "외교부 여행경보: 여행유의(남색경보) (일부 지역 한정 경보이며, 지역별로 상이할 수 있음 · 0404.go.kr 확인 권장)"
+    "change": "🟢 → 🟠",
+    "reason": "외교부 여행경보: 철수권고(적색경보)"
   },
   {
     "date": "2026-08-24",
     "country": "탄자니아",
     "flag": "🇹🇿",
     "source": "🏛️ 외교부",
-    "change": "🟠 → 🟡",
+    "change": "🟡 → 🟠",
     "reason": "□ 외교부는 최근 탄자니아 치안 상황이 전반적으로 안정세를 유지함에 따라 2026.1.7(수) 18:00부로 탄자니아에 대한 특별여행주의보를 해제하였습니다. □ 금번 조정으로 탄자니아 일부 지역에 발령된 특별여행주의보가 해제되고 2단계(여행자제)로 하향 조정되었습니다. ※ 금번 조치 후 탄자니아 여행경보 현황 - 3단계(철수권고): 음트와라(Mtwara) 주 - 2단계(여행자제): 3단계 지정 지역을 제외한 전 지역 □ 탄자니아에 체류하거나 방문 예정인 우리 국민들께서는 지역별 여행경보 행동 요령을 숙지하셔서 신변 안전에 유의해주시기 바랍니다. ※ 여행경보 단계별 행동 요령(2~3단계) - 3단계(철수권고): 여행예정자는 여행을 취소·연기 / 체류자는 긴요한 용무가 아닌 한 철수 - 2단계(여행자제): 여행"
   },
   {
@@ -332,47 +332,15 @@
     "country": "케냐",
     "flag": "🇰🇪",
     "source": "🏛️ 외교부",
-    "change": "🟠 → 🟡",
-    "reason": "외교부 여행경보: 여행자제(황색경보) (일부 지역 한정 경보이며, 지역별로 상이할 수 있음 · 0404.go.kr 확인 권장)"
+    "change": "🟡 → 🟠",
+    "reason": "외교부 여행경보: 철수권고(적색경보)"
   },
   {
     "date": "2026-08-24",
     "country": "페루",
     "flag": "🇵🇪",
     "source": "🏛️ 외교부",
-    "change": "🟠 → 🟡",
-    "reason": "외교부 여행경보: 여행자제(황색경보) (일부 지역 한정 경보이며, 지역별로 상이할 수 있음 · 0404.go.kr 확인 권장)"
-  },
-  {
-    "date": "2026-08-24",
-    "country": "페루",
-    "flag": "🇵🇪",
-    "source": "🇺🇸 미국 국무부",
-    "change": "Peru - Level 1: Exercise Normal Precautions → Peru - Level 2: Exercise Increased Caution",
-    "reason": "Exercise increased caution in Peru due to crime , civil unrest , and the risk of kidnapping . Some areas have increased risk. Read the entire Travel Advisory. Crime is common in Peru. Petty theft, carjackings, muggings, assaults, and other violent crime often happen even in daylight hours and with m"
-  },
-  {
-    "date": "2026-08-24",
-    "country": "인도네시아",
-    "flag": "🇮🇩",
-    "source": "🇺🇸 CDC",
-    "change": "인도네시아의 지카 (CDC 2단계 (강화된 예방조치 권고)) → Zika in Indonesia (CDC 2단계 (강화된 예방조치 권고))",
-    "reason": "Cases of Zika are being reported in returning travelers from Bali, Indonesia. All travelers to Bali should take steps to prevent mosquito bites and sexual transmission of Zika virus during and after travel."
-  },
-  {
-    "date": "2026-08-24",
-    "country": "라오스",
-    "flag": "🇱🇦",
-    "source": "🇺🇸 CDC",
-    "change": "글로벌 소아마비 (CDC 2단계 (강화된 예방조치 권고)) → Global Polio (CDC 2단계 (강화된 예방조치 권고))",
-    "reason": "Some international destinations have circulating poliovirus. Before any international travel, make sure you are up to date on your polio vaccines."
-  },
-  {
-    "date": "2026-08-24",
-    "country": "탄자니아",
-    "flag": "🇹🇿",
-    "source": "🇺🇸 CDC",
-    "change": "글로벌 소아마비 (CDC 2단계 (강화된 예방조치 권고)) → Global Polio (CDC 2단계 (강화된 예방조치 권고))",
-    "reason": "Some international destinations have circulating poliovirus. Before any international travel, make sure you are up to date on your polio vaccines."
+    "change": "🟡 → 🟠",
+    "reason": "외교부 여행경보: 철수권고(적색경보)"
   }
 ]
