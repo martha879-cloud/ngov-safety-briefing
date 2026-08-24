@@ -302,5 +302,21 @@
     "source_url": "https://peopledaily.digital/inside-politics/murkomen-reassures-kenyans-of-security-amid-fears-of-goons-menace",
     "feed": "NewsData.io",
     "first_seen_date": "2026-08-24"
+  },
+  {
+    "id": "newsdata-001",
+    "country": "베트남",
+    "category": "natural_disaster",
+    "severity": "medium",
+    "title": "Typhoon Narra wreaks havoc in China, Vietnam as rains lead to floods",
+    "title_en": "Typhoon Narra wreaks havoc in China, Vietnam as rains lead to floods",
+    "summary": "BEIJING: Floods and landslides triggered by Typhoon Narra battered northern Vietnam and China's southern region of Guangxi, as accompanying heavy rains damaged infrastructure and crops.Rising floodwaters prompted China to relocate about 54,000 people, including 8,087 moved to emergency shelters, state broadca",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-08-24",
+    "source": "Channel Newsasia",
+    "source_url": "https://www.channelnewsasia.com/east-asia/typhoon-narra-wreaks-havoc-in-china-vietnam-rains-lead-floods-6336951",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-08-25"
   }
 ]

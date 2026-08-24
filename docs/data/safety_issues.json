@@ -1,31 +1,4 @@
 {
-  "updated": "2026-08-24 08:11",
-  "issues": [
-    {
-      "id": "방글라데시-2026-08-23-1",
-      "country": "방글라데시",
-      "category": "conflict",
-      "severity": "high",
-      "title": "[안전 공지] 방글라데시 내 테러 위협 및 치안 악화(강도·날치기)에 따른 신변안전 유의",
-      "summary": "외교부 해외안전여행 안전공지에 등록된 최근 안전 관련 정보입니다.",
-      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 우선 확인이 필요합니다.",
-      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
-      "published_at": "2026-08-23",
-      "source": "외교부 해외안전공지",
-      "source_url": "https://www.0404.go.kr/bbs/safetyNtc/1320158/detail2?ntnCd=82"
-    },
-    {
-      "id": "르완다-2026-08-22-2",
-      "country": "르완다",
-      "category": "official_notice",
-      "severity": "low",
-      "title": "르완다 수입 주류 판매 중단 및 회수 관련 안전공지",
-      "summary": "외교부 해외안전여행 안전공지에 등록된 최근 안전 관련 정보입니다.",
-      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "외교부 안전공지와 현지 상황을 지속적으로 확인하세요.",
-      "published_at": "2026-08-22",
-      "source": "외교부 해외안전공지",
-      "source_url": "https://www.0404.go.kr/bbs/safetyNtc/1602/detail2?ntnCd=45"
-    }
-  ]
+  "updated": "2026-08-25 08:11",
+  "issues": []
 }

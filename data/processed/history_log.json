@@ -96,5 +96,13 @@
     "yellow": 3,
     "orange": 10,
     "red": 2
+  },
+  {
+    "label": "8/25",
+    "date": "2026-08-25",
+    "green": 11,
+    "yellow": 7,
+    "orange": 2,
+    "red": 0
   }
 ]
