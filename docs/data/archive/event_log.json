@@ -350,5 +350,29 @@
     "source": "🇺🇸 미국 국무부",
     "change": "Bangladesh - Level 2: Exercise Increased Caution → Bangladesh - Level 3: Reconsider Travel",
     "reason": "There were no changes to the advisory level or risk indicators. Advisory summary was updated. Reconsider travel to Bangladesh due to kidnapping, unrest, crime, and terrorism . Some areas have increased risk. Read the entire Travel Advisory. Advisory summary Unrest Unrest and violence have decreased "
+  },
+  {
+    "date": "2026-08-26",
+    "country": "우간다",
+    "flag": "🇺🇬",
+    "source": "🇺🇸 CDC",
+    "change": "Ebola Bundibugyo Virus Disease in the Democratic Republic of the Congo and Uganda (CDC 2단계 (강화된 예방조치 권고)) → 콩고민주공화국 및 우간다의 에볼라 분디부교 바이러스병 (CDC 2단계 (강화된 예방조치 권고))",
+    "reason": "CDC recommends practicing enhanced precautions for travel to Uganda or to provinces in the Democratic Republic of the Congo (DRC) not affected by the current Bundibugyo virus disease (BVD) outbreak. Country List :  Democratic Republic of the Congo, Uganda Country List :  Democratic Republic of the Congo, Uganda Country List :  Democratic Republic of the Congo, Uganda Country List :  Democratic Republic of the Congo, Uganda Country List :  Democratic Republic of the Congo, Uganda"
+  },
+  {
+    "date": "2026-08-26",
+    "country": "라오스",
+    "flag": "🇱🇦",
+    "source": "🇺🇸 CDC",
+    "change": "Global Polio (CDC 2단계 (강화된 예방조치 권고)) → 글로벌 소아마비 (CDC 2단계 (강화된 예방조치 권고))",
+    "reason": "Some international destinations have circulating poliovirus. Before any international travel, make sure you are up to date on your polio vaccines."
+  },
+  {
+    "date": "2026-08-26",
+    "country": "탄자니아",
+    "flag": "🇹🇿",
+    "source": "🇺🇸 CDC",
+    "change": "Global Polio (CDC 2단계 (강화된 예방조치 권고)) → 글로벌 소아마비 (CDC 2단계 (강화된 예방조치 권고))",
+    "reason": "Some international destinations have circulating poliovirus. Before any international travel, make sure you are up to date on your polio vaccines."
   }
 ]
