@@ -1,36 +1,50 @@
 {
-  "updated": "2026-08-26 08:11",
+  "updated": "2026-08-26 08:20",
   "issues": [
     {
       "id": "news-001",
-      "country": "인도네시아",
+      "country": "동티모르",
       "category": "natural_disaster",
-      "severity": "high",
-      "title": "Death toll rises to 100 after eastern Indonesia earthquake",
-      "title_en": "Death toll rises to 100 after eastern Indonesia earthquake",
-      "summary": "The death toll from the 7.7-magnitude earthquake in eastern Indonesia rises to 100, with ongoing relief efforts and over 73,000 homes damaged. Read more at straitstimes.com.",
-      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
-      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
+      "severity": "medium",
+      "title": "Magnitude 6.0 earthquake strikes off the coast of Timor-Leste",
+      "title_en": "Magnitude 6.0 earthquake strikes off the coast of Timor-Leste",
+      "summary": "A magnitude 6.0 earthquake struck off the coast of Lospalos in the Banda Sea late Monday night.",
+      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
       "published_at": "2026-08-24",
-      "source": "The Straits Times",
-      "source_url": "https://www.straitstimes.com/asia/se-asia/indonesia-says-death-toll-from-august-15-earthquake-reaches-100"
+      "source": "FOX Weather",
+      "source_url": "https://www.foxweather.com/earth-space/magnitude-6-0-earthquake-strikes-off-the-coast-of-timor-leste"
     },
     {
       "id": "news-002",
-      "country": "인도네시아",
+      "country": "베트남",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "Typhoon Narra wreaks havoc in Vietnam and China as torrential rains lead to floods; more than 50,000 relocated",
+      "title_en": "Typhoon Narra wreaks havoc in Vietnam and China as torrential rains lead to floods; more than 50,000 relocated",
+      "summary": "Floods and landslides triggered by Typhoon Narra battered northern Vietnam and China's southern region of Guangxi, as accompanying heavy rains damaged infrastructure and crops.",
+      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-08-24",
+      "source": "The Star",
+      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/24/typhoon-narra-wreaks-havoc-in-vietnam-and-china-as-torrential-rains-lead-to-floods-more-than-50000-relocated"
+    },
+    {
+      "id": "news-003",
+      "country": "베트남",
       "category": "natural_disaster",
       "severity": "high",
-      "title": "Indonesia says death toll from August 15 earthquake reaches 100",
-      "title_en": "Indonesia says death toll from August 15 earthquake reaches 100",
-      "summary": "JAKARTA, Aug 24 (Reuters) - ⁠The death toll from an ⁠earthquake that hit eastern Indonesia reached ‌100 on Monday, the disaster agency chief said, as relief operations continued for a 10th day.",
+      "title": "Typhoon Narra stalls offshore as floods batter northern Vietnam",
+      "title_en": "Typhoon Narra stalls offshore as floods batter northern Vietnam",
+      "summary": "HANOI: Typhoon Narra, designated as Storm No.4 in Vietnam, stalled off the northern coast early Monday (Aug 24), dumping torrential rain that pushed several rivers to their highest flood-alert levels, killed at least one person and damaged more than 4,000 homes in the northern province of Lang Son.",
       "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
       "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
       "published_at": "2026-08-24",
       "source": "The Star",
-      "source_url": "https://www.thestar.com.my/news/world/2026/08/24/indonesia-says-death-toll-from-august-15-earthquake-reaches-100"
+      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/24/typhoon-narra-stalls-offshore-as-floods-batter-northern-vietnam"
     },
     {
-      "id": "news-003",
+      "id": "news-005",
       "country": "요르단",
       "category": "conflict",
       "severity": "low",
@@ -44,11 +58,11 @@
       "source_url": "https://www.scmp.com/news/china/diplomacy/article/3365097/china-and-jordan-call-strait-hormuz-get-back-normal-after-us-iran-conflict"
     },
     {
-      "id": "news-004",
+      "id": "news-006",
       "country": "요르단",
       "category": "conflict",
       "severity": "high",
-      "title": "사우디·요르단, 다마스쿠스 인근 시리아 보안버스 '테러 공격' 규탄",
+      "title": "Saudi Arabia, Jordan condemn ‘terrorist attack’ on Syrian security bus near Damascus",
       "title_en": "Saudi Arabia, Jordan condemn ‘terrorist attack’ on Syrian security bus near Damascus",
       "summary": "Saudi Arabia and Jordan on Saturday condemned a bombing that targeted a bus carrying Syrian security personnel near Damascus and left several people injured, Anadolu reports. In a statement, the Sa…",
       "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
@@ -56,6 +70,20 @@
       "published_at": "2026-08-23",
       "source": "Middle East Monitor",
       "source_url": "https://www.middleeastmonitor.com/20260823-saudi-arabia-jordan-condemn-terrorist-attack-on-syrian-security-bus-near-damascus/"
+    },
+    {
+      "id": "news-004",
+      "country": "베트남",
+      "category": "conflict",
+      "severity": "high",
+      "title": "Vietnam police charge man with rape after American woman alleges attack",
+      "title_en": "Vietnam police charge man with rape after American woman alleges attack",
+      "summary": "HANOI, Vietnam (AP) — Authorities in Vietnam have charged a man with rape after an American student said she was assaulted while in her bed during a group…",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
+      "published_at": "2026-08-20",
+      "source": "WTOP",
+      "source_url": "https://wtop.com/world/2026/08/vietnam-police-charge-man-with-rape-after-american-woman-alleges-attack/"
     }
   ]
 }
