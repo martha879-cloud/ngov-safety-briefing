@@ -382,5 +382,13 @@
     "source": "🇺🇸 CDC",
     "change": "글로벌 소아마비 (CDC 2단계 (강화된 예방조치 권고)) → Global Polio (CDC 2단계 (강화된 예방조치 권고))",
     "reason": "Some international destinations have circulating poliovirus. Before any international travel, make sure you are up to date on your polio vaccines."
+  },
+  {
+    "date": "2026-08-27",
+    "country": "방글라데시",
+    "flag": "🇧🇩",
+    "source": "🇺🇸 미국 국무부",
+    "change": "Bangladesh - Level 2: Exercise Increased Caution → Bangladesh - Level 3: Reconsider Travel",
+    "reason": "There were no changes to the advisory level or risk indicators. Advisory summary was updated. Reconsider travel to Bangladesh due to kidnapping, unrest, crime, and terrorism . Some areas have increased risk. Read the entire Travel Advisory. Advisory summary Unrest Unrest and violence have decreased "
   }
 ]

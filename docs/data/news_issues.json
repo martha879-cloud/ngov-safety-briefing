@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26 08:20",
+  "updated": "2026-08-27 08:11",
   "issues": [
     {
       "id": "news-001",
@@ -42,48 +42,6 @@
       "published_at": "2026-08-24",
       "source": "The Star",
       "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/24/typhoon-narra-stalls-offshore-as-floods-batter-northern-vietnam"
-    },
-    {
-      "id": "news-005",
-      "country": "요르단",
-      "category": "conflict",
-      "severity": "low",
-      "title": "China and Jordan call for Strait of Hormuz to get back to normal after US-Iran conflict",
-      "title_en": "China and Jordan call for Strait of Hormuz to get back to normal after US-Iran conflict",
-      "summary": "The two sides also criticised Israel’s ‘dangerous escalatory actions’ following King Abdullah’s meeting with Xi Jinping in Beijing.",
-      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-08-24",
-      "source": "South China Morning Post",
-      "source_url": "https://www.scmp.com/news/china/diplomacy/article/3365097/china-and-jordan-call-strait-hormuz-get-back-normal-after-us-iran-conflict"
-    },
-    {
-      "id": "news-006",
-      "country": "요르단",
-      "category": "conflict",
-      "severity": "high",
-      "title": "Saudi Arabia, Jordan condemn ‘terrorist attack’ on Syrian security bus near Damascus",
-      "title_en": "Saudi Arabia, Jordan condemn ‘terrorist attack’ on Syrian security bus near Damascus",
-      "summary": "Saudi Arabia and Jordan on Saturday condemned a bombing that targeted a bus carrying Syrian security personnel near Damascus and left several people injured, Anadolu reports. In a statement, the Sa…",
-      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
-      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
-      "published_at": "2026-08-23",
-      "source": "Middle East Monitor",
-      "source_url": "https://www.middleeastmonitor.com/20260823-saudi-arabia-jordan-condemn-terrorist-attack-on-syrian-security-bus-near-damascus/"
-    },
-    {
-      "id": "news-004",
-      "country": "베트남",
-      "category": "conflict",
-      "severity": "high",
-      "title": "Vietnam police charge man with rape after American woman alleges attack",
-      "title_en": "Vietnam police charge man with rape after American woman alleges attack",
-      "summary": "HANOI, Vietnam (AP) — Authorities in Vietnam have charged a man with rape after an American student said she was assaulted while in her bed during a group…",
-      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
-      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
-      "published_at": "2026-08-20",
-      "source": "WTOP",
-      "source_url": "https://wtop.com/world/2026/08/vietnam-police-charge-man-with-rape-after-american-woman-alleges-attack/"
     }
   ]
 }
