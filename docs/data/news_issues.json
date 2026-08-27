@@ -1,33 +1,61 @@
 {
-  "updated": "2026-08-27 13:11",
+  "updated": "2026-08-28 08:16",
   "issues": [
+    {
+      "id": "news-004",
+      "country": "베트남",
+      "category": "natural_disaster",
+      "severity": "high",
+      "title": "태풍 나라, 3명 사망, 베트남 전역 큰 피해",
+      "title_en": "Typhoon Narra kills three, wreaks havoc across Vietnam",
+      "summary": "HANOI: Typhoon Narra and subsequent flooding killed three people and injured three others in northern Vietnam, with widespread damage reported as of 8am Thursday (Aug 27), the Vietnam News Agency reported, citing the Vietnam Disaster and Dyke Management Authority.",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
+      "published_at": "2026-08-27",
+      "source": "The Star",
+      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/27/typhoon-narra-kills-three-wreaks-havoc-across-vietnam"
+    },
+    {
+      "id": "news-006",
+      "country": "인도네시아",
+      "category": "conflict",
+      "severity": "high",
+      "title": "인도네시아 의회에서 반부패 시위를 벌이는 수백 명의 집회",
+      "title_en": "Hundreds rally at Indonesia’s parliament in anti-corruption protest",
+      "summary": "Hundreds rally at Indonesia’s parliament demanding tougher anti-corruption laws, asset seizure, and the death penalty for graft offenders. Read more at straitstimes.com.",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
+      "published_at": "2026-08-27",
+      "source": "The Straits Times",
+      "source_url": "https://www.straitstimes.com/asia/se-asia/hundreds-rally-at-indonesias-parliament-in-anti-corruption-protest"
+    },
     {
       "id": "news-002",
       "country": "방글라데시",
-      "category": "security",
-      "severity": "low",
-      "title": "소수민족을 대상으로 한 범죄 사건이 증가하는 방글라데시에서 힌두교 가족 실종",
-      "title_en": "Hindu family goes missing in Bangladesh amid rising crime cases against minorities",
-      "summary": "Hindu family goes missing in Bangladesh amid rising crime cases against minorities - Dhaka, Aug 26 In yet another disturbing incident raising concerns over the safety of minorities across Bangladesh, four ... Get Latest News on International only on lokmattimes.com",
-      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "category": "conflict",
+      "severity": "high",
+      "title": "방글라데시 힌두 모하호테, 가나파티 차크라보르티와 가족에 대한 치명적인 공격 후 즉각 체포 요구",
+      "title_en": "Bangladesh Hindu Mohajote demands immediate arrests after deadly attack on Ganapati Chakraborty and family",
+      "summary": "The Bangladesh Jatiya Hindu Mohajote has given a 24-hour ultimatum demanding the arrest of the killers of Ganapati Chakraborty and his family on Wednesday.",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
       "published_at": "2026-08-26",
-      "source": "Lokmat Times",
-      "source_url": "https://www.lokmattimes.com/international/hindu-family-goes-missing-in-bangladesh-amid-rising-crime-cases-against-minorities/"
+      "source": "Devdiscourse",
+      "source_url": "https://www.devdiscourse.com/article/international/3968367-bangladesh-hindu-mohajote-demands-immediate-arrests-after-deadly-attack-on-ganapati-chakraborty-and-family"
     },
     {
       "id": "news-003",
       "country": "방글라데시",
-      "category": "health",
+      "category": "conflict",
       "severity": "high",
-      "title": "2025년 방글라데시 발병 당시 치쿤구니야 환자의 급성기 임상 프로필 및 삶의 질: 시설 기반 단면 연구",
-      "title_en": "Acute-phase clinical profile and quality of life in patients with chikungunya during the 2025 outbreak in Bangladesh: A facility-based cross-sectional study",
-      "summary": "Author summary In 2025, Bangladesh experienced a renewed outbreak of chikungunya after its last major epidemic in 2017. We assessed 442 adults with laboratory-confirmed chikungunya to describe their clinical features and the impact of the illness on daily functioning and well-being. Nearly all patients reported fever and joint pain, and more than half experienced severe pain. A large proportion of participants reported difficulties with walking, self-care, usual activities, or emotional well-being, indicating a substantial burden of illness. Although most patients were managed as outpatients, approximately one in six required hospital admission. Overall perceived health and quality of life were markedly reduced during the acute phase of infection. Women and individuals with more intense pain experienced disproportionately greater impairment. These findings highlight the considerable individual and health system burden of chikungunya during outbreaks and underscore the need for effective clinical management and supportive care strategies in endemic settings.",
+      "title": "방글라데시 힌두 모하호테, 가나파티 차크라보르티와 가족에 대한 치명적인 공격 후 즉각 체포 요구",
+      "title_en": "Bangladesh Hindu Mohajote demands immediate arrests after deadly attack on Ganapati Chakraborty and family",
+      "summary": "The Bangladesh Jatiya Hindu Mohajote has given a 24-hour ultimatum demanding the arrest of the killers of Ganapati Chakraborty and his family on Wednesday.",
       "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
       "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
       "published_at": "2026-08-26",
-      "source": "PLOS (Public Library of Science)",
-      "source_url": "https://journals.plos.org/plosntds/article?id=10.1371%2Fjournal.pntd.0014599"
+      "source": "The Tribune",
+      "source_url": "https://www.tribuneindia.com/news/world/bangladesh-hindu-mohajote-demands-immediate-arrests-after-deadly-attack-on-ganapati-chakraborty-and-family/"
     },
     {
       "id": "news-001",
@@ -44,7 +72,7 @@
       "source_url": "https://www.foxweather.com/earth-space/magnitude-6-0-earthquake-strikes-off-the-coast-of-timor-leste"
     },
     {
-      "id": "news-004",
+      "id": "news-005",
       "country": "베트남",
       "category": "natural_disaster",
       "severity": "medium",
@@ -58,21 +86,7 @@
       "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/24/typhoon-narra-wreaks-havoc-in-vietnam-and-china-as-torrential-rains-lead-to-floods-more-than-50000-relocated"
     },
     {
-      "id": "news-005",
-      "country": "베트남",
-      "category": "natural_disaster",
-      "severity": "high",
-      "title": "태풍 나라(Narra)가 베트남 북부를 강타하면서 해상에 멈춰 섰습니다.",
-      "title_en": "Typhoon Narra stalls offshore as floods batter northern Vietnam",
-      "summary": "HANOI: Typhoon Narra, designated as Storm No.4 in Vietnam, stalled off the northern coast early Monday (Aug 24), dumping torrential rain that pushed several rivers to their highest flood-alert levels, killed at least one person and damaged more than 4,000 homes in the northern province of Lang Son.",
-      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
-      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
-      "published_at": "2026-08-24",
-      "source": "The Star",
-      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/24/typhoon-narra-stalls-offshore-as-floods-batter-northern-vietnam"
-    },
-    {
-      "id": "news-006",
+      "id": "news-007",
       "country": "인도네시아",
       "category": "natural_disaster",
       "severity": "high",
@@ -84,76 +98,6 @@
       "published_at": "2026-08-24",
       "source": "The Straits Times",
       "source_url": "https://www.straitstimes.com/asia/se-asia/indonesia-says-death-toll-from-august-15-earthquake-reaches-100"
-    },
-    {
-      "id": "news-007",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "high",
-      "title": "인도네시아, 8월 15일 지진으로 인한 사망자 수가 100명에 달했다고 밝혔습니다.",
-      "title_en": "Indonesia says death toll from August 15 earthquake reaches 100",
-      "summary": "JAKARTA, Aug 24 (Reuters) - ⁠The death toll from an ⁠earthquake that hit eastern Indonesia reached ‌100 on Monday, the disaster agency chief said, as relief operations continued for a 10th day.",
-      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
-      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
-      "published_at": "2026-08-24",
-      "source": "The Star",
-      "source_url": "https://www.thestar.com.my/news/world/2026/08/24/indonesia-says-death-toll-from-august-15-earthquake-reaches-100"
-    },
-    {
-      "id": "news-010",
-      "country": "요르단",
-      "category": "conflict",
-      "severity": "low",
-      "title": "중국과 요르단, 미-이란 충돌 후 호르무즈 해협 정상화 촉구",
-      "title_en": "China and Jordan call for Strait of Hormuz to get back to normal after US-Iran conflict",
-      "summary": "The two sides also criticised Israel’s ‘dangerous escalatory actions’ following King Abdullah’s meeting with Xi Jinping in Beijing.",
-      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-08-24",
-      "source": "South China Morning Post",
-      "source_url": "https://www.scmp.com/news/china/diplomacy/article/3365097/china-and-jordan-call-strait-hormuz-get-back-normal-after-us-iran-conflict"
-    },
-    {
-      "id": "news-011",
-      "country": "요르단",
-      "category": "conflict",
-      "severity": "high",
-      "title": "사우디·요르단, 다마스쿠스 인근 시리아 보안버스 '테러 공격' 규탄",
-      "title_en": "Saudi Arabia, Jordan condemn ‘terrorist attack’ on Syrian security bus near Damascus",
-      "summary": "Saudi Arabia and Jordan on Saturday condemned a bombing that targeted a bus carrying Syrian security personnel near Damascus and left several people injured, Anadolu reports. In a statement, the Sa…",
-      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
-      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
-      "published_at": "2026-08-23",
-      "source": "Middle East Monitor",
-      "source_url": "https://www.middleeastmonitor.com/20260823-saudi-arabia-jordan-condemn-terrorist-attack-on-syrian-security-bus-near-damascus/"
-    },
-    {
-      "id": "news-008",
-      "country": "페루",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "페루 지진으로 건물 파손 및 정전 발생",
-      "title_en": "Peru earthquake damages buildings and causes power cuts",
-      "summary": "LIMA   -   At least three people have been injured and buildings have been damaged after an earthquake struck Peru, local officials have said. The",
-      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
-      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
-      "published_at": "2026-08-22",
-      "source": "The Nation",
-      "source_url": "https://www.nation.com.pk/22-Aug-2026/peru-earthquake-damages-buildings-causes-power-cuts"
-    },
-    {
-      "id": "news-009",
-      "country": "페루",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "시청: 페루 지진 동안 방송을 통해 용기를 낸 뉴스캐스터",
-      "title_en": "WATCH: Newscaster Braves Through Broadcast During Peru Earthquake",
-      "summary": "A Peruvian radio newscaster went viral on social media for maintaining complete calm as an earthquake struck Peru on Thursday afternoon.",
-      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
-      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
-      "published_at": "2026-08-21",
-      "source": "Breitbart News Network",
-      "source_url": "https://www.breitbart.com/national-security/2026/08/21/watch-newscaster-braves-through-broadcast-during-peru-earthquake/"
     }
   ]
 }
