@@ -1,8 +1,8 @@
 {
-  "updated": "2026-08-28 08:16",
+  "updated": "2026-08-28 15:33",
   "issues": [
     {
-      "id": "news-004",
+      "id": "news-002",
       "country": "베트남",
       "category": "natural_disaster",
       "severity": "high",
@@ -16,7 +16,7 @@
       "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/27/typhoon-narra-kills-three-wreaks-havoc-across-vietnam"
     },
     {
-      "id": "news-006",
+      "id": "news-004",
       "country": "인도네시아",
       "category": "conflict",
       "severity": "high",
@@ -28,34 +28,6 @@
       "published_at": "2026-08-27",
       "source": "The Straits Times",
       "source_url": "https://www.straitstimes.com/asia/se-asia/hundreds-rally-at-indonesias-parliament-in-anti-corruption-protest"
-    },
-    {
-      "id": "news-002",
-      "country": "방글라데시",
-      "category": "conflict",
-      "severity": "high",
-      "title": "방글라데시 힌두 모하호테, 가나파티 차크라보르티와 가족에 대한 치명적인 공격 후 즉각 체포 요구",
-      "title_en": "Bangladesh Hindu Mohajote demands immediate arrests after deadly attack on Ganapati Chakraborty and family",
-      "summary": "The Bangladesh Jatiya Hindu Mohajote has given a 24-hour ultimatum demanding the arrest of the killers of Ganapati Chakraborty and his family on Wednesday.",
-      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
-      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
-      "published_at": "2026-08-26",
-      "source": "Devdiscourse",
-      "source_url": "https://www.devdiscourse.com/article/international/3968367-bangladesh-hindu-mohajote-demands-immediate-arrests-after-deadly-attack-on-ganapati-chakraborty-and-family"
-    },
-    {
-      "id": "news-003",
-      "country": "방글라데시",
-      "category": "conflict",
-      "severity": "high",
-      "title": "방글라데시 힌두 모하호테, 가나파티 차크라보르티와 가족에 대한 치명적인 공격 후 즉각 체포 요구",
-      "title_en": "Bangladesh Hindu Mohajote demands immediate arrests after deadly attack on Ganapati Chakraborty and family",
-      "summary": "The Bangladesh Jatiya Hindu Mohajote has given a 24-hour ultimatum demanding the arrest of the killers of Ganapati Chakraborty and his family on Wednesday.",
-      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
-      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
-      "published_at": "2026-08-26",
-      "source": "The Tribune",
-      "source_url": "https://www.tribuneindia.com/news/world/bangladesh-hindu-mohajote-demands-immediate-arrests-after-deadly-attack-on-ganapati-chakraborty-and-family/"
     },
     {
       "id": "news-001",
@@ -72,7 +44,7 @@
       "source_url": "https://www.foxweather.com/earth-space/magnitude-6-0-earthquake-strikes-off-the-coast-of-timor-leste"
     },
     {
-      "id": "news-005",
+      "id": "news-003",
       "country": "베트남",
       "category": "natural_disaster",
       "severity": "medium",
@@ -86,7 +58,7 @@
       "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/24/typhoon-narra-wreaks-havoc-in-vietnam-and-china-as-torrential-rains-lead-to-floods-more-than-50000-relocated"
     },
     {
-      "id": "news-007",
+      "id": "news-005",
       "country": "인도네시아",
       "category": "natural_disaster",
       "severity": "high",
@@ -98,6 +70,34 @@
       "published_at": "2026-08-24",
       "source": "The Straits Times",
       "source_url": "https://www.straitstimes.com/asia/se-asia/indonesia-says-death-toll-from-august-15-earthquake-reaches-100"
+    },
+    {
+      "id": "news-006",
+      "country": "페루",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "페루 지진으로 건물 파손 및 정전 발생",
+      "title_en": "Peru earthquake damages buildings and causes power cuts",
+      "summary": "LIMA   -   At least three people have been injured and buildings have been damaged after an earthquake struck Peru, local officials have said. The",
+      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-08-22",
+      "source": "The Nation",
+      "source_url": "https://www.nation.com.pk/22-Aug-2026/peru-earthquake-damages-buildings-causes-power-cuts"
+    },
+    {
+      "id": "news-007",
+      "country": "페루",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "시청: 페루 지진 동안 방송을 통해 용기를 낸 뉴스캐스터",
+      "title_en": "WATCH: Newscaster Braves Through Broadcast During Peru Earthquake",
+      "summary": "A Peruvian radio newscaster went viral on social media for maintaining complete calm as an earthquake struck Peru on Thursday afternoon.",
+      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-08-21",
+      "source": "Breitbart News Network",
+      "source_url": "https://www.breitbart.com/national-security/2026/08/21/watch-newscaster-braves-through-broadcast-during-peru-earthquake/"
     }
   ]
 }

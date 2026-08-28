@@ -1,6 +1,22 @@
 {
-  "updated": "2026-08-28 08:16",
+  "updated": "2026-08-28 15:33",
   "issues": [
+    {
+      "id": "usgs-us7000tcgq",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.6 지진 발생 (119 km NNW of Ternate, Indonesia)",
+      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (119 km NNW of Ternate, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-08-28",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcgq",
+      "lat": 1.7526,
+      "lng": 126.8948,
+      "magnitude": 4.6
+    },
     {
       "id": "usgs-us7000tcdu",
       "country": "필리핀",
@@ -752,54 +768,6 @@
       "lat": -7.8156,
       "lng": 120.5155,
       "magnitude": 4.9
-    },
-    {
-      "id": "usgs-us6000tmd2",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.6 지진 발생 (26 km NNE of Ruteng, Indonesia)",
-      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (26 km NNE of Ruteng, Indonesia).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-08-21",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmd2",
-      "lat": -8.3786,
-      "lng": 120.5112,
-      "magnitude": 4.6
-    },
-    {
-      "id": "usgs-us6000tmcn",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.6 지진 발생 (75 km NW of Ende, Indonesia)",
-      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (75 km NW of Ende, Indonesia).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-08-21",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmcn",
-      "lat": -8.2838,
-      "lng": 121.2731,
-      "magnitude": 4.6
-    },
-    {
-      "id": "usgs-us6000tmcj",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.6 지진 발생 (45 km NNE of Ruteng, Indonesia)",
-      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (45 km NNE of Ruteng, Indonesia).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-08-21",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmcj",
-      "lat": -8.2183,
-      "lng": 120.5956,
-      "magnitude": 4.6
     }
   ]
 }
