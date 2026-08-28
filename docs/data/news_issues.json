@@ -1,40 +1,12 @@
 {
-  "updated": "2026-08-28 15:33",
+  "updated": "2026-08-29 08:11",
   "issues": [
-    {
-      "id": "news-002",
-      "country": "베트남",
-      "category": "natural_disaster",
-      "severity": "high",
-      "title": "태풍 나라, 3명 사망, 베트남 전역 큰 피해",
-      "title_en": "Typhoon Narra kills three, wreaks havoc across Vietnam",
-      "summary": "HANOI: Typhoon Narra and subsequent flooding killed three people and injured three others in northern Vietnam, with widespread damage reported as of 8am Thursday (Aug 27), the Vietnam News Agency reported, citing the Vietnam Disaster and Dyke Management Authority.",
-      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
-      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
-      "published_at": "2026-08-27",
-      "source": "The Star",
-      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/27/typhoon-narra-kills-three-wreaks-havoc-across-vietnam"
-    },
-    {
-      "id": "news-004",
-      "country": "인도네시아",
-      "category": "conflict",
-      "severity": "high",
-      "title": "인도네시아 의회에서 반부패 시위를 벌이는 수백 명의 집회",
-      "title_en": "Hundreds rally at Indonesia’s parliament in anti-corruption protest",
-      "summary": "Hundreds rally at Indonesia’s parliament demanding tougher anti-corruption laws, asset seizure, and the death penalty for graft offenders. Read more at straitstimes.com.",
-      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
-      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
-      "published_at": "2026-08-27",
-      "source": "The Straits Times",
-      "source_url": "https://www.straitstimes.com/asia/se-asia/hundreds-rally-at-indonesias-parliament-in-anti-corruption-protest"
-    },
     {
       "id": "news-001",
       "country": "동티모르",
       "category": "natural_disaster",
       "severity": "medium",
-      "title": "동티모르 해안에서 규모 6.0의 지진이 발생했습니다.",
+      "title": "Magnitude 6.0 earthquake strikes off the coast of Timor-Leste",
       "title_en": "Magnitude 6.0 earthquake strikes off the coast of Timor-Leste",
       "summary": "A magnitude 6.0 earthquake struck off the coast of Lospalos in the Banda Sea late Monday night.",
       "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
@@ -42,62 +14,6 @@
       "published_at": "2026-08-24",
       "source": "FOX Weather",
       "source_url": "https://www.foxweather.com/earth-space/magnitude-6-0-earthquake-strikes-off-the-coast-of-timor-leste"
-    },
-    {
-      "id": "news-003",
-      "country": "베트남",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "태풍 나라(Narra)는 폭우로 인해 홍수가 발생하면서 베트남과 중국에 큰 피해를 입힙니다. 50,000명 이상 이주",
-      "title_en": "Typhoon Narra wreaks havoc in Vietnam and China as torrential rains lead to floods; more than 50,000 relocated",
-      "summary": "Floods and landslides triggered by Typhoon Narra battered northern Vietnam and China's southern region of Guangxi, as accompanying heavy rains damaged infrastructure and crops.",
-      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
-      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
-      "published_at": "2026-08-24",
-      "source": "The Star",
-      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/24/typhoon-narra-wreaks-havoc-in-vietnam-and-china-as-torrential-rains-lead-to-floods-more-than-50000-relocated"
-    },
-    {
-      "id": "news-005",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "high",
-      "title": "인도네시아 동부 지진으로 사망자 100명으로 늘어",
-      "title_en": "Death toll rises to 100 after eastern Indonesia earthquake",
-      "summary": "The death toll from the 7.7-magnitude earthquake in eastern Indonesia rises to 100, with ongoing relief efforts and over 73,000 homes damaged. Read more at straitstimes.com.",
-      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
-      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
-      "published_at": "2026-08-24",
-      "source": "The Straits Times",
-      "source_url": "https://www.straitstimes.com/asia/se-asia/indonesia-says-death-toll-from-august-15-earthquake-reaches-100"
-    },
-    {
-      "id": "news-006",
-      "country": "페루",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "페루 지진으로 건물 파손 및 정전 발생",
-      "title_en": "Peru earthquake damages buildings and causes power cuts",
-      "summary": "LIMA   -   At least three people have been injured and buildings have been damaged after an earthquake struck Peru, local officials have said. The",
-      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
-      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
-      "published_at": "2026-08-22",
-      "source": "The Nation",
-      "source_url": "https://www.nation.com.pk/22-Aug-2026/peru-earthquake-damages-buildings-causes-power-cuts"
-    },
-    {
-      "id": "news-007",
-      "country": "페루",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "시청: 페루 지진 동안 방송을 통해 용기를 낸 뉴스캐스터",
-      "title_en": "WATCH: Newscaster Braves Through Broadcast During Peru Earthquake",
-      "summary": "A Peruvian radio newscaster went viral on social media for maintaining complete calm as an earthquake struck Peru on Thursday afternoon.",
-      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
-      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
-      "published_at": "2026-08-21",
-      "source": "Breitbart News Network",
-      "source_url": "https://www.breitbart.com/national-security/2026/08/21/watch-newscaster-braves-through-broadcast-during-peru-earthquake/"
     }
   ]
 }
