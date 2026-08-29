@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29 08:11",
+  "updated": "2026-08-29 13:00",
   "issues": [
     {
       "id": "usgs-us7000tcgq",
@@ -544,38 +544,6 @@
       "lat": 9.3981,
       "lng": 125.5805,
       "magnitude": 5
-    },
-    {
-      "id": "usgs-us6000tmq8",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.6 지진 발생 (42 km NE of Ruteng, Indonesia)",
-      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (42 km NE of Ruteng, Indonesia).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-08-22",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmq8",
-      "lat": -8.3069,
-      "lng": 120.6927,
-      "magnitude": 4.6
-    },
-    {
-      "id": "usgs-us6000tmq5",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "M5.2 지진 발생 (38 km NNE of Ruteng, Indonesia)",
-      "summary": "USGS 관측 기준 M5.2 규모의 지진이 발생했습니다 (38 km NNE of Ruteng, Indonesia).",
-      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-08-22",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmq5",
-      "lat": -8.2752,
-      "lng": 120.5614,
-      "magnitude": 5.2
     }
   ]
 }

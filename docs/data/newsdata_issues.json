@@ -1,4 +1,19 @@
 {
-  "updated": "2026-08-29 08:11",
-  "issues": []
+  "updated": "2026-08-29 13:00",
+  "issues": [
+    {
+      "id": "newsdata-001",
+      "country": "도미니카공화국",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "INDOMET tracks Tropical Storm Dolly while showers affect parts of Dominican Republic",
+      "title_en": "INDOMET tracks Tropical Storm Dolly while showers affect parts of Dominican Republic",
+      "summary": "Santo Domingo.- The Dominican Institute of Meteorology (INDOMET) reported that a tropical wave moving away toward western Haiti will have limited effects on the Dominican Republic, although lingering moisture and prevailing winds [...]",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-08-28",
+      "source": "Dominican Today",
+      "source_url": "https://dominicantoday.com/indomet-tracks-tropical-storm-dolly-while-showers-affect-parts-of-dominican-republic/"
+    }
+  ]
 }
