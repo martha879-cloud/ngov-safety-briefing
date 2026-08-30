@@ -550,5 +550,37 @@
     "source": "🇺🇸 CDC",
     "change": "글로벌 소아마비 (CDC 2단계 (강화된 예방조치 권고)) → Global Polio (CDC 2단계 (강화된 예방조치 권고))",
     "reason": "Some international destinations have circulating poliovirus. Before any international travel, make sure you are up to date on your polio vaccines."
+  },
+  {
+    "date": "2026-08-31",
+    "country": "인도네시아",
+    "flag": "🇮🇩",
+    "source": "🇺🇸 CDC",
+    "change": "Zika in Indonesia (CDC 2단계 (강화된 예방조치 권고)) → 인도네시아의 지카 (CDC 2단계 (강화된 예방조치 권고))",
+    "reason": "인도네시아 발리에서 돌아온 여행자에게서 지카 바이러스 사례가 보고되고 있습니다. 발리를 방문하는 모든 여행자는 여행 중 및 여행 후에 모기 물림과 지카 바이러스의 성적 전염을 예방하기 위한 조치를 취해야 합니다."
+  },
+  {
+    "date": "2026-08-31",
+    "country": "우간다",
+    "flag": "🇺🇬",
+    "source": "🇺🇸 CDC",
+    "change": "Ebola Bundibugyo Virus Disease in the Democratic Republic of the Congo and Uganda (CDC 2단계 (강화된 예방조치 권고)) → 콩고민주공화국 및 우간다의 에볼라 Bundibugyo 바이러스 질환 (CDC 2단계 (강화된 예방조치 권고))",
+    "reason": "CDC는 현재 Bundibugyo 바이러스병(BVD) 발병의 영향을 받지 않는 우간다 또는 콩고민주공화국(DRC) 지역으로 여행할 때 강화된 예방 조치를 취할 것을 권장합니다."
+  },
+  {
+    "date": "2026-08-31",
+    "country": "라오스",
+    "flag": "🇱🇦",
+    "source": "🇺🇸 CDC",
+    "change": "Global Polio (CDC 2단계 (강화된 예방조치 권고)) → 글로벌 소아마비 (CDC 2단계 (강화된 예방조치 권고))",
+    "reason": "일부 해외 목적지에는 소아마비 바이러스가 유행하고 있습니다. 해외 여행을 떠나기 전에 소아마비 백신을 접종했는지 확인하세요."
+  },
+  {
+    "date": "2026-08-31",
+    "country": "탄자니아",
+    "flag": "🇹🇿",
+    "source": "🇺🇸 CDC",
+    "change": "Global Polio (CDC 2단계 (강화된 예방조치 권고)) → 글로벌 소아마비 (CDC 2단계 (강화된 예방조치 권고))",
+    "reason": "일부 해외 목적지에는 소아마비 바이러스가 유행하고 있습니다. 해외 여행을 떠나기 전에 소아마비 백신을 접종했는지 확인하세요."
   }
 ]
