@@ -1,4 +1,19 @@
 {
-  "updated": "2026-08-30 08:16",
-  "issues": []
+  "updated": "2026-08-30 09:57",
+  "issues": [
+    {
+      "id": "newsdata-001",
+      "country": "요르단",
+      "category": "security",
+      "severity": "medium",
+      "title": "Palestine: Security Alert After Suspected Ramming Attempt in Jordan Valley",
+      "title_en": "Palestine: Security Alert After Suspected Ramming Attempt in Jordan Valley",
+      "summary": "Israeli media reported on Saturday that a suspected ramming attempt took place near a military training base in the Jordan Valley in the occupied West Bank. Israeli forces opened fire and closed the area following the incident.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-08-29",
+      "source": "Jordan News | Latest News From Jordan, Mena",
+      "source_url": "https://www.jordannews.jo/Section-20/Middle%20East/Palestine-Security-Alert-After-Suspected-Ramming-Attempt-in-Jordan-Valley-54892"
+    }
+  ]
 }

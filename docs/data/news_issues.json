@@ -1,19 +1,75 @@
 {
-  "updated": "2026-08-30 08:16",
+  "updated": "2026-08-30 09:57",
   "issues": [
     {
-      "id": "news-002",
-      "country": "페루",
-      "category": "natural_disaster",
+      "id": "news-003",
+      "country": "인도네시아",
+      "category": "conflict",
       "severity": "medium",
-      "title": "네팔의 비극으로 인해 칠레, 아르헨티나, 페루의 빙하 홍수 공포가 심화되었습니다.",
-      "title_en": "Nepal tragedy intensifies glacial flood fears in Chile, Argentina, Peru",
-      "summary": "Unstable conditions and the accelerating retreat of Andean ice sheets expose Chile, Argentina and Peru to a risk of catastrophic floods and mudslides.",
-      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
+      "title": "경찰, 항의 시위로 인한 소요 사태로 인도네시아 수도에서 300명 이상 구금",
+      "title_en": "Police detain more than 300 in Indonesia's capital after unrest following protest",
+      "summary": "Read more about Police detain more than 300 in Indonesia's capital after unrest following protest on Devdiscourse",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
       "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
       "published_at": "2026-08-28",
-      "source": "UPI News",
-      "source_url": "https://www.upi.com/Top_News/World-News/2026/08/28/latam-glacier-flooding-risk-Chile-Argentina-Peru/5161787942645/"
+      "source": "Devdiscourse",
+      "source_url": "https://www.devdiscourse.com/article/international/3969062-police-detain-more-than-300-in-indonesias-capital-after-unrest-following-protest"
+    },
+    {
+      "id": "news-004",
+      "country": "인도네시아",
+      "category": "conflict",
+      "severity": "medium",
+      "title": "시위로 인한 불안으로 인도네시아 수도에서 교통이 중단되었습니다.",
+      "title_en": "Transport disrupted in Indonesia's capital after unrest following protest",
+      "summary": "Several routes on the commuter rail line in Jakarta were suspended or diverted on Friday (Aug 28) while the city's bus system said its routes near the parliamentary building were impacted by road closures.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-08-28",
+      "source": "CNA",
+      "source_url": "https://www.channelnewsasia.com/asia/indonesia-jakarta-protest-transport-disrupted-6347286"
+    },
+    {
+      "id": "news-005",
+      "country": "인도네시아",
+      "category": "conflict",
+      "severity": "medium",
+      "title": "시위로 인한 불안으로 인도네시아 수도에서 교통이 중단되었습니다.",
+      "title_en": "Transport disrupted in Indonesia's capital after unrest following protest",
+      "summary": "JAKARTA, Aug 28 (Reuters) - Transport authorities in ⁠Indonesia's capital suspended or diverted some rail and bus routes on Friday following ⁠street protests that local media said had turned into late night rioting.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-08-28",
+      "source": "The Star",
+      "source_url": "https://www.thestar.com.my/news/world/2026/08/28/transport-disrupted-in-indonesia039s-capital-after-unrest-following-protest"
+    },
+    {
+      "id": "news-006",
+      "country": "케냐",
+      "category": "conflict",
+      "severity": "medium",
+      "title": "Tear gas, shop closures in Nairobi as Kenya traders protest import duty hike",
+      "title_en": "Tear gas, shop closures in Nairobi as Kenya traders protest import duty hike",
+      "summary": "Hundreds of businesses closed in central Nairobi as small-scale traders protested higher import duties, with police using tear gas to disperse demonstrators.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-08-28",
+      "source": "Moneycontrol",
+      "source_url": "https://www.moneycontrol.com/world/tear-gas-shop-closures-in-nairobi-as-kenya-traders-protest-import-duty-hike-article-14017623.html"
+    },
+    {
+      "id": "news-002",
+      "country": "라오스",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "태국 북부 라오스에서 규모 4.3 지진 기록",
+      "title_en": "Magnitude 4.3 earthquake recorded in Laos near northern Thailand",
+      "summary": "BANGKOK: A magnitude 4.3 earthquake was recorded in Laos in the early hours of Thursday (Aug 27), with its epicentre about 283km northeast of Rim Khong subdistrict in Chiang Khong district, Chiang Rai.",
+      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-08-27",
+      "source": "The Star",
+      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/27/magnitude-43-earthquake-recorded-in-laos-near-northern-thailand"
     },
     {
       "id": "news-001",
@@ -30,11 +86,11 @@
       "source_url": "https://www.foxweather.com/earth-space/magnitude-6-0-earthquake-strikes-off-the-coast-of-timor-leste"
     },
     {
-      "id": "news-004",
+      "id": "news-007",
       "country": "요르단",
       "category": "conflict",
       "severity": "low",
-      "title": "중국과 요르단, 미-이란 충돌 후 호르무즈 해협 정상화 촉구",
+      "title": "China and Jordan call for Strait of Hormuz to get back to normal after US-Iran conflict",
       "title_en": "China and Jordan call for Strait of Hormuz to get back to normal after US-Iran conflict",
       "summary": "The two sides also criticised Israel’s ‘dangerous escalatory actions’ following King Abdullah’s meeting with Xi Jinping in Beijing.",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
@@ -42,20 +98,6 @@
       "published_at": "2026-08-24",
       "source": "South China Morning Post",
       "source_url": "https://www.scmp.com/news/china/diplomacy/article/3365097/china-and-jordan-call-strait-hormuz-get-back-normal-after-us-iran-conflict"
-    },
-    {
-      "id": "news-003",
-      "country": "페루",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "페루 지진으로 건물 파손 및 정전 발생",
-      "title_en": "Peru earthquake damages buildings and causes power cuts",
-      "summary": "LIMA   -   At least three people have been injured and buildings have been damaged after an earthquake struck Peru, local officials have said. The",
-      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
-      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
-      "published_at": "2026-08-22",
-      "source": "The Nation",
-      "source_url": "https://www.nation.com.pk/22-Aug-2026/peru-earthquake-damages-buildings-causes-power-cuts"
     }
   ]
 }
