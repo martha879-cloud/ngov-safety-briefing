@@ -750,5 +750,21 @@
     "source_url": "https://www.watchdoguganda.com/business/20260830/197271/why-fred-ssenoga-believes-union-can-rewrite-ugandas-transport-economy.html",
     "feed": "NewsData.io",
     "first_seen_date": "2026-08-31"
+  },
+  {
+    "id": "newsdata-001",
+    "country": "인도네시아",
+    "category": "natural_disaster",
+    "severity": "medium",
+    "title": "Indonesians in Flood-Hit Nepal Remain Safe, Authorities Say",
+    "title_en": "Indonesians in Flood-Hit Nepal Remain Safe, Authorities Say",
+    "summary": "Indonesian nationals staying in flood-hit Nepal remain in good condition, according to Foreign Ministry's Citizen Protection director.",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-08-31",
+    "source": "Tempo.co",
+    "source_url": "https://en.tempo.co/read/2118641/indonesians-in-flood-hit-nepal-remain-safe-authorities-say",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-09-01"
   }
 ]

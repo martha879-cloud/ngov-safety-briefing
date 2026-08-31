@@ -582,5 +582,21 @@
     "source": "🇺🇸 CDC",
     "change": "글로벌 소아마비 (CDC 2단계 (강화된 예방조치 권고)) → Global Polio (CDC 2단계 (강화된 예방조치 권고))",
     "reason": "Some international destinations have circulating poliovirus. Before any international travel, make sure you are up to date on your polio vaccines."
+  },
+  {
+    "date": "2026-09-01",
+    "country": "방글라데시",
+    "flag": "🇧🇩",
+    "source": "🇺🇸 미국 국무부",
+    "change": "Bangladesh - Level 3: Reconsider Travel → Bangladesh - Level 2: Exercise Increased Caution",
+    "reason": "Exercise increased caution in Bangladesh due to unrest , crime , terrorism , and kidnapping . Some areas have increased risk. Read the entire Travel Advisory. Unrest Protests can occur and turn violent without notice. Avoid all gatherings, even peaceful ones. Crime In Bangladesh’s major cities, comm"
+  },
+  {
+    "date": "2026-09-01",
+    "country": "인도네시아",
+    "flag": "🇮🇩",
+    "source": "🇺🇸 CDC",
+    "change": "Zika in Indonesia (CDC 2단계 (강화된 예방조치 권고)) → 인도네시아의 지카 (CDC 2단계 (강화된 예방조치 권고))",
+    "reason": "Cases of Zika are being reported in returning travelers from Bali, Indonesia. All travelers to Bali should take steps to prevent mosquito bites and sexual transmission of Zika virus during and after travel."
   }
 ]
