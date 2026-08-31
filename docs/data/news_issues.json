@@ -1,19 +1,75 @@
 {
-  "updated": "2026-08-31 08:11",
+  "updated": "2026-08-31 10:03",
   "issues": [
     {
-      "id": "news-002",
-      "country": "라오스",
+      "id": "news-004",
+      "country": "인도네시아",
+      "category": "conflict",
+      "severity": "medium",
+      "title": "경찰, 항의 시위로 인한 소요 사태로 인도네시아 수도에서 300명 이상 구금",
+      "title_en": "Police detain more than 300 in Indonesia's capital after unrest following protest",
+      "summary": "Read more about Police detain more than 300 in Indonesia's capital after unrest following protest on Devdiscourse",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-08-28",
+      "source": "Devdiscourse",
+      "source_url": "https://www.devdiscourse.com/article/international/3969062-police-detain-more-than-300-in-indonesias-capital-after-unrest-following-protest"
+    },
+    {
+      "id": "news-005",
+      "country": "인도네시아",
+      "category": "conflict",
+      "severity": "medium",
+      "title": "시위로 인한 불안으로 인도네시아 수도에서 교통 중단",
+      "title_en": "Transport disrupted in Indonesia's capital after unrest following protest",
+      "summary": "Several routes on the commuter rail line in Jakarta were suspended or diverted on Friday (Aug 28) while the city's bus system said its routes near the parliamentary building were impacted by road closures.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-08-28",
+      "source": "CNA",
+      "source_url": "https://www.channelnewsasia.com/asia/indonesia-jakarta-protest-transport-disrupted-6347286"
+    },
+    {
+      "id": "news-006",
+      "country": "인도네시아",
+      "category": "conflict",
+      "severity": "medium",
+      "title": "시위로 인한 불안으로 인도네시아 수도에서 교통 중단",
+      "title_en": "Transport disrupted in Indonesia's capital after unrest following protest",
+      "summary": "JAKARTA, Aug 28 (Reuters) - Transport authorities in ⁠Indonesia's capital suspended or diverted some rail and bus routes on Friday following ⁠street protests that local media said had turned into late night rioting.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-08-28",
+      "source": "The Star",
+      "source_url": "https://www.thestar.com.my/news/world/2026/08/28/transport-disrupted-in-indonesia039s-capital-after-unrest-following-protest"
+    },
+    {
+      "id": "news-007",
+      "country": "페루",
       "category": "natural_disaster",
       "severity": "medium",
-      "title": "태국 북부 근처 라오스에서 규모 4.3의 지진이 기록되었습니다.",
-      "title_en": "Magnitude 4.3 earthquake recorded in Laos near northern Thailand",
-      "summary": "BANGKOK: A magnitude 4.3 earthquake was recorded in Laos in the early hours of Thursday (Aug 27), with its epicentre about 283km northeast of Rim Khong subdistrict in Chiang Khong district, Chiang Rai.",
+      "title": "네팔의 비극으로 인해 칠레, 아르헨티나, 페루의 빙하 홍수 공포가 심화되었습니다.",
+      "title_en": "Nepal tragedy intensifies glacial flood fears in Chile, Argentina, Peru",
+      "summary": "Unstable conditions and the accelerating retreat of Andean ice sheets expose Chile, Argentina and Peru to a risk of catastrophic floods and mudslides.",
       "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
       "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-08-28",
+      "source": "UPI News",
+      "source_url": "https://www.upi.com/Top_News/World-News/2026/08/28/latam-glacier-flooding-risk-Chile-Argentina-Peru/5161787942645/"
+    },
+    {
+      "id": "news-002",
+      "country": "베트남",
+      "category": "natural_disaster",
+      "severity": "high",
+      "title": "태풍 나라, 3명 사망, 베트남 전역 큰 피해",
+      "title_en": "Typhoon Narra kills three, wreaks havoc across Vietnam",
+      "summary": "HANOI: Typhoon Narra and subsequent flooding killed three people and injured three others in northern Vietnam, with widespread damage reported as of 8am Thursday (Aug 27), the Vietnam News Agency reported, citing the Vietnam Disaster and Dyke Management Authority.",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
       "published_at": "2026-08-27",
       "source": "The Star",
-      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/27/magnitude-43-earthquake-recorded-in-laos-near-northern-thailand"
+      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/27/typhoon-narra-kills-three-wreaks-havoc-across-vietnam"
     },
     {
       "id": "news-001",
@@ -28,6 +84,34 @@
       "published_at": "2026-08-24",
       "source": "FOX Weather",
       "source_url": "https://www.foxweather.com/earth-space/magnitude-6-0-earthquake-strikes-off-the-coast-of-timor-leste"
+    },
+    {
+      "id": "news-003",
+      "country": "베트남",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "태풍 나라(Narra)는 폭우로 인해 홍수가 발생하면서 베트남과 중국에 큰 피해를 입힙니다. 50,000명 이상 이주",
+      "title_en": "Typhoon Narra wreaks havoc in Vietnam and China as torrential rains lead to floods; more than 50,000 relocated",
+      "summary": "Floods and landslides triggered by Typhoon Narra battered northern Vietnam and China's southern region of Guangxi, as accompanying heavy rains damaged infrastructure and crops.",
+      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-08-24",
+      "source": "The Star",
+      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/24/typhoon-narra-wreaks-havoc-in-vietnam-and-china-as-torrential-rains-lead-to-floods-more-than-50000-relocated"
+    },
+    {
+      "id": "news-008",
+      "country": "요르단",
+      "category": "conflict",
+      "severity": "low",
+      "title": "중국과 요르단, 미-이란 충돌 후 호르무즈 해협 정상화 촉구",
+      "title_en": "China and Jordan call for Strait of Hormuz to get back to normal after US-Iran conflict",
+      "summary": "The two sides also criticised Israel’s ‘dangerous escalatory actions’ following King Abdullah’s meeting with Xi Jinping in Beijing.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-08-24",
+      "source": "South China Morning Post",
+      "source_url": "https://www.scmp.com/news/china/diplomacy/article/3365097/china-and-jordan-call-strait-hormuz-get-back-normal-after-us-iran-conflict"
     }
   ]
 }

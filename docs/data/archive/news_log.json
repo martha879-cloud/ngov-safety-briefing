@@ -734,5 +734,21 @@
     "source_url": "https://www.jordannews.jo/Section-20/Middle%20East/Palestine-Security-Alert-After-Suspected-Ramming-Attempt-in-Jordan-Valley-54892",
     "feed": "NewsData.io",
     "first_seen_date": "2026-08-30"
+  },
+  {
+    "id": "newsdata-001",
+    "country": "우간다",
+    "category": "transport",
+    "severity": "low",
+    "title": "Fred Ssenoga가 Union이 우간다의 운송 경제를 다시 쓸 수 있다고 믿는 이유",
+    "title_en": "Why Fred Ssenoga believes Union can rewrite Uganda’s transport economy",
+    "summary": "SPECIAL BUSINESS REPORT By Brian Mugenyi KAMPALA — In a black office chair at Union Transport Alliance’s Luthen Towers headquarters, Fred Ssenoga sits surrounded by the very products that define his organization’s rapid expansion. The conversation moves quickly from transport to housing, consumer products, micro-financing, and digital payments. But it ultimately centers on a pivotal [...] The post Why Fred Ssenoga believes Union can rewrite Uganda’s transport economy appeared first on Watchdog Uganda .",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-08-30",
+    "source": "Watchdog Uganda",
+    "source_url": "https://www.watchdoguganda.com/business/20260830/197271/why-fred-ssenoga-believes-union-can-rewrite-ugandas-transport-economy.html",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-08-31"
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31 08:11",
+  "updated": "2026-08-31 10:03",
   "issues": [
     {
       "id": "usgs-us7000tczt",
@@ -447,22 +447,6 @@
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn1k",
       "lat": -8.2203,
       "lng": 120.4857,
-      "magnitude": 4.6
-    },
-    {
-      "id": "usgs-us6000tn1g",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.6 지진 발생 (68 km NNE of Labuan Bajo, Indonesia)",
-      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (68 km NNE of Labuan Bajo, Indonesia).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-08-24",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn1g",
-      "lat": -7.9116,
-      "lng": 120.0824,
       "magnitude": 4.6
     }
   ]
