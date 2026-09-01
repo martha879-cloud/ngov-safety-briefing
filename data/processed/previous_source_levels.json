@@ -12,7 +12,7 @@
     },
     "cdc": {
       "severity": "medium",
-      "title": "Global Polio (CDC 2단계 (강화된 예방조치 권고))"
+      "title": "글로벌 소아마비 (CDC 2단계 (강화된 예방조치 권고))"
     }
   },
   "인도네시아": {
@@ -63,8 +63,8 @@
   },
   "방글라데시": {
     "state_dept": {
-      "severity": "medium",
-      "title": "Bangladesh - Level 2: Exercise Increased Caution"
+      "severity": "high",
+      "title": "Bangladesh - Level 3: Reconsider Travel"
     }
   },
   "우간다": {
@@ -74,7 +74,7 @@
     },
     "cdc": {
       "severity": "medium",
-      "title": "Ebola Bundibugyo Virus Disease in the Democratic Republic of the Congo and Uganda (CDC 2단계 (강화된 예방조치 권고))"
+      "title": "콩고민주공화국 및 우간다의 에볼라 분디부교 바이러스병 (CDC 2단계 (강화된 예방조치 권고))"
     }
   },
   "탄자니아": {
@@ -84,7 +84,7 @@
     },
     "cdc": {
       "severity": "medium",
-      "title": "Global Polio (CDC 2단계 (강화된 예방조치 권고))"
+      "title": "글로벌 소아마비 (CDC 2단계 (강화된 예방조치 권고))"
     }
   },
   "캄보디아": {

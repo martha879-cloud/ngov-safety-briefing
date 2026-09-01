@@ -766,5 +766,21 @@
     "source_url": "https://en.tempo.co/read/2118641/indonesians-in-flood-hit-nepal-remain-safe-authorities-say",
     "feed": "NewsData.io",
     "first_seen_date": "2026-09-01"
+  },
+  {
+    "id": "newsdata-001",
+    "country": "도미니카공화국",
+    "category": "natural_disaster",
+    "severity": "medium",
+    "title": "도미니카 공화국은 지진 발생 후 콜롬비아에 50톤의 인도적 지원을 보냈습니다.",
+    "title_en": "Dominican Republic sends 50 tons of humanitarian aid to Colombia after earthquake",
+    "summary": "Santo Domingo.- The Dominican Republic sent approximately 50 tons of humanitarian aid to Colombia aboard the Navy’s high-seas patrol vessel PA-301 “Almirante Didiez Burgos,” following the earthquake that affected the South American [...]",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-08-31",
+    "source": "Dominican Today",
+    "source_url": "https://dominicantoday.com/dominican-republic-sends-50-tons-of-humanitarian-aid-to-colombia-after-earthquake/",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-09-01"
   }
 ]

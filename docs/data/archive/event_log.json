@@ -588,15 +588,31 @@
     "country": "방글라데시",
     "flag": "🇧🇩",
     "source": "🇺🇸 미국 국무부",
-    "change": "Bangladesh - Level 3: Reconsider Travel → Bangladesh - Level 2: Exercise Increased Caution",
-    "reason": "Exercise increased caution in Bangladesh due to unrest , crime , terrorism , and kidnapping . Some areas have increased risk. Read the entire Travel Advisory. Unrest Protests can occur and turn violent without notice. Avoid all gatherings, even peaceful ones. Crime In Bangladesh’s major cities, comm"
+    "change": "Bangladesh - Level 2: Exercise Increased Caution → Bangladesh - Level 3: Reconsider Travel",
+    "reason": "권고 수준이나 위험 지표에는 변경 사항이 없습니다. 권고 요약이 업데이트되었습니다. 납치, 불안, 범죄, 테러로 인해 방글라데시 여행을 재고해 보세요. 일부 지역에서는 위험이 증가했습니다. 여행 주의보 전체를 읽어보세요. 주의보 요약 불안 불안과 폭력이 감소했습니다"
   },
   {
     "date": "2026-09-01",
-    "country": "인도네시아",
-    "flag": "🇮🇩",
+    "country": "우간다",
+    "flag": "🇺🇬",
     "source": "🇺🇸 CDC",
-    "change": "Zika in Indonesia (CDC 2단계 (강화된 예방조치 권고)) → 인도네시아의 지카 (CDC 2단계 (강화된 예방조치 권고))",
-    "reason": "Cases of Zika are being reported in returning travelers from Bali, Indonesia. All travelers to Bali should take steps to prevent mosquito bites and sexual transmission of Zika virus during and after travel."
+    "change": "Ebola Bundibugyo Virus Disease in the Democratic Republic of the Congo and Uganda (CDC 2단계 (강화된 예방조치 권고)) → 콩고민주공화국 및 우간다의 에볼라 분디부교 바이러스병 (CDC 2단계 (강화된 예방조치 권고))",
+    "reason": "CDC는 현재 Bundibugyo 바이러스병(BVD) 발병의 영향을 받지 않는 우간다 또는 콩고민주공화국(DRC) 지역으로 여행할 때 강화된 예방 조치를 취할 것을 권장합니다."
+  },
+  {
+    "date": "2026-09-01",
+    "country": "라오스",
+    "flag": "🇱🇦",
+    "source": "🇺🇸 CDC",
+    "change": "Global Polio (CDC 2단계 (강화된 예방조치 권고)) → 글로벌 소아마비 (CDC 2단계 (강화된 예방조치 권고))",
+    "reason": "일부 해외 목적지에는 소아마비 바이러스가 유행하고 있습니다. 해외 여행을 떠나기 전에 소아마비 백신을 접종했는지 확인하세요."
+  },
+  {
+    "date": "2026-09-01",
+    "country": "탄자니아",
+    "flag": "🇹🇿",
+    "source": "🇺🇸 CDC",
+    "change": "Global Polio (CDC 2단계 (강화된 예방조치 권고)) → 글로벌 소아마비 (CDC 2단계 (강화된 예방조치 권고))",
+    "reason": "일부 해외 목적지에는 소아마비 바이러스가 유행하고 있습니다. 해외 여행을 떠나기 전에 소아마비 백신을 접종했는지 확인하세요."
   }
 ]
