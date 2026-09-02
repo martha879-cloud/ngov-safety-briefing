@@ -1,18 +1,4 @@
 {
-  "updated": "2026-09-02 09:46",
-  "issues": [
-    {
-      "id": "과테말라-2026-09-02-1",
-      "country": "과테말라",
-      "category": "official_notice",
-      "severity": "low",
-      "title": "[안전공지] 의약품 반입 관련 안전 공지",
-      "summary": "외교부 해외안전여행 안전공지에 등록된 최근 안전 관련 정보입니다.",
-      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "외교부 안전공지와 현지 상황을 지속적으로 확인하세요.",
-      "published_at": "2026-09-02",
-      "source": "외교부 해외안전공지",
-      "source_url": "https://www.0404.go.kr/bbs/safetyNtc/1339836/detail2?ntnCd=7"
-    }
-  ]
+  "updated": "2026-09-03 08:10",
+  "issues": []
 }

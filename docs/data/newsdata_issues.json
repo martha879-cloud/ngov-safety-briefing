@@ -1,4 +1,19 @@
 {
-  "updated": "2026-09-02 09:46",
-  "issues": []
+  "updated": "2026-09-03 08:11",
+  "issues": [
+    {
+      "id": "newsdata-001",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "Celios: 인도네시아의 산불 손실은 123.1조러피아에 달할 수 있습니다",
+      "title_en": "Celios: Indonesia's Wildfire Losses Could Reach Rp123.1 Trillion",
+      "summary": "Indonesia's forest and land fires also drove major health costs, with millions exposed to smoke-related illnesses and symptoms.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-09-02",
+      "source": "Tempo.co",
+      "source_url": "https://en.tempo.co/read/2118815/celios-indonesias-wildfire-losses-could-reach-rp123-1-trillion"
+    }
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02 09:46",
+  "updated": "2026-09-03 08:11",
   "issues": [
     {
       "id": "statedept-mongolia-2026-07-29-1",
@@ -14,20 +14,6 @@
       "published_at": "2026-07-29",
       "source": "US State Dept",
       "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/mongolia-travel-advisory.html"
-    },
-    {
-      "id": "statedept-kenya-2026-07-28-2",
-      "country": "케냐",
-      "category": "health",
-      "severity": "medium",
-      "title": "Kenya - Level 2: Exercise Increased Caution",
-      "summary": "케냐에서는 범죄, 납치, 테러, 불안, 건강 및 교통 안전의 위험 때문에 더욱 주의를 기울이십시오. 일부 지역에서는 위험이 증가했습니다. 여행 주의보 전체를 읽어보세요. 범죄 폭력범죄는 언제든지 발생할 수 있습니다. 폭력 범죄에는 무장 차량 강탈, 강도, 가택 침입, 성행위 등이 포함됩니다.",
-      "summary_en": "Exercise increased caution in Kenya due to risk of crime , kidnapping , terrorism , unrest , health , and traffic safety . Some areas have increased risk. Read the entire Travel Advisory. Crime Violent crime can occur at any time. Violent crimes include armed carjacking, mugging, home invasion, sexu",
-      "volunteer_impact": "미국 국무부가 여행자제(2단계)로 지정한 국가입니다. 세부 위험 지역을 확인하는 것이 좋습니다.",
-      "recommended_action": "미국 국무부 여행경보 원문을 참고하여 세부 위험 지역 및 주의사항을 확인하세요.",
-      "published_at": "2026-07-28",
-      "source": "US State Dept",
-      "source_url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.ken.html"
     },
     {
       "id": "statedept-laos-2026-07-28-2",
