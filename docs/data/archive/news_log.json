@@ -798,5 +798,53 @@
     "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/09/01/vietnamese-embassy-verifies-reports-of-two-nationals-in-nepal-flood-hit-area",
     "feed": "GNews",
     "first_seen_date": "2026-09-02"
+  },
+  {
+    "id": "news-003",
+    "country": "필리핀",
+    "category": "health",
+    "severity": "low",
+    "title": "필리핀, 거의 118,000건의 뎅기열 사례 기록",
+    "title_en": "Philippines tallies nearly 118,000 dengue cases",
+    "summary": "Close to 118,000 dengue cases have already been recorded across the Philippines, according to the Department of Health (DOH).",
+    "volunteer_impact": "봉사단 건강관리 및 예방조치 확인이 필요할 수 있습니다.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-09-01",
+    "source": "SunStar Philippines",
+    "source_url": "https://www.sunstar.com.ph/manila/philippines-tallies-nearly-118000-dengue-cases",
+    "feed": "GNews",
+    "first_seen_date": "2026-09-02"
+  },
+  {
+    "id": "news-004",
+    "country": "우간다",
+    "category": "health",
+    "severity": "medium",
+    "title": "WHO, 아프리카 CDC, 우간다에서 에볼라 발병 종식 선언",
+    "title_en": "WHO, Africa CDC declare end of Ebola outbreak in Uganda",
+    "summary": "WHO, Africa CDC declare end of Ebola outbreak in Uganda - Kampala, Aug 27 The World Health Organisation (WHO) and the Africa Centres for Disease Control and Prevention (Africa ... Get Latest News on International only on lokmattimes.com",
+    "volunteer_impact": "봉사단 건강관리 및 예방조치 확인이 필요할 수 있습니다.",
+    "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+    "published_at": "2026-08-27",
+    "source": "Lokmat Times",
+    "source_url": "https://www.lokmattimes.com/international/who-africa-cdc-declare-end-of-ebola-outbreak-in-uganda-1/",
+    "feed": "GNews",
+    "first_seen_date": "2026-09-02"
+  },
+  {
+    "id": "news-005",
+    "country": "우간다",
+    "category": "health",
+    "severity": "medium",
+    "title": "WHO, 아프리카 CDC, 우간다에서 에볼라 발병 종식 선언",
+    "title_en": "WHO, Africa CDC declare end of Ebola outbreak in Uganda",
+    "summary": "WHO, Africa CDC declare end of Ebola outbreak in Uganda - Kampala, Aug 27 The World Health Organisation (WHO) and the Africa Centres for Disease Control and Prevention (Africa ... Get Latest News on Health only on lokmattimes.com",
+    "volunteer_impact": "봉사단 건강관리 및 예방조치 확인이 필요할 수 있습니다.",
+    "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+    "published_at": "2026-08-27",
+    "source": "Lokmat Times",
+    "source_url": "https://www.lokmattimes.com/health/who-africa-cdc-declare-end-of-ebola-outbreak-in-uganda/",
+    "feed": "GNews",
+    "first_seen_date": "2026-09-02"
   }
 ]
