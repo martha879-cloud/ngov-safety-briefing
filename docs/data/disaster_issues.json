@@ -1,6 +1,38 @@
 {
-  "updated": "2026-09-03 10:00",
+  "updated": "2026-09-04 08:11",
   "issues": [
+    {
+      "id": "usgs-us7000te55",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.9 지진 발생 (98 km W of Gorontalo, Indonesia)",
+      "summary": "USGS 관측 기준 M4.9 규모의 지진이 발생했습니다 (98 km W of Gorontalo, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-09-03",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te55",
+      "lat": 0.5261,
+      "lng": 122.1776,
+      "magnitude": 4.9
+    },
+    {
+      "id": "usgs-us7000te51",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.8 지진 발생 (57 km N of Ende, Indonesia)",
+      "summary": "USGS 관측 기준 M4.8 규모의 지진이 발생했습니다 (57 km N of Ende, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-09-03",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te51",
+      "lat": -8.3207,
+      "lng": 121.6664,
+      "magnitude": 4.8
+    },
     {
       "id": "usgs-us7000tdj7",
       "country": "인도네시아",
@@ -210,6 +242,22 @@
       "magnitude": 4.9
     },
     {
+      "id": "usgs-us7000tdw9",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.6 지진 발생 (87 km NNE of Ruteng, Indonesia)",
+      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (87 km NNE of Ruteng, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-08-30",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdw9",
+      "lat": -7.8725,
+      "lng": 120.7565,
+      "magnitude": 4.6
+    },
+    {
       "id": "usgs-us7000tcwg",
       "country": "인도네시아",
       "category": "natural_disaster",
@@ -272,70 +320,6 @@
       "lat": 1.7526,
       "lng": 126.8948,
       "magnitude": 4.6
-    },
-    {
-      "id": "usgs-us7000tcdu",
-      "country": "필리핀",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.9 지진 발생 (3 km WNW of Mangili, Philippines)",
-      "summary": "USGS 관측 기준 M4.9 규모의 지진이 발생했습니다 (3 km WNW of Mangili, Philippines).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-08-27",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcdu",
-      "lat": 6.0157,
-      "lng": 125.6536,
-      "magnitude": 4.9
-    },
-    {
-      "id": "usgs-us7000tcc3",
-      "country": "페루",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.5 지진 발생 (42 km E of Estique, Peru)",
-      "summary": "USGS 관측 기준 M4.5 규모의 지진이 발생했습니다 (42 km E of Estique, Peru).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-08-27",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcc3",
-      "lat": -17.5572,
-      "lng": -69.6195,
-      "magnitude": 4.5
-    },
-    {
-      "id": "usgs-us7000tcaf",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.8 지진 발생 (85 km N of Ruteng, Indonesia)",
-      "summary": "USGS 관측 기준 M4.8 규모의 지진이 발생했습니다 (85 km N of Ruteng, Indonesia).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-08-27",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcaf",
-      "lat": -7.8456,
-      "lng": 120.3479,
-      "magnitude": 4.8
-    },
-    {
-      "id": "usgs-us7000tc8j",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "M5.3 지진 발생 (54 km NNE of Labuan Bajo, Indonesia)",
-      "summary": "USGS 관측 기준 M5.3 규모의 지진이 발생했습니다 (54 km NNE of Labuan Bajo, Indonesia).",
-      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-08-27",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tc8j",
-      "lat": -8.0324,
-      "lng": 120.0539,
-      "magnitude": 5.3
     }
   ]
 }

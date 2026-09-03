@@ -176,5 +176,13 @@
     "yellow": 3,
     "orange": 10,
     "red": 2
+  },
+  {
+    "label": "9/4",
+    "date": "2026-09-04",
+    "green": 11,
+    "yellow": 7,
+    "orange": 2,
+    "red": 0
   }
 ]
