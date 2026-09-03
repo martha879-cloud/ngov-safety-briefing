@@ -878,5 +878,53 @@
     "source_url": "https://en.tempo.co/read/2118815/celios-indonesias-wildfire-losses-could-reach-rp123-1-trillion",
     "feed": "NewsData.io",
     "first_seen_date": "2026-09-03"
+  },
+  {
+    "id": "news-002",
+    "country": "방글라데시",
+    "category": "conflict",
+    "severity": "low",
+    "title": "메카 조약에 가입하면 방글라데시가 더 넓은 지역 갈등으로 이어질 수 있습니다: 보고서",
+    "title_en": "Joining Mecca Pact could draw Bangladesh into wider regional conflict: Report",
+    "summary": "Joining Mecca Pact could draw Bangladesh into wider regional conflict: Report - Dhaka, Sep 1 Bangladesh needs to maintain strong and balanced relations with all countries in the Gulf and ... Get Latest News on International only on lokmattimes.com",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-09-01",
+    "source": "Lokmat Times",
+    "source_url": "https://www.lokmattimes.com/international/joining-mecca-pact-could-draw-bangladesh-into-wider-regional-conflict-report/",
+    "feed": "GNews",
+    "first_seen_date": "2026-09-03"
+  },
+  {
+    "id": "news-003",
+    "country": "방글라데시",
+    "category": "conflict",
+    "severity": "low",
+    "title": "증가하는 폭력과 위협으로 인해 힌두교인들이 방글라데시에서 추방될 수 있다: 운동가",
+    "title_en": "Rising violence, intimidation could drive Hindus out of Bangladesh: Activist",
+    "summary": "Rising violence, intimidation could drive Hindus out of Bangladesh: Activist - Dhaka, Sep 1 Bangladesh’s Hindu community is facing mounting fear, intimidation and insecurity amid continued violence and weak ... Get Latest News on International only on lokmattimes.com",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-09-01",
+    "source": "Lokmat Times",
+    "source_url": "https://www.lokmattimes.com/international/rising-violence-intimidation-could-drive-hindus-out-of-bangladesh-activist/",
+    "feed": "GNews",
+    "first_seen_date": "2026-09-03"
+  },
+  {
+    "id": "news-004",
+    "country": "방글라데시",
+    "category": "conflict",
+    "severity": "high",
+    "title": "방글라데시, 8월에 살인, 정치적 폭력, 소수민족 공격 급증",
+    "title_en": "Bangladesh sees surge in killings, political violence, attacks on minorities in August: Report",
+    "summary": "Bangladesh sees surge in killings, political violence, attacks on minorities in August: Report - Dhaka, Sep 1 Amid mounting concerns over serious human rights violations across Bangladesh, killings, political violence and attacks ... Get Latest News on International only on lokmattimes.com",
+    "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+    "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
+    "published_at": "2026-09-01",
+    "source": "Lokmat Times",
+    "source_url": "https://www.lokmattimes.com/international/bangladesh-sees-surge-in-killings-political-violence-attacks-on-minorities-in-august-report/",
+    "feed": "GNews",
+    "first_seen_date": "2026-09-03"
   }
 ]

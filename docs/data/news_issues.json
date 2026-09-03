@@ -1,12 +1,12 @@
 {
-  "updated": "2026-09-03 08:10",
+  "updated": "2026-09-03 10:00",
   "issues": [
     {
-      "id": "news-003",
+      "id": "news-008",
       "country": "필리핀",
       "category": "natural_disaster",
       "severity": "medium",
-      "title": "필리핀 홍수로 인해 정치 엘리트에 대한 분노",
+      "title": "Outrage against political elites as floods rage in the Philippines",
       "title_en": "Outrage against political elites as floods rage in the Philippines",
       "summary": "Philippine flood victims face outrage as politicians flaunt luxury amid corruption scandals over billions lost in flood control projects. Read more at straitstimes.com.",
       "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
@@ -16,11 +16,53 @@
       "source_url": "https://www.straitstimes.com/asia/se-asia/floods-killed-dozens-but-officials-wore-prada-and-balmain-heres-why-filipinos-are-furious"
     },
     {
-      "id": "news-001",
+      "id": "news-002",
+      "country": "방글라데시",
+      "category": "conflict",
+      "severity": "low",
+      "title": "메카 조약에 가입하면 방글라데시가 더 넓은 지역 갈등으로 이어질 수 있습니다: 보고서",
+      "title_en": "Joining Mecca Pact could draw Bangladesh into wider regional conflict: Report",
+      "summary": "Joining Mecca Pact could draw Bangladesh into wider regional conflict: Report - Dhaka, Sep 1 Bangladesh needs to maintain strong and balanced relations with all countries in the Gulf and ... Get Latest News on International only on lokmattimes.com",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-09-01",
+      "source": "Lokmat Times",
+      "source_url": "https://www.lokmattimes.com/international/joining-mecca-pact-could-draw-bangladesh-into-wider-regional-conflict-report/"
+    },
+    {
+      "id": "news-003",
+      "country": "방글라데시",
+      "category": "conflict",
+      "severity": "low",
+      "title": "증가하는 폭력과 위협으로 인해 힌두교인들이 방글라데시에서 추방될 수 있다: 운동가",
+      "title_en": "Rising violence, intimidation could drive Hindus out of Bangladesh: Activist",
+      "summary": "Rising violence, intimidation could drive Hindus out of Bangladesh: Activist - Dhaka, Sep 1 Bangladesh’s Hindu community is facing mounting fear, intimidation and insecurity amid continued violence and weak ... Get Latest News on International only on lokmattimes.com",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-09-01",
+      "source": "Lokmat Times",
+      "source_url": "https://www.lokmattimes.com/international/rising-violence-intimidation-could-drive-hindus-out-of-bangladesh-activist/"
+    },
+    {
+      "id": "news-004",
+      "country": "방글라데시",
+      "category": "conflict",
+      "severity": "high",
+      "title": "방글라데시, 8월에 살인, 정치적 폭력, 소수민족 공격 급증",
+      "title_en": "Bangladesh sees surge in killings, political violence, attacks on minorities in August: Report",
+      "summary": "Bangladesh sees surge in killings, political violence, attacks on minorities in August: Report - Dhaka, Sep 1 Amid mounting concerns over serious human rights violations across Bangladesh, killings, political violence and attacks ... Get Latest News on International only on lokmattimes.com",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
+      "published_at": "2026-09-01",
+      "source": "Lokmat Times",
+      "source_url": "https://www.lokmattimes.com/international/bangladesh-sees-surge-in-killings-political-violence-attacks-on-minorities-in-august-report/"
+    },
+    {
+      "id": "news-005",
       "country": "베트남",
       "category": "natural_disaster",
       "severity": "medium",
-      "title": "베트남 대사관, 네팔 홍수 피해 지역에 국적자 2명 신고 확인",
+      "title": "Vietnamese embassy verifies reports of two nationals in Nepal flood-hit area",
       "title_en": "Vietnamese embassy verifies reports of two nationals in Nepal flood-hit area",
       "summary": "NEW DELHI: The Embassy of Vietnam in India, concurrently accredited to Nepal and Bhutan, said on Monday (Aug 31) that it was checking reports that two Vietnamese nationals were in Langtang, Rasuwa district in north central Nepal before an Aug 26 flash flood struck the area.",
       "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
@@ -30,11 +72,25 @@
       "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/09/01/vietnamese-embassy-verifies-reports-of-two-nationals-in-nepal-flood-hit-area"
     },
     {
-      "id": "news-006",
+      "id": "news-007",
+      "country": "인도네시아",
+      "category": "conflict",
+      "severity": "medium",
+      "title": "Police detain more than 300 in Indonesia's capital after unrest following protest",
+      "title_en": "Police detain more than 300 in Indonesia's capital after unrest following protest",
+      "summary": "Read more about Police detain more than 300 in Indonesia's capital after unrest following protest on Devdiscourse",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-08-28",
+      "source": "Devdiscourse",
+      "source_url": "https://www.devdiscourse.com/article/international/3969062-police-detain-more-than-300-in-indonesias-capital-after-unrest-following-protest"
+    },
+    {
+      "id": "news-009",
       "country": "케냐",
       "category": "conflict",
       "severity": "medium",
-      "title": "케냐 상인들이 수입 관세 인상에 항의하면서 최루탄, 나이로비 상점 폐쇄",
+      "title": "Tear gas, shop closures in Nairobi as Kenya traders protest import duty hike",
       "title_en": "Tear gas, shop closures in Nairobi as Kenya traders protest import duty hike",
       "summary": "Hundreds of businesses closed in central Nairobi as small-scale traders protested higher import duties, with police using tear gas to disperse demonstrators.",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
@@ -44,7 +100,35 @@
       "source_url": "https://www.moneycontrol.com/world/tear-gas-shop-closures-in-nairobi-as-kenya-traders-protest-import-duty-hike-article-14017623.html"
     },
     {
-      "id": "news-002",
+      "id": "news-010",
+      "country": "페루",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "Nepal tragedy intensifies glacial flood fears in Chile, Argentina, Peru",
+      "title_en": "Nepal tragedy intensifies glacial flood fears in Chile, Argentina, Peru",
+      "summary": "Unstable conditions and the accelerating retreat of Andean ice sheets expose Chile, Argentina and Peru to a risk of catastrophic floods and mudslides.",
+      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-08-28",
+      "source": "UPI News",
+      "source_url": "https://www.upi.com/Top_News/World-News/2026/08/28/latam-glacier-flooding-risk-Chile-Argentina-Peru/5161787942645/"
+    },
+    {
+      "id": "news-001",
+      "country": "라오스",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "태국 북부 라오스에서 규모 4.3 지진 기록",
+      "title_en": "Magnitude 4.3 earthquake recorded in Laos near northern Thailand",
+      "summary": "BANGKOK: A magnitude 4.3 earthquake was recorded in Laos in the early hours of Thursday (Aug 27), with its epicentre about 283km northeast of Rim Khong subdistrict in Chiang Khong district, Chiang Rai.",
+      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-08-27",
+      "source": "The Star",
+      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/27/magnitude-43-earthquake-recorded-in-laos-near-northern-thailand"
+    },
+    {
+      "id": "news-006",
       "country": "베트남",
       "category": "natural_disaster",
       "severity": "high",
@@ -56,34 +140,6 @@
       "published_at": "2026-08-27",
       "source": "The Star",
       "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/27/typhoon-narra-kills-three-wreaks-havoc-across-vietnam"
-    },
-    {
-      "id": "news-004",
-      "country": "우간다",
-      "category": "health",
-      "severity": "medium",
-      "title": "WHO, 아프리카 CDC, 우간다에서 에볼라 발병 종식 선언",
-      "title_en": "WHO, Africa CDC declare end of Ebola outbreak in Uganda",
-      "summary": "WHO, Africa CDC declare end of Ebola outbreak in Uganda - Kampala, Aug 27 The World Health Organisation (WHO) and the Africa Centres for Disease Control and Prevention (Africa ... Get Latest News on International only on lokmattimes.com",
-      "volunteer_impact": "봉사단 건강관리 및 예방조치 확인이 필요할 수 있습니다.",
-      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
-      "published_at": "2026-08-27",
-      "source": "Lokmat Times",
-      "source_url": "https://www.lokmattimes.com/international/who-africa-cdc-declare-end-of-ebola-outbreak-in-uganda-1/"
-    },
-    {
-      "id": "news-005",
-      "country": "우간다",
-      "category": "health",
-      "severity": "medium",
-      "title": "WHO, 아프리카 CDC, 우간다에서 에볼라 발병 종식 선언",
-      "title_en": "WHO, Africa CDC declare end of Ebola outbreak in Uganda",
-      "summary": "WHO, Africa CDC declare end of Ebola outbreak in Uganda - Kampala, Aug 27 The World Health Organisation (WHO) and the Africa Centres for Disease Control and Prevention (Africa ... Get Latest News on Health only on lokmattimes.com",
-      "volunteer_impact": "봉사단 건강관리 및 예방조치 확인이 필요할 수 있습니다.",
-      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
-      "published_at": "2026-08-27",
-      "source": "Lokmat Times",
-      "source_url": "https://www.lokmattimes.com/health/who-africa-cdc-declare-end-of-ebola-outbreak-in-uganda/"
     }
   ]
 }
