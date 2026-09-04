@@ -854,5 +854,21 @@
     "source": "🇺🇸 CDC",
     "change": "Global Polio (CDC 2단계 (강화된 예방조치 권고)) → 글로벌 소아마비 (CDC 2단계 (강화된 예방조치 권고))",
     "reason": "일부 해외 목적지에는 소아마비 바이러스가 유행하고 있습니다. 해외 여행을 떠나기 전에 소아마비 백신을 접종했는지 확인하세요."
+  },
+  {
+    "date": "2026-09-05",
+    "country": "라오스",
+    "flag": "🇱🇦",
+    "source": "🇺🇸 CDC",
+    "change": "글로벌 소아마비 (CDC 2단계 (강화된 예방조치 권고)) → Global Polio (CDC 2단계 (강화된 예방조치 권고))",
+    "reason": "Some international destinations have circulating poliovirus. Before any international travel, make sure you are up to date on your polio vaccines."
+  },
+  {
+    "date": "2026-09-05",
+    "country": "탄자니아",
+    "flag": "🇹🇿",
+    "source": "🇺🇸 CDC",
+    "change": "글로벌 소아마비 (CDC 2단계 (강화된 예방조치 권고)) → Global Polio (CDC 2단계 (강화된 예방조치 권고))",
+    "reason": "Some international destinations have circulating poliovirus. Before any international travel, make sure you are up to date on your polio vaccines."
   }
 ]

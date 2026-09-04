@@ -1,6 +1,54 @@
 {
-  "updated": "2026-09-04 09:39",
+  "updated": "2026-09-05 08:11",
   "issues": [
+    {
+      "id": "usgs-us7000teck",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "M5.1 지진 발생 (25 km W of Padangsidempuan, Indonesia)",
+      "summary": "USGS 관측 기준 M5.1 규모의 지진이 발생했습니다 (25 km W of Padangsidempuan, Indonesia).",
+      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-09-04",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000teck",
+      "lat": 1.3758,
+      "lng": 99.0453,
+      "magnitude": 5.1
+    },
+    {
+      "id": "usgs-us7000te95",
+      "country": "필리핀",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.7 지진 발생 (2 km NNW of Cabangan, Philippines)",
+      "summary": "USGS 관측 기준 M4.7 규모의 지진이 발생했습니다 (2 km NNW of Cabangan, Philippines).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-09-04",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te95",
+      "lat": 15.1784,
+      "lng": 120.0504,
+      "magnitude": 4.7
+    },
+    {
+      "id": "usgs-us7000te82",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "M5.2 지진 발생 (28 km S of Cilacap, Indonesia)",
+      "summary": "USGS 관측 기준 M5.2 규모의 지진이 발생했습니다 (28 km S of Cilacap, Indonesia).",
+      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-09-04",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te82",
+      "lat": -7.9867,
+      "lng": 109.0409,
+      "magnitude": 5.2
+    },
     {
       "id": "usgs-us7000te55",
       "country": "인도네시아",
@@ -304,22 +352,6 @@
       "lat": 9.976,
       "lng": 126.3482,
       "magnitude": 4.8
-    },
-    {
-      "id": "usgs-us7000tcgq",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.6 지진 발생 (119 km NNW of Ternate, Indonesia)",
-      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (119 km NNW of Ternate, Indonesia).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-08-28",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcgq",
-      "lat": 1.7526,
-      "lng": 126.8948,
-      "magnitude": 4.6
     }
   ]
 }

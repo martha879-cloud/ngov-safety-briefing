@@ -974,5 +974,21 @@
     "source_url": "https://www.al-monitor.com/originals/2026/09/chinas-xi-urges-new-middle-east-security-framework-during-egypt-visit",
     "feed": "GNews",
     "first_seen_date": "2026-09-04"
+  },
+  {
+    "id": "news-002",
+    "country": "과테말라",
+    "category": "health",
+    "severity": "low",
+    "title": "작은 포식자에 대한 준비: 과테말라 동부의 요각류 기반 뎅기열 통제에 대한 지역사회 준비 및 인식",
+    "title_en": "Preparing for the tiny predators: Community readiness and perceptions of copepod-based dengue control in eastern guatemala",
+    "summary": "Author summary Dengue fever continues to pose a major public health challenge in Guatemala, particularly in the eastern departments of Zacapa and Chiquimula, where household water storage and limited sanitation infrastructure create favorable breeding conditions for Aedes aegypti mosquitoes. As resistance to chemical insecticides increases, there is growing interest in alternative and more sustainable mosquito control methods. One promising biological approach involves the use of tiny aquatic crustaceans called copepods, which prey on mosquito larvae in water containers. To better understand whether such an approach could be accepted in local communities, we conducted interviews with 346 residents across eight urban and rural communities in eastern Guatemala. We explored what people know about dengue, how they try to prevent mosquitoes, and how they perceive the possible future use of copepods for mosquito control. While most participants correctly identified mosquitoes as the source of dengue transmission, many households reported limited preventive practices. At the same time, respondents expressed considerable openness toward copepod-based control if sufficient information, technical guidance, and reassurance regarding water safety were provided. These findings suggest that communities may be receptive to innovative biological vector control strategies when interventions are accompanied by trusted communication and local engagement. However, acceptance alone does not demonstrate effectiveness. Further field-based studies are needed to evaluate whether copepod-based approaches can sustainably reduce mosquito populations and dengue risk under real-world conditions in Guatemala.",
+    "volunteer_impact": "봉사단 건강관리 및 예방조치 확인이 필요할 수 있습니다.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-09-03",
+    "source": "PLOS (Public Library of Science)",
+    "source_url": "https://journals.plos.org/plosntds/article?id=10.1371%2Fjournal.pntd.0014654",
+    "feed": "GNews",
+    "first_seen_date": "2026-09-05"
   }
 ]
