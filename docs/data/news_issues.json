@@ -1,4 +1,47 @@
 {
-  "updated": "2026-09-04 08:10",
-  "issues": []
+  "updated": "2026-09-04 09:39",
+  "issues": [
+    {
+      "id": "news-002",
+      "country": "인도네시아",
+      "category": "conflict",
+      "severity": "medium",
+      "title": "‘What is real?’: Coordinated disinformation targets Indonesia protesters, distorting student‑led protest narratives",
+      "title_en": "‘What is real?’: Coordinated disinformation targets Indonesia protesters, distorting student‑led protest narratives",
+      "summary": "JAKARTA, Sept 3 — Disinformation about recent anti-government protests in Indonesia has inundated social media in what researchers say is a coordinated attempt to spread...",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-09-03",
+      "source": "Malay Mail",
+      "source_url": "https://www.malaymail.com/news/world/2026/09/03/what-is-real-coordinated-disinformation-targets-indonesia-protesters-distorting-studentled-protest-narratives/233799"
+    },
+    {
+      "id": "news-003",
+      "country": "이집트",
+      "category": "conflict",
+      "severity": "low",
+      "title": "중국 시, 이집트 방문 중 새로운 중동 안보 체제 촉구",
+      "title_en": "China's Xi urges new Middle East security framework during Egypt visit",
+      "summary": "By Alexander Dziadosz and Shi BuCAIRO/BEIJING, Sept 2 (Reuters) - Chinese President Xi Jinping called on Middle Eastern nations to oppose external interference and consider reshaping the region's security order during a visit to Egypt on Wednesday, as Beijing seeks to expand its influence amid the U.S. war against Iran.Xi's first trip to the Middle East in four years comes as U.S. partners in the region reassess their strategic relationships after months of conflict that have disrupted trade, shaken economies and raised questions about Washington's long-term role.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-09-02",
+      "source": "Al-Monitor",
+      "source_url": "https://www.al-monitor.com/originals/2026/09/chinas-xi-urges-new-middle-east-security-framework-during-egypt-visit"
+    },
+    {
+      "id": "news-001",
+      "country": "베트남",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "베트남 대사관, 네팔 홍수 피해 지역에 국적자 2명 신고 확인",
+      "title_en": "Vietnamese embassy verifies reports of two nationals in Nepal flood-hit area",
+      "summary": "NEW DELHI: The Embassy of Vietnam in India, concurrently accredited to Nepal and Bhutan, said on Monday (Aug 31) that it was checking reports that two Vietnamese nationals were in Langtang, Rasuwa district in north central Nepal before an Aug 26 flash flood struck the area.",
+      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-09-01",
+      "source": "The Star",
+      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/09/01/vietnamese-embassy-verifies-reports-of-two-nationals-in-nepal-flood-hit-area"
+    }
+  ]
 }
