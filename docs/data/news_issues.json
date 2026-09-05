@@ -1,47 +1,4 @@
 {
-  "updated": "2026-09-05 08:10",
-  "issues": [
-    {
-      "id": "news-002",
-      "country": "과테말라",
-      "category": "health",
-      "severity": "low",
-      "title": "작은 포식자에 대한 준비: 과테말라 동부의 요각류 기반 뎅기열 통제에 대한 지역사회 준비 및 인식",
-      "title_en": "Preparing for the tiny predators: Community readiness and perceptions of copepod-based dengue control in eastern guatemala",
-      "summary": "Author summary Dengue fever continues to pose a major public health challenge in Guatemala, particularly in the eastern departments of Zacapa and Chiquimula, where household water storage and limited sanitation infrastructure create favorable breeding conditions for Aedes aegypti mosquitoes. As resistance to chemical insecticides increases, there is growing interest in alternative and more sustainable mosquito control methods. One promising biological approach involves the use of tiny aquatic crustaceans called copepods, which prey on mosquito larvae in water containers. To better understand whether such an approach could be accepted in local communities, we conducted interviews with 346 residents across eight urban and rural communities in eastern Guatemala. We explored what people know about dengue, how they try to prevent mosquitoes, and how they perceive the possible future use of copepods for mosquito control. While most participants correctly identified mosquitoes as the source of dengue transmission, many households reported limited preventive practices. At the same time, respondents expressed considerable openness toward copepod-based control if sufficient information, technical guidance, and reassurance regarding water safety were provided. These findings suggest that communities may be receptive to innovative biological vector control strategies when interventions are accompanied by trusted communication and local engagement. However, acceptance alone does not demonstrate effectiveness. Further field-based studies are needed to evaluate whether copepod-based approaches can sustainably reduce mosquito populations and dengue risk under real-world conditions in Guatemala.",
-      "volunteer_impact": "봉사단 건강관리 및 예방조치 확인이 필요할 수 있습니다.",
-      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-09-03",
-      "source": "PLOS (Public Library of Science)",
-      "source_url": "https://journals.plos.org/plosntds/article?id=10.1371%2Fjournal.pntd.0014654"
-    },
-    {
-      "id": "news-001",
-      "country": "베트남",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "Vietnamese embassy verifies reports of two nationals in Nepal flood-hit area",
-      "title_en": "Vietnamese embassy verifies reports of two nationals in Nepal flood-hit area",
-      "summary": "NEW DELHI: The Embassy of Vietnam in India, concurrently accredited to Nepal and Bhutan, said on Monday (Aug 31) that it was checking reports that two Vietnamese nationals were in Langtang, Rasuwa district in north central Nepal before an Aug 26 flash flood struck the area.",
-      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
-      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
-      "published_at": "2026-09-01",
-      "source": "The Star",
-      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/09/01/vietnamese-embassy-verifies-reports-of-two-nationals-in-nepal-flood-hit-area"
-    },
-    {
-      "id": "news-003",
-      "country": "페루",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "Nepal tragedy intensifies glacial flood fears in Chile, Argentina, Peru",
-      "title_en": "Nepal tragedy intensifies glacial flood fears in Chile, Argentina, Peru",
-      "summary": "Unstable conditions and the accelerating retreat of Andean ice sheets expose Chile, Argentina and Peru to a risk of catastrophic floods and mudslides.",
-      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
-      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
-      "published_at": "2026-08-28",
-      "source": "UPI News",
-      "source_url": "https://www.upi.com/Top_News/World-News/2026/08/28/latam-glacier-flooding-risk-Chile-Argentina-Peru/5161787942645/"
-    }
-  ]
+  "updated": "2026-09-05 09:34",
+  "issues": []
 }

@@ -857,18 +857,18 @@
   },
   {
     "date": "2026-09-05",
-    "country": "라오스",
-    "flag": "🇱🇦",
+    "country": "인도네시아",
+    "flag": "🇮🇩",
     "source": "🇺🇸 CDC",
-    "change": "글로벌 소아마비 (CDC 2단계 (강화된 예방조치 권고)) → Global Polio (CDC 2단계 (강화된 예방조치 권고))",
-    "reason": "Some international destinations have circulating poliovirus. Before any international travel, make sure you are up to date on your polio vaccines."
+    "change": "인도네시아의 지카 (CDC 2단계 (강화된 예방조치 권고)) → Zika in Indonesia (CDC 2단계 (강화된 예방조치 권고))",
+    "reason": "Cases of Zika are being reported in returning travelers from Bali, Indonesia. All travelers to Bali should take steps to prevent mosquito bites and sexual transmission of Zika virus during and after travel."
   },
   {
     "date": "2026-09-05",
-    "country": "탄자니아",
-    "flag": "🇹🇿",
+    "country": "우간다",
+    "flag": "🇺🇬",
     "source": "🇺🇸 CDC",
-    "change": "글로벌 소아마비 (CDC 2단계 (강화된 예방조치 권고)) → Global Polio (CDC 2단계 (강화된 예방조치 권고))",
-    "reason": "Some international destinations have circulating poliovirus. Before any international travel, make sure you are up to date on your polio vaccines."
+    "change": "콩고민주공화국 및 우간다의 에볼라 분디부교 바이러스병 (CDC 2단계 (강화된 예방조치 권고)) → Ebola Bundibugyo Virus Disease in the Democratic Republic of the Congo and Uganda (CDC 2단계 (강화된 예방조치 권고))",
+    "reason": "CDC recommends practicing enhanced precautions for travel to Uganda or to provinces in the Democratic Republic of the Congo (DRC) not affected by the current Bundibugyo virus disease (BVD) outbreak."
   }
 ]

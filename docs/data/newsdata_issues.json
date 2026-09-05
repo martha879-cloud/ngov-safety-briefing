@@ -1,4 +1,33 @@
 {
-  "updated": "2026-09-05 08:11",
-  "issues": []
+  "updated": "2026-09-05 09:34",
+  "issues": [
+    {
+      "id": "newsdata-001",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "인도네시아 산불, 연무 동남아 전역으로 확산",
+      "title_en": "As Indonesia’s wildfires rage, haze spreads farther across Southeast Asia",
+      "summary": "Haze from wildfires in Indonesia has spread even farther this week, reaching beyond Malaysia and Brunei to Singapore and the Philippines. On Sept. 4, Singaporean residents woke to a smoggy sky as air quality reached unhealthy levels. By late afternoon, the city had the third-worst air quality globally, according to IQAir. Earlier this week, Philippine [...]",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-09-04",
+      "source": "Conservation News",
+      "source_url": "https://news.mongabay.com/short-article/2026/09/as-indonesias-wildfires-rage-haze-spreads-farther-across-southeast-asia/"
+    },
+    {
+      "id": "newsdata-002",
+      "country": "도미니카공화국",
+      "category": "health",
+      "severity": "low",
+      "title": "도미니카 공화국, 말라리아 발병률 82% 감소 보고",
+      "title_en": "Dominican Republic reports an 82% decline in malaria incidence",
+      "summary": "Santo Domingo.- The Dominican Republic has recorded zero malaria deaths in 2026, while the cumulative incidence of the disease has fallen by nearly 82%, according to the Ministry of Public Health’s Epidemiological [...]",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-09-04",
+      "source": "Dominican Today",
+      "source_url": "https://dominicantoday.com/dominican-republic-reports-an-82-decline-in-malaria-incidence/"
+    }
+  ]
 }
