@@ -1086,5 +1086,21 @@
     "source_url": "https://www.dailyexcelsior.com/iran-hits-us-bases-in-kuwait-bahrain-jordan-iraq-in-response-to-wedding-attack-irgc/",
     "feed": "GNews",
     "first_seen_date": "2026-09-06"
+  },
+  {
+    "id": "newsdata-001",
+    "country": "키르기스스탄",
+    "category": "transport",
+    "severity": "low",
+    "title": "Kyrgyzstan intends to launch direct flights to Germany - Cabinet Chairman",
+    "title_en": "Kyrgyzstan intends to launch direct flights to Germany - Cabinet Chairman",
+    "summary": "News and analytical articles about Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, Uzbekistan.",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-09-06",
+    "source": "Akipress",
+    "source_url": "https://akipress.com/news:917163",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-09-07"
   }
 ]
