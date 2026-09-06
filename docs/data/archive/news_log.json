@@ -1054,5 +1054,37 @@
     "source_url": "https://www.africanews.com/2026/09/03/kenya-relocates-crocodiles-as-rising-waters-bring-them-into-conflict-with-humans/",
     "feed": "GNews",
     "first_seen_date": "2026-09-06"
+  },
+  {
+    "id": "news-003",
+    "country": "탄자니아",
+    "category": "conflict",
+    "severity": "low",
+    "title": "Tanzania Faces UN Pressure to End Violence Against Children",
+    "title_en": "Tanzania Faces UN Pressure to End Violence Against Children",
+    "summary": "The Tanzanian delegation said corporal punishment had already been prohibited in Zanzibar and that the Law Reform Commission had recommended a similar ban on the mainland.",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-09-05",
+    "source": "Devdiscourse",
+    "source_url": "https://www.devdiscourse.com/article/other/3972960-tanzania-faces-un-pressure-to-end-violence-against-children",
+    "feed": "GNews",
+    "first_seen_date": "2026-09-06"
+  },
+  {
+    "id": "news-004",
+    "country": "요르단",
+    "category": "conflict",
+    "severity": "high",
+    "title": "이란, 결혼식 공격에 대응해 쿠웨이트·바레인·요르단·이라크 주둔 미군기지 공격",
+    "title_en": "Iran hits US bases in Kuwait, Bahrain, Jordan, Iraq in response to wedding attack",
+    "summary": "TEHRAN, Sep 2: The Iranian military struck US bases in Kuwait, Bahrain, Jordan and Iraq in retaliation for a deadly US attack on a wedding in Iran, the Islamic Revolutionary Guard Corps (IRGC) said on Wednesday. 'In response to this...",
+    "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+    "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
+    "published_at": "2026-09-02",
+    "source": "Daily Excelsior",
+    "source_url": "https://www.dailyexcelsior.com/iran-hits-us-bases-in-kuwait-bahrain-jordan-iraq-in-response-to-wedding-attack-irgc/",
+    "feed": "GNews",
+    "first_seen_date": "2026-09-06"
   }
 ]

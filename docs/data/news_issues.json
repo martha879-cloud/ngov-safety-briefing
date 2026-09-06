@@ -1,33 +1,61 @@
 {
-  "updated": "2026-09-06 08:16",
+  "updated": "2026-09-06 09:36",
   "issues": [
     {
+      "id": "news-003",
+      "country": "탄자니아",
+      "category": "conflict",
+      "severity": "low",
+      "title": "Tanzania Faces UN Pressure to End Violence Against Children",
+      "title_en": "Tanzania Faces UN Pressure to End Violence Against Children",
+      "summary": "The Tanzanian delegation said corporal punishment had already been prohibited in Zanzibar and that the Law Reform Commission had recommended a similar ban on the mainland.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-09-05",
+      "source": "Devdiscourse",
+      "source_url": "https://www.devdiscourse.com/article/other/3972960-tanzania-faces-un-pressure-to-end-violence-against-children"
+    },
+    {
       "id": "news-001",
-      "country": "케냐",
+      "country": "인도네시아",
       "category": "conflict",
       "severity": "medium",
-      "title": "케냐: 간호사들이 나이로비에서 근무 조건을 놓고 시위를 벌이고 있습니다.",
-      "title_en": "Kenya: Nurses protest in Nairobi over work conditions",
-      "summary": "Wearing white and carrying placards, dozens of nurses took to the streets of Nairobi, protesting over what they say is the government's failure to address long-standing labor grievances.",
+      "title": "'진짜는 무엇인가?': 조정된 허위 정보는 인도네시아 시위자를 표적으로 삼아 학생 주도 시위 내러티브를 왜곡합니다.",
+      "title_en": "‘What is real?’: Coordinated disinformation targets Indonesia protesters, distorting student‑led protest narratives",
+      "summary": "JAKARTA, Sept 3 — Disinformation about recent anti-government protests in Indonesia has inundated social media in what researchers say is a coordinated attempt to spread...",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
       "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
       "published_at": "2026-09-03",
-      "source": "Africanews",
-      "source_url": "https://www.africanews.com/2026/09/03/kenya-nurses-protest-in-nairobi-over-work-conditions/"
+      "source": "Malay Mail",
+      "source_url": "https://www.malaymail.com/news/world/2026/09/03/what-is-real-coordinated-disinformation-targets-indonesia-protesters-distorting-studentled-protest-narratives/233799"
     },
     {
       "id": "news-002",
-      "country": "케냐",
+      "country": "이집트",
       "category": "conflict",
       "severity": "low",
-      "title": "Kenya relocates crocodiles as rising waters bring them into conflict with humans",
-      "title_en": "Kenya relocates crocodiles as rising waters bring them into conflict with humans",
-      "summary": "Kenya's wildlife officers are trapping crocodiles on the shores of Lake Baringo in a bid to curb growing human-wildlife conflict as rising waters push the reptiles towards homes.",
+      "title": "중국 시, 이집트 방문 중 새로운 중동 안보 체제 촉구",
+      "title_en": "China's Xi urges new Middle East security framework during Egypt visit",
+      "summary": "By Alexander Dziadosz and Shi BuCAIRO/BEIJING, Sept 2 (Reuters) - Chinese President Xi Jinping called on Middle Eastern nations to oppose external interference and consider reshaping the region's security order during a visit to Egypt on Wednesday, as Beijing seeks to expand its influence amid the U.S. war against Iran.Xi's first trip to the Middle East in four years comes as U.S. partners in the region reassess their strategic relationships after months of conflict that have disrupted trade, shaken economies and raised questions about Washington's long-term role.",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
       "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-09-03",
-      "source": "Africanews",
-      "source_url": "https://www.africanews.com/2026/09/03/kenya-relocates-crocodiles-as-rising-waters-bring-them-into-conflict-with-humans/"
+      "published_at": "2026-09-02",
+      "source": "Al-Monitor",
+      "source_url": "https://www.al-monitor.com/originals/2026/09/chinas-xi-urges-new-middle-east-security-framework-during-egypt-visit"
+    },
+    {
+      "id": "news-004",
+      "country": "요르단",
+      "category": "conflict",
+      "severity": "high",
+      "title": "이란, 결혼식 공격에 대응해 쿠웨이트·바레인·요르단·이라크 주둔 미군기지 공격",
+      "title_en": "Iran hits US bases in Kuwait, Bahrain, Jordan, Iraq in response to wedding attack",
+      "summary": "TEHRAN, Sep 2: The Iranian military struck US bases in Kuwait, Bahrain, Jordan and Iraq in retaliation for a deadly US attack on a wedding in Iran, the Islamic Revolutionary Guard Corps (IRGC) said on Wednesday. 'In response to this...",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
+      "published_at": "2026-09-02",
+      "source": "Daily Excelsior",
+      "source_url": "https://www.dailyexcelsior.com/iran-hits-us-bases-in-kuwait-bahrain-jordan-iraq-in-response-to-wedding-attack-irgc/"
     }
   ]
 }
