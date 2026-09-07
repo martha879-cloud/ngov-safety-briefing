@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07 09:38",
+  "updated": "2026-09-08 08:11",
   "issues": [
     {
       "id": "usgs-us7000tena",
@@ -272,70 +272,6 @@
       "lat": -4.2388,
       "lng": 131.0442,
       "magnitude": 4.6
-    },
-    {
-      "id": "usgs-us7000td3y",
-      "country": "페루",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.7 지진 발생 (3 km NW of Yanacancha, Peru)",
-      "summary": "USGS 관측 기준 M4.7 규모의 지진이 발생했습니다 (3 km NW of Yanacancha, Peru).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-08-31",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000td3y",
-      "lat": -12.1824,
-      "lng": -75.4097,
-      "magnitude": 4.7
-    },
-    {
-      "id": "usgs-us7000td2z",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "M5.5 지진 발생 (44 km NNE of Ruteng, Indonesia)",
-      "summary": "USGS 관측 기준 M5.5 규모의 지진이 발생했습니다 (44 km NNE of Ruteng, Indonesia).",
-      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-08-31",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000td2z",
-      "lat": -8.241,
-      "lng": 120.6119,
-      "magnitude": 5.5
-    },
-    {
-      "id": "usgs-us7000td2c",
-      "country": "필리핀",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.9 지진 발생 (13 km SSE of Union, Philippines)",
-      "summary": "USGS 관측 기준 M4.9 규모의 지진이 발생했습니다 (13 km SSE of Union, Philippines).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-08-31",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000td2c",
-      "lat": 9.6408,
-      "lng": 126.1362,
-      "magnitude": 4.9
-    },
-    {
-      "id": "usgs-us7000td1g",
-      "country": "페루",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.5 지진 발생 (71 km WSW of Puerto Casma, Peru)",
-      "summary": "USGS 관측 기준 M4.5 규모의 지진이 발생했습니다 (71 km WSW of Puerto Casma, Peru).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-08-31",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000td1g",
-      "lat": -9.6152,
-      "lng": -79.0145,
-      "magnitude": 4.5
     }
   ]
 }
