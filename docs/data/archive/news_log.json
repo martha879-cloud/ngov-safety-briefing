@@ -1102,5 +1102,53 @@
     "source_url": "https://akipress.com/news:917163",
     "feed": "NewsData.io",
     "first_seen_date": "2026-09-07"
+  },
+  {
+    "id": "news-002",
+    "country": "필리핀",
+    "category": "natural_disaster",
+    "severity": "medium",
+    "title": "필리핀 의원 마틴 로무알데즈(Martin Romualdez), 1억 1,800만 달러 규모의 홍수 통제 리베이트 혐의로 기소",
+    "title_en": "Philippines Lawmaker Martin Romualdez Charged Over Alleged $118 Million Flood Control Kickbacks",
+    "summary": "Former Philippine House Speaker Martin Romualdez has been charged with plunder over allegations of receiving millions of dollars in kickbacks from flood control projects. The anti-graft court case involves 7.4 billion pesos ($118 million). Authorities are investigating thousands of projects allegedly linked to corruption, while Romualdez has denied wrongdoing.",
+    "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
+    "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+    "published_at": "2026-09-07",
+    "source": "Free Press Journal",
+    "source_url": "https://www.freepressjournal.in/world/philippines-lawmaker-martin-romualdez-charged-over-alleged-118-million-flood-control-kickbacks",
+    "feed": "GNews",
+    "first_seen_date": "2026-09-08"
+  },
+  {
+    "id": "news-001",
+    "country": "캄보디아",
+    "category": "conflict",
+    "severity": "low",
+    "title": "'집이 그리워요': 분쟁으로 난민이 된 캄보디아인들이 다시 시작됩니다",
+    "title_en": "'I miss my home': Cambodians displaced by conflict start over",
+    "summary": "BANTEAY MEANCHEY, Cambodia — More than 3,000 new identical houses rise in a grid formation from a Cambodian plain not far from the Thai border, but most of the residents, displaced by conflict, just want to return home.",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-09-04",
+    "source": "The Manila Times",
+    "source_url": "https://www.manilatimes.net/2026/09/04/world/asia-oceania/i-miss-my-home-cambodians-displaced-by-conflict-start-over/2418569",
+    "feed": "GNews",
+    "first_seen_date": "2026-09-08"
+  },
+  {
+    "id": "newsdata-001",
+    "country": "케냐",
+    "category": "security",
+    "severity": "low",
+    "title": "무다바디(Mudavadi)와 가르시아(Garcia)는 무역, ​​보건, 안보 및 주요 광물에 대한 케냐-미국 협력 심화를 계획합니다.",
+    "title_en": "Mudavadi, Garcia chart deeper Kenya-US cooperation on trade, health, security and critical minerals",
+    "summary": "NAIROBI, Kenya, Sep 7 — Kenya and the United States are seeking to deepen their strategic partnership by expanding trade and investment, lowering healthcare costs and strengthening cooperation on critical...",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-09-07",
+    "source": "Capital News",
+    "source_url": "https://capitalfm.africa/mudavadi-garcia-chart-deeper-kenya-us-cooperation-on-trade-health-security-and-critical-minerals/",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-09-08"
   }
 ]

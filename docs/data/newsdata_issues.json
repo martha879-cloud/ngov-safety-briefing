@@ -1,4 +1,19 @@
 {
-  "updated": "2026-09-08 08:11",
-  "issues": []
+  "updated": "2026-09-08 09:53",
+  "issues": [
+    {
+      "id": "newsdata-001",
+      "country": "케냐",
+      "category": "security",
+      "severity": "low",
+      "title": "무다바디(Mudavadi)와 가르시아(Garcia)는 무역, ​​보건, 안보 및 주요 광물에 대한 케냐-미국 협력 심화를 계획합니다.",
+      "title_en": "Mudavadi, Garcia chart deeper Kenya-US cooperation on trade, health, security and critical minerals",
+      "summary": "NAIROBI, Kenya, Sep 7 — Kenya and the United States are seeking to deepen their strategic partnership by expanding trade and investment, lowering healthcare costs and strengthening cooperation on critical...",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-09-07",
+      "source": "Capital News",
+      "source_url": "https://capitalfm.africa/mudavadi-garcia-chart-deeper-kenya-us-cooperation-on-trade-health-security-and-critical-minerals/"
+    }
+  ]
 }

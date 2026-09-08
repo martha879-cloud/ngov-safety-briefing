@@ -1,8 +1,21 @@
 {
-  "updated": "2026-09-08 08:11",
+  "updated": "2026-09-08 09:52",
   "issues": [
     {
-      "id": "과테말라-2026-09-08-1",
+      "id": "인도네시아-2026-09-08-1",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "경고 아낙크라카타우 화산폭발에 따른 주의(2)",
+      "summary": "외교부 해외안전여행 안전공지에 등록된 최근 안전 관련 정보입니다.",
+      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동 일정이 변경될 수 있습니다.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-09-08",
+      "source": "외교부 해외안전공지",
+      "source_url": "https://www.0404.go.kr/bbs/safetyNtc/ATC0000000048636/detail"
+    },
+    {
+      "id": "과테말라-2026-09-08-2",
       "country": "과테말라",
       "category": "official_notice",
       "severity": "medium",
