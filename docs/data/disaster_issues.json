@@ -1,6 +1,38 @@
 {
-  "updated": "2026-09-09 10:04",
+  "updated": "2026-09-10 08:11",
   "issues": [
+    {
+      "id": "usgs-us7000tg06",
+      "country": "필리핀",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "M5.0 지진 발생 (154 km S of Sarangani, Philippines)",
+      "summary": "USGS 관측 기준 M5.0 규모의 지진이 발생했습니다 (154 km S of Sarangani, Philippines).",
+      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-09-09",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tg06",
+      "lat": 4.0172,
+      "lng": 125.3233,
+      "magnitude": 5
+    },
+    {
+      "id": "usgs-us7000tfyn",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.5 지진 발생 (108 km SSW of Pagar Alam, Indonesia)",
+      "summary": "USGS 관측 기준 M4.5 규모의 지진이 발생했습니다 (108 km SSW of Pagar Alam, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-09-09",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tfyn",
+      "lat": -4.9167,
+      "lng": 102.8454,
+      "magnitude": 4.5
+    },
     {
       "id": "usgs-us7000tfxd",
       "country": "인도네시아",
@@ -224,22 +256,6 @@
       "lat": -8.3207,
       "lng": 121.6664,
       "magnitude": 4.8
-    },
-    {
-      "id": "usgs-us7000tdj7",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.7 지진 발생 (43 km NE of Ruteng, Indonesia)",
-      "summary": "USGS 관측 기준 M4.7 규모의 지진이 발생했습니다 (43 km NE of Ruteng, Indonesia).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-09-02",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdj7",
-      "lat": -8.2826,
-      "lng": 120.6856,
-      "magnitude": 4.7
     }
   ]
 }

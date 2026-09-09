@@ -1214,5 +1214,37 @@
     "source_url": "https://peopledaily.digital/news/kenya-pushes-for-stronger-defence-partnerships-in-south-korea-to-boost-security",
     "feed": "NewsData.io",
     "first_seen_date": "2026-09-09"
+  },
+  {
+    "id": "newsdata-001",
+    "country": "인도네시아",
+    "category": "natural_disaster",
+    "severity": "low",
+    "title": "인도네시아는 말레이시아의 산불 구호 제안에 아직 응답하지 않았습니다.",
+    "title_en": "Indonesia Yet to Respond to Malaysia's Wildfire Aid Offer",
+    "summary": "Malaysia is ready to help Indonesia fight wildfires, but Jakarta has yet to approve the deployment of Malaysian firefighting assets.",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-09-09",
+    "source": "Tempo.co",
+    "source_url": "https://en.tempo.co/read/2119266/indonesia-yet-to-respond-to-malaysias-wildfire-aid-offer",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-09-10"
+  },
+  {
+    "id": "newsdata-002",
+    "country": "요르단",
+    "category": "conflict",
+    "severity": "high",
+    "title": "카타르, 이란의 요르단 공격 재개 비난",
+    "title_en": "Qatar condemns renewed Iranian attacks on Jordan",
+    "summary": "Qatar strongly condemned renewed Iranian attacks on Jordan as a flagrant violation of the Kingdom’s sovereignty and territorial integrity and a serious breach of international law, the UN Charter, and the principles of good-neighborly relations.In a statement issued Wednesday, the Qatari Ministry of...",
+    "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+    "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 활동 지속 여부를 검토하세요.",
+    "published_at": "2026-09-09",
+    "source": "Ammon News",
+    "source_url": "https://en.ammonnews.net/article/95057",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-09-10"
   }
 ]
