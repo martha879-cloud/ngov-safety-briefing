@@ -1,19 +1,19 @@
 {
-  "updated": "2026-09-11 08:11",
+  "updated": "2026-09-11 09:47",
   "issues": [
     {
       "id": "newsdata-001",
-      "country": "캄보디아",
-      "category": "security",
+      "country": "케냐",
+      "category": "health",
       "severity": "low",
-      "title": "Cambodia calls for stronger ASEAN India cooperation on food security",
-      "title_en": "Cambodia calls for stronger ASEAN India cooperation on food security",
-      "summary": "Cambodia has called for stronger regional cooperation with India to safeguard food security, strengthen agricultural supply chains and promote sustainable, climate-resilient development at the 9th ASEAN-India Agriculture and Forestry Ministers’ Meeting (9th AIMMAF) in New Delhi. The post Cambodia calls for stronger ASEAN India cooperation on food security appeared first on Khmer Times .",
+      "title": "케냐 연구진, AI를 활용해 말라리아 감시 강화",
+      "title_en": "Kenyan researchers leverage AI to enhance malaria surveillance",
+      "summary": "NAIROBI, Sept. 10 (Xinhua) -- Kenyan researchers are set to deploy artificial intelligence (AI) in tracking and surveilling mosquito populations, marking a major technological advancement in the fight against malaria. Eric Ochomo, a lead entomologist at the Kenya Medical Research Institute's Center for Global Health Research, stated on Wednesday that the AI-powered technology, known as VectorCam, is being integr",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
       "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
       "published_at": "2026-09-10",
-      "source": "Khmer Times",
-      "source_url": "https://www.khmertimeskh.com/502021720/cambodia-calls-for-stronger-asean-india-cooperation-on-food-security/"
+      "source": "Kenyastar",
+      "source_url": "http://www.kenyastar.com/news/279298555/kenyan-researchers-leverage-ai-to-enhance-malaria-surveillance"
     }
   ]
 }
