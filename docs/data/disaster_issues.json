@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-11 09:47",
+  "updated": "2026-09-12 08:15",
   "issues": [
+    {
+      "id": "usgs-us7000tgrk",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "high",
+      "title": "M6.6 지진 발생 (115 km NNE of Teluknaga, Indonesia)",
+      "summary": "USGS 관측 기준 M6.6 규모의 지진이 발생했습니다 (115 km NNE of Teluknaga, Indonesia).",
+      "volunteer_impact": "여진 및 추가 피해 가능성이 있어 활동 지역 안전 확인이 필요합니다.",
+      "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 안전 여부를 확인하세요.",
+      "published_at": "2026-09-11",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgrk",
+      "lat": -5.0932,
+      "lng": 106.903,
+      "magnitude": 6.6
+    },
     {
       "id": "usgs-us7000tg9q",
       "country": "페루",
@@ -208,54 +224,6 @@
       "lat": -8.2997,
       "lng": 120.6133,
       "magnitude": 4.5
-    },
-    {
-      "id": "usgs-us7000teck",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "M5.1 지진 발생 (25 km W of Padangsidempuan, Indonesia)",
-      "summary": "USGS 관측 기준 M5.1 규모의 지진이 발생했습니다 (25 km W of Padangsidempuan, Indonesia).",
-      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-09-04",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000teck",
-      "lat": 1.3758,
-      "lng": 99.0453,
-      "magnitude": 5.1
-    },
-    {
-      "id": "usgs-us7000te95",
-      "country": "필리핀",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.7 지진 발생 (2 km NNW of Cabangan, Philippines)",
-      "summary": "USGS 관측 기준 M4.7 규모의 지진이 발생했습니다 (2 km NNW of Cabangan, Philippines).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-09-04",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te95",
-      "lat": 15.1784,
-      "lng": 120.0504,
-      "magnitude": 4.7
-    },
-    {
-      "id": "usgs-us7000te82",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "M5.2 지진 발생 (28 km S of Cilacap, Indonesia)",
-      "summary": "USGS 관측 기준 M5.2 규모의 지진이 발생했습니다 (28 km S of Cilacap, Indonesia).",
-      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-09-04",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te82",
-      "lat": -7.9867,
-      "lng": 109.0409,
-      "magnitude": 5.2
     }
   ]
 }
