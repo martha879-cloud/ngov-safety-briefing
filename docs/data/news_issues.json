@@ -1,33 +1,4 @@
 {
-  "updated": "2026-09-12 08:15",
-  "issues": [
-    {
-      "id": "news-001",
-      "country": "요르단",
-      "category": "conflict",
-      "severity": "high",
-      "title": "US military aircraft damaged in Iran attack on Jordan as military toll mounts",
-      "title_en": "US military aircraft damaged in Iran attack on Jordan as military toll mounts",
-      "summary": "The strikes have fuelled concern about US air defence stockpiles.",
-      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
-      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
-      "published_at": "2026-09-11",
-      "source": "7NEWS Australia",
-      "source_url": "https://7news.com.au/news/us-military-aircraft-damaged-in-iran-attack-on-jordan-as-military-toll-mounts-c-22854473"
-    },
-    {
-      "id": "news-002",
-      "country": "요르단",
-      "category": "conflict",
-      "severity": "high",
-      "title": "Iran attack on Jordan base damaged US military aircraft",
-      "title_en": "Iran attack on Jordan base damaged US military aircraft",
-      "summary": "Several US military aircraft have been damaged in an Iranian attack on the ‌Muwaffaq Salti Air Base in...",
-      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
-      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
-      "published_at": "2026-09-11",
-      "source": "The Canberra Times",
-      "source_url": "https://www.canberratimes.com.au/story/9348124/iran-attack-on-jordan-base-damaged-us-military-aircraft/"
-    }
-  ]
+  "updated": "2026-09-12 09:51",
+  "issues": []
 }
