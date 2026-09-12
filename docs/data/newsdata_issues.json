@@ -1,4 +1,19 @@
 {
-  "updated": "2026-09-12 09:51",
-  "issues": []
+  "updated": "2026-09-13 08:11",
+  "issues": [
+    {
+      "id": "newsdata-001",
+      "country": "우간다",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "Ugandan farmers count heavy losses as drought withers crops, weakens livestock",
+      "title_en": "Ugandan farmers count heavy losses as drought withers crops, weakens livestock",
+      "summary": "Masaka, Uganda | URN | Farmers across Uganda are counting heavy losses as a prolonged dry spell withers crops, dries up water sources and leaves livestock struggling for pasture and water. The extreme weather is also threatening household incomes and food security. Across several regions, farmers who invested heavily in coffee, maize, beans, sorghum and ... The post Ugandan farmers count heavy losses as drought withers crops, weakens livestock appeared first on The Independent Uganda: .",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-09-12",
+      "source": "The Independent",
+      "source_url": "https://www.independent.co.ug/ugandan-farmers-count-heavy-losses-as-drought-withers-crops-weakens-livestock/"
+    }
+  ]
 }

@@ -1,4 +1,33 @@
 {
-  "updated": "2026-09-12 09:51",
-  "issues": []
+  "updated": "2026-09-13 08:10",
+  "issues": [
+    {
+      "id": "news-001",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "Indonesia earthquake was 376 km deep: Why was this quake different from others?",
+      "title_en": "Indonesia earthquake was 376 km deep: Why was this quake different from others?",
+      "summary": "The earthquake near Jakarta occurred hundreds of kilometres underground, offering a glimpse into the tectonic forces beneath Indonesia.",
+      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-09-12",
+      "source": "India Today",
+      "source_url": "https://www.indiatoday.in/science/story/java-indonesia-earthquake-september-deep-focus-death-destruction-magnitude-2992909-2026-09-12"
+    },
+    {
+      "id": "news-002",
+      "country": "케냐",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "Kenya Steps Up Health Defences as El Niño Raises Flood Fears",
+      "title_en": "Kenya Steps Up Health Defences as El Niño Raises Flood Fears",
+      "summary": "The warning comes only months after Kenya experienced widespread flooding during the March–May 2026 long rains.",
+      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-09-09",
+      "source": "Devdiscourse",
+      "source_url": "https://www.devdiscourse.com/article/health/3974965-kenya-steps-up-health-defences-as-el-nio-raises-flood-fears"
+    }
+  ]
 }
