@@ -1,19 +1,19 @@
 {
-  "updated": "2026-09-13 08:11",
+  "updated": "2026-09-13 09:34",
   "issues": [
     {
       "id": "newsdata-001",
-      "country": "우간다",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "Ugandan farmers count heavy losses as drought withers crops, weakens livestock",
-      "title_en": "Ugandan farmers count heavy losses as drought withers crops, weakens livestock",
-      "summary": "Masaka, Uganda | URN | Farmers across Uganda are counting heavy losses as a prolonged dry spell withers crops, dries up water sources and leaves livestock struggling for pasture and water. The extreme weather is also threatening household incomes and food security. Across several regions, farmers who invested heavily in coffee, maize, beans, sorghum and ... The post Ugandan farmers count heavy losses as drought withers crops, weakens livestock appeared first on The Independent Uganda: .",
-      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "country": "도미니카공화국",
+      "category": "official_notice",
+      "severity": "high",
+      "title": "Anthrax suspicions in Haiti: Are there confirmed cases in the Dominican Republic and is there a health emergency?",
+      "title_en": "Anthrax suspicions in Haiti: Are there confirmed cases in the Dominican Republic and is there a health emergency?",
+      "summary": "The Ministry of Public Health reported that the Dominican Republic has no registered cases of anthrax and that it has preventively reinforced epidemiological surveillance in response to the investigation of suspected cases of cutaneous [...]",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 활동 지속 여부를 검토하세요.",
       "published_at": "2026-09-12",
-      "source": "The Independent",
-      "source_url": "https://www.independent.co.ug/ugandan-farmers-count-heavy-losses-as-drought-withers-crops-weakens-livestock/"
+      "source": "Dominican Today",
+      "source_url": "https://dominicantoday.com/anthrax-suspicions-in-haiti-are-there-confirmed-cases-in-the-dominican-republic-and-is-there-a-health-emergency/"
     }
   ]
 }
