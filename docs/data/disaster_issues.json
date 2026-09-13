@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-13 09:34",
+  "updated": "2026-09-14 08:11",
   "issues": [
+    {
+      "id": "usgs-us7000th8u",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "M5.1 지진 발생 (48 km NNW of Ruteng, Indonesia)",
+      "summary": "USGS 관측 기준 M5.1 규모의 지진이 발생했습니다 (48 km NNW of Ruteng, Indonesia).",
+      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-09-13",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th8u",
+      "lat": -8.2099,
+      "lng": 120.2768,
+      "magnitude": 5.1
+    },
     {
       "id": "usgs-us7000tgy2",
       "country": "페루",
@@ -208,22 +224,6 @@
       "lat": -8.1646,
       "lng": 120.5995,
       "magnitude": 5.3
-    },
-    {
-      "id": "usgs-us7000tena",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.6 지진 발생 (91 km NE of Luwuk, Indonesia)",
-      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (91 km NE of Luwuk, Indonesia).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-09-06",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tena",
-      "lat": -0.3104,
-      "lng": 123.3003,
-      "magnitude": 4.6
     }
   ]
 }

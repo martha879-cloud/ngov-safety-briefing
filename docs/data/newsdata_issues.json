@@ -1,19 +1,33 @@
 {
-  "updated": "2026-09-13 09:34",
+  "updated": "2026-09-14 08:11",
   "issues": [
     {
       "id": "newsdata-001",
-      "country": "도미니카공화국",
-      "category": "official_notice",
-      "severity": "high",
-      "title": "Anthrax suspicions in Haiti: Are there confirmed cases in the Dominican Republic and is there a health emergency?",
-      "title_en": "Anthrax suspicions in Haiti: Are there confirmed cases in the Dominican Republic and is there a health emergency?",
-      "summary": "The Ministry of Public Health reported that the Dominican Republic has no registered cases of anthrax and that it has preventively reinforced epidemiological surveillance in response to the investigation of suspected cases of cutaneous [...]",
-      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
-      "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 활동 지속 여부를 검토하세요.",
-      "published_at": "2026-09-12",
-      "source": "Dominican Today",
-      "source_url": "https://dominicantoday.com/anthrax-suspicions-in-haiti-are-there-confirmed-cases-in-the-dominican-republic-and-is-there-a-health-emergency/"
+      "country": "케냐",
+      "category": "security",
+      "severity": "low",
+      "title": "Kalonzo questions Kenya’s security situation after Embu and Garissa chaos",
+      "title_en": "Kalonzo questions Kenya’s security situation after Embu and Garissa chaos",
+      "summary": "Kalonzo Musyoka has raised fresh concerns over Kenya’s security situation after opposition leaders were caught up in chaos during their Garissa tour, warning that the country is at a difficult point. Speaking at St Francis of Assisi Catholic Church in Hola, Tana River County, on Sunday, September 13, 2026, the Wiper Patriotic Front leader urged [...]",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-09-13",
+      "source": "People Daily",
+      "source_url": "https://peopledaily.digital/inside-politics/kalonzo-questions-kenyas-security-situation-after-embu-and-garissa-chaos"
+    },
+    {
+      "id": "newsdata-002",
+      "country": "요르단",
+      "category": "security",
+      "severity": "low",
+      "title": "Jordan pledges political backing ahead of 2027 financial crime evaluation",
+      "title_en": "Jordan pledges political backing ahead of 2027 financial crime evaluation",
+      "summary": "Jordan has affirmed high-level political commitment to preparing for the third round of mutual evaluations on anti-money laundering, counter-terrorist financing and countering proliferation financing, a process scheduled to run between 2027 and 2029.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-09-13",
+      "source": "Jordan News | Latest News From Jordan, Mena",
+      "source_url": "https://www.jordannews.jo/Section-109/News/Jordan-pledges-political-backing-ahead-of-2027-financial-crime-evaluation-55808"
     }
   ]
 }
