@@ -1454,5 +1454,21 @@
     "source_url": "https://www.jordannews.jo/Section-109/News/Jordan-pledges-political-backing-ahead-of-2027-financial-crime-evaluation-55808",
     "feed": "NewsData.io",
     "first_seen_date": "2026-09-14"
+  },
+  {
+    "id": "newsdata-001",
+    "country": "요르단",
+    "category": "conflict",
+    "severity": "high",
+    "title": "Al-Fayez: Jordan will not tolerate money laundering or terrorism financing",
+    "title_en": "Al-Fayez: Jordan will not tolerate money laundering or terrorism financing",
+    "summary": "Senate President Faisal Al-Fayez said Jordan has taken advanced, internationally recognised steps to combat money laundering and terrorist financing, steps that have stabilised the Kingdom's financial system and strengthened its investment climate.",
+    "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+    "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 활동 지속 여부를 검토하세요.",
+    "published_at": "2026-09-13",
+    "source": "Jordan News | Latest News From Jordan, Mena",
+    "source_url": "https://www.jordannews.jo/Section-109/News/Al-Fayez-Jordan-will-not-tolerate-money-laundering-or-terrorism-financing-55818",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-09-14"
   }
 ]
