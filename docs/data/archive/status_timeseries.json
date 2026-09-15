@@ -289,8 +289,8 @@
     },
     {
       "date": "2026-09-15",
-      "status": "red",
-      "severity_num": 3
+      "status": "green",
+      "severity_num": 0
     }
   ],
   "몽골": [
@@ -583,8 +583,8 @@
     },
     {
       "date": "2026-09-15",
-      "status": "orange",
-      "severity_num": 2
+      "status": "yellow",
+      "severity_num": 1
     }
   ],
   "베트남": [
@@ -877,8 +877,8 @@
     },
     {
       "date": "2026-09-15",
-      "status": "yellow",
-      "severity_num": 1
+      "status": "green",
+      "severity_num": 0
     }
   ],
   "캄보디아": [
@@ -1024,8 +1024,8 @@
     },
     {
       "date": "2026-09-15",
-      "status": "orange",
-      "severity_num": 2
+      "status": "green",
+      "severity_num": 0
     }
   ],
   "필리핀": [
@@ -1171,8 +1171,8 @@
     },
     {
       "date": "2026-09-15",
-      "status": "red",
-      "severity_num": 3
+      "status": "green",
+      "severity_num": 0
     }
   ],
   "키르기스스탄": [
@@ -1465,8 +1465,8 @@
     },
     {
       "date": "2026-09-15",
-      "status": "orange",
-      "severity_num": 2
+      "status": "yellow",
+      "severity_num": 1
     }
   ],
   "말라위": [
@@ -1759,8 +1759,8 @@
     },
     {
       "date": "2026-09-15",
-      "status": "orange",
-      "severity_num": 2
+      "status": "green",
+      "severity_num": 0
     }
   ],
   "우간다": [
@@ -2053,8 +2053,8 @@
     },
     {
       "date": "2026-09-15",
-      "status": "orange",
-      "severity_num": 2
+      "status": "green",
+      "severity_num": 0
     }
   ],
   "탄자니아": [
@@ -2200,8 +2200,8 @@
     },
     {
       "date": "2026-09-15",
-      "status": "orange",
-      "severity_num": 2
+      "status": "yellow",
+      "severity_num": 1
     }
   ],
   "케냐": [
@@ -2347,8 +2347,8 @@
     },
     {
       "date": "2026-09-15",
-      "status": "orange",
-      "severity_num": 2
+      "status": "yellow",
+      "severity_num": 1
     }
   ],
   "과테말라": [
@@ -2788,8 +2788,8 @@
     },
     {
       "date": "2026-09-15",
-      "status": "orange",
-      "severity_num": 2
+      "status": "yellow",
+      "severity_num": 1
     }
   ],
   "요르단": [
