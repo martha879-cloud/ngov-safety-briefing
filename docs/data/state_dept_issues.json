@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16 08:11",
+  "updated": "2026-09-16 09:59",
   "issues": [
     {
       "id": "statedept-mongolia-2026-07-29-1",
@@ -14,20 +14,6 @@
       "published_at": "2026-07-29",
       "source": "US State Dept",
       "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/mongolia-travel-advisory.html"
-    },
-    {
-      "id": "statedept-kenya-2026-07-28-2",
-      "country": "케냐",
-      "category": "health",
-      "severity": "medium",
-      "title": "Kenya - Level 2: Exercise Increased Caution",
-      "summary": "Exercise increased caution in Kenya due to risk of crime , kidnapping , terrorism , unrest , health , and traffic safety . Some areas have increased risk. Read the entire Travel Advisory. Crime Violent crime can occur at any time. Violent crimes include armed carjacking, mugging, home invasion, sexu",
-      "summary_en": "Exercise increased caution in Kenya due to risk of crime , kidnapping , terrorism , unrest , health , and traffic safety . Some areas have increased risk. Read the entire Travel Advisory. Crime Violent crime can occur at any time. Violent crimes include armed carjacking, mugging, home invasion, sexu",
-      "volunteer_impact": "미국 국무부가 여행자제(2단계)로 지정한 국가입니다. 세부 위험 지역을 확인하는 것이 좋습니다.",
-      "recommended_action": "미국 국무부 여행경보 원문을 참고하여 세부 위험 지역 및 주의사항을 확인하세요.",
-      "published_at": "2026-07-28",
-      "source": "US State Dept",
-      "source_url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.ken.html"
     },
     {
       "id": "statedept-laos-2026-07-28-2",
@@ -175,13 +161,13 @@
       "category": "conflict",
       "severity": "high",
       "title": "Tanzania - Level 3: Reconsider Travel",
-      "summary": "Reconsider travel to Tanzania due to unrest , crime , terrorism , and targeting of gay and lesbian individuals . Some areas have increased risk. Read the entire Travel Advisory. Unrest Demonstrations often take place in response to political or economic issues. They may also occur on holidays or dur",
-      "summary_en": "Reconsider travel to Tanzania due to unrest , crime , terrorism , and targeting of gay and lesbian individuals . Some areas have increased risk. Read the entire Travel Advisory. Unrest Demonstrations often take place in response to political or economic issues. They may also occur on holidays or dur",
+      "summary": "The advisory level increased from Level 2 to 3. The “unrest” risk indicator was added. Reconsider travel to Tanzania due to unrest , crime , terrorism , and targeting of gay and lesbian individuals . Some areas have increased risk. Read the entire Travel Advisory. Advisory summary Unrest Demonstrati",
+      "summary_en": "The advisory level increased from Level 2 to 3. The “unrest” risk indicator was added. Reconsider travel to Tanzania due to unrest , crime , terrorism , and targeting of gay and lesbian individuals . Some areas have increased risk. Read the entire Travel Advisory. Advisory summary Unrest Demonstrati",
       "volunteer_impact": "미국 국무부가 철수권고(3단계)로 지정한 국가입니다. 활동 지역의 안전 여부를 확인하세요.",
       "recommended_action": "현지 협력기관 및 담당자와 상황을 공유하고, 미국 국무부 권고 사항을 함께 검토하세요.",
       "published_at": "2025-10-31",
       "source": "US State Dept",
-      "source_url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.tza.html"
+      "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/tanzania-travel-advisory.html"
     },
     {
       "id": "statedept-cambodia-2025-07-25-2",
