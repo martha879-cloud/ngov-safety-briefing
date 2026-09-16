@@ -1,4 +1,61 @@
 {
-  "updated": "2026-09-16 09:59",
-  "issues": []
+  "updated": "2026-09-17 08:16",
+  "issues": [
+    {
+      "id": "news-004",
+      "country": "요르단",
+      "category": "conflict",
+      "severity": "high",
+      "title": "Iran Missile Attack: US Fired Up To 70 Patriot Interceptors In Jordan, Report Says",
+      "title_en": "Iran Missile Attack: US Fired Up To 70 Patriot Interceptors In Jordan, Report Says",
+      "summary": "US forces fired up to 70 Patriot and more than a dozen Thaad interceptors against an Iranian missile attack in Jordan, highlighting air-defence pressures.",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
+      "published_at": "2026-09-16",
+      "source": "Outlook India",
+      "source_url": "https://www.outlookindia.com/international/iran-missile-attack-us-fired-up-to-70-patriot-interceptors-in-jordan-report-says"
+    },
+    {
+      "id": "news-001",
+      "country": "페루",
+      "category": "security",
+      "severity": "low",
+      "title": "Peru travel advisory: 'Exercise increased caution' due to crime, unrest, kidnapping",
+      "title_en": "Peru travel advisory: 'Exercise increased caution' due to crime, unrest, kidnapping",
+      "summary": "The U.S. State Department is urging visitors to this South American mountain destination to \"exercise increased caution\" on their next trip",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-09-13",
+      "source": "MassLive",
+      "source_url": "https://www.masslive.com/news/2026/09/travel-advisory-visitors-to-popular-south-american-mountain-destination-urged-to-exercise-increased-caution.html"
+    },
+    {
+      "id": "news-002",
+      "country": "페루",
+      "category": "security",
+      "severity": "low",
+      "title": "Peru travel advisory: 'Exercise increased caution' due to crime, unrest, kidnapping",
+      "title_en": "Peru travel advisory: 'Exercise increased caution' due to crime, unrest, kidnapping",
+      "summary": "The U.S. State Department is urging visitors to this South American mountain destination to \"exercise increased caution\" on their next trip",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-09-13",
+      "source": "M Live Michigan ",
+      "source_url": "https://www.mlive.com/news/2026/09/travel-advisory-visitors-to-popular-south-american-mountain-destination-urged-to-exercise-increased-caution.html"
+    },
+    {
+      "id": "news-003",
+      "country": "페루",
+      "category": "security",
+      "severity": "low",
+      "title": "Peru travel advisory: 'Exercise increased caution' due to crime, unrest, kidnapping",
+      "title_en": "Peru travel advisory: 'Exercise increased caution' due to crime, unrest, kidnapping",
+      "summary": "The U.S. State Department is urging visitors to this South American mountain destination to \"exercise increased caution\" on their next trip",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-09-13",
+      "source": "Staten Island Advance",
+      "source_url": "https://www.silive.com/nation/2026/09/travel-advisory-visitors-to-popular-south-american-mountain-destination-urged-to-exercise-increased-caution.html"
+    }
+  ]
 }
