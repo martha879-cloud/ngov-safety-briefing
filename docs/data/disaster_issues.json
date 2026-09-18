@@ -1,6 +1,54 @@
 {
-  "updated": "2026-09-18 09:58",
+  "updated": "2026-09-19 08:11",
   "issues": [
+    {
+      "id": "usgs-us7000tib8",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "M5.2 지진 발생 (189 km SSW of Pelabuhanratu, Indonesia)",
+      "summary": "USGS 관측 기준 M5.2 규모의 지진이 발생했습니다 (189 km SSW of Pelabuhanratu, Indonesia).",
+      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-09-18",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tib8",
+      "lat": -8.5809,
+      "lng": 105.9112,
+      "magnitude": 5.2
+    },
+    {
+      "id": "usgs-us7000ti9c",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.7 지진 발생 (34 km NNE of Ruteng, Indonesia)",
+      "summary": "USGS 관측 기준 M4.7 규모의 지진이 발생했습니다 (34 km NNE of Ruteng, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-09-18",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti9c",
+      "lat": -8.3213,
+      "lng": 120.5723,
+      "magnitude": 4.7
+    },
+    {
+      "id": "usgs-us7000ti5v",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.6 지진 발생 (223 km W of Tual, Indonesia)",
+      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (223 km W of Tual, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-09-17",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti5v",
+      "lat": -5.6852,
+      "lng": 130.7378,
+      "magnitude": 4.6
+    },
     {
       "id": "usgs-us7000ti5c",
       "country": "인도네시아",
@@ -320,22 +368,6 @@
       "lat": -15.606,
       "lng": -73.8803,
       "magnitude": 4.5
-    },
-    {
-      "id": "usgs-us7000tgrk",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "high",
-      "title": "M6.5 지진 발생 (126 km NNE of Teluknaga, Indonesia)",
-      "summary": "USGS 관측 기준 M6.5 규모의 지진이 발생했습니다 (126 km NNE of Teluknaga, Indonesia).",
-      "volunteer_impact": "여진 및 추가 피해 가능성이 있어 활동 지역 안전 확인이 필요합니다.",
-      "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 안전 여부를 확인하세요.",
-      "published_at": "2026-09-11",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgrk",
-      "lat": -4.9832,
-      "lng": 106.8742,
-      "magnitude": 6.5
     }
   ]
 }

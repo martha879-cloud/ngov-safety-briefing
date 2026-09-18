@@ -1662,5 +1662,21 @@
     "source_url": "https://phnompenhpost.com/opinion/a-security-warning-should-not-become-a-headline-that-defines-cambodia/",
     "feed": "NewsData.io",
     "first_seen_date": "2026-09-18"
+  },
+  {
+    "id": "newsdata-001",
+    "country": "우간다",
+    "category": "health",
+    "severity": "low",
+    "title": "Now, about misdiagnosis of diseases in Uganda",
+    "title_en": "Now, about misdiagnosis of diseases in Uganda",
+    "summary": "INNOCENT NAHABWE | COMMENT | There are many reasons why a doctor may give you the wrong diagnosis. But first, a story. Around 2004, I was in vet school, and we were learning pregnancy diagnosis in cows. They would line up animals and we would go in per rectum to establish whether the cow ... The post Now, about misdiagnosis of diseases in Uganda appeared first on The Independent Uganda: .",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-09-18",
+    "source": "The Independent",
+    "source_url": "https://www.independent.co.ug/now-about-misdiagnosis-of-diseases-in-uganda/",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-09-19"
   }
 ]
