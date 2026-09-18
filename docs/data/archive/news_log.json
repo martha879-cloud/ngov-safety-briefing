@@ -1646,5 +1646,21 @@
     "source_url": "https://observer.ug/business/museveni-bets-300m-on-ugandas-fuel-security-project/",
     "feed": "NewsData.io",
     "first_seen_date": "2026-09-18"
+  },
+  {
+    "id": "newsdata-001",
+    "country": "캄보디아",
+    "category": "security",
+    "severity": "medium",
+    "title": "A Security Warning Should Not Become a Headline That Defines Cambodia",
+    "title_en": "A Security Warning Should Not Become a Headline That Defines Cambodia",
+    "summary": "I am writing as a Cambodian citizen to express my concern about the way Khaosod English recently presented a US Department of State travel advisory for Cambodia, particularly under the headline: “Travelling to Cambodia? The US has a warning: If you’re robbed, don’t resist.” The underlying security advice is legitimate. The US state department’s current [...]",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-09-17",
+    "source": "Phnom Penh Post",
+    "source_url": "https://phnompenhpost.com/opinion/a-security-warning-should-not-become-a-headline-that-defines-cambodia/",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-09-18"
   }
 ]
