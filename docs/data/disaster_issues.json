@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19 08:11",
+  "updated": "2026-09-19 09:54",
   "issues": [
     {
       "id": "usgs-us7000tib8",
@@ -352,22 +352,6 @@
       "lat": -8.2634,
       "lng": 120.6778,
       "magnitude": 4.6
-    },
-    {
-      "id": "usgs-us7000tgvk",
-      "country": "페루",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.5 지진 발생 (9 km WNW of Quicacha, Peru)",
-      "summary": "USGS 관측 기준 M4.5 규모의 지진이 발생했습니다 (9 km WNW of Quicacha, Peru).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-09-12",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgvk",
-      "lat": -15.606,
-      "lng": -73.8803,
-      "magnitude": 4.5
     }
   ]
 }
