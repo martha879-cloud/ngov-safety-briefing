@@ -1,4 +1,89 @@
 {
-  "updated": "2026-09-20 08:16",
-  "issues": []
+  "updated": "2026-09-20 09:40",
+  "issues": [
+    {
+      "id": "news-004",
+      "country": "필리핀",
+      "category": "conflict",
+      "severity": "low",
+      "title": "Gun in South Cotabato school shooting traced to Philippines Department of Education employee",
+      "title_en": "Gun in South Cotabato school shooting traced to Philippines Department of Education employee",
+      "summary": "KORONADAL CITY, Philippines: The suspect in the Banga National High School shooting in South Cotabato is the son of a Department of Education (DepEd) worker, who is also the owner of the pistol used in the crime on Friday afternoon (Sept 18), the town mayor said Saturday.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-09-19",
+      "source": "The Star",
+      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/09/19/gun-in-south-cotabato-school-shooting-traced-to-philippines-department-of-education-employee"
+    },
+    {
+      "id": "news-005",
+      "country": "필리핀",
+      "category": "conflict",
+      "severity": "high",
+      "title": "Shooting at high school in the Philippines leaves 2 students and gunman dead, several injured",
+      "title_en": "Shooting at high school in the Philippines leaves 2 students and gunman dead, several injured",
+      "summary": "A shooting at a high school in the southern Philippines has left two 14-year-old students and the teenage gunman dead. Local government and police officials say at least 10 people were wounded. The incident occurred at Banga National High School in South Cotabato. Police have secured the campus and are coordinating with school officials and medical responders. South Cotabato Governor Reynaldo Tamayo says the two students killed were a boy and a girl. Authorities are investigating the gunman’s possible connection to a “true crime community,” as reported by the gunman’s best friend.",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
+      "published_at": "2026-09-18",
+      "source": "The Atlanta Journal-Constitution",
+      "source_url": "https://www.ajc.com/news/2026/09/shooting-at-high-school-in-the-philippines-leaves-2-students-and-gunman-dead-several-injured/"
+    },
+    {
+      "id": "news-006",
+      "country": "필리핀",
+      "category": "conflict",
+      "severity": "high",
+      "title": "Boy and girl, 14, killed in Philippines school shooting as suspected teen gunman dies",
+      "title_en": "Boy and girl, 14, killed in Philippines school shooting as suspected teen gunman dies",
+      "summary": "The suspected gunman, 16, also died following the attack.",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
+      "published_at": "2026-09-18",
+      "source": "Daily Express",
+      "source_url": "https://www.express.co.uk/news/world/2249690/philippines-shooting-teenagers-dead-police"
+    },
+    {
+      "id": "news-002",
+      "country": "캄보디아",
+      "category": "conflict",
+      "severity": "low",
+      "title": "Cambodian PM highlights ‘hundreds of millions’ spent to cushion economic impact of Iran conflict",
+      "title_en": "Cambodian PM highlights ‘hundreds of millions’ spent to cushion economic impact of Iran conflict",
+      "summary": "PHNOM PENH: Cambodia has incurred hundreds of millions of dollars in losses from the economic impact of the conflict in the Middle East, including through state subsidies and measures to contain rising fuel prices, while the government is expecting to spend millions more to support other affected groups, notably including tuk-tuk drivers.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-09-17",
+      "source": "The Star",
+      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/09/17/cambodian-pm-highlights-hundreds-of-millions-spent-to-cushion-economic-impact-of-iran-conflict"
+    },
+    {
+      "id": "news-003",
+      "country": "캄보디아",
+      "category": "security",
+      "severity": "medium",
+      "title": "State Department issues Cambodia travel warning over crime, unrest",
+      "title_en": "State Department issues Cambodia travel warning over crime, unrest",
+      "summary": "The State Department issued a Cambodia travel advisory citing crime, unrest and unexploded ordnance. Some areas carry a Level 4 \"Do Not Travel\" warning.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-09-16",
+      "source": "Fox News",
+      "source_url": "https://www.foxnews.com/travel/do-not-physically-resist-us-issues-chilling-robbery-warning-americans-overseas"
+    },
+    {
+      "id": "news-001",
+      "country": "베트남",
+      "category": "security",
+      "severity": "low",
+      "title": "Vietnam's Quang Ninh police bust US$38.4mil transnational cybercrime ring",
+      "title_en": "Vietnam's Quang Ninh police bust US$38.4mil transnational cybercrime ring",
+      "summary": "HANOI: Quang Ninh City's Department of Public Security, in coordination with the Ministry of Public Security's Department of Cybersecurity and Hi-tech Crime Prevention (A05), has dismantled a major criminal ring involved in online fraud, illegal trading of personal data and money laundering, with the amount of money fraudulently appropriated estimated at over VNĐ1 trillion (US$38.4 million).",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-09-15",
+      "source": "The Star",
+      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/09/15/vietnam039s-quang-ninh-police-bust-us384mil-transnational-cybercrime-ring"
+    }
+  ]
 }

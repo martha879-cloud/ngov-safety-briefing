@@ -1838,5 +1838,21 @@
     "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/09/14/three-earthquakes-in-a-day-indonesia-suffers-a-magnitude-62-quake-that-strikes-north-maluku-tremors-felt-as-far-as-manado-earlier-two-in-java",
     "feed": "GNews",
     "first_seen_date": "2026-09-19"
+  },
+  {
+    "id": "news-004",
+    "country": "필리핀",
+    "category": "conflict",
+    "severity": "low",
+    "title": "Gun in South Cotabato school shooting traced to Philippines Department of Education employee",
+    "title_en": "Gun in South Cotabato school shooting traced to Philippines Department of Education employee",
+    "summary": "KORONADAL CITY, Philippines: The suspect in the Banga National High School shooting in South Cotabato is the son of a Department of Education (DepEd) worker, who is also the owner of the pistol used in the crime on Friday afternoon (Sept 18), the town mayor said Saturday.",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-09-19",
+    "source": "The Star",
+    "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/09/19/gun-in-south-cotabato-school-shooting-traced-to-philippines-department-of-education-employee",
+    "feed": "GNews",
+    "first_seen_date": "2026-09-20"
   }
 ]
