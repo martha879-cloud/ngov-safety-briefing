@@ -1,4 +1,19 @@
 {
-  "updated": "2026-09-21 08:10",
-  "issues": []
+  "updated": "2026-09-21 09:52",
+  "issues": [
+    {
+      "id": "news-001",
+      "country": "케냐",
+      "category": "health",
+      "severity": "medium",
+      "title": "Genomic epidemiology of coxsackievirus A24 variant during the 2024 acute hemorrhagic conjunctivitis outbreak in Coastal Kenya",
+      "title_en": "Genomic epidemiology of coxsackievirus A24 variant during the 2024 acute hemorrhagic conjunctivitis outbreak in Coastal Kenya",
+      "summary": "Author summary Acute hemorrhagic conjunctivitis (AHC) is a highly contagious eye disease that can cause explosive outbreaks and widespread morbidity, yet its viral drivers remain poorly understood in many regions, especially Africa. In 2024, coastal Kenya experienced a major AHC outbreak caused by coxsackievirus A24 variant (CVA24v). Using samples collected through routine disease surveillance and outbreak response activities, we generated the largest collection of CVA24v genomes from a single African setting. Our analyses show that the 2024 Kenyan outbreak was driven by two closely related viral lineages within genotype IV that have a history of recent inter-species recombination and were linked to viruses circulating in Eastern and Southern Africa and nearby Indian Ocean islands. These viruses were genetically different from those causing outbreaks in Asia in the preceding months, despite both regions experiencing near concurrent outbreaks, suggesting that other factors such as waning population immunity and favorable environmental conditions may play a role in driving new epidemics. Phylogenetic and phylodynamic analyses revealed an epidemiological pattern of short, intense epidemic waves separated by extended periods of low-level undetected transmission. Together, these findings highlight the importance of sustained genomic surveillance to understand CVA24v transmission, evolution, and outbreak emergence.",
+      "volunteer_impact": "봉사단 건강관리 및 예방조치 확인이 필요할 수 있습니다.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-09-15",
+      "source": "PLOS (Public Library of Science)",
+      "source_url": "https://journals.plos.org/plospathogens/article?id=10.1371%2Fjournal.ppat.1014589"
+    }
+  ]
 }
