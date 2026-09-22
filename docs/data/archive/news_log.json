@@ -1870,5 +1870,53 @@
     "source_url": "https://journals.plos.org/plospathogens/article?id=10.1371%2Fjournal.ppat.1014589",
     "feed": "GNews",
     "first_seen_date": "2026-09-21"
+  },
+  {
+    "id": "news-004",
+    "country": "필리핀",
+    "category": "conflict",
+    "severity": "high",
+    "title": "Campus shooter who killed three in southern Philippines had planned attack, warned classmates: Mayor",
+    "title_en": "Campus shooter who killed three in southern Philippines had planned attack, warned classmates: Mayor",
+    "summary": "BANGA, Philippines: The 16-year-old student who allegedly went on a shooting rampage at Banga National High School in southern Philippines on Sept 18 had planned the attack as early as August and had warned some classmates hours before carrying it out, according to Mayor Albert Palencia.",
+    "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+    "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
+    "published_at": "2026-09-20",
+    "source": "The Star",
+    "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/09/20/campus-shooter-who-killed-three-in-southern-philippines-had-planned-attack-warned-classmates-mayor",
+    "feed": "GNews",
+    "first_seen_date": "2026-09-22"
+  },
+  {
+    "id": "news-005",
+    "country": "필리핀",
+    "category": "conflict",
+    "severity": "high",
+    "title": "Campus shooter that killed 3 in southern Philippines had planned attack, warned classmates: Mayor",
+    "title_en": "Campus shooter that killed 3 in southern Philippines had planned attack, warned classmates: Mayor",
+    "summary": "The revelations raised questions about whether warning signs had been missed before the attack. Read more at straitstimes.com.",
+    "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+    "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
+    "published_at": "2026-09-20",
+    "source": "The Straits Times",
+    "source_url": "https://www.straitstimes.com/asia/se-asia/campus-shooter-that-killed-3-in-southern-philippines-had-planned-attack-warned-classmates-mayor",
+    "feed": "GNews",
+    "first_seen_date": "2026-09-22"
+  },
+  {
+    "id": "newsdata-001",
+    "country": "탄자니아",
+    "category": "health",
+    "severity": "low",
+    "title": "Why Tanzania is taking One Health beyond disease control",
+    "title_en": "Why Tanzania is taking One Health beyond disease control",
+    "summary": "Tanzania is spending Sh216 billion over five years on livestock vaccination and identification...",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-09-21",
+    "source": "The Citizen",
+    "source_url": "https://www.thecitizen.co.tz/tanzania/news/national/why-tanzania-is-taking-one-health-beyond-disease-control-5603410",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-09-22"
   }
 ]

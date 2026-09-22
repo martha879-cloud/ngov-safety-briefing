@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-22 08:11",
+  "updated": "2026-09-22 10:24",
   "issues": [
+    {
+      "id": "usgs-us7000tj1s",
+      "country": "필리핀",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "M5.2 지진 발생 (92 km S of Sarangani, Philippines)",
+      "summary": "USGS 관측 기준 M5.2 규모의 지진이 발생했습니다 (92 km S of Sarangani, Philippines).",
+      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-09-21",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tj1s",
+      "lat": 4.5722,
+      "lng": 125.3746,
+      "magnitude": 5.2
+    },
     {
       "id": "usgs-us7000tiw4",
       "country": "인도네시아",

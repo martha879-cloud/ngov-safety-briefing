@@ -1,4 +1,19 @@
 {
-  "updated": "2026-09-22 08:11",
-  "issues": []
+  "updated": "2026-09-22 10:24",
+  "issues": [
+    {
+      "id": "newsdata-001",
+      "country": "탄자니아",
+      "category": "health",
+      "severity": "low",
+      "title": "Why Tanzania is taking One Health beyond disease control",
+      "title_en": "Why Tanzania is taking One Health beyond disease control",
+      "summary": "Tanzania is spending Sh216 billion over five years on livestock vaccination and identification...",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-09-21",
+      "source": "The Citizen",
+      "source_url": "https://www.thecitizen.co.tz/tanzania/news/national/why-tanzania-is-taking-one-health-beyond-disease-control-5603410"
+    }
+  ]
 }
