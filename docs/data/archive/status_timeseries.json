@@ -179,6 +179,11 @@
       "date": "2026-09-22",
       "status": "green",
       "severity_num": 0
+    },
+    {
+      "date": "2026-09-23",
+      "status": "green",
+      "severity_num": 0
     }
   ],
   "라오스": [
@@ -361,6 +366,11 @@
       "date": "2026-09-22",
       "status": "green",
       "severity_num": 0
+    },
+    {
+      "date": "2026-09-23",
+      "status": "red",
+      "severity_num": 3
     }
   ],
   "몽골": [
@@ -541,6 +551,11 @@
     },
     {
       "date": "2026-09-22",
+      "status": "green",
+      "severity_num": 0
+    },
+    {
+      "date": "2026-09-23",
       "status": "green",
       "severity_num": 0
     }
@@ -725,6 +740,11 @@
       "date": "2026-09-22",
       "status": "yellow",
       "severity_num": 1
+    },
+    {
+      "date": "2026-09-23",
+      "status": "orange",
+      "severity_num": 2
     }
   ],
   "베트남": [
@@ -905,6 +925,11 @@
     },
     {
       "date": "2026-09-22",
+      "status": "green",
+      "severity_num": 0
+    },
+    {
+      "date": "2026-09-23",
       "status": "green",
       "severity_num": 0
     }
@@ -1089,6 +1114,11 @@
       "date": "2026-09-22",
       "status": "green",
       "severity_num": 0
+    },
+    {
+      "date": "2026-09-23",
+      "status": "yellow",
+      "severity_num": 1
     }
   ],
   "캄보디아": [
@@ -1271,6 +1301,11 @@
       "date": "2026-09-22",
       "status": "green",
       "severity_num": 0
+    },
+    {
+      "date": "2026-09-23",
+      "status": "orange",
+      "severity_num": 2
     }
   ],
   "필리핀": [
@@ -1453,6 +1488,11 @@
       "date": "2026-09-22",
       "status": "green",
       "severity_num": 0
+    },
+    {
+      "date": "2026-09-23",
+      "status": "red",
+      "severity_num": 3
     }
   ],
   "키르기스스탄": [
@@ -1633,6 +1673,11 @@
     },
     {
       "date": "2026-09-22",
+      "status": "green",
+      "severity_num": 0
+    },
+    {
+      "date": "2026-09-23",
       "status": "green",
       "severity_num": 0
     }
@@ -1817,6 +1862,11 @@
       "date": "2026-09-22",
       "status": "yellow",
       "severity_num": 1
+    },
+    {
+      "date": "2026-09-23",
+      "status": "orange",
+      "severity_num": 2
     }
   ],
   "말라위": [
@@ -1997,6 +2047,11 @@
     },
     {
       "date": "2026-09-22",
+      "status": "green",
+      "severity_num": 0
+    },
+    {
+      "date": "2026-09-23",
       "status": "green",
       "severity_num": 0
     }
@@ -2181,6 +2236,11 @@
       "date": "2026-09-22",
       "status": "green",
       "severity_num": 0
+    },
+    {
+      "date": "2026-09-23",
+      "status": "orange",
+      "severity_num": 2
     }
   ],
   "우간다": [
@@ -2361,6 +2421,11 @@
     },
     {
       "date": "2026-09-22",
+      "status": "orange",
+      "severity_num": 2
+    },
+    {
+      "date": "2026-09-23",
       "status": "orange",
       "severity_num": 2
     }
@@ -2545,6 +2610,11 @@
       "date": "2026-09-22",
       "status": "green",
       "severity_num": 0
+    },
+    {
+      "date": "2026-09-23",
+      "status": "orange",
+      "severity_num": 2
     }
   ],
   "탄자니아": [
@@ -2727,6 +2797,11 @@
       "date": "2026-09-22",
       "status": "yellow",
       "severity_num": 1
+    },
+    {
+      "date": "2026-09-23",
+      "status": "orange",
+      "severity_num": 2
     }
   ],
   "케냐": [
@@ -2909,6 +2984,11 @@
       "date": "2026-09-22",
       "status": "yellow",
       "severity_num": 1
+    },
+    {
+      "date": "2026-09-23",
+      "status": "orange",
+      "severity_num": 2
     }
   ],
   "과테말라": [
@@ -3089,6 +3169,11 @@
     },
     {
       "date": "2026-09-22",
+      "status": "yellow",
+      "severity_num": 1
+    },
+    {
+      "date": "2026-09-23",
       "status": "yellow",
       "severity_num": 1
     }
@@ -3273,6 +3358,11 @@
       "date": "2026-09-22",
       "status": "yellow",
       "severity_num": 1
+    },
+    {
+      "date": "2026-09-23",
+      "status": "yellow",
+      "severity_num": 1
     }
   ],
   "페루": [
@@ -3455,6 +3545,11 @@
       "date": "2026-09-22",
       "status": "yellow",
       "severity_num": 1
+    },
+    {
+      "date": "2026-09-23",
+      "status": "orange",
+      "severity_num": 2
     }
   ],
   "요르단": [
@@ -3635,6 +3730,11 @@
     },
     {
       "date": "2026-09-22",
+      "status": "orange",
+      "severity_num": 2
+    },
+    {
+      "date": "2026-09-23",
       "status": "orange",
       "severity_num": 2
     }

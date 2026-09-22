@@ -1918,5 +1918,37 @@
     "source_url": "https://www.thecitizen.co.tz/tanzania/news/national/why-tanzania-is-taking-one-health-beyond-disease-control-5603410",
     "feed": "NewsData.io",
     "first_seen_date": "2026-09-22"
+  },
+  {
+    "id": "news-001",
+    "country": "캄보디아",
+    "category": "conflict",
+    "severity": "medium",
+    "title": "Cambodia protests Thai installation of Buddha statue in Anlong Veng",
+    "title_en": "Cambodia protests Thai installation of Buddha statue in Anlong Veng",
+    "summary": "PHNOM PENH: The Cambodian government has lodged a strong formal protest against what it described as \"continued violations of Cambodia's sovereignty and territorial integrity\" by Thai forces along the border, most recently through the installation of a large Buddha statue in Oddar Meanchey province.",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+    "published_at": "2026-09-20",
+    "source": "The Star",
+    "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/09/22/cambodia-protests-thai-installation-of-buddha-statue-in-anlong-veng",
+    "feed": "GNews",
+    "first_seen_date": "2026-09-23"
+  },
+  {
+    "id": "newsdata-001",
+    "country": "말라위",
+    "category": "natural_disaster",
+    "severity": "medium",
+    "title": "Zambian cops storm Malawi to recover 20 stolen cows",
+    "title_en": "Zambian cops storm Malawi to recover 20 stolen cows",
+    "summary": "A dramatic cross-border operation saw Zambian police storm into Malawi last week, hunting down a gang accused of rustling 20 cattle from a farmer’s kraal — in a heist that left the victim counting devastating losses worth 116,500 Zambian Kwacha. The animals vanished without a trace from Kabwanda Village in Chief Tembwe, Chama district, sometime [...] The post Zambian cops storm Malawi to recover 20 stolen cows appeared first on Malawi News | Breaking News, Politics, Business & Sports | Nyasa Times .",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-09-22",
+    "source": "Nyasa Times",
+    "source_url": "https://www.nyasatimes.com/zambian-cops-storm-malawi-to-recover-20-stolen-cows/",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-09-23"
   }
 ]
