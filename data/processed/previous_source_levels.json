@@ -59,12 +59,16 @@
     "state_dept": {
       "severity": "medium",
       "title": "Malawi - Level 2: Exercise Increased Caution"
+    },
+    "cdc": {
+      "severity": "medium",
+      "title": "Global Polio (CDC 2단계 (강화된 예방조치 권고))"
     }
   },
   "방글라데시": {
     "state_dept": {
-      "severity": "high",
-      "title": "Bangladesh - Level 3: Reconsider Travel"
+      "severity": "medium",
+      "title": "Bangladesh - Level 2: Exercise Increased Caution"
     }
   },
   "우간다": {

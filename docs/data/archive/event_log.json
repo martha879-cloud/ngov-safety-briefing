@@ -1486,5 +1486,13 @@
     "source": "🏛️ 외교부",
     "change": "🟠 → 🟡",
     "reason": "외교부 여행경보: 여행자제(황색경보) (일부 지역 한정 경보이며, 지역별로 상이할 수 있음 · 0404.go.kr 확인 권장)"
+  },
+  {
+    "date": "2026-09-24",
+    "country": "방글라데시",
+    "flag": "🇧🇩",
+    "source": "🇺🇸 미국 국무부",
+    "change": "Bangladesh - Level 3: Reconsider Travel → Bangladesh - Level 2: Exercise Increased Caution",
+    "reason": "Exercise increased caution in Bangladesh due to unrest , crime , terrorism , and kidnapping . Some areas have increased risk. Read the entire Travel Advisory. Unrest Protests can occur and turn violent without notice. Avoid all gatherings, even peaceful ones. Crime In Bangladesh’s major cities, comm"
   }
 ]

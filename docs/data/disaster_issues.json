@@ -1,6 +1,54 @@
 {
-  "updated": "2026-09-23 10:10",
+  "updated": "2026-09-24 08:11",
   "issues": [
+    {
+      "id": "usgs-us6000tx31",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.6 지진 발생 (106 km WNW of Ternate, Indonesia)",
+      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (106 km WNW of Ternate, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-09-23",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx31",
+      "lat": 1.217,
+      "lng": 126.5263,
+      "magnitude": 4.6
+    },
+    {
+      "id": "usgs-us6000tx08",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.5 지진 발생 (63 km NE of Ruteng, Indonesia)",
+      "summary": "USGS 관측 기준 M4.5 규모의 지진이 발생했습니다 (63 km NE of Ruteng, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-09-23",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx08",
+      "lat": -8.1454,
+      "lng": 120.808,
+      "magnitude": 4.5
+    },
+    {
+      "id": "usgs-us6000twzp",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.5 지진 발생 (68 km SSW of Labuan, Indonesia)",
+      "summary": "USGS 관측 기준 M4.5 규모의 지진이 발생했습니다 (68 km SSW of Labuan, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-09-22",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000twzp",
+      "lat": -6.9217,
+      "lng": 105.5232,
+      "magnitude": 4.5
+    },
     {
       "id": "usgs-us6000twys",
       "country": "필리핀",
@@ -352,38 +400,6 @@
       "lat": 13.7928,
       "lng": -91.0771,
       "magnitude": 4.6
-    },
-    {
-      "id": "usgs-us7000thti",
-      "country": "필리핀",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.9 지진 발생 (64 km E of Kinablangan, Philippines)",
-      "summary": "USGS 관측 기준 M4.9 규모의 지진이 발생했습니다 (64 km E of Kinablangan, Philippines).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-09-16",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thti",
-      "lat": 7.7513,
-      "lng": 127.1328,
-      "magnitude": 4.9
-    },
-    {
-      "id": "usgs-us7000thrz",
-      "country": "과테말라",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "M5.0 지진 발생 (60 km SSW of Ocós, Guatemala)",
-      "summary": "USGS 관측 기준 M5.0 규모의 지진이 발생했습니다 (60 km SSW of Ocós, Guatemala).",
-      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-09-16",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thrz",
-      "lat": 14.0287,
-      "lng": -92.4543,
-      "magnitude": 5
     }
   ]
 }

@@ -1,4 +1,19 @@
 {
-  "updated": "2026-09-23 10:10",
-  "issues": []
+  "updated": "2026-09-24 08:11",
+  "issues": [
+    {
+      "id": "news-001",
+      "country": "르완다",
+      "category": "conflict",
+      "severity": "high",
+      "title": "Doctor charged in UK over Rwanda genocide 'supervised violence that killed six' during 1994 massacre, court hears",
+      "title_en": "Doctor charged in UK over Rwanda genocide 'supervised violence that killed six' during 1994 massacre, court hears",
+      "summary": "The man was allegedly a “leader” or “supervisor” of physical acts of violence carried out by others.",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
+      "published_at": "2026-09-22",
+      "source": "LBC",
+      "source_url": "https://www.lbc.co.uk/article/doctor-charged-rwanda-genocide-supervised-violence-5Hjdhng_2/"
+    }
+  ]
 }

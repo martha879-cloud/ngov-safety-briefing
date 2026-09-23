@@ -1,6 +1,48 @@
 {
-  "updated": "2026-09-23 10:10",
+  "updated": "2026-09-24 08:11",
   "issues": [
+    {
+      "id": "cdc-laos-2026-09-23-2",
+      "country": "라오스",
+      "category": "health",
+      "severity": "medium",
+      "title": "Global Polio (CDC 2단계 (강화된 예방조치 권고))",
+      "title_en": "Global Polio (Level 2 (Practice Enhanced Precautions))",
+      "summary": "Some international destinations have circulating poliovirus. Before any international travel, make sure you are up to date on your polio vaccines.",
+      "volunteer_impact": "CDC가 강화된 예방조치(Level 2)를 권고하는 상황입니다. 예방접종 및 위생수칙을 확인하세요.",
+      "recommended_action": "CDC 여행건강경보 원문을 참고하여 필요한 예방접종·위생수칙을 점검하세요.",
+      "published_at": "2026-09-23",
+      "source": "CDC",
+      "source_url": "https://wwwnc.cdc.gov/travel/notices/level2/global-polio"
+    },
+    {
+      "id": "cdc-malawi-2026-09-23-2",
+      "country": "말라위",
+      "category": "health",
+      "severity": "medium",
+      "title": "Global Polio (CDC 2단계 (강화된 예방조치 권고))",
+      "title_en": "Global Polio (Level 2 (Practice Enhanced Precautions))",
+      "summary": "Some international destinations have circulating poliovirus. Before any international travel, make sure you are up to date on your polio vaccines.",
+      "volunteer_impact": "CDC가 강화된 예방조치(Level 2)를 권고하는 상황입니다. 예방접종 및 위생수칙을 확인하세요.",
+      "recommended_action": "CDC 여행건강경보 원문을 참고하여 필요한 예방접종·위생수칙을 점검하세요.",
+      "published_at": "2026-09-23",
+      "source": "CDC",
+      "source_url": "https://wwwnc.cdc.gov/travel/notices/level2/global-polio"
+    },
+    {
+      "id": "cdc-tanzania-2026-09-23-2",
+      "country": "탄자니아",
+      "category": "health",
+      "severity": "medium",
+      "title": "Global Polio (CDC 2단계 (강화된 예방조치 권고))",
+      "title_en": "Global Polio (Level 2 (Practice Enhanced Precautions))",
+      "summary": "Some international destinations have circulating poliovirus. Before any international travel, make sure you are up to date on your polio vaccines.",
+      "volunteer_impact": "CDC가 강화된 예방조치(Level 2)를 권고하는 상황입니다. 예방접종 및 위생수칙을 확인하세요.",
+      "recommended_action": "CDC 여행건강경보 원문을 참고하여 필요한 예방접종·위생수칙을 점검하세요.",
+      "published_at": "2026-09-23",
+      "source": "CDC",
+      "source_url": "https://wwwnc.cdc.gov/travel/notices/level2/global-polio"
+    },
     {
       "id": "cdc-uganda-2026-08-28-2",
       "country": "우간다",
