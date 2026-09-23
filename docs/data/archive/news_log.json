@@ -1950,5 +1950,21 @@
     "source_url": "https://www.nyasatimes.com/zambian-cops-storm-malawi-to-recover-20-stolen-cows/",
     "feed": "NewsData.io",
     "first_seen_date": "2026-09-23"
+  },
+  {
+    "id": "newsdata-001",
+    "country": "방글라데시",
+    "category": "security",
+    "severity": "low",
+    "title": "For Bangladesh, energy and food security are inseparable",
+    "title_en": "For Bangladesh, energy and food security are inseparable",
+    "summary": "Bangladesh can reduce how much of an external energy shock becomes a domestic food-security shock. That requires treating energy security, fertiliser security, and food security not as separate policy problems, but as parts of the same system",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-09-22",
+    "source": "The Business Standard",
+    "source_url": "https://www.tbsnews.net/thoughts/bangladesh-energy-and-food-security-are-inseparable-1550756",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-09-23"
   }
 ]

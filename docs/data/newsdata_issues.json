@@ -1,19 +1,19 @@
 {
-  "updated": "2026-09-23 08:16",
+  "updated": "2026-09-23 10:10",
   "issues": [
     {
       "id": "newsdata-001",
-      "country": "말라위",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "Zambian cops storm Malawi to recover 20 stolen cows",
-      "title_en": "Zambian cops storm Malawi to recover 20 stolen cows",
-      "summary": "A dramatic cross-border operation saw Zambian police storm into Malawi last week, hunting down a gang accused of rustling 20 cattle from a farmer’s kraal — in a heist that left the victim counting devastating losses worth 116,500 Zambian Kwacha. The animals vanished without a trace from Kabwanda Village in Chief Tembwe, Chama district, sometime [...] The post Zambian cops storm Malawi to recover 20 stolen cows appeared first on Malawi News | Breaking News, Politics, Business & Sports | Nyasa Times .",
+      "country": "방글라데시",
+      "category": "security",
+      "severity": "low",
+      "title": "For Bangladesh, energy and food security are inseparable",
+      "title_en": "For Bangladesh, energy and food security are inseparable",
+      "summary": "Bangladesh can reduce how much of an external energy shock becomes a domestic food-security shock. That requires treating energy security, fertiliser security, and food security not as separate policy problems, but as parts of the same system",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
       "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
       "published_at": "2026-09-22",
-      "source": "Nyasa Times",
-      "source_url": "https://www.nyasatimes.com/zambian-cops-storm-malawi-to-recover-20-stolen-cows/"
+      "source": "The Business Standard",
+      "source_url": "https://www.tbsnews.net/thoughts/bangladesh-energy-and-food-security-are-inseparable-1550756"
     }
   ]
 }
