@@ -1,33 +1,33 @@
 {
-  "updated": "2026-09-24 10:06",
+  "updated": "2026-09-25 08:11",
   "issues": [
     {
       "id": "newsdata-001",
-      "country": "르완다",
-      "category": "conflict",
-      "severity": "low",
-      "title": "Belgium, Rwanda resume diplomatic relations after DRC conflict dispute",
-      "title_en": "Belgium, Rwanda resume diplomatic relations after DRC conflict dispute",
-      "summary": "Belgium and Rwanda have resumed diplomatic relations 18 months after ​breaking ties due to a...",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "Minister: Flood of Imports Pressures Indonesian Industry",
+      "title_en": "Minister: Flood of Imports Pressures Indonesian Industry",
+      "summary": "The national industry is facing competition to maintain the domestic market from imported products.",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
       "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-09-23",
-      "source": "The Citizen",
-      "source_url": "https://www.thecitizen.co.tz/tanzania/news/africa/belgium-rwanda-resume-diplomatic-relations-after-drc-conflict-dispute-5605930"
+      "published_at": "2026-09-24",
+      "source": "Tempo.co",
+      "source_url": "https://en.tempo.co/read/2120252/minister-flood-of-imports-pressures-indonesian-industry"
     },
     {
       "id": "newsdata-002",
-      "country": "페루",
+      "country": "탄자니아",
       "category": "security",
       "severity": "low",
-      "title": "In Peru’s high Andes, restoring ancient ecosystems could help protect water security",
-      "title_en": "In Peru’s high Andes, restoring ancient ecosystems could help protect water security",
-      "summary": "In the highlands above Villa de Arma, community leaders once walked through ice and snow. They still remember the stories told by their grandparents of the Apus, high-mountain spirits that guard the Andean landscape. Locals in this central-Andean community, which sits around 3,200 meters (10,500 feet) above sea level in central-southern Peru’s Huancavelica region, say [...]",
+      "title": "Tanzania launches bid for UN Security Council seat",
+      "title_en": "Tanzania launches bid for UN Security Council seat",
+      "summary": "Tanzania has formally announced its bid for a non-permanent UN Security Council seat for the 2029–2030 term Read Full Article at RT.com",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
       "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-09-23",
-      "source": "Conservation News",
-      "source_url": "https://news.mongabay.com/2026/09/in-perus-high-andes-restoring-ancient-ecosystems-could-help-protect-water-security/"
+      "published_at": "2026-09-24",
+      "source": "Rt",
+      "source_url": "https://www.rt.com/africa/646183-tanzania-launches-bid-unsc-seat/"
     }
   ]
 }
