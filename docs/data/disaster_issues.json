@@ -1,6 +1,38 @@
 {
-  "updated": "2026-09-25 10:06",
+  "updated": "2026-09-26 08:11",
   "issues": [
+    {
+      "id": "usgs-us6000txnq",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.8 지진 발생 (42 km N of Ruteng, Indonesia)",
+      "summary": "USGS 관측 기준 M4.8 규모의 지진이 발생했습니다 (42 km N of Ruteng, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-09-25",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txnq",
+      "lat": -8.2281,
+      "lng": 120.4296,
+      "magnitude": 4.8
+    },
+    {
+      "id": "usgs-us6000txkc",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.7 지진 발생 (80 km SW of Labuan, Indonesia)",
+      "summary": "USGS 관측 기준 M4.7 규모의 지진이 발생했습니다 (80 km SW of Labuan, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-09-25",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txkc",
+      "lat": -6.9267,
+      "lng": 105.3554,
+      "magnitude": 4.7
+    },
     {
       "id": "usgs-us6000txg5",
       "country": "인도네시아",
@@ -336,54 +368,6 @@
       "lat": -1.8561,
       "lng": 138.8882,
       "magnitude": 5.2
-    },
-    {
-      "id": "usgs-us7000tid2",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.6 지진 발생 (28 km S of Bengkulu, Indonesia)",
-      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (28 km S of Bengkulu, Indonesia).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-09-18",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tid2",
-      "lat": -4.0598,
-      "lng": 102.2947,
-      "magnitude": 4.6
-    },
-    {
-      "id": "usgs-us7000tib8",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "M5.2 지진 발생 (189 km SSW of Pelabuhanratu, Indonesia)",
-      "summary": "USGS 관측 기준 M5.2 규모의 지진이 발생했습니다 (189 km SSW of Pelabuhanratu, Indonesia).",
-      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-09-18",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tib8",
-      "lat": -8.5809,
-      "lng": 105.9112,
-      "magnitude": 5.2
-    },
-    {
-      "id": "usgs-us7000ti9c",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.7 지진 발생 (34 km NNE of Ruteng, Indonesia)",
-      "summary": "USGS 관측 기준 M4.7 규모의 지진이 발생했습니다 (34 km NNE of Ruteng, Indonesia).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-09-18",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti9c",
-      "lat": -8.3213,
-      "lng": 120.5723,
-      "magnitude": 4.7
     }
   ]
 }

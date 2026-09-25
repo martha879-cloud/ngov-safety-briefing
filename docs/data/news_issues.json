@@ -1,20 +1,6 @@
 {
-  "updated": "2026-09-25 10:06",
+  "updated": "2026-09-26 08:10",
   "issues": [
-    {
-      "id": "news-005",
-      "country": "필리핀",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "New tropical storm Queenie emerges near the Philippines",
-      "title_en": "New tropical storm Queenie emerges near the Philippines",
-      "summary": "MANILA: The tropical storm being monitored east of Northern Luzon has entered the Philippine area of responsibility (PAR), the state weather bureau reported on Thursday.",
-      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
-      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
-      "published_at": "2026-09-24",
-      "source": "The Star",
-      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/09/24/new-tropical-storm-queenie-emerges-near-the-philippines"
-    },
     {
       "id": "news-001",
       "country": "인도네시아",
@@ -44,35 +30,7 @@
       "source_url": "https://www.japantimes.co.jp/news/2026/09/23/japan/indonesia-quake-warning-system-japan-help/"
     },
     {
-      "id": "news-006",
-      "country": "르완다",
-      "category": "conflict",
-      "severity": "high",
-      "title": "Doctor charged in UK over Rwanda genocide 'supervised violence that killed six' during 1994 massacre, court hears",
-      "title_en": "Doctor charged in UK over Rwanda genocide 'supervised violence that killed six' during 1994 massacre, court hears",
-      "summary": "The man was allegedly a “leader” or “supervisor” of physical acts of violence carried out by others.",
-      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
-      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
-      "published_at": "2026-09-22",
-      "source": "LBC",
-      "source_url": "https://www.lbc.co.uk/article/doctor-charged-rwanda-genocide-supervised-violence-5Hjdhng_2/"
-    },
-    {
       "id": "news-003",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "Asiad 2026: India's women's hockey team storm past Indonesia by 17-1",
-      "title_en": "Asiad 2026: India's women's hockey team storm past Indonesia by 17-1",
-      "summary": "The 22-year-old Deepika (8th, 28th, 40th minutes), who scored eight goals in India's 19-0 drubbing of Uzbekistan in the lung-opener, converted three penalty corners",
-      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
-      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
-      "published_at": "2026-09-21",
-      "source": "Business Standard",
-      "source_url": "https://www.business-standard.com/sports/asian-games/asiad-2026-india-s-women-s-hockey-team-storm-past-indonesia-by-17-1-126092100302_1.html"
-    },
-    {
-      "id": "news-004",
       "country": "캄보디아",
       "category": "conflict",
       "severity": "medium",
