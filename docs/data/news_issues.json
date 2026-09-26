@@ -1,47 +1,4 @@
 {
-  "updated": "2026-09-26 08:10",
-  "issues": [
-    {
-      "id": "news-001",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "Indonesia to develop earthquake early warning system with Japan’s help",
-      "title_en": "Indonesia to develop earthquake early warning system with Japan’s help",
-      "summary": "Indonesia plans to conduct trial runs for the envisioned warning system in Jakarta and some other regions by 2030.",
-      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
-      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
-      "published_at": "2026-09-22",
-      "source": "The Japan Times ",
-      "source_url": "https://www.japantimes.co.jp/news/2026/09/22/japan/indonesia-quake-warning-system-japan-help/"
-    },
-    {
-      "id": "news-002",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "Indonesia to develop earthquake early warning system with Japan’s help",
-      "title_en": "Indonesia to develop earthquake early warning system with Japan’s help",
-      "summary": "Indonesia plans to conduct trial runs for the envisioned warning system in Jakarta and some other regions by 2030.",
-      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
-      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
-      "published_at": "2026-09-22",
-      "source": "The Japan Times ",
-      "source_url": "https://www.japantimes.co.jp/news/2026/09/23/japan/indonesia-quake-warning-system-japan-help/"
-    },
-    {
-      "id": "news-003",
-      "country": "캄보디아",
-      "category": "conflict",
-      "severity": "medium",
-      "title": "Cambodia protests Thai installation of Buddha statue in Anlong Veng",
-      "title_en": "Cambodia protests Thai installation of Buddha statue in Anlong Veng",
-      "summary": "PHNOM PENH: The Cambodian government has lodged a strong formal protest against what it described as \"continued violations of Cambodia's sovereignty and territorial integrity\" by Thai forces along the border, most recently through the installation of a large Buddha statue in Oddar Meanchey province.",
-      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
-      "published_at": "2026-09-20",
-      "source": "The Star",
-      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/09/22/cambodia-protests-thai-installation-of-buddha-statue-in-anlong-veng"
-    }
-  ]
+  "updated": "2026-09-26 10:07",
+  "issues": []
 }

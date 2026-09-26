@@ -2110,5 +2110,37 @@
     "source_url": "https://www.business-standard.com/sports/asian-games/asiad-2026-india-s-women-s-hockey-team-storm-past-indonesia-by-17-1-126092100302_1.html",
     "feed": "GNews",
     "first_seen_date": "2026-09-25"
+  },
+  {
+    "id": "newsdata-001",
+    "country": "우간다",
+    "category": "conflict",
+    "severity": "low",
+    "title": "OP-ED: PLU demonstrations at the Turkish Embassy was a national embarrassment and the crisis of Institutional Leadership in Uganda",
+    "title_en": "OP-ED: PLU demonstrations at the Turkish Embassy was a national embarrassment and the crisis of Institutional Leadership in Uganda",
+    "summary": "By Osiya Moses Kayz The Patriotic League of Uganda (PLU) demonstration outside the Turkish Embassy in Kampala on September 18, 2026 should prompt Ugandans to ask a fundamental question like what does it say about our institutions when the country’s serving Chief of Defense Forces (CDF) Muhoozi Kainerugaba in his capacity directs a political organization […] The post OP-ED: PLU demonstrations at the Turkish Embassy was a national embarrassment and the crisis of Institutional Leadership in Uganda appeared first on Watchdog Uganda .",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-09-25",
+    "source": "Watchdog Uganda",
+    "source_url": "https://www.watchdoguganda.com/op-ed/20260925/198553/op-ed-plu-demonstrations-at-the-turkish-embassy-was-a-national-embarrassment-and-the-crisis-of-institutional-leadership-in-uganda.html",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-09-26"
+  },
+  {
+    "id": "newsdata-002",
+    "country": "도미니카공화국",
+    "category": "health",
+    "severity": "low",
+    "title": "Dominican Republic reports 338 dengue and 137 malaria cases so far in 2026",
+    "title_en": "Dominican Republic reports 338 dengue and 137 malaria cases so far in 2026",
+    "summary": "Santo Domingo.- The Dominican Republic has recorded 338 confirmed dengue cases and 137 malaria cases so far in 2026, according to the Ministry of Public Health’s epidemiological bulletin for week 36, covering […]",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-09-25",
+    "source": "Dominican Today",
+    "source_url": "https://dominicantoday.com/dominican-republic-reports-338-dengue-and-137-malaria-cases-so-far-in-2026/",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-09-26"
   }
 ]
