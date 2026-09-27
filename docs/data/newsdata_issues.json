@@ -1,4 +1,47 @@
 {
-  "updated": "2026-09-27 08:11",
-  "issues": []
+  "updated": "2026-09-27 10:04",
+  "issues": [
+    {
+      "id": "newsdata-001",
+      "country": "탄자니아",
+      "category": "conflict",
+      "severity": "low",
+      "title": "Tanzania Public Prosecutors Association condemns violence, killings, and property destruction during 2025 General Election, offering condolences to victims.",
+      "title_en": "Tanzania Public Prosecutors Association condemns violence, killings, and property destruction during 2025 General Election, offering condolences to victims.",
+      "summary": "Tanzania Public Prosecutors Association condemns violence, killings, and property destruction during 2025 General Election, offering condolences to victims.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-09-26",
+      "source": "Bongo5",
+      "source_url": "https://bongofive.com/en/chama-cha-mawakili-wa-serikali-chalaani-vurugu-mauaji-yaliyotokea-wakati-wa-uchaguzi-mkuu"
+    },
+    {
+      "id": "newsdata-002",
+      "country": "케냐",
+      "category": "conflict",
+      "severity": "high",
+      "title": "Kenya Records Over 11 Billion Cyber Attacks - CA Report",
+      "title_en": "Kenya Records Over 11 Billion Cyber Attacks - CA Report",
+      "summary": "A recent INTERPOL report revealed that Kenya is now one of East Africa's biggest targets for online criminals and crooks.",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 활동 지속 여부를 검토하세요.",
+      "published_at": "2026-09-26",
+      "source": "Kenyans",
+      "source_url": "https://www.kenyans.co.ke/news/127374-kenya-records-111-billion-cyber-threats-202526-financial-year-ca-report"
+    },
+    {
+      "id": "newsdata-003",
+      "country": "도미니카공화국",
+      "category": "health",
+      "severity": "high",
+      "title": "Dominican Republic maternal deaths fall 20%, malaria cases 82%",
+      "title_en": "Dominican Republic maternal deaths fall 20%, malaria cases 82%",
+      "summary": "Maternal deaths reported in the Dominican Republic decreased by 20% between epidemiological weeks 1 and 36, going from 126 cases in 2025 to 101 in 2026, the Ministry of Public Health reported. […]",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 활동 지속 여부를 검토하세요.",
+      "published_at": "2026-09-26",
+      "source": "Dominican Today",
+      "source_url": "https://dominicantoday.com/dominican-republic-maternal-deaths-fall-20-malaria-cases-82/"
+    }
+  ]
 }
