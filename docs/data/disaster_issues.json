@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-27 10:04",
+  "updated": "2026-09-28 08:11",
   "issues": [
+    {
+      "id": "usgs-us6000ty0q",
+      "country": "도미니카공화국",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.8 지진 발생 (11 km W of Guaymate, Dominican Republic)",
+      "summary": "USGS 관측 기준 M4.8 규모의 지진이 발생했습니다 (11 km W of Guaymate, Dominican Republic).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-09-27",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty0q",
+      "lat": 18.6067,
+      "lng": -69.0863,
+      "magnitude": 4.8
+    },
     {
       "id": "usgs-us6000txur",
       "country": "인도네시아",
@@ -351,22 +367,6 @@
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txlj",
       "lat": 4.9141,
       "lng": 125.3922,
-      "magnitude": 4.6
-    },
-    {
-      "id": "usgs-us6000txlb",
-      "country": "필리핀",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.6 지진 발생 (2 km S of Buenavista, Philippines)",
-      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (2 km S of Buenavista, Philippines).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-09-20",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txlb",
-      "lat": 9.0946,
-      "lng": 126.1574,
       "magnitude": 4.6
     }
   ]
