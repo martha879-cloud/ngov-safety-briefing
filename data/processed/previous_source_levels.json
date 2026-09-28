@@ -129,8 +129,8 @@
   },
   "케냐": {
     "state_dept": {
-      "severity": "low",
-      "title": "Kenya - Level 1: Exercise Normal Precautions"
+      "severity": "medium",
+      "title": "Kenya - Level 2: Exercise Increased Caution"
     }
   }
 }

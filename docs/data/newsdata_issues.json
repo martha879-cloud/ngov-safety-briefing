@@ -1,33 +1,4 @@
 {
-  "updated": "2026-09-28 10:21",
-  "issues": [
-    {
-      "id": "newsdata-001",
-      "country": "모로코",
-      "category": "conflict",
-      "severity": "medium",
-      "title": "Morocco: Mothers of detained GenZ protestors demand their release",
-      "title_en": "Morocco: Mothers of detained GenZ protestors demand their release",
-      "summary": "The movement whose founders remain anonymous, rallied support around the failings of the public health and education systems before a government crackdown diffused it",
-      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-09-27",
-      "source": "Africanews",
-      "source_url": "http://www.africanews.com/2026/09/27/morocco-mothers-of-detained-genz-protestors-demand-their-release/"
-    },
-    {
-      "id": "newsdata-002",
-      "country": "우간다",
-      "category": "health",
-      "severity": "medium",
-      "title": "Relief as UAE eases Visa, travel ban following end of Uganda’s Ebola outbreak",
-      "title_en": "Relief as UAE eases Visa, travel ban following end of Uganda’s Ebola outbreak",
-      "summary": "The UAE introduced the restrictions on June 6 to prevent importation of Ebola from Uganda, DRC and South Sudan",
-      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-09-27",
-      "source": "Monitor",
-      "source_url": "https://www.monitor.co.ug/uganda/news/national/relief-as-uae-eases-visa-travel-ban-following-end-of-uganda-s-ebola-outbreak-5610648"
-    }
-  ]
+  "updated": "2026-09-29 08:11",
+  "issues": []
 }
