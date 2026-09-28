@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28 08:11",
+  "updated": "2026-09-28 10:21",
   "issues": [
     {
       "id": "usgs-us6000ty0q",
@@ -16,6 +16,22 @@
       "lat": 18.6067,
       "lng": -69.0863,
       "magnitude": 4.8
+    },
+    {
+      "id": "usgs-us6000ty0k",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.5 지진 발생 (0 km ESE of Naisano Dua, Indonesia)",
+      "summary": "USGS 관측 기준 M4.5 규모의 지진이 발생했습니다 (0 km ESE of Naisano Dua, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-09-27",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty0k",
+      "lat": -9.5995,
+      "lng": 123.7756,
+      "magnitude": 4.5
     },
     {
       "id": "usgs-us6000txur",
@@ -352,22 +368,6 @@
       "lat": -8.307,
       "lng": 120.5793,
       "magnitude": 5.5
-    },
-    {
-      "id": "usgs-us6000txlj",
-      "country": "필리핀",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.6 지진 발생 (54 km S of Sarangani, Philippines)",
-      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (54 km S of Sarangani, Philippines).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-09-21",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txlj",
-      "lat": 4.9141,
-      "lng": 125.3922,
-      "magnitude": 4.6
     }
   ]
 }
