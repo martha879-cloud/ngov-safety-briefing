@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29 08:11",
+  "updated": "2026-09-29 11:32",
   "issues": [
     {
       "id": "usgs-us6000ty5m",
@@ -352,38 +352,6 @@
       "lat": -8.3909,
       "lng": 121.4677,
       "magnitude": 4.7
-    },
-    {
-      "id": "usgs-us7000tj21",
-      "country": "필리핀",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.8 지진 발생 (67 km N of Claveria, Philippines)",
-      "summary": "USGS 관측 기준 M4.8 규모의 지진이 발생했습니다 (67 km N of Claveria, Philippines).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-09-22",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tj21",
-      "lat": 19.2155,
-      "lng": 121.0898,
-      "magnitude": 4.8
-    },
-    {
-      "id": "usgs-us7000tj1s",
-      "country": "필리핀",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "M5.3 지진 발생 (96 km S of Sarangani, Philippines)",
-      "summary": "USGS 관측 기준 M5.3 규모의 지진이 발생했습니다 (96 km S of Sarangani, Philippines).",
-      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-09-21",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tj1s",
-      "lat": 4.5364,
-      "lng": 125.3444,
-      "magnitude": 5.3
     }
   ]
 }
