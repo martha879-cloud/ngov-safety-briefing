@@ -1,19 +1,4 @@
 {
-  "updated": "2026-09-30 10:48",
-  "issues": [
-    {
-      "id": "news-001",
-      "country": "우간다",
-      "category": "health",
-      "severity": "medium",
-      "title": "UAE allocates $10 million to tackle Ebola outbreak as it lifts Uganda travel restrictions",
-      "title_en": "UAE allocates $10 million to tackle Ebola outbreak as it lifts Uganda travel restrictions",
-      "summary": "Pledge announced as nations gather at UNGA to co-ordinate international response to crisis",
-      "volunteer_impact": "봉사단 건강관리 및 예방조치 확인이 필요할 수 있습니다.",
-      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
-      "published_at": "2026-09-26",
-      "source": "The National",
-      "source_url": "https://www.thenationalnews.com/news/uae/2026/09/26/uae-allocates-10-million-to-tackle-ebola-outbreak-as-it-lifts-uganda-travel-restrictions/"
-    }
-  ]
+  "updated": "2026-10-01 08:11",
+  "issues": []
 }
