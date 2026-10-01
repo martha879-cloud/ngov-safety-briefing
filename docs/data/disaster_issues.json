@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01 08:11",
+  "updated": "2026-10-01 10:45",
   "issues": [
     {
       "id": "usgs-us6000tyjb",
@@ -320,22 +320,6 @@
       "lat": -8.33,
       "lng": 119.3665,
       "magnitude": 4.5
-    },
-    {
-      "id": "usgs-us6000tx7g",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.6 지진 발생 (223 km WNW of Abepura, Indonesia)",
-      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (223 km WNW of Abepura, Indonesia).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-09-24",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx7g",
-      "lat": -1.8133,
-      "lng": 138.7809,
-      "magnitude": 4.6
     }
   ]
 }
