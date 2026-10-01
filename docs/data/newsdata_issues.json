@@ -1,19 +1,33 @@
 {
-  "updated": "2026-10-01 10:45",
+  "updated": "2026-10-02 08:11",
   "issues": [
     {
       "id": "newsdata-001",
       "country": "말라위",
+      "category": "conflict",
+      "severity": "high",
+      "title": "Army boss in cuffs:Ex-Malawi Defence Force commander arrested over ‘illegal arms trafficking’ and terrorism-linked offences",
+      "title_en": "Army boss in cuffs:Ex-Malawi Defence Force commander arrested over ‘illegal arms trafficking’ and terrorism-linked offences",
+      "summary": "A retired former commander of the Malawi Defence Force has been dramatically arrested over allegations of illegal arms trafficking in a case set to rock the country’s security establishment. The Anti-Corruption Bureau (ACB) announced on Thursday that General Paul Valentino Phiri (Retired), once one of the most powerful figures in Malawi’s military hierarchy, had been […] The post Army boss in cuffs:Ex-Malawi Defence Force commander arrested over ‘illegal arms trafficking’ and terrorism-linked offences appeared first on Malawi News | Breaking News, Politics, Business & Sports | Nyasa Times .",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 활동 지속 여부를 검토하세요.",
+      "published_at": "2026-10-01",
+      "source": "Nyasa Times",
+      "source_url": "https://www.nyasatimes.com/army-boss-in-cuffsex-malawi-defence-force-commander-arrested-over-illegal-arms-trafficking-and-terrorism-linked-offences/"
+    },
+    {
+      "id": "newsdata-002",
+      "country": "요르단",
       "category": "security",
       "severity": "low",
-      "title": "Malawi food security gains face pressure",
-      "title_en": "Malawi food security gains face pressure",
-      "summary": "By Mcloyd Chilangiza: Malawi’s food security goals continue to be under pressure as rising maize, fertiliser and diesel prices weaken household purchasing power ahead of the lean season, a report indicates. This is according to Sustainably Growing Africa’s Food Systems (Agra)’s August 2026 Food Security Monitor. The monitor provides a regular assessment of the food security outlook across selected countries in East, West and Southern Africa. The report estimates that 1.94 million Malawians were facing a crisis or worse levels of food insecurity, down 52 percent from over four million in July. This means that 22 percent of the population were facing a crisis or worse levels of food insecurity. It further warns that food security conditions could deteriorate in southern Malawi and parts of the Central Region between October 2026 and January 2027. “Crisis (IPC Phase 3) outcomes are expected to emerge between October 2026 and January 2027 due to reduced purchasing power, limited agricultural labour opportunities and persistently high food prices,” the report says. According to the report, maize prices rose by 15.6 percent in August to $518 (K906,118) per metric tonne, from $448 (K784,448) in July. The increase was attributed to tightening domestic supplies as the lean season approaches, alongside increased demand from households, traders, processors and public procurement programmes. Fertiliser prices also continued to rise, with Nitrogen Phosphorus potassium (NPK) and urea prices increasing by about 2 percent in August, according to the report. It indicates that diesel prices added to the pressure, rising by 44 percent between July and August and standing at 28 percent above their March level. Recently, the International Food Policy Research Institute estimated that maize prices rose by 20 percent in August, up from an 8 percentage points increase in July. Centre for Humanitarian Assistance and Social Protection Executive Director Ken Sakala has since said rising fuel and fertiliser prices would have a knock-on effect on agricultural production. He recommended the timely distribution of social safety nets, Farm Inputs Subsidy Programme fertiliser and relief items during the lean season to mitigate the impact of the threats. “As a net importer of food, fuel and fertiliser, Malawi is highly exposed to global price shocks. This means production costs remain high even in good rainfall years, limiting household recovery. “In essence, we have been good at responding to hunger. We have not yet been consistent enough in preventing it,” he said. Meanwhile, the Malawi Vulnerability Assessment Committee estimates that 2.6 million people will be unable to meet their annual food requirements during the lean period. The government rolled out Fisp last week, when it announced that it was targeting 1.22 million beneficiaries with subsidised inputs during the 2026-27 farming season. Our market checks this week indicate that prices for basal and top-dressing fertiliser are ranging from K190,000 to K210,000 in most retail shops.",
+      "title": "Jordan’s Food Security Supported by Key Agricultural Sectors",
+      "title_en": "Jordan’s Food Security Supported by Key Agricultural Sectors",
+      "summary": "Jordan’s tomato crop stands out as the country’s leading vegetable export, with annual production of 400,000–500,000 tonnes, while the food sector ranks 10th globally with a value of $136 billion, according to a global food commodities ranking published by Visual Capitalist.",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
       "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-09-30",
-      "source": "The Times Group",
-      "source_url": "https://times.mw/malawi-food-security-gains-face-pressure/"
+      "published_at": "2026-10-01",
+      "source": "Jordan News | Latest News From Jordan, Mena",
+      "source_url": "https://www.jordannews.jo/Section-112/Economy/Jordan-s-Food-Security-Supported-by-Key-Agricultural-Sectors-56832"
     }
   ]
 }
