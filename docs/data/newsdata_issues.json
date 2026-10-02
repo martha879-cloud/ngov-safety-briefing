@@ -1,33 +1,33 @@
 {
-  "updated": "2026-10-02 08:11",
+  "updated": "2026-10-02 11:02",
   "issues": [
     {
       "id": "newsdata-001",
-      "country": "말라위",
+      "country": "르완다",
       "category": "conflict",
-      "severity": "high",
-      "title": "Army boss in cuffs:Ex-Malawi Defence Force commander arrested over ‘illegal arms trafficking’ and terrorism-linked offences",
-      "title_en": "Army boss in cuffs:Ex-Malawi Defence Force commander arrested over ‘illegal arms trafficking’ and terrorism-linked offences",
-      "summary": "A retired former commander of the Malawi Defence Force has been dramatically arrested over allegations of illegal arms trafficking in a case set to rock the country’s security establishment. The Anti-Corruption Bureau (ACB) announced on Thursday that General Paul Valentino Phiri (Retired), once one of the most powerful figures in Malawi’s military hierarchy, had been […] The post Army boss in cuffs:Ex-Malawi Defence Force commander arrested over ‘illegal arms trafficking’ and terrorism-linked offences appeared first on Malawi News | Breaking News, Politics, Business & Sports | Nyasa Times .",
-      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
-      "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 활동 지속 여부를 검토하세요.",
-      "published_at": "2026-10-01",
-      "source": "Nyasa Times",
-      "source_url": "https://www.nyasatimes.com/army-boss-in-cuffsex-malawi-defence-force-commander-arrested-over-illegal-arms-trafficking-and-terrorism-linked-offences/"
-    },
-    {
-      "id": "newsdata-002",
-      "country": "요르단",
-      "category": "security",
       "severity": "low",
-      "title": "Jordan’s Food Security Supported by Key Agricultural Sectors",
-      "title_en": "Jordan’s Food Security Supported by Key Agricultural Sectors",
-      "summary": "Jordan’s tomato crop stands out as the country’s leading vegetable export, with annual production of 400,000–500,000 tonnes, while the food sector ranks 10th globally with a value of $136 billion, according to a global food commodities ranking published by Visual Capitalist.",
+      "title": "Patriotism Day: What Rwanda’s younger generation must carry forward",
+      "title_en": "Patriotism Day: What Rwanda’s younger generation must carry forward",
+      "summary": "A young Rwandan born after 1994 has inherited a country profoundly different from the one earlier generations knew. That young person may have encountered exile, institutiona...",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
       "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
       "published_at": "2026-10-01",
-      "source": "Jordan News | Latest News From Jordan, Mena",
-      "source_url": "https://www.jordannews.jo/Section-112/Economy/Jordan-s-Food-Security-Supported-by-Key-Agricultural-Sectors-56832"
+      "source": "The New Times",
+      "source_url": "https://www.newtimes.co.rw/article/39368/opinions/patriotism-day-what-rwandas-younger-generation-must-carry-forward"
+    },
+    {
+      "id": "newsdata-002",
+      "country": "말라위",
+      "category": "security",
+      "severity": "low",
+      "title": "Illovo Sugar Malawi recognises the country security institutions’ power of unity through sports",
+      "title_en": "Illovo Sugar Malawi recognises the country security institutions’ power of unity through sports",
+      "summary": "Head of Legal & Corporate Affairs, Maureen Kachingwe presenting the sponsorship * As it invests K5 million towards the inaugural Inter-Security Agencies Sports Festival at Bingu National Stadium on October 5-9 * Under the theme; ‘Strength in Unity: Promoting Unity, Wellness, Teamwork and National Development Through Sport’ * By coming together in this way, our security institutions are demonstrating the power of unity and setting an example for the nation By Duncan Mlanjira Illovo Sugar Malawi has supported K5 million towards the inaugural Inter-Security Agencies Sports Festival as recognition of...",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-10-01",
+      "source": "Maraviexpress",
+      "source_url": "https://www.maraviexpress.com/illovo-sugar-malawi-recognises-the-country-security-institutions-power-of-unity-through-sports/"
     }
   ]
 }

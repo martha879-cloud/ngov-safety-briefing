@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02 08:10",
+  "updated": "2026-10-02 11:01",
   "issues": [
     {
       "id": "news-001",
@@ -42,6 +42,34 @@
       "published_at": "2026-10-01",
       "source": "The Star",
       "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/01/sultan-kudarat-town-in-philippines-halts-classes-after-magnitude-49-earthquake"
+    },
+    {
+      "id": "news-005",
+      "country": "이집트",
+      "category": "conflict",
+      "severity": "high",
+      "title": "Egypt's Intel Chief Warned Netanyahu Of Hamas Attack Days Before Oct 7, After 2 Earlier Alerts",
+      "title_en": "Egypt's Intel Chief Warned Netanyahu Of Hamas Attack Days Before Oct 7, After 2 Earlier Alerts",
+      "summary": "The revelations have renewed scrutiny of the failures preceding October 7, when Hamas-led militants breached the Gaza border, attacked Israeli communities and took hostages",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
+      "published_at": "2026-09-28",
+      "source": "News18",
+      "source_url": "https://www.news18.com/world/egypts-intel-chief-warned-netanyahu-of-hamas-attack-days-before-oct-7-after-2-earlier-alerts-ws-l-10356420.html"
+    },
+    {
+      "id": "news-006",
+      "country": "이집트",
+      "category": "conflict",
+      "severity": "high",
+      "title": "WSJ Claims Egypt Warned Israeli Authorities Three Times Before 2023 Hamas Attack",
+      "title_en": "WSJ Claims Egypt Warned Israeli Authorities Three Times Before 2023 Hamas Attack",
+      "summary": "The Wall Street Journal claims citing Egyptian officials that Egypt had warned Israeli authorities three times about the impending attack by the Palestinian movement Hamas, which took place on October 7, 2023.",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
+      "published_at": "2026-09-28",
+      "source": "Sputnik News",
+      "source_url": "https://sputnikglobe.com/20260928/wsj-claims-egypt-warned-israeli-authorities-three-times-before-2023-hamas-attack-1124802640.html"
     },
     {
       "id": "news-003",
