@@ -1,6 +1,54 @@
 {
-  "updated": "2026-10-02 11:02",
+  "updated": "2026-10-03 08:11",
   "issues": [
+    {
+      "id": "usgs-us6000tz1q",
+      "country": "필리핀",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.8 지진 발생 (78 km WSW of San Nicolas, Philippines)",
+      "summary": "USGS 관측 기준 M4.8 규모의 지진이 발생했습니다 (78 km WSW of San Nicolas, Philippines).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-10-02",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz1q",
+      "lat": 14.571,
+      "lng": 119.4593,
+      "magnitude": 4.8
+    },
+    {
+      "id": "usgs-us6000tyzy",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.5 지진 발생 (101 km NE of Ruteng, Indonesia)",
+      "summary": "USGS 관측 기준 M4.5 규모의 지진이 발생했습니다 (101 km NE of Ruteng, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-10-02",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyzy",
+      "lat": -7.9511,
+      "lng": 121.0985,
+      "magnitude": 4.5
+    },
+    {
+      "id": "usgs-us6000tyzt",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.8 지진 발생 (192 km WNW of Tobelo, Indonesia)",
+      "summary": "USGS 관측 기준 M4.8 규모의 지진이 발생했습니다 (192 km WNW of Tobelo, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-10-02",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyzt",
+      "lat": 2.5781,
+      "lng": 126.4944,
+      "magnitude": 4.8
+    },
     {
       "id": "usgs-us6000tyw9",
       "country": "인도네시아",
@@ -336,38 +384,6 @@
       "lat": -7.8646,
       "lng": 123.2938,
       "magnitude": 4.6
-    },
-    {
-      "id": "usgs-us6000txnq",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.8 지진 발생 (42 km N of Ruteng, Indonesia)",
-      "summary": "USGS 관측 기준 M4.8 규모의 지진이 발생했습니다 (42 km N of Ruteng, Indonesia).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-09-25",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txnq",
-      "lat": -8.2281,
-      "lng": 120.4296,
-      "magnitude": 4.8
-    },
-    {
-      "id": "usgs-us6000txkc",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.7 지진 발생 (80 km SW of Labuan, Indonesia)",
-      "summary": "USGS 관측 기준 M4.7 규모의 지진이 발생했습니다 (80 km SW of Labuan, Indonesia).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-09-25",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txkc",
-      "lat": -6.9267,
-      "lng": 105.3554,
-      "magnitude": 4.7
     }
   ]
 }

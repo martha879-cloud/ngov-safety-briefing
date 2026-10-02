@@ -2558,5 +2558,21 @@
     "source_url": "https://www.maraviexpress.com/illovo-sugar-malawi-recognises-the-country-security-institutions-power-of-unity-through-sports/",
     "feed": "NewsData.io",
     "first_seen_date": "2026-10-02"
+  },
+  {
+    "id": "newsdata-001",
+    "country": "요르단",
+    "category": "conflict",
+    "severity": "high",
+    "title": "Jordan Condemns Houthi Attack on Madinah Power Station",
+    "title_en": "Jordan Condemns Houthi Attack on Madinah Power Station",
+    "summary": "Jordan condemned a Houthi militia drone attack targeting an electricity distribution station in Madinah, Saudi Arabia, describing it as a blatant violation of the Kingdom’s sovereignty and a threat to its security, stability and territorial integrity.",
+    "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+    "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 활동 지속 여부를 검토하세요.",
+    "published_at": "2026-10-02",
+    "source": "Jordan News | Latest News From Jordan, Mena",
+    "source_url": "https://www.jordannews.jo/Section-109/News/Jordan-Condemns-Houthi-Attack-on-Madinah-Power-Station-56846",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-10-03"
   }
 ]
