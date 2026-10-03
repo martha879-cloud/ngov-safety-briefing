@@ -1,33 +1,19 @@
 {
-  "updated": "2026-10-03 10:44",
+  "updated": "2026-10-04 08:11",
   "issues": [
     {
       "id": "newsdata-001",
-      "country": "말라위",
+      "country": "요르단",
       "category": "transport",
       "severity": "low",
-      "title": "Malawian of Asian origin arrested with R40,000 at airport",
-      "title_en": "Malawian of Asian origin arrested with R40,000 at airport",
-      "summary": "A 37-year-old Malawian of Asian origin has been arrested at Bakili Muluzi International Airport, formerly Chileka Airport, after he was allegedly found with R40,000 in foreign currency without the required supporting documents. Suhel Shirajamed Gangat, a teacher by profession, was arrested while preparing to travel to South Africa, airport police spokesperson Dorrah Machila Chathyoka has […]",
+      "title": "Jordan Transport Authority Tightens App-Based Taxi Oversight",
+      "title_en": "Jordan Transport Authority Tightens App-Based Taxi Oversight",
+      "summary": "The Land Transport Regulatory Authority held an executive meeting on Saturday with representatives of licensed smart application companies operating in the Hashemite Kingdom of Jordan, including Uber, Careem, Jeeny, Petra Ride, Gojo, Taxi F and CAB, to discuss activity regulation and oversight and agree on measures to strengthen compliance with operational requirements in the coming period.",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
       "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-10-02",
-      "source": "Malawi Voice",
-      "source_url": "https://www.malawivoice.com/2026/10/02/malawian-of-asian-origin-arrested-with-r40000-at-airport/"
-    },
-    {
-      "id": "newsdata-002",
-      "country": "이집트",
-      "category": "conflict",
-      "severity": "low",
-      "title": "Why are Egypt and Ethiopia clashing over Tigray, Somalia and the Nile?",
-      "title_en": "Why are Egypt and Ethiopia clashing over Tigray, Somalia and the Nile?",
-      "summary": "Egypt expelled an official at the Ethiopian Embassy in Cairo on Thursday following a similar move by Ethiopia that same day, in the latest sign of tensions between the neighboring African countries.",
-      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-10-02",
-      "source": "Palestine – Al-monitor",
-      "source_url": "https://www.al-monitor.com/originals/2026/10/why-are-egypt-and-ethiopia-clashing-over-tigray-somalia-and-nile"
+      "published_at": "2026-10-03",
+      "source": "Jordan News | Latest News From Jordan, Mena",
+      "source_url": "https://www.jordannews.jo/Section-109/News/Jordan-Transport-Authority-Tightens-App-Based-Taxi-Oversight-56875"
     }
   ]
 }
