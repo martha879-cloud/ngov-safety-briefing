@@ -1,19 +1,19 @@
 {
-  "updated": "2026-10-04 08:11",
+  "updated": "2026-10-04 11:21",
   "issues": [
     {
       "id": "newsdata-001",
-      "country": "요르단",
-      "category": "transport",
+      "country": "이집트",
+      "category": "security",
       "severity": "low",
-      "title": "Jordan Transport Authority Tightens App-Based Taxi Oversight",
-      "title_en": "Jordan Transport Authority Tightens App-Based Taxi Oversight",
-      "summary": "The Land Transport Regulatory Authority held an executive meeting on Saturday with representatives of licensed smart application companies operating in the Hashemite Kingdom of Jordan, including Uber, Careem, Jeeny, Petra Ride, Gojo, Taxi F and CAB, to discuss activity regulation and oversight and agree on measures to strengthen compliance with operational requirements in the coming period.",
+      "title": "Egypt, Somalia coordinate return of eight Egyptian sailors released after kidnapping",
+      "title_en": "Egypt, Somalia coordinate return of eight Egyptian sailors released after kidnapping",
+      "summary": "Somali Ambassador to Egypt Ali Abdi Awari said that coordination between Egyptian and Somali authorities is underway to complete arrangements for the return of eight Egyptian sailors who were recently released after being kidnapped off the coast of Somalia. Awari said he had contacted the eight sailors to check on their well-being and confirmed that […]",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
       "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
       "published_at": "2026-10-03",
-      "source": "Jordan News | Latest News From Jordan, Mena",
-      "source_url": "https://www.jordannews.jo/Section-109/News/Jordan-Transport-Authority-Tightens-App-Based-Taxi-Oversight-56875"
+      "source": "Daily News Egypt",
+      "source_url": "https://www.dailynewsegypt.com/2026/10/03/egypt-somalia-coordinate-return-of-eight-egyptian-sailors-released-after-kidnapping/"
     }
   ]
 }

@@ -2622,5 +2622,21 @@
     "source_url": "https://www.jordannews.jo/Section-109/News/Jordan-Transport-Authority-Tightens-App-Based-Taxi-Oversight-56875",
     "feed": "NewsData.io",
     "first_seen_date": "2026-10-04"
+  },
+  {
+    "id": "newsdata-001",
+    "country": "이집트",
+    "category": "security",
+    "severity": "low",
+    "title": "Egypt, Somalia coordinate return of eight Egyptian sailors released after kidnapping",
+    "title_en": "Egypt, Somalia coordinate return of eight Egyptian sailors released after kidnapping",
+    "summary": "Somali Ambassador to Egypt Ali Abdi Awari said that coordination between Egyptian and Somali authorities is underway to complete arrangements for the return of eight Egyptian sailors who were recently released after being kidnapped off the coast of Somalia. Awari said he had contacted the eight sailors to check on their well-being and confirmed that […]",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-10-03",
+    "source": "Daily News Egypt",
+    "source_url": "https://www.dailynewsegypt.com/2026/10/03/egypt-somalia-coordinate-return-of-eight-egyptian-sailors-released-after-kidnapping/",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-10-04"
   }
 ]
