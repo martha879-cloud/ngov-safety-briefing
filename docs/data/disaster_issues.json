@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05 08:16",
+  "updated": "2026-10-05 10:36",
   "issues": [
     {
       "id": "usgs-us6000tziz",
@@ -400,22 +400,6 @@
       "lat": 9.9585,
       "lng": 126.6861,
       "magnitude": 4.7
-    },
-    {
-      "id": "usgs-us6000ty1l",
-      "country": "필리핀",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.9 지진 발생 (43 km W of Palauig, Philippines)",
-      "summary": "USGS 관측 기준 M4.9 규모의 지진이 발생했습니다 (43 km W of Palauig, Philippines).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-09-28",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty1l",
-      "lat": 15.4374,
-      "lng": 119.503,
-      "magnitude": 4.9
     }
   ]
 }
