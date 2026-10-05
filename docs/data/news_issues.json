@@ -1,4 +1,19 @@
 {
-  "updated": "2026-10-05 10:35",
-  "issues": []
+  "updated": "2026-10-06 08:11",
+  "issues": [
+    {
+      "id": "news-001",
+      "country": "도미니카공화국",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "Magnitude 4.8 earthquake strikes near Guaymate, Dominican Republic",
+      "title_en": "Magnitude 4.8 earthquake strikes near Guaymate, Dominican Republic",
+      "summary": "Residents across the Dominican Republic were rattled by a magnitude 4.8 earthquake Sunday evening.",
+      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-09-28",
+      "source": "FOX Weather",
+      "source_url": "https://www.foxweather.com/weather-news/magnitude-4-8-earthquake-rattles-dominican-republic"
+    }
+  ]
 }

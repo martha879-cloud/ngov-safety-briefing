@@ -1,6 +1,22 @@
 {
-  "updated": "2026-10-05 10:36",
+  "updated": "2026-10-06 08:11",
   "issues": [
+    {
+      "id": "usgs-us6000tzmk",
+      "country": "필리핀",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.8 지진 발생 (191 km ESE of Sarangani, Philippines)",
+      "summary": "USGS 관측 기준 M4.8 규모의 지진이 발생했습니다 (191 km ESE of Sarangani, Philippines).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-10-05",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzmk",
+      "lat": 4.4975,
+      "lng": 126.9394,
+      "magnitude": 4.8
+    },
     {
       "id": "usgs-us6000tziz",
       "country": "인도네시아",
@@ -352,54 +368,6 @@
       "lat": 13.7623,
       "lng": -92.6345,
       "magnitude": 4.5
-    },
-    {
-      "id": "usgs-us6000ty5m",
-      "country": "필리핀",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.9 지진 발생 (124 km SE of Pondaguitan, Philippines)",
-      "summary": "USGS 관측 기준 M4.9 규모의 지진이 발생했습니다 (124 km SE of Pondaguitan, Philippines).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-09-28",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty5m",
-      "lat": 5.634,
-      "lng": 127.0338,
-      "magnitude": 4.9
-    },
-    {
-      "id": "usgs-us6000ty5h",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.7 지진 발생 (115 km WSW of Banda Aceh, Indonesia)",
-      "summary": "USGS 관측 기준 M4.7 규모의 지진이 발생했습니다 (115 km WSW of Banda Aceh, Indonesia).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-09-28",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty5h",
-      "lat": 5.2548,
-      "lng": 94.3303,
-      "magnitude": 4.7
-    },
-    {
-      "id": "usgs-us6000ty3w",
-      "country": "필리핀",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.7 지진 발생 (65 km E of Pilar, Philippines)",
-      "summary": "USGS 관측 기준 M4.7 규모의 지진이 발생했습니다 (65 km E of Pilar, Philippines).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-09-28",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty3w",
-      "lat": 9.9585,
-      "lng": 126.6861,
-      "magnitude": 4.7
     }
   ]
 }
