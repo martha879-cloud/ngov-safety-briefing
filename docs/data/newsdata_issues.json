@@ -1,47 +1,47 @@
 {
-  "updated": "2026-10-06 08:11",
+  "updated": "2026-10-06 11:39",
   "issues": [
     {
       "id": "newsdata-001",
-      "country": "우간다",
+      "country": "인도네시아",
       "category": "conflict",
-      "severity": "high",
-      "title": "Top Ugandan General Says Africa Militaries Need Stronger Ties to Defeat Terrorism",
-      "title_en": "Top Ugandan General Says Africa Militaries Need Stronger Ties to Defeat Terrorism",
-      "summary": "KAMPALA: African militaries need stronger coordination, information sharing and rapid deployment capabilities to respond to terrorism, cyber threats and other emergencies, a senior Ugandan commander s",
-      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
-      "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 활동 지속 여부를 검토하세요.",
+      "severity": "low",
+      "title": "Prabowo Watches Indonesia vs Thailand Clash at GBK",
+      "title_en": "Prabowo Watches Indonesia vs Thailand Clash at GBK",
+      "summary": "Prabowo arrived at GBK Main Stadium in Jakarta around 19:55 local time.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
       "published_at": "2026-10-05",
-      "source": "Chimpreports",
-      "source_url": "https://chimpreports.com/top-ugandan-general-says-africa-militaries-need-stronger-ties-to-defeat-terrorism/"
+      "source": "Tempo.co",
+      "source_url": "https://en.tempo.co/read/2120985/prabowo-watches-indonesia-vs-thailand-clash-at-gbk"
     },
     {
       "id": "newsdata-002",
-      "country": "이집트",
-      "category": "security",
+      "country": "말라위",
+      "category": "conflict",
       "severity": "low",
-      "title": "Egypt, Somalia, Eritrea and Sudan Hold Four-Way Summit On Regional Security and Cooperation",
-      "title_en": "Egypt, Somalia, Eritrea and Sudan Hold Four-Way Summit On Regional Security and Cooperation",
-      "summary": "[Shabelle] El Alamein, Egypt -- The presidents of Egypt, Somalia and Eritrea, along with Sudan's head of the Transitional Sovereignty Council, held a four-way summit in the Egyptian coastal city of El Alamein to discuss regional developments and ways to strengthen political and economic cooperation.",
+      "title": "Malawi struggle for training venue ahead of Angola clash",
+      "title_en": "Malawi struggle for training venue ahead of Angola clash",
+      "summary": "The Malawi national team, the Flames, suffered a fresh blow in their preparations for Tuesday’s Africa Cup of Nations qualifier against hosts Angola, after failing to secure a suitable venue for a recovery session on Monday morning. It follows a difficult start to the trip, with the squad left stranded at Luanda airport for almost […] The post Malawi struggle for training venue ahead of Angola clash appeared first on Malawi News | Breaking News, Politics, Business & Sports | Nyasa Times .",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
       "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
       "published_at": "2026-10-05",
-      "source": "Allafrica.com",
-      "source_url": "https://allafrica.com/stories/202610050308.html"
+      "source": "Nyasa Times",
+      "source_url": "https://www.nyasatimes.com/malawi-struggle-for-training-venue-ahead-of-angola-clash/"
     },
     {
       "id": "newsdata-003",
-      "country": "요르단",
-      "category": "security",
+      "country": "말라위",
+      "category": "conflict",
       "severity": "low",
-      "title": "Jordan-Turkey ties and regional security top Senate president's agenda",
-      "title_en": "Jordan-Turkey ties and regional security top Senate president's agenda",
-      "summary": "Senate President Fayez told Turkey's ambassador that Jordan rejects Iranian aggression and will not allow itself to be drawn into regional conflicts.",
+      "title": "Malawi struggle for training venue ahead of Angola clash Flames’ Angola preparations hit by travel and training woes",
+      "title_en": "Malawi struggle for training venue ahead of Angola clash Flames’ Angola preparations hit by travel and training woes",
+      "summary": "The Malawi national team, the Flames, suffered a fresh blow in their preparations for Tuesday’s Africa Cup of Nations qualifier against hosts Angola, after failing to secure a suitable venue for a recovery session on Monday morning. It follows a difficult start to the trip, with the squad left stranded at Luanda airport for almost […] The post Malawi struggle for training venue ahead of Angola clash Flames’ Angola preparations hit by travel and training woes appeared first on Malawi News | Breaking News, Politics, Business & Sports | Nyasa Times .",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
       "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
       "published_at": "2026-10-05",
-      "source": "Jordan News | Latest News From Jordan, Mena",
-      "source_url": "https://www.jordannews.jo/Section-109/News/Jordan-Turkey-ties-and-regional-security-top-Senate-president-s-agenda-56997"
+      "source": "Nyasa Times",
+      "source_url": "https://www.nyasatimes.com/malawi-struggle-for-training-venue-ahead-of-angola-clash-flames-angola-preparations-hit-by-travel-and-training-woes/"
     }
   ]
 }

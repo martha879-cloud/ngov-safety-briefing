@@ -2702,5 +2702,53 @@
     "source_url": "https://www.jordannews.jo/Section-109/News/Jordan-Turkey-ties-and-regional-security-top-Senate-president-s-agenda-56997",
     "feed": "NewsData.io",
     "first_seen_date": "2026-10-06"
+  },
+  {
+    "id": "newsdata-001",
+    "country": "인도네시아",
+    "category": "conflict",
+    "severity": "low",
+    "title": "Prabowo Watches Indonesia vs Thailand Clash at GBK",
+    "title_en": "Prabowo Watches Indonesia vs Thailand Clash at GBK",
+    "summary": "Prabowo arrived at GBK Main Stadium in Jakarta around 19:55 local time.",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-10-05",
+    "source": "Tempo.co",
+    "source_url": "https://en.tempo.co/read/2120985/prabowo-watches-indonesia-vs-thailand-clash-at-gbk",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-10-06"
+  },
+  {
+    "id": "newsdata-002",
+    "country": "말라위",
+    "category": "conflict",
+    "severity": "low",
+    "title": "Malawi struggle for training venue ahead of Angola clash",
+    "title_en": "Malawi struggle for training venue ahead of Angola clash",
+    "summary": "The Malawi national team, the Flames, suffered a fresh blow in their preparations for Tuesday’s Africa Cup of Nations qualifier against hosts Angola, after failing to secure a suitable venue for a recovery session on Monday morning. It follows a difficult start to the trip, with the squad left stranded at Luanda airport for almost […] The post Malawi struggle for training venue ahead of Angola clash appeared first on Malawi News | Breaking News, Politics, Business & Sports | Nyasa Times .",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-10-05",
+    "source": "Nyasa Times",
+    "source_url": "https://www.nyasatimes.com/malawi-struggle-for-training-venue-ahead-of-angola-clash/",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-10-06"
+  },
+  {
+    "id": "newsdata-003",
+    "country": "말라위",
+    "category": "conflict",
+    "severity": "low",
+    "title": "Malawi struggle for training venue ahead of Angola clash Flames’ Angola preparations hit by travel and training woes",
+    "title_en": "Malawi struggle for training venue ahead of Angola clash Flames’ Angola preparations hit by travel and training woes",
+    "summary": "The Malawi national team, the Flames, suffered a fresh blow in their preparations for Tuesday’s Africa Cup of Nations qualifier against hosts Angola, after failing to secure a suitable venue for a recovery session on Monday morning. It follows a difficult start to the trip, with the squad left stranded at Luanda airport for almost […] The post Malawi struggle for training venue ahead of Angola clash Flames’ Angola preparations hit by travel and training woes appeared first on Malawi News | Breaking News, Politics, Business & Sports | Nyasa Times .",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-10-05",
+    "source": "Nyasa Times",
+    "source_url": "https://www.nyasatimes.com/malawi-struggle-for-training-venue-ahead-of-angola-clash-flames-angola-preparations-hit-by-travel-and-training-woes/",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-10-06"
   }
 ]
