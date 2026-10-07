@@ -1,4 +1,19 @@
 {
-  "updated": "2026-10-07 08:11",
-  "issues": []
+  "updated": "2026-10-07 10:59",
+  "issues": [
+    {
+      "id": "newsdata-001",
+      "country": "요르단",
+      "category": "conflict",
+      "severity": "high",
+      "title": "Al-Zouba: Yemen stands in solidarity against any attack on Jordan’s sovereignty",
+      "title_en": "Al-Zouba: Yemen stands in solidarity against any attack on Jordan’s sovereignty",
+      "summary": "Amman — Yemen’s Minister of Foreign Affairs and Expatriates Dr. Afrah Abdulaziz Al-Zouba expressed her country’s solidarity against any attack on Jordan’s sovereignty, regardless of the party responsible.",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 활동 지속 여부를 검토하세요.",
+      "published_at": "2026-10-06",
+      "source": "Jordan News | Latest News From Jordan, Mena",
+      "source_url": "https://www.jordannews.jo/Section-109/News/Al-Zouba-Yemen-stands-in-solidarity-against-any-attack-on-Jordan-s-sovereignty-57067"
+    }
+  ]
 }
