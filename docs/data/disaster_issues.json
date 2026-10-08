@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08 08:11",
+  "updated": "2026-10-08 11:24",
   "issues": [
     {
       "id": "usgs-us6000u0t4",
@@ -336,38 +336,6 @@
       "lat": 6.1116,
       "lng": 123.8599,
       "magnitude": 5
-    },
-    {
-      "id": "usgs-us6000typ5",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.5 지진 발생 (272 km WSW of Tual, Indonesia)",
-      "summary": "USGS 관측 기준 M4.5 규모의 지진이 발생했습니다 (272 km WSW of Tual, Indonesia).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-10-01",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000typ5",
-      "lat": -6.154,
-      "lng": 130.346,
-      "magnitude": 4.5
-    },
-    {
-      "id": "usgs-us6000typ0",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.6 지진 발생 (45 km ENE of Luwuk, Indonesia)",
-      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (45 km ENE of Luwuk, Indonesia).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-10-01",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000typ0",
-      "lat": -0.863,
-      "lng": 123.1839,
-      "magnitude": 4.6
     }
   ]
 }

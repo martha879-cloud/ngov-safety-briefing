@@ -2782,5 +2782,21 @@
     "source_url": "https://www.express.co.uk/news/world/2255035/bali-earthquake-live-huge-tremors",
     "feed": "GNews",
     "first_seen_date": "2026-10-08"
+  },
+  {
+    "id": "newsdata-001",
+    "country": "케냐",
+    "category": "transport",
+    "severity": "low",
+    "title": "Staff transportation can unlock capital for Kenyan companies",
+    "title_en": "Staff transportation can unlock capital for Kenyan companies",
+    "summary": "Electrify staff transport and measure it, and it begins paying into several company mandates at...",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-10-07",
+    "source": "Business Daily",
+    "source_url": "https://www.businessdailyafrica.com/bd/opinion-analysis/columnists/staff-transportation-can-unlock-capital-for-kenyan-companies-5623194",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-10-08"
   }
 ]
