@@ -2798,5 +2798,21 @@
     "source_url": "https://www.businessdailyafrica.com/bd/opinion-analysis/columnists/staff-transportation-can-unlock-capital-for-kenyan-companies-5623194",
     "feed": "NewsData.io",
     "first_seen_date": "2026-10-08"
+  },
+  {
+    "id": "newsdata-001",
+    "country": "인도네시아",
+    "category": "transport",
+    "severity": "low",
+    "title": "Garuda Indonesia Reopens Bali-Papua Flight Route",
+    "title_en": "Garuda Indonesia Reopens Bali-Papua Flight Route",
+    "summary": "Garuda Indonesia reactivates the Denpasar-Sorong flight route to meet rising tourist demand during peak season.",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-10-08",
+    "source": "Tempo.co",
+    "source_url": "https://en.tempo.co/read/2121180/garuda-indonesia-reopens-bali-papua-flight-route",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-10-09"
   }
 ]
