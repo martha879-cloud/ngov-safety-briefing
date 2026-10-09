@@ -464,5 +464,13 @@
     "yellow": 7,
     "orange": 2,
     "red": 0
+  },
+  {
+    "label": "10/10",
+    "date": "2026-10-10",
+    "green": 5,
+    "yellow": 3,
+    "orange": 10,
+    "red": 2
   }
 ]
