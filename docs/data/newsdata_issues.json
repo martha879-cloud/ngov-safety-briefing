@@ -1,4 +1,19 @@
 {
-  "updated": "2026-10-10 08:16",
-  "issues": []
+  "updated": "2026-10-10 11:02",
+  "issues": [
+    {
+      "id": "newsdata-001",
+      "country": "르완다",
+      "category": "security",
+      "severity": "low",
+      "title": "Cybersecurity: Rwandans urged to protect private data",
+      "title_en": "Cybersecurity: Rwandans urged to protect private data",
+      "summary": "Rwanda's rapid digitalisation is widening its exposure to cyber threats as more money, personal information and essential services move online. Cybersecurity officials warne...",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-10-09",
+      "source": "The New Times",
+      "source_url": "https://www.newtimes.co.rw/article/39566/news/security/cybersecurity-rwandans-urged-to-protect-private-data"
+    }
+  ]
 }
