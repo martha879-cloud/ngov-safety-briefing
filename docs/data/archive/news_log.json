@@ -2846,5 +2846,37 @@
     "source_url": "https://www.newtimes.co.rw/article/39566/news/security/cybersecurity-rwandans-urged-to-protect-private-data",
     "feed": "NewsData.io",
     "first_seen_date": "2026-10-10"
+  },
+  {
+    "id": "newsdata-001",
+    "country": "베트남",
+    "category": "security",
+    "severity": "low",
+    "title": "Food Bank Vietnam marks decade of impact, unveils new food security roadmap",
+    "title_en": "Food Bank Vietnam marks decade of impact, unveils new food security roadmap",
+    "summary": "Marking a decade of community impact on October 10, Food Bank Vietnam unveiled a forward-looking national roadmap at the Vietnam Food System Summit 2026, successfully pivoting its core mission from emergency food relief toward circular economy solutions and long-term systemic food security.",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-10-10",
+    "source": "Vietnamnews.vn",
+    "source_url": "https://vietnamnews.vn/society/1801706/food-bank-vietnam-marks-decade-of-impact-unveils-new-food-security-roadmap.html",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-10-11"
+  },
+  {
+    "id": "newsdata-002",
+    "country": "이집트",
+    "category": "health",
+    "severity": "low",
+    "title": "Egypt Turns 25 Years of Gaucher Care Into a Global Rare-Disease Asset",
+    "title_en": "Egypt Turns 25 Years of Gaucher Care Into a Global Rare-Disease Asset",
+    "summary": "Egypt has built one of the world’s most significant long-term clinical records on type 3 Gaucher disease while sustaining a treatment-access model that has operated for more than a quarter of a century. The achievement has returned to focus after Prof. Amal El-Beshlawy, Professor of Paediatric Haematology at Cairo University, received Sanofi’s 2026 Rare Luminary […] The post Egypt Turns 25 Years of Gaucher Care Into a Global Rare-Disease Asset appeared first on The Middle East Observer.",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-10-10",
+    "source": "The Middle East Observer",
+    "source_url": "https://meobserver.news/health-care/2026/10/10/egypt-turns-25-years-of-gaucher-care-into-a-global-rare-disease-asset/",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-10-11"
   }
 ]

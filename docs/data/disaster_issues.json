@@ -1,6 +1,54 @@
 {
-  "updated": "2026-10-10 11:02",
+  "updated": "2026-10-11 08:11",
   "issues": [
+    {
+      "id": "usgs-us6000u1gu",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.5 지진 발생 (171 km SSW of Pagar Alam, Indonesia)",
+      "summary": "USGS 관측 기준 M4.5 규모의 지진이 발생했습니다 (171 km SSW of Pagar Alam, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-10-10",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1gu",
+      "lat": -5.403,
+      "lng": 102.5418,
+      "magnitude": 4.5
+    },
+    {
+      "id": "usgs-us6000u1cv",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "M5.0 지진 발생 (141 km E of Bitung, Indonesia)",
+      "summary": "USGS 관측 기준 M5.0 규모의 지진이 발생했습니다 (141 km E of Bitung, Indonesia).",
+      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-10-10",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1cv",
+      "lat": 1.6248,
+      "lng": 126.3886,
+      "magnitude": 5
+    },
+    {
+      "id": "usgs-us6000u1bs",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "M5.1 지진 발생 (133 km WNW of Ternate, Indonesia)",
+      "summary": "USGS 관측 기준 M5.1 규모의 지진이 발생했습니다 (133 km WNW of Ternate, Indonesia).",
+      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-10-10",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1bs",
+      "lat": 1.416,
+      "lng": 126.3601,
+      "magnitude": 5.1
+    },
     {
       "id": "usgs-us6000u14w",
       "country": "인도네시아",
@@ -384,22 +432,6 @@
       "lat": 3.5895,
       "lng": 122.9296,
       "magnitude": 4.5
-    },
-    {
-      "id": "usgs-us6000tzer",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "M5.9 지진 발생 (39 km WSW of Tambolaka, Indonesia)",
-      "summary": "USGS 관측 기준 M5.9 규모의 지진이 발생했습니다 (39 km WSW of Tambolaka, Indonesia).",
-      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-10-03",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzer",
-      "lat": -9.5672,
-      "lng": 118.9078,
-      "magnitude": 5.9
     }
   ]
 }
