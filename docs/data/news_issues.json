@@ -1,92 +1,8 @@
 {
-  "updated": "2026-10-11 10:30",
+  "updated": "2026-10-12 08:10",
   "issues": [
     {
-      "id": "news-004",
-      "country": "방글라데시",
-      "category": "conflict",
-      "severity": "high",
-      "title": "Afghanistan Pace Attack Hits Back As Bangladesh End Day One Of One-Off Test On 317/8 In Abu Dhabi",
-      "title_en": "Afghanistan Pace Attack Hits Back As Bangladesh End Day One Of One-Off Test On 317/8 In Abu Dhabi",
-      "summary": "Afghanistan’s pace attack fought back late on October 9, 2026, in Abu Dhabi as Bangladesh finished day one of the only Test on 317 for eight. Mohammad Saleem, Yamin Ahmadzai and Ismat Alam shared seven wickets, while Tanzid Hasan, Shadman Islam and Litton Das scored fifties for Bangladesh",
-      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
-      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
-      "published_at": "2026-10-09",
-      "source": "Outlook India",
-      "source_url": "https://www.outlookindia.com/sports/cricket/afghanistan-vs-bangladesh-one-off-test-day-1-2026-report"
-    },
-    {
-      "id": "news-007",
-      "country": "우간다",
-      "category": "health",
-      "severity": "high",
-      "title": "New Ebola vaccine trials begin in Uganda amid deadly DR Congo outbreak",
-      "title_en": "New Ebola vaccine trials begin in Uganda amid deadly DR Congo outbreak",
-      "summary": "New Ebola vaccine trials begin in Uganda amid deadly DR Congo outbreak - Kinshasa, Oct 8 A candidate vaccine against the Bundibugyo Ebola virus has entered a new phase of clinical ... Get Latest News on International only on lokmattimes.com",
-      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
-      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
-      "published_at": "2026-10-08",
-      "source": "Lokmat Times",
-      "source_url": "https://www.lokmattimes.com/international/new-ebola-vaccine-trials-begin-in-uganda-amid-deadly-dr-congo-outbreak/"
-    },
-    {
       "id": "news-001",
-      "country": "라오스",
-      "category": "conflict",
-      "severity": "high",
-      "title": "Satellite images show attack jets at Chinese military facility in Laos",
-      "title_en": "Satellite images show attack jets at Chinese military facility in Laos",
-      "summary": "New ‘support and training centre’ prompts concern in region but China says it is ‘not directed at any third party’",
-      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
-      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
-      "published_at": "2026-10-07",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/world/2026/oct/07/satellite-images-attack-jets-china-military-facility-laos"
-    },
-    {
-      "id": "news-008",
-      "country": "케냐",
-      "category": "health",
-      "severity": "high",
-      "title": "Kenya: Health Minister insists no ebola outbreak in country",
-      "title_en": "Kenya: Health Minister insists no ebola outbreak in country",
-      "summary": "Kenya is not in the grips of an ebola outbreak, the country's health secretary insisted on Wednesday, in the wake of Kenya's first death from the disease.",
-      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
-      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
-      "published_at": "2026-10-07",
-      "source": "Africanews",
-      "source_url": "https://www.africanews.com/2026/10/07/kenya-health-minister-insists-no-ebola-outbreak-in-country/"
-    },
-    {
-      "id": "news-002",
-      "country": "라오스",
-      "category": "conflict",
-      "severity": "high",
-      "title": "K-8 attack jets, military vehicles spotted at new China-Laos air base: Report",
-      "title_en": "K-8 attack jets, military vehicles spotted at new China-Laos air base: Report",
-      "summary": "China is expanding its military presence in Southeast Asia, with satellite imagery showing light attack aircraft and military vehicles at a newly",
-      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
-      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
-      "published_at": "2026-10-06",
-      "source": "Times of India",
-      "source_url": "https://timesofindia.indiatimes.com/world/china/k-8-attack-jets-military-vehicles-spotted-at-new-china-laos-air-base-report/articleshow/134740777.cms"
-    },
-    {
-      "id": "news-003",
-      "country": "라오스",
-      "category": "conflict",
-      "severity": "high",
-      "title": "Attack aircraft, military vehicles visible at new China-Laos base, satellite images show",
-      "title_en": "Attack aircraft, military vehicles visible at new China-Laos base, satellite images show",
-      "summary": "China has moved light attack aircraft and military vehicles into a newly announced joint training facility in Laos, according to satellite images reviewed by Reuters. Analysts say the Ban Keun site could eventually become Chinas most significant military foothold in Southeast Asia if it develops beyond training into a base with expanded air, surveillance and support capabilities.",
-      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
-      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
-      "published_at": "2026-10-06",
-      "source": "The Economic Times",
-      "source_url": "https://economictimes.indiatimes.com/news/defence/attack-aircraft-military-vehicles-visible-at-new-china-laos-base-satellite-images-show/articleshow/134735878.cms"
-    },
-    {
-      "id": "news-006",
       "country": "인도네시아",
       "category": "natural_disaster",
       "severity": "medium",
@@ -98,20 +14,6 @@
       "published_at": "2026-10-06",
       "source": "Daily Express",
       "source_url": "https://www.express.co.uk/news/world/2255035/bali-earthquake-live-huge-tremors"
-    },
-    {
-      "id": "news-005",
-      "country": "베트남",
-      "category": "health",
-      "severity": "high",
-      "title": "Virological and epidemiological investigations of a severe hand foot and mouth disease outbreak, Vietnam, 2023",
-      "title_en": "Virological and epidemiological investigations of a severe hand foot and mouth disease outbreak, Vietnam, 2023",
-      "summary": "Author summary In 2023, Vietnam experienced a large and severe outbreak of hand food and mouth disease in children. Our investigations showed that enterovirus A71 (EV-A71) subgenogroup B5, first emerging around November 2022, and then introduced into Vietnam through a single event, was the main cause. Blood samples from patients who recovered from subgenogroups B5 infection in 2014 and 2023 could neutralize both contemporary viruses without evidence of immune evasion. Before the start of the outbreak, only 6.7% of 0– < 3 year-old children in Ho Chi Minh City, an epicenter of the outbreak, had neutralizing antibodies that can block EV-A71 infection. Seroprevalence increased as the outbreak progressed, while the number of the infected patients decreased. Monitoring population immunity against EV-A71 could help assess the risk of pathogen emergence. EV-A71 infection represents an ongoing public health threat, currently affecting countries in the Asia-Pacific region, but with a high potential to become a global problem, and therefore should be closely monitored.",
-      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
-      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
-      "published_at": "2026-10-05",
-      "source": "PLOS (Public Library of Science)",
-      "source_url": "https://journals.plos.org/plosntds/article?id=10.1371%2Fjournal.pntd.0014789"
     }
   ]
 }

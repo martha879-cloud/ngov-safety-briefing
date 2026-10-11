@@ -1,4 +1,33 @@
 {
-  "updated": "2026-10-11 10:30",
-  "issues": []
+  "updated": "2026-10-12 08:11",
+  "issues": [
+    {
+      "id": "newsdata-001",
+      "country": "베트남",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "Vietnam sends condolences to Panama over serious earthquake",
+      "title_en": "Vietnam sends condolences to Panama over serious earthquake",
+      "summary": "General Secretary of the Communist Party of Vietnam Central Committee and President To Lam on October 11 sent a message of condolences to Panamanian President José Raúl Mulino Quintero following an earthquake on October 9 that injured many people and caused heavy damage. Vietnam, Panama elevate ties to new stage of substantive, effective cooperation: official Vietnam, Panama seek to expand economic cooperation Vietnam, Panama issue Joint Statement",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-10-11",
+      "source": "Vietnam+",
+      "source_url": "https://en.vietnamplus.vn/vietnam-sends-condolences-to-panama-over-serious-earthquake-post353462.vnp"
+    },
+    {
+      "id": "newsdata-002",
+      "country": "이집트",
+      "category": "conflict",
+      "severity": "high",
+      "title": "Up to 12 casualties in attack on Saudi Arabia – including an Egyptian flight attendant",
+      "title_en": "Up to 12 casualties in attack on Saudi Arabia – including an Egyptian flight attendant",
+      "summary": "Saudi Arabia’s General Authority of Civil Aviation on Sunday announced that the toll from the attack targeting King Khalid International Airport in Riyadh had risen to 12 casualties and 309 injuries. The victims were of various nationalities, the authority noted, while assessments of material damage remain ongoing. In a follow-up statement regarding the attack—which took … The post Up to 12 casualties in attack on Saudi Arabia – including an Egyptian flight attendant appeared first on Egypt Independent.",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 활동 지속 여부를 검토하세요.",
+      "published_at": "2026-10-11",
+      "source": "Egyptindependent",
+      "source_url": "https://www.egyptindependent.com/up-to-12-casualties-in-attack-on-saudi-arabia-including-an-egyptian-flight-attendant/"
+    }
+  ]
 }
