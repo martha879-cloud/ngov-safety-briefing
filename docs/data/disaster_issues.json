@@ -1,6 +1,22 @@
 {
-  "updated": "2026-10-12 08:11",
+  "updated": "2026-10-12 11:00",
   "issues": [
+    {
+      "id": "usgs-us6000u1mv",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.5 지진 발생 (116 km SE of Nabire, Indonesia)",
+      "summary": "USGS 관측 기준 M4.5 규모의 지진이 발생했습니다 (116 km SE of Nabire, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-10-11",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1mv",
+      "lat": -4.079,
+      "lng": 136.2635,
+      "magnitude": 4.5
+    },
     {
       "id": "usgs-us6000u1mj",
       "country": "인도네시아",

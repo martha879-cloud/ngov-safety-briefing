@@ -3022,5 +3022,21 @@
     "source_url": "https://www.egyptindependent.com/up-to-12-casualties-in-attack-on-saudi-arabia-including-an-egyptian-flight-attendant/",
     "feed": "NewsData.io",
     "first_seen_date": "2026-10-12"
+  },
+  {
+    "id": "newsdata-001",
+    "country": "케냐",
+    "category": "health",
+    "severity": "medium",
+    "title": "PS Muthoni says Kenya has no Ebola outbreak as surveillance intensifies",
+    "title_en": "PS Muthoni says Kenya has no Ebola outbreak as surveillance intensifies",
+    "summary": "Principal Secretary for Health and Professional Standards Mary Muthoni has assured Kenyans that the country has not experienced an Ebola outbreak, saying health authorities have stepped up surveillance following confirmation of a single imported case. Muthoni said the government was monitoring all points of entry, including unofficial crossing points, as part of efforts to detect […]",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-10-11",
+    "source": "People Daily",
+    "source_url": "https://peopledaily.digital/news/ps-muthoni-says-kenya-has-no-ebola-outbreak-as-surveillance-intensifies",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-10-12"
   }
 ]

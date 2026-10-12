@@ -1,19 +1,61 @@
 {
-  "updated": "2026-10-12 08:10",
+  "updated": "2026-10-12 11:00",
   "issues": [
     {
       "id": "news-001",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "Bali earthquake LIVE: Huge tremors rock Indonesia as Brits left 'terrified!'",
-      "title_en": "Bali earthquake LIVE: Huge tremors rock Indonesia as Brits left 'terrified!'",
-      "summary": "The quake has sparked panic.",
-      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
-      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "country": "라오스",
+      "category": "conflict",
+      "severity": "high",
+      "title": "Satellite images show attack jets at Chinese military facility in Laos",
+      "title_en": "Satellite images show attack jets at Chinese military facility in Laos",
+      "summary": "New ‘support and training centre’ prompts concern in region but China says it is ‘not directed at any third party’",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
+      "published_at": "2026-10-07",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/world/2026/oct/07/satellite-images-attack-jets-china-military-facility-laos"
+    },
+    {
+      "id": "news-004",
+      "country": "케냐",
+      "category": "health",
+      "severity": "high",
+      "title": "Kenya: Health Minister insists no ebola outbreak in country",
+      "title_en": "Kenya: Health Minister insists no ebola outbreak in country",
+      "summary": "Kenya is not in the grips of an ebola outbreak, the country's health secretary insisted on Wednesday, in the wake of Kenya's first death from the disease.",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
+      "published_at": "2026-10-07",
+      "source": "Africanews",
+      "source_url": "https://www.africanews.com/2026/10/07/kenya-health-minister-insists-no-ebola-outbreak-in-country/"
+    },
+    {
+      "id": "news-002",
+      "country": "라오스",
+      "category": "conflict",
+      "severity": "high",
+      "title": "K-8 attack jets, military vehicles spotted at new China-Laos air base: Report",
+      "title_en": "K-8 attack jets, military vehicles spotted at new China-Laos air base: Report",
+      "summary": "China is expanding its military presence in Southeast Asia, with satellite imagery showing light attack aircraft and military vehicles at a newly",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
       "published_at": "2026-10-06",
-      "source": "Daily Express",
-      "source_url": "https://www.express.co.uk/news/world/2255035/bali-earthquake-live-huge-tremors"
+      "source": "Times of India",
+      "source_url": "https://timesofindia.indiatimes.com/world/china/k-8-attack-jets-military-vehicles-spotted-at-new-china-laos-air-base-report/articleshow/134740777.cms"
+    },
+    {
+      "id": "news-003",
+      "country": "라오스",
+      "category": "conflict",
+      "severity": "high",
+      "title": "Attack aircraft, military vehicles visible at new China-Laos base, satellite images show",
+      "title_en": "Attack aircraft, military vehicles visible at new China-Laos base, satellite images show",
+      "summary": "China has moved light attack aircraft and military vehicles into a newly announced joint training facility in Laos, according to satellite images reviewed by Reuters. Analysts say the Ban Keun site could eventually become Chinas most significant military foothold in Southeast Asia if it develops beyond training into a base with expanded air, surveillance and support capabilities.",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
+      "published_at": "2026-10-06",
+      "source": "The Economic Times",
+      "source_url": "https://economictimes.indiatimes.com/news/defence/attack-aircraft-military-vehicles-visible-at-new-china-laos-base-satellite-images-show/articleshow/134735878.cms"
     }
   ]
 }
