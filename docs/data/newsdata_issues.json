@@ -1,4 +1,19 @@
 {
-  "updated": "2026-10-13 08:11",
-  "issues": []
+  "updated": "2026-10-13 12:19",
+  "issues": [
+    {
+      "id": "newsdata-001",
+      "country": "모로코",
+      "category": "transport",
+      "severity": "low",
+      "title": "China And The EU Could Turn Morocco Into A Surprise Global Hub For Electric Vehicles #China #Turn #Morocco #Into #Surprise #Global #Electric #Vehicles #Airports #Flights #Cars #Vessels #Electric #Vechicle",
+      "title_en": "China And The EU Could Turn Morocco Into A Surprise Global Hub For Electric Vehicles #China #Turn #Morocco #Into #Surprise #Global #Electric #Vehicles #Airports #Flights #Cars #Vessels #Electric #Vechicle",
+      "summary": "(MENAFN - The Conversation) China now makes more than seven in ten of the world's electric cars. In 2024 it produced over 12 million, 1.25 million of which were exported, mainly to Europe. The EU is ...",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-10-12",
+      "source": "Menafn",
+      "source_url": "https://menafn.com/1111797056/China-And-The-EU-Could-Turn-Morocco-Into-A-Surprise-Global-Hub-For-Electric-Vehicles"
+    }
+  ]
 }
