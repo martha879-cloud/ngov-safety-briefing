@@ -1,6 +1,22 @@
 {
-  "updated": "2026-10-14 10:33",
+  "updated": "2026-10-15 08:11",
   "issues": [
+    {
+      "id": "usgs-us6000u28e",
+      "country": "탄자니아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.6 지진 발생 (42 km NNE of Kilimatinde, Tanzania)",
+      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (42 km NNE of Kilimatinde, Tanzania).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-10-14",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u28e",
+      "lat": -5.4767,
+      "lng": 35.0428,
+      "magnitude": 4.6
+    },
     {
       "id": "usgs-us6000u21y",
       "country": "필리핀",
@@ -447,38 +463,6 @@
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0vw",
       "lat": -7.8993,
       "lng": 121.0443,
-      "magnitude": 4.7
-    },
-    {
-      "id": "usgs-us6000u0t4",
-      "country": "필리핀",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.7 지진 발생 (34 km E of Sarangani, Philippines)",
-      "summary": "USGS 관측 기준 M4.7 규모의 지진이 발생했습니다 (34 km E of Sarangani, Philippines).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-10-07",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0t4",
-      "lat": 5.3818,
-      "lng": 125.7754,
-      "magnitude": 4.7
-    },
-    {
-      "id": "usgs-us6000u0qw",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.7 지진 발생 (22 km WNW of Manado, Indonesia)",
-      "summary": "USGS 관측 기준 M4.7 규모의 지진이 발생했습니다 (22 km WNW of Manado, Indonesia).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-10-07",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0qw",
-      "lat": 1.5798,
-      "lng": 124.6702,
       "magnitude": 4.7
     }
   ]

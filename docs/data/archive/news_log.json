@@ -3198,5 +3198,37 @@
     "source_url": "https://en.vietnamplus.vn/defence-security-cooperation-is-an-important-pillar-of-vietnamlaos-ties-pm-post353598.vnp",
     "feed": "NewsData.io",
     "first_seen_date": "2026-10-14"
+  },
+  {
+    "id": "newsdata-001",
+    "country": "인도네시아",
+    "category": "conflict",
+    "severity": "high",
+    "title": "Indonesia: Two Citizens Injured in Riyadh Airport Attack Have Recovered",
+    "title_en": "Indonesia: Two Citizens Injured in Riyadh Airport Attack Have Recovered",
+    "summary": "Indonesia's Foreign Affairs Ministry confirmed two citizens were among the victims of the Riyadh airport attack.",
+    "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+    "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 활동 지속 여부를 검토하세요.",
+    "published_at": "2026-10-14",
+    "source": "Tempo.co",
+    "source_url": "https://en.tempo.co/read/2121592/indonesia-two-citizens-injured-in-riyadh-airport-attack-have-recovered",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-10-15"
+  },
+  {
+    "id": "newsdata-002",
+    "country": "이집트",
+    "category": "conflict",
+    "severity": "high",
+    "title": "Netanyahu acknowledges former Egyptian intelligence chief visited Israel before 7 October attack",
+    "title_en": "Netanyahu acknowledges former Egyptian intelligence chief visited Israel before 7 October attack",
+    "summary": "Israeli Prime Minister Benjamin Netanyahu acknowledged on Tuesday that former Egyptian intelligence chief Abbas Kamel visited Israel 11 days before the 7th October 2023 attack, amid previous reports that Cairo had warned Israel that Hamas was preparing a large-scale assault from the Gaza Strip. Speaking to HaPatriotim, a programme on Israel’s Channel 14, which is close to Netanyahu, he confirmed that an Egyptian aircraft had landed in Israel before the attack and called for an investigation into whom Kamel had met. “I want to know who he met, because there are people who want to pin this on me,” Netanyahu said, adding that he was attending a memorial ceremony for Israeli soldiers at the time. He urged security and law […]",
+    "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+    "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 활동 지속 여부를 검토하세요.",
+    "published_at": "2026-10-14",
+    "source": "Middle East Monitor",
+    "source_url": "https://www.middleeastmonitor.com/20261014-netanyahu-acknowledges-former-egyptian-intelligence-chief-visited-israel-before-7-october-attack/",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-10-15"
   }
 ]

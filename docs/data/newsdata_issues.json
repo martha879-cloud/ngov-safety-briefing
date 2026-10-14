@@ -1,19 +1,33 @@
 {
-  "updated": "2026-10-14 10:33",
+  "updated": "2026-10-15 08:11",
   "issues": [
     {
       "id": "newsdata-001",
-      "country": "베트남",
-      "category": "security",
-      "severity": "low",
-      "title": "Defence, security cooperation is an important pillar of Vietnam–Laos ties: PM",
-      "title_en": "Defence, security cooperation is an important pillar of Vietnam–Laos ties: PM",
-      "summary": "Expressing his pleasure at the positive development of the special relationship between Vietnam and Laos, the PM highlighted defence and security cooperation as an important pillar of the bilateral ties. He praised the two defence ministries and armies for implementing high-level agreements, strengthening mutual trust and helping maintain a peaceful and stable environment conducive to socio-economic development. PM’s visit injects fresh momentum into Vietnam-Laos special relations Vietnam, Laos strengthen defence cooperation Vietnam, Laos strengthen cooperation in combating transnational crime",
-      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-10-13",
-      "source": "Vietnam+",
-      "source_url": "https://en.vietnamplus.vn/defence-security-cooperation-is-an-important-pillar-of-vietnamlaos-ties-pm-post353598.vnp"
+      "country": "인도네시아",
+      "category": "conflict",
+      "severity": "high",
+      "title": "Indonesia: Two Citizens Injured in Riyadh Airport Attack Have Recovered",
+      "title_en": "Indonesia: Two Citizens Injured in Riyadh Airport Attack Have Recovered",
+      "summary": "Indonesia's Foreign Affairs Ministry confirmed two citizens were among the victims of the Riyadh airport attack.",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 활동 지속 여부를 검토하세요.",
+      "published_at": "2026-10-14",
+      "source": "Tempo.co",
+      "source_url": "https://en.tempo.co/read/2121592/indonesia-two-citizens-injured-in-riyadh-airport-attack-have-recovered"
+    },
+    {
+      "id": "newsdata-002",
+      "country": "이집트",
+      "category": "conflict",
+      "severity": "high",
+      "title": "Netanyahu acknowledges former Egyptian intelligence chief visited Israel before 7 October attack",
+      "title_en": "Netanyahu acknowledges former Egyptian intelligence chief visited Israel before 7 October attack",
+      "summary": "Israeli Prime Minister Benjamin Netanyahu acknowledged on Tuesday that former Egyptian intelligence chief Abbas Kamel visited Israel 11 days before the 7th October 2023 attack, amid previous reports that Cairo had warned Israel that Hamas was preparing a large-scale assault from the Gaza Strip. Speaking to HaPatriotim, a programme on Israel’s Channel 14, which is close to Netanyahu, he confirmed that an Egyptian aircraft had landed in Israel before the attack and called for an investigation into whom Kamel had met. “I want to know who he met, because there are people who want to pin this on me,” Netanyahu said, adding that he was attending a memorial ceremony for Israeli soldiers at the time. He urged security and law […]",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 활동 지속 여부를 검토하세요.",
+      "published_at": "2026-10-14",
+      "source": "Middle East Monitor",
+      "source_url": "https://www.middleeastmonitor.com/20261014-netanyahu-acknowledges-former-egyptian-intelligence-chief-visited-israel-before-7-october-attack/"
     }
   ]
 }
