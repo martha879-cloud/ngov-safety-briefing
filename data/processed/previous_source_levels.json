@@ -83,8 +83,8 @@
   },
   "탄자니아": {
     "state_dept": {
-      "severity": "high",
-      "title": "Tanzania - Level 3: Reconsider Travel"
+      "severity": "medium",
+      "title": "Tanzania - Level 2: Exercise Increased Caution"
     },
     "cdc": {
       "severity": "medium",
