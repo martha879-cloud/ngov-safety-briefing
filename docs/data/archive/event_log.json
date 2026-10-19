@@ -1774,5 +1774,13 @@
     "source": "🏛️ 외교부",
     "change": "🟠 → 🟡",
     "reason": "외교부 여행경보: 여행자제(황색경보) (일부 지역 한정 경보이며, 지역별로 상이할 수 있음 · 0404.go.kr 확인 권장)"
+  },
+  {
+    "date": "2026-10-20",
+    "country": "케냐",
+    "flag": "🇰🇪",
+    "source": "🇺🇸 미국 국무부",
+    "change": "Kenya - Level 2: Exercise Increased Caution → Kenya - Level 3: Reconsider Travel",
+    "reason": "Reconsider travel to Kenya due to risk of health, crime, kidnapping, terrorism, unrest , and traffic safety . Some areas have increased risk. Read the entire Travel Advisory. The U.S. Centers for Disease Control and Prevention (CDC) has issued a Travel Health Notice for Ebola Bundibugyo Virus Diseas"
   }
 ]

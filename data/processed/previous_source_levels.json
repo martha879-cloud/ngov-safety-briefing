@@ -129,8 +129,12 @@
   },
   "케냐": {
     "state_dept": {
-      "severity": "medium",
-      "title": "Kenya - Level 2: Exercise Increased Caution"
+      "severity": "high",
+      "title": "Kenya - Level 3: Reconsider Travel"
+    },
+    "cdc": {
+      "severity": "low",
+      "title": "Ebola Bundibugyo Virus Disease in Kenya (CDC 1단계 (평상시 예방수칙 준수))"
     }
   }
 }
