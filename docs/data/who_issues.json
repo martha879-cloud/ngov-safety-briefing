@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20 10:28",
+  "updated": "2026-10-21 08:11",
   "issues": [
     {
       "id": "who-uganda-2026-07-17",
@@ -14,20 +14,6 @@
       "published_at": "2026-07-17",
       "source": "WHO",
       "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON613"
-    },
-    {
-      "id": "who-bangladesh-2026-04-23",
-      "country": "방글라데시",
-      "category": "health",
-      "severity": "medium",
-      "title": "Measles - Bangladesh",
-      "title_en": "Measles - Bangladesh",
-      "summary": "WHO Disease Outbreak News: Measles - Bangladesh",
-      "volunteer_impact": "WHO가 발표한 발병 정보입니다 (Measles - Bangladesh). 관련 예방수칙 및 건강관리 여부를 확인하세요.",
-      "recommended_action": "WHO 발병정보 원문과 현지 보건당국 발표를 확인하고, 필요한 예방접종·위생수칙을 점검하세요.",
-      "published_at": "2026-04-23",
-      "source": "WHO",
-      "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON598"
     }
   ]
 }

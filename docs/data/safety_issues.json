@@ -1,19 +1,6 @@
 {
-  "updated": "2026-10-20 10:28",
+  "updated": "2026-10-21 08:10",
   "issues": [
-    {
-      "id": "탄자니아-2026-10-19-2",
-      "country": "탄자니아",
-      "category": "official_notice",
-      "severity": "low",
-      "title": "에볼라 관련 입국 검역 강화 안내",
-      "summary": "외교부 해외안전여행 안전공지에 등록된 최근 안전 관련 정보입니다.",
-      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "외교부 안전공지와 현지 상황을 지속적으로 확인하세요.",
-      "published_at": "2026-10-19",
-      "source": "외교부 해외안전공지",
-      "source_url": "https://www.0404.go.kr/bbs/safetyNtc/1347301/detail2?ntnCd=225"
-    },
     {
       "id": "케냐-2026-09-21-1",
       "country": "케냐",
