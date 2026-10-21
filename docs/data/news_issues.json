@@ -1,61 +1,33 @@
 {
-  "updated": "2026-10-21 08:11",
+  "updated": "2026-10-21 10:12",
   "issues": [
     {
-      "id": "news-001",
-      "country": "과테말라",
-      "category": "conflict",
-      "severity": "low",
-      "title": "Killing of former anti-graft prosecutor a grim milestone in Guatemala's political violence",
-      "title_en": "Killing of former anti-graft prosecutor a grim milestone in Guatemala's political violence",
-      "summary": "GUATEMALA CITY, Oct 19 - The assassination at the weekend of anti-graft lawyer Juan Francisco Solorzano Foppa, who made powerful enemies by taking on Guatemala's elite, marks one of the most significant political killings in the country in recent decades, renewing concerns about the vulnerability of those who fight corruption in Central America. Read more at straitstimes.com.",
-      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-10-19",
-      "source": "The Straits Times",
-      "source_url": "https://www.straitstimes.com/world/killing-of-former-anti-graft-prosecutor-a-grim-milestone-in-guatemalas-political-violence"
-    },
-    {
       "id": "news-002",
-      "country": "과테말라",
-      "category": "conflict",
-      "severity": "low",
-      "title": "Killing of Former Anti-Graft Prosecutor a Grim Milestone in Guatemala's Political Violence",
-      "title_en": "Killing of Former Anti-Graft Prosecutor a Grim Milestone in Guatemala's Political Violence",
-      "summary": "US News is a recognized leader in college, grad school, hospital, mutual fund, and car rankings. Track elected officials, research health conditions, and find news you can use in politics, business, health, and education.",
-      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-10-19",
-      "source": "U.S. News & World Report",
-      "source_url": "https://www.usnews.com/news/world/articles/2026-10-19/killing-of-former-anti-graft-prosecutor-a-grim-milestone-in-guatemalas-political-violence"
+      "country": "르완다",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "F1’s Rwanda gamble: Historic Grand Prix deal sparks sportswashing storm",
+      "title_en": "F1’s Rwanda gamble: Historic Grand Prix deal sparks sportswashing storm",
+      "summary": "KIGALI, Oct 17 — Viewed by some as “sportswashing” and by others as an overly ambitious, grandiose project, the prospect of a Formula 1 Grand Prix in Rwanda has provoked...",
+      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-10-17",
+      "source": "Malay Mail",
+      "source_url": "https://www.malaymail.com/news/sports/2026/10/17/f1s-rwanda-gamble-historic-grand-prix-deal-sparks-sportswashing-storm/239426"
     },
     {
-      "id": "news-003",
-      "country": "과테말라",
-      "category": "conflict",
-      "severity": "low",
-      "title": "Killing of former anti-graft prosecutor a grim milestone in Guatemala's political violence",
-      "title_en": "Killing of former anti-graft prosecutor a grim milestone in Guatemala's political violence",
-      "summary": "Read more about Killing of former anti-graft prosecutor a grim milestone in Guatemala's political violence on Devdiscourse",
-      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-10-19",
-      "source": "Devdiscourse",
-      "source_url": "https://www.devdiscourse.com/article/international/3994983-killing-of-former-anti-graft-prosecutor-a-grim-milestone-in-guatemalas-political-violence"
-    },
-    {
-      "id": "news-004",
-      "country": "도미니카공화국",
+      "id": "news-001",
+      "country": "캄보디아",
       "category": "security",
-      "severity": "low",
-      "title": "Dominican Republic Security Data Under President Abinader: How to Read the Latest Indicators",
-      "title_en": "Dominican Republic Security Data Under President Abinader: How to Read the Latest Indicators",
-      "summary": "Dominican Republic homicide rates fell to 7.37 per 100,000 people through August 14, 2026, as President Luis Abinader's administration strengthens crime data validation and security monitoring.",
+      "severity": "medium",
+      "title": "Cambodian leadership: Combatting cross-border crimes requires cross-border teamwork",
+      "title_en": "Cambodian leadership: Combatting cross-border crimes requires cross-border teamwork",
+      "summary": "PHNOM PENH: Cambodia has called for stronger international cooperation to combat transnational crime, cybercrime and online scams, with Prime Minister Hun Manet warning that increasingly sophisticated criminal activities cannot be effectively addressed by any country acting alone.",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-10-13",
-      "source": "International Business Times",
-      "source_url": "https://www.ibtimes.com/dominican-republic-security-data-under-president-abinader-how-read-latest-indicators-3808551"
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-10-16",
+      "source": "The Star",
+      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/16/cambodian-leadership-combatting-cross-border-crimes-requires-cross-border-teamwork"
     }
   ]
 }
