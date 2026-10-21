@@ -3406,5 +3406,21 @@
     "source_url": "https://www.devdiscourse.com/article/international/3994983-killing-of-former-anti-graft-prosecutor-a-grim-milestone-in-guatemalas-political-violence",
     "feed": "GNews",
     "first_seen_date": "2026-10-21"
+  },
+  {
+    "id": "newsdata-001",
+    "country": "우간다",
+    "category": "security",
+    "severity": "low",
+    "title": "Left out at the gate: The security guards keeping Uganda’s hospitality alive",
+    "title_en": "Left out at the gate: The security guards keeping Uganda’s hospitality alive",
+    "summary": "When most businesses across Uganda recently rolled out the red carpet to celebrate Customer Service Week, a critical group of frontline workers was entirely left out of the conversation. Receptionists, call-centre agents, and restaurant waiters received accolades, while the men and women sitting or standing at the gate were overlooked. Yet, long before a customer […] The post Left out at the gate: The security guards keeping Uganda’s hospitality alive appeared first on The Observer Media Ltd.",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-10-21",
+    "source": "The Observer",
+    "source_url": "https://observer.ug/news/left-out-at-the-gate-the-security-guards-keeping-ugandas-hospitality-alive/",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-10-22"
   }
 ]
