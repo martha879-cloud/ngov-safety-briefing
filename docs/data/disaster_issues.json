@@ -1,6 +1,22 @@
 {
-  "updated": "2026-10-22 10:09",
+  "updated": "2026-10-23 08:11",
   "issues": [
+    {
+      "id": "usgs-us6000u42q",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.9 지진 발생 (85 km NNW of Curup, Indonesia)",
+      "summary": "USGS 관측 기준 M4.9 규모의 지진이 발생했습니다 (85 km NNW of Curup, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-10-22",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u42q",
+      "lat": -2.8037,
+      "lng": 102.1272,
+      "magnitude": 4.9
+    },
     {
       "id": "usgs-us6000u3t6",
       "country": "필리핀",
@@ -240,38 +256,6 @@
       "lat": 7.8392,
       "lng": 126.799,
       "magnitude": 4.9
-    },
-    {
-      "id": "usgs-us6000u2kz",
-      "country": "과테말라",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.5 지진 발생 (44 km SSE of Champerico, Guatemala)",
-      "summary": "USGS 관측 기준 M4.5 규모의 지진이 발생했습니다 (44 km SSE of Champerico, Guatemala).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-10-15",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2kz",
-      "lat": 13.9013,
-      "lng": -91.8178,
-      "magnitude": 4.5
-    },
-    {
-      "id": "usgs-us6000u2er",
-      "country": "필리핀",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.6 지진 발생 (67 km N of Namuac, Philippines)",
-      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (67 km N of Namuac, Philippines).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-10-15",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2er",
-      "lat": 19.2179,
-      "lng": 121.2525,
-      "magnitude": 4.6
     }
   ]
 }
