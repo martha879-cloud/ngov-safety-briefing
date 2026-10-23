@@ -1,19 +1,47 @@
 {
-  "updated": "2026-10-23 08:11",
+  "updated": "2026-10-23 10:09",
   "issues": [
     {
       "id": "newsdata-001",
-      "country": "이집트",
+      "country": "도미니카공화국",
+      "category": "security",
+      "severity": "low",
+      "title": "FAO Director-General to visit Dominican Republic to review food security progress",
+      "title_en": "FAO Director-General to visit Dominican Republic to review food security progress",
+      "summary": "Food and Agriculture Organization of the United Nations (FAO) Director-General QU Dongyu will make an official visit to the Dominican Republic from October 23 to 27, accompanied by a high-level delegation. The […]",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-10-22",
+      "source": "Dominican Today",
+      "source_url": "https://dominicantoday.com/fao-director-general-to-visit-dominican-republic-to-review-food-security-progress/"
+    },
+    {
+      "id": "newsdata-002",
+      "country": "도미니카공화국",
+      "category": "security",
+      "severity": "low",
+      "title": "Milton Guevara says tourism depends on security and social order in the Dominican Republic",
+      "title_en": "Milton Guevara says tourism depends on security and social order in the Dominican Republic",
+      "summary": "Santo Domingo.- Milton Ray Guevara, president of the Commission for Monitoring and Socialization of the Penal Code, warned that tourism is incompatible with disorder and social instability, emphasizing the importance of combating […]",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-10-22",
+      "source": "Dominican Today",
+      "source_url": "https://dominicantoday.com/milton-guevara-says-tourism-depends-on-security-and-social-order-in-the-dominican-republic/"
+    },
+    {
+      "id": "newsdata-003",
+      "country": "요르단",
       "category": "conflict",
       "severity": "high",
-      "title": "Sisi says Egypt’s defence of Saudi Arabia will not include attacks in Yemen",
-      "title_en": "Sisi says Egypt’s defence of Saudi Arabia will not include attacks in Yemen",
-      "summary": "Sisi says Egypt’s defence of Saudi Arabia will not include attacks in Yemen Egyptian Foreign Minister Badr Abdelatty and intelligence chief Hassan Rashad met Saudi Crown Prince Mohammed bin Salman in Riyadh. Thursday 22/10/2026 CAIRO Egyptian President Abdel Fattah al-Sisi said Egypt’s military support for Saudi Arabia would be limited to defending the kingdom’s territory and borders and would not include an attack on the Houthis in Yemen, the presidency said on Wednesday, as the Iran-allied Houthis intensify attacks on the kingdom. Sisi’s comments came as Egyptian Foreign Minister Badr Abdelatty and intelligence chief Hassan Rashad met Saudi Crown Prince Mohammed bin Salman in Riyadh, Saudi state news agency SPA said. Abdelatty delivered a written message from Sisi to King Salman, and the two sides discussed bilateral ties and regional developments, SPA said. The letter concerned strengthening bilateral ties and affirmed Egypt’s full solidarity with and support for Saudi Arabia, Egypt’s foreign ministry said in a statement. Any Egyptian military backing for Saudi Arabia could mark a significant escalation in the broader Middle East conflict, which has threatened global energy supplies and pushed oil prices higher since the US and Israel attacked Iran in February. Egypt’s role would be limited to defending Saudi Arabia’s “territory and borders,” he said. He also pointed out that Egypt would defend the territory of any other Arab country if asked but its military effort would not extend beyond Egyptian territory or that of an Arab state whose security and stability Cairo was seeking to protect. On Monday, Egypt’s parliament delayed until October 26 a vote on authorising the armed forces to support Saudi Arabia if requested, lawmakers said. Fighting between the Saudi-led coalition backing Yemen’s internationally recognised government and the Houthis, who control the capital Sana’a and much of the north, has escalated in recent weeks, opening another front in the US-Israeli war on Iran. Egypt and Saudi Arabia are close strategic and economic partners. Saudi Arabia and other Gulf states, including the United Arab Emirates, provided Egypt with billions of dollars in aid, central bank deposits and investments after the 2013 overthrow of Islamist President Mohamed Mursi. Sisi became president a year later. Egypt, a regional military power, previously joined the Saudi-led coalition that intervened in Yemen in 2015 in support of the government against the Houthis, though it played a limited combat role in the civil war.",
+      "title": "Jordan condemns Houthi attack on Saudi Arabia, reaffirms support, solidarity",
+      "title_en": "Jordan condemns Houthi attack on Saudi Arabia, reaffirms support, solidarity",
+      "summary": "AMMAN — Jordan has condemned a Houthi attack on the King Fahd International Airport in Dammam, Saudi Arabia, on Wednesday that killed two people and inju...",
       "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
       "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 활동 지속 여부를 검토하세요.",
       "published_at": "2026-10-22",
-      "source": "The Arab Weekly",
-      "source_url": "http://thearabweekly.com/sisi-says-egypts-defence-saudi-arabia-will-not-include-attacks-yemen"
+      "source": "Jordan Times",
+      "source_url": "https://jordantimes.com/news/local/jordan-condemns-houthi-attack-on-saudi-arabia-reaffirms-support-solidarity"
     }
   ]
 }
