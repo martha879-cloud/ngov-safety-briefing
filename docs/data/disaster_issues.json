@@ -1,6 +1,38 @@
 {
-  "updated": "2026-10-23 10:09",
+  "updated": "2026-10-24 08:11",
   "issues": [
+    {
+      "id": "usgs-us6000u4h0",
+      "country": "필리핀",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.6 지진 발생 (73 km ENE of Kinablangan, Philippines)",
+      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (73 km ENE of Kinablangan, Philippines).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-10-23",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4h0",
+      "lat": 7.9163,
+      "lng": 127.1813,
+      "magnitude": 4.6
+    },
+    {
+      "id": "usgs-us6000u4b3",
+      "country": "필리핀",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.5 지진 발생 (18 km WNW of Bantogon, Philippines)",
+      "summary": "USGS 관측 기준 M4.5 규모의 지진이 발생했습니다 (18 km WNW of Bantogon, Philippines).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-10-23",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4b3",
+      "lat": 6.5678,
+      "lng": 123.8685,
+      "magnitude": 4.5
+    },
     {
       "id": "usgs-us6000u42q",
       "country": "인도네시아",
@@ -208,54 +240,6 @@
       "lat": -8.1086,
       "lng": 120.2824,
       "magnitude": 4.5
-    },
-    {
-      "id": "usgs-us6000u2qn",
-      "country": "탄자니아",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.6 지진 발생 (41 km NNE of Kilimatinde, Tanzania)",
-      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (41 km NNE of Kilimatinde, Tanzania).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-10-16",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2qn",
-      "lat": -5.524,
-      "lng": 35.1303,
-      "magnitude": 4.6
-    },
-    {
-      "id": "usgs-us6000u2pp",
-      "country": "필리핀",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.7 지진 발생 (10 km SE of Lamitan, Philippines)",
-      "summary": "USGS 관측 기준 M4.7 규모의 지진이 발생했습니다 (10 km SE of Lamitan, Philippines).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-10-16",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2pp",
-      "lat": 6.0268,
-      "lng": 125.7789,
-      "magnitude": 4.7
-    },
-    {
-      "id": "usgs-us6000u2p2",
-      "country": "필리핀",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.9 지진 발생 (31 km ENE of Kinablangan, Philippines)",
-      "summary": "USGS 관측 기준 M4.9 규모의 지진이 발생했습니다 (31 km ENE of Kinablangan, Philippines).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-10-16",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2p2",
-      "lat": 7.8392,
-      "lng": 126.799,
-      "magnitude": 4.9
     }
   ]
 }

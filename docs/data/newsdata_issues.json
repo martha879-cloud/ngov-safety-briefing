@@ -1,47 +1,4 @@
 {
-  "updated": "2026-10-23 10:09",
-  "issues": [
-    {
-      "id": "newsdata-001",
-      "country": "도미니카공화국",
-      "category": "security",
-      "severity": "low",
-      "title": "FAO Director-General to visit Dominican Republic to review food security progress",
-      "title_en": "FAO Director-General to visit Dominican Republic to review food security progress",
-      "summary": "Food and Agriculture Organization of the United Nations (FAO) Director-General QU Dongyu will make an official visit to the Dominican Republic from October 23 to 27, accompanied by a high-level delegation. The […]",
-      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-10-22",
-      "source": "Dominican Today",
-      "source_url": "https://dominicantoday.com/fao-director-general-to-visit-dominican-republic-to-review-food-security-progress/"
-    },
-    {
-      "id": "newsdata-002",
-      "country": "도미니카공화국",
-      "category": "security",
-      "severity": "low",
-      "title": "Milton Guevara says tourism depends on security and social order in the Dominican Republic",
-      "title_en": "Milton Guevara says tourism depends on security and social order in the Dominican Republic",
-      "summary": "Santo Domingo.- Milton Ray Guevara, president of the Commission for Monitoring and Socialization of the Penal Code, warned that tourism is incompatible with disorder and social instability, emphasizing the importance of combating […]",
-      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-10-22",
-      "source": "Dominican Today",
-      "source_url": "https://dominicantoday.com/milton-guevara-says-tourism-depends-on-security-and-social-order-in-the-dominican-republic/"
-    },
-    {
-      "id": "newsdata-003",
-      "country": "요르단",
-      "category": "conflict",
-      "severity": "high",
-      "title": "Jordan condemns Houthi attack on Saudi Arabia, reaffirms support, solidarity",
-      "title_en": "Jordan condemns Houthi attack on Saudi Arabia, reaffirms support, solidarity",
-      "summary": "AMMAN — Jordan has condemned a Houthi attack on the King Fahd International Airport in Dammam, Saudi Arabia, on Wednesday that killed two people and inju...",
-      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
-      "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 활동 지속 여부를 검토하세요.",
-      "published_at": "2026-10-22",
-      "source": "Jordan Times",
-      "source_url": "https://jordantimes.com/news/local/jordan-condemns-houthi-attack-on-saudi-arabia-reaffirms-support-solidarity"
-    }
-  ]
+  "updated": "2026-10-24 08:11",
+  "issues": []
 }

@@ -3502,5 +3502,21 @@
     "source_url": "https://jordantimes.com/news/local/jordan-condemns-houthi-attack-on-saudi-arabia-reaffirms-support-solidarity",
     "feed": "NewsData.io",
     "first_seen_date": "2026-10-23"
+  },
+  {
+    "id": "news-001",
+    "country": "필리핀",
+    "category": "security",
+    "severity": "high",
+    "title": "Philippines announces bounty on senator wanted by the ICC for crime against humanity",
+    "title_en": "Philippines announces bounty on senator wanted by the ICC for crime against humanity",
+    "summary": "MANILA, Philippines — Philippine officials announced a bounty Friday for the capture of a senator who has been ordered arrested by the International Criminal Court for an alleged crime against humanity in connection with deadly anti-drugs crackdowns. The court alleges that Sen. Ronald dela Rosa, 64, was an “indirect co-conspirator”",
+    "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+    "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
+    "published_at": "2026-10-23",
+    "source": "Pittsburgh Tribune-Review",
+    "source_url": "https://triblive.com/news/world/philippines-announces-bounty-on-senator-wanted-by-the-icc-for-crime-against-humanity/",
+    "feed": "GNews",
+    "first_seen_date": "2026-10-24"
   }
 ]
