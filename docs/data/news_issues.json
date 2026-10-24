@@ -1,19 +1,47 @@
 {
-  "updated": "2026-10-24 08:11",
+  "updated": "2026-10-24 10:20",
   "issues": [
     {
       "id": "news-001",
-      "country": "필리핀",
+      "country": "과테말라",
       "category": "security",
-      "severity": "high",
-      "title": "Philippines announces bounty on senator wanted by the ICC for crime against humanity",
-      "title_en": "Philippines announces bounty on senator wanted by the ICC for crime against humanity",
-      "summary": "MANILA, Philippines — Philippine officials announced a bounty Friday for the capture of a senator who has been ordered arrested by the International Criminal Court for an alleged crime against humanity in connection with deadly anti-drugs crackdowns. The court alleges that Sen. Ronald dela Rosa, 64, was an “indirect co-conspirator”",
-      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
-      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
-      "published_at": "2026-10-23",
-      "source": "Pittsburgh Tribune-Review",
-      "source_url": "https://triblive.com/news/world/philippines-announces-bounty-on-senator-wanted-by-the-icc-for-crime-against-humanity/"
+      "severity": "low",
+      "title": "Ex-prosecutor’s killing puts Guatemala’s crime-politics nexus back in focus",
+      "title_en": "Ex-prosecutor’s killing puts Guatemala’s crime-politics nexus back in focus",
+      "summary": "GUATEMALA CITY, Oct 22 - Former Guatemalan anti-corruption prosecutor Juan Francisco Solorzano Foppa was one of the country's most high profile voices denouncing alleged links between politicians and business leaders and the country's increasingly powerful organized crime groups. Read more at straitstimes.com.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-10-22",
+      "source": "The Straits Times",
+      "source_url": "https://www.straitstimes.com/world/ex-prosecutors-killing-puts-guatemalas-crime-politics-nexus-back-in-focus"
+    },
+    {
+      "id": "news-002",
+      "country": "과테말라",
+      "category": "security",
+      "severity": "low",
+      "title": "Ex-prosecutor’s killing puts Guatemala’s crime-politics nexus back in focus",
+      "title_en": "Ex-prosecutor’s killing puts Guatemala’s crime-politics nexus back in focus",
+      "summary": "Former Guatemalan anti-corruption prosecutor Juan Francisco Solorzano Foppa was one of the country's most high profile voices denouncing alleged links between politicians ​and business leaders and the country's increasingly powerful organized crime groups.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-10-22",
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/world/americas/ex-prosecutors-killing-puts-guatemalas-crime-politics-nexus-back-focus-2026-10-22/"
+    },
+    {
+      "id": "news-003",
+      "country": "과테말라",
+      "category": "security",
+      "severity": "low",
+      "title": "Analysis-Ex-Prosecutor’s Killing Puts Guatemala’s Crime-Politics Nexus Back in Focus",
+      "title_en": "Analysis-Ex-Prosecutor’s Killing Puts Guatemala’s Crime-Politics Nexus Back in Focus",
+      "summary": "US News is a recognized leader in college, grad school, hospital, mutual fund, and car rankings. Track elected officials, research health conditions, and find news you can use in politics, business, health, and education.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-10-22",
+      "source": "U.S. News & World Report",
+      "source_url": "https://www.usnews.com/news/world/articles/2026-10-22/analysis-ex-prosecutors-killing-puts-guatemalas-crime-politics-nexus-back-in-focus"
     }
   ]
 }
