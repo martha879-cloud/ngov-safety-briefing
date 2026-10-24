@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-24 10:20",
+  "updated": "2026-10-25 08:11",
   "issues": [
+    {
+      "id": "statedept-jordan-2026-10-23-3",
+      "country": "요르단",
+      "category": "conflict",
+      "severity": "high",
+      "title": "Jordan - Level 3: Reconsider Travel",
+      "summary": "Reconsider travel to Jordan due to terrorism and armed conflict . Some areas have increased risk. Read the entire Travel Advisory. U.S. government employee travel restrictions Due to safety risks, U.S. government employees need special authorization to travel to Jordan. Additional staffing posture a",
+      "summary_en": "Reconsider travel to Jordan due to terrorism and armed conflict . Some areas have increased risk. Read the entire Travel Advisory. U.S. government employee travel restrictions Due to safety risks, U.S. government employees need special authorization to travel to Jordan. Additional staffing posture a",
+      "volunteer_impact": "미국 국무부가 철수권고(3단계)로 지정한 국가입니다. 활동 지역의 안전 여부를 확인하세요.",
+      "recommended_action": "현지 협력기관 및 담당자와 상황을 공유하고, 미국 국무부 권고 사항을 함께 검토하세요.",
+      "published_at": "2026-10-23",
+      "source": "US State Dept",
+      "source_url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.jor.html"
+    },
     {
       "id": "statedept-kenya-2026-10-19-3",
       "country": "케냐",
@@ -84,20 +98,6 @@
       "published_at": "2026-09-01",
       "source": "US State Dept",
       "source_url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.phl.html"
-    },
-    {
-      "id": "statedept-jordan-2026-08-29-3",
-      "country": "요르단",
-      "category": "conflict",
-      "severity": "high",
-      "title": "Jordan - Level 3: Reconsider Travel",
-      "summary": "Reconsider travel to Jordan due to terrorism and armed conflict . Some areas have increased risk. Read the entire Travel Advisory. As of August 29, 2026, family members may join U.S. government employees who work in Jordan. Armed Conflict Following the onset of hostilities between the United States ",
-      "summary_en": "Reconsider travel to Jordan due to terrorism and armed conflict . Some areas have increased risk. Read the entire Travel Advisory. As of August 29, 2026, family members may join U.S. government employees who work in Jordan. Armed Conflict Following the onset of hostilities between the United States ",
-      "volunteer_impact": "미국 국무부가 철수권고(3단계)로 지정한 국가입니다. 활동 지역의 안전 여부를 확인하세요.",
-      "recommended_action": "현지 협력기관 및 담당자와 상황을 공유하고, 미국 국무부 권고 사항을 함께 검토하세요.",
-      "published_at": "2026-08-29",
-      "source": "US State Dept",
-      "source_url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.jor.html"
     },
     {
       "id": "statedept-bangladesh-2026-07-30-2",

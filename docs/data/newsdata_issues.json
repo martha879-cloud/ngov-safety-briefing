@@ -1,47 +1,19 @@
 {
-  "updated": "2026-10-24 10:20",
+  "updated": "2026-10-25 08:11",
   "issues": [
     {
       "id": "newsdata-001",
       "country": "요르단",
       "category": "conflict",
       "severity": "high",
-      "title": "At least 6 killed in Jordan church shooting: What to know",
-      "title_en": "At least 6 killed in Jordan church shooting: What to know",
-      "summary": "Jordan has experienced sporadic violence targeting the Christian community, though attacks of this kind are relatively rare in the kingdom.",
+      "title": "Jordan church attack survivor says assailant pointed handgun at him",
+      "title_en": "Jordan church attack survivor says assailant pointed handgun at him",
+      "summary": "By AbdelHadi Ramahi HAMOUD, Jordan, Oct 24 (Reuters) - Prayer services had just started at a church in Jordan on Friday when Nasser al-Burqan heard what he thought was an exploding air conditioner. Then the blasts kept coming. He soon realised it was gunfire. Some people ran away. He said others, some bleeding, tried to hide in their place of worship where a funeral for his relative had been taking place. Word spread among those gathered that there were fatalities.",
       "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
       "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 활동 지속 여부를 검토하세요.",
-      "published_at": "2026-10-23",
+      "published_at": "2026-10-24",
       "source": "Palestine – Al-monitor",
-      "source_url": "https://www.al-monitor.com/originals/2026/10/least-6-killed-jordan-church-shooting-what-know"
-    },
-    {
-      "id": "newsdata-002",
-      "country": "요르단",
-      "category": "conflict",
-      "severity": "high",
-      "title": "Jordan’s King Abdullah calls church shooting ‘terror attack’, at least 6 killed: What to know",
-      "title_en": "Jordan’s King Abdullah calls church shooting ‘terror attack’, at least 6 killed: What to know",
-      "summary": "Jordan has experienced sporadic violence targeting the Christian community, though attacks of this kind are relatively rare in the kingdom.",
-      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
-      "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 활동 지속 여부를 검토하세요.",
-      "published_at": "2026-10-23",
-      "source": "Palestine – Al-monitor",
-      "source_url": "https://www.al-monitor.com/originals/2026/10/jordans-king-abdullah-calls-church-shooting-terror-attack-least-6-killed-what"
-    },
-    {
-      "id": "newsdata-003",
-      "country": "요르단",
-      "category": "conflict",
-      "severity": "high",
-      "title": "At least 7 killed in Jordan church shooting: What to know",
-      "title_en": "At least 7 killed in Jordan church shooting: What to know",
-      "summary": "Jordan has experienced sporadic violence targeting the Christian community, though attacks of this kind are relatively rare in the kingdom.",
-      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
-      "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 활동 지속 여부를 검토하세요.",
-      "published_at": "2026-10-23",
-      "source": "Palestine – Al-monitor",
-      "source_url": "https://www.al-monitor.com/originals/2026/10/least-7-killed-jordan-church-shooting-what-know"
+      "source_url": "https://www.al-monitor.com/originals/2026/10/jordan-church-attack-survivor-says-assailant-pointed-handgun-him"
     }
   ]
 }

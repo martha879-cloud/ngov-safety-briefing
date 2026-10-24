@@ -1,6 +1,22 @@
 {
-  "updated": "2026-10-24 10:20",
+  "updated": "2026-10-25 08:11",
   "issues": [
+    {
+      "id": "usgs-us6000u4m9",
+      "country": "필리핀",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.7 지진 발생 (72 km S of Basco, Philippines)",
+      "summary": "USGS 관측 기준 M4.7 규모의 지진이 발생했습니다 (72 km S of Basco, Philippines).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-10-24",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4m9",
+      "lat": 19.805,
+      "lng": 122.0872,
+      "magnitude": 4.7
+    },
     {
       "id": "usgs-us6000u4h0",
       "country": "필리핀",
@@ -208,38 +224,6 @@
       "lat": -8.1449,
       "lng": 120.2734,
       "magnitude": 5.2
-    },
-    {
-      "id": "usgs-us6000u300",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.6 지진 발생 (70 km W of Tambolaka, Indonesia)",
-      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (70 km W of Tambolaka, Indonesia).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-10-17",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u300",
-      "lat": -9.3596,
-      "lng": 118.5983,
-      "magnitude": 4.6
-    },
-    {
-      "id": "usgs-us6000u2yw",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.5 지진 발생 (59 km NNW of Ruteng, Indonesia)",
-      "summary": "USGS 관측 기준 M4.5 규모의 지진이 발생했습니다 (59 km NNW of Ruteng, Indonesia).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-10-17",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2yw",
-      "lat": -8.1086,
-      "lng": 120.2824,
-      "magnitude": 4.5
     }
   ]
 }
