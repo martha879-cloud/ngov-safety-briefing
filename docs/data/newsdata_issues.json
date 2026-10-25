@@ -1,19 +1,19 @@
 {
-  "updated": "2026-10-25 09:45",
+  "updated": "2026-10-26 08:11",
   "issues": [
     {
       "id": "newsdata-001",
-      "country": "방글라데시",
-      "category": "security",
-      "severity": "low",
-      "title": "Bangladesh Bank website still offline over global PHP security vulnerability",
-      "title_en": "Bangladesh Bank website still offline over global PHP security vulnerability",
-      "summary": "The central bank has remained offline since 22 October as technical teams assess PHP security flaws that could expose servers and sensitive data to cyberattacks.",
-      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-10-24",
-      "source": "The Business Standard",
-      "source_url": "https://www.tbsnews.net/economy/banking/bangladesh-bank-website-still-offline-over-global-php-security-vulnerability-1581696"
+      "country": "요르단",
+      "category": "conflict",
+      "severity": "high",
+      "title": "Jordan church attack survivor says her cousin died before her eyes",
+      "title_en": "Jordan church attack survivor says her cousin died before her eyes",
+      "summary": "By AbdelHadi Ramahi HAMOUD, Jordan, Oct 25 (Reuters) - When gunmen began opening fire on a church in Jordan,Sahar al-Halsa hid behind a pillar as she heard the shooting and people screamed in panic during a funeral service for her cousin's daughter. When she rushed outside in the chaos, she said she spotted the assailants and another cousin lying on the ground wounded. \"I went to him and said: 'Assem, Assem, my darling, answer me',\" she said. She said he opened his eyes to look at her, but then \"he was gone\".",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 활동 지속 여부를 검토하세요.",
+      "published_at": "2026-10-25",
+      "source": "Palestine – Al-monitor",
+      "source_url": "https://www.al-monitor.com/originals/2026/10/jordan-church-attack-survivor-says-her-cousin-died-her-eyes"
     }
   ]
 }

@@ -1,6 +1,38 @@
 {
-  "updated": "2026-10-25 09:45",
+  "updated": "2026-10-26 08:11",
   "issues": [
+    {
+      "id": "usgs-us6000u4v1",
+      "country": "페루",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.7 지진 발생 (19 km NE of Atico, Peru)",
+      "summary": "USGS 관측 기준 M4.7 규모의 지진이 발생했습니다 (19 km NE of Atico, Peru).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-10-25",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4v1",
+      "lat": -16.0993,
+      "lng": -73.4741,
+      "magnitude": 4.7
+    },
+    {
+      "id": "usgs-us6000u4t4",
+      "country": "페루",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.6 지진 발생 (50 km SW of Atiquipa, Peru)",
+      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (50 km SW of Atiquipa, Peru).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-10-25",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4t4",
+      "lat": -16.0676,
+      "lng": -74.747,
+      "magnitude": 4.6
+    },
     {
       "id": "usgs-us6000u4pw",
       "country": "인도네시아",
@@ -224,22 +256,6 @@
       "lat": 2.4339,
       "lng": 126.7168,
       "magnitude": 4.7
-    },
-    {
-      "id": "usgs-us6000u34e",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "M5.2 지진 발생 (55 km NNW of Ruteng, Indonesia)",
-      "summary": "USGS 관측 기준 M5.2 규모의 지진이 발생했습니다 (55 km NNW of Ruteng, Indonesia).",
-      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-10-18",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u34e",
-      "lat": -8.1449,
-      "lng": 120.2734,
-      "magnitude": 5.2
     }
   ]
 }
