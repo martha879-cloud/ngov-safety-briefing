@@ -1,6 +1,22 @@
 {
-  "updated": "2026-10-25 08:11",
+  "updated": "2026-10-25 09:45",
   "issues": [
+    {
+      "id": "usgs-us6000u4pw",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.9 지진 발생 (53 km NNW of Fef, Indonesia)",
+      "summary": "USGS 관측 기준 M4.9 규모의 지진이 발생했습니다 (53 km NNW of Fef, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-10-24",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4pw",
+      "lat": -0.3574,
+      "lng": 132.2541,
+      "magnitude": 4.9
+    },
     {
       "id": "usgs-us6000u4m9",
       "country": "필리핀",
