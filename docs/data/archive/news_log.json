@@ -3710,5 +3710,37 @@
     "source_url": "https://bangladeshmonitor.com.bd/en/btrc-moves-to-allow-viasat-in-flight-internet-in-bangladesh-airspace",
     "feed": "NewsData.io",
     "first_seen_date": "2026-10-26"
+  },
+  {
+    "id": "newsdata-001",
+    "country": "케냐",
+    "category": "security",
+    "severity": "low",
+    "title": "Kenya receives eight modernized MD-500 helicopters in trilateral security handover",
+    "title_en": "Kenya receives eight modernized MD-500 helicopters in trilateral security handover",
+    "summary": "The handover is the result of a trilateral arrangement involving Kenya, South Korea, and the United States. The aircraft were donated surplus by South Korea, while the United States funded and supported their refurbishment, digital system upgrades, and crew training.",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-10-26",
+    "source": "Pulse Kenya",
+    "source_url": "https://www.pulse.co.ke/story/kenya-receives-eight-modernized-md-500-helicopters-in-trilateral-security-handover-2026102611044692944",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-10-27"
+  },
+  {
+    "id": "newsdata-002",
+    "country": "요르단",
+    "category": "conflict",
+    "severity": "high",
+    "title": "Jordan arrests three men suspected of deadly church attack after shootout",
+    "title_en": "Jordan arrests three men suspected of deadly church attack after shootout",
+    "summary": "No group has yet said it was behind Friday's shooting attack in the village of Hmoud, which left nine Christians dead.",
+    "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+    "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 활동 지속 여부를 검토하세요.",
+    "published_at": "2026-10-26",
+    "source": "The Bbc",
+    "source_url": "https://www.bbc.co.uk/news/articles/cm4g17qq8wz4o",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-10-27"
   }
 ]
