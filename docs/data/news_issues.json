@@ -1,4 +1,75 @@
 {
-  "updated": "2026-10-26 08:10",
-  "issues": []
+  "updated": "2026-10-26 09:57",
+  "issues": [
+    {
+      "id": "news-001",
+      "country": "인도네시아",
+      "category": "conflict",
+      "severity": "medium",
+      "title": "'How is it possible?': Students protest Indonesian haze",
+      "title_en": "'How is it possible?': Students protest Indonesian haze",
+      "summary": "PALANGKARAYA, Indonesia — Hundreds of students protested late Friday in Indonesia's Palangkaraya, demanding the government do more to tackle a wild...",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-10-24",
+      "source": "The Korea Times",
+      "source_url": "https://www.koreatimes.co.kr/world/20261024/how-is-it-possible-students-protest-indonesian-haze"
+    },
+    {
+      "id": "news-003",
+      "country": "과테말라",
+      "category": "security",
+      "severity": "low",
+      "title": "Ex-prosecutor’s killing puts Guatemala’s crime-politics nexus back in focus",
+      "title_en": "Ex-prosecutor’s killing puts Guatemala’s crime-politics nexus back in focus",
+      "summary": "GUATEMALA CITY, Oct 22 - Former Guatemalan anti-corruption prosecutor Juan Francisco Solorzano Foppa was one of the country's most high profile voices denouncing alleged links between politicians and business leaders and the country's increasingly powerful organized crime groups. Read more at straitstimes.com.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-10-22",
+      "source": "The Straits Times",
+      "source_url": "https://www.straitstimes.com/world/ex-prosecutors-killing-puts-guatemalas-crime-politics-nexus-back-in-focus"
+    },
+    {
+      "id": "news-004",
+      "country": "과테말라",
+      "category": "security",
+      "severity": "low",
+      "title": "Ex-prosecutor’s killing puts Guatemala’s crime-politics nexus back in focus",
+      "title_en": "Ex-prosecutor’s killing puts Guatemala’s crime-politics nexus back in focus",
+      "summary": "Former Guatemalan anti-corruption prosecutor Juan Francisco Solorzano Foppa was one of the country's most high profile voices denouncing alleged links between politicians ​and business leaders and the country's increasingly powerful organized crime groups.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-10-22",
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/world/americas/ex-prosecutors-killing-puts-guatemalas-crime-politics-nexus-back-focus-2026-10-22/"
+    },
+    {
+      "id": "news-005",
+      "country": "과테말라",
+      "category": "security",
+      "severity": "low",
+      "title": "Analysis-Ex-Prosecutor’s Killing Puts Guatemala’s Crime-Politics Nexus Back in Focus",
+      "title_en": "Analysis-Ex-Prosecutor’s Killing Puts Guatemala’s Crime-Politics Nexus Back in Focus",
+      "summary": "US News is a recognized leader in college, grad school, hospital, mutual fund, and car rankings. Track elected officials, research health conditions, and find news you can use in politics, business, health, and education.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-10-22",
+      "source": "U.S. News & World Report",
+      "source_url": "https://www.usnews.com/news/world/articles/2026-10-22/analysis-ex-prosecutors-killing-puts-guatemalas-crime-politics-nexus-back-in-focus"
+    },
+    {
+      "id": "news-002",
+      "country": "인도네시아",
+      "category": "conflict",
+      "severity": "medium",
+      "title": "Rising living costs, forest fires: Indonesia sees mass protest as students take to the streets",
+      "title_en": "Rising living costs, forest fires: Indonesia sees mass protest as students take to the streets",
+      "summary": "The protests took place across cities such as Jakarta, Yogyakarta, Bandung, Pekanbaru and Makassar as President Prabowo Subianto marks two years in office. | World News",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-10-21",
+      "source": "Hindustan Times",
+      "source_url": "https://www.hindustantimes.com/world-news/rising-living-costs-forest-fires-indonesia-sees-mass-protest-as-students-take-to-the-streets-prabowo-subianto-101792559048136.html"
+    }
+  ]
 }

@@ -3662,5 +3662,53 @@
     "source_url": "https://www.al-monitor.com/originals/2026/10/jordan-church-attack-survivor-says-her-cousin-died-her-eyes",
     "feed": "NewsData.io",
     "first_seen_date": "2026-10-26"
+  },
+  {
+    "id": "news-001",
+    "country": "인도네시아",
+    "category": "conflict",
+    "severity": "medium",
+    "title": "'How is it possible?': Students protest Indonesian haze",
+    "title_en": "'How is it possible?': Students protest Indonesian haze",
+    "summary": "PALANGKARAYA, Indonesia — Hundreds of students protested late Friday in Indonesia's Palangkaraya, demanding the government do more to tackle a wild...",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+    "published_at": "2026-10-24",
+    "source": "The Korea Times",
+    "source_url": "https://www.koreatimes.co.kr/world/20261024/how-is-it-possible-students-protest-indonesian-haze",
+    "feed": "GNews",
+    "first_seen_date": "2026-10-26"
+  },
+  {
+    "id": "news-002",
+    "country": "인도네시아",
+    "category": "conflict",
+    "severity": "medium",
+    "title": "Rising living costs, forest fires: Indonesia sees mass protest as students take to the streets",
+    "title_en": "Rising living costs, forest fires: Indonesia sees mass protest as students take to the streets",
+    "summary": "The protests took place across cities such as Jakarta, Yogyakarta, Bandung, Pekanbaru and Makassar as President Prabowo Subianto marks two years in office. | World News",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+    "published_at": "2026-10-21",
+    "source": "Hindustan Times",
+    "source_url": "https://www.hindustantimes.com/world-news/rising-living-costs-forest-fires-indonesia-sees-mass-protest-as-students-take-to-the-streets-prabowo-subianto-101792559048136.html",
+    "feed": "GNews",
+    "first_seen_date": "2026-10-26"
+  },
+  {
+    "id": "newsdata-001",
+    "country": "방글라데시",
+    "category": "transport",
+    "severity": "low",
+    "title": "BTRC moves to allow Viasat in-flight internet in Bangladesh airspace",
+    "title_en": "BTRC moves to allow Viasat in-flight internet in Bangladesh airspace",
+    "summary": "BTRC moves to allow Viasat in-flight internet in Bangladesh airspace",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-10-25",
+    "source": "The Bangladesh Monitor",
+    "source_url": "https://bangladeshmonitor.com.bd/en/btrc-moves-to-allow-viasat-in-flight-internet-in-bangladesh-airspace",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-10-26"
   }
 ]
