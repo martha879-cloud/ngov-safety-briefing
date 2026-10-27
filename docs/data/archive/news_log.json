@@ -3806,5 +3806,53 @@
     "source_url": "https://dominicantoday.com/abinader-to-address-haiti-border-security-as-dominican-republic-reinforces-southern-frontier/",
     "feed": "NewsData.io",
     "first_seen_date": "2026-10-27"
+  },
+  {
+    "id": "newsdata-001",
+    "country": "인도네시아",
+    "category": "conflict",
+    "severity": "low",
+    "title": "Indonesia: Gas Export Cuts to Singapore Will Not Spark Conflict",
+    "title_en": "Indonesia: Gas Export Cuts to Singapore Will Not Spark Conflict",
+    "summary": "Indonesia cut pipeline gas supplies to Singapore by 8%, with Luhut saying the move will not spark conflict and Bahlil citing domestic demand.",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-10-27",
+    "source": "Tempo.co",
+    "source_url": "https://en.tempo.co/read/2122453/indonesia-gas-export-cuts-to-singapore-will-not-spark-conflict",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-10-28"
+  },
+  {
+    "id": "newsdata-002",
+    "country": "탄자니아",
+    "category": "transport",
+    "severity": "low",
+    "title": "Tanzania government announces massive infrastructure development plan to rebuild roads, improve transportation efficiency and boost national GDP.",
+    "title_en": "Tanzania government announces massive infrastructure development plan to rebuild roads, improve transportation efficiency and boost national GDP.",
+    "summary": "Tanzania government announces massive infrastructure development plan to rebuild roads, improve transportation efficiency and boost national GDP.",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-10-27",
+    "source": "Bongo5",
+    "source_url": "https://bongofive.com/en/serikali-yatangaza-mpango-kabambe-wa-kuijenga-upya-tanzania-kimiundombinu",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-10-28"
+  },
+  {
+    "id": "newsdata-003",
+    "country": "요르단",
+    "category": "conflict",
+    "severity": "high",
+    "title": "Jordan launches airstrikes in Syria after church attack",
+    "title_en": "Jordan launches airstrikes in Syria after church attack",
+    "summary": "Jordan carried out airstrikes Monday (October 27) evening against armed groups in Syria in retaliation for Friday’s attack on a Greek Orthodox Church in the southern Jordanian city of Karak that killed nine people, the Jordanian air force said in a statement. Syrian authorities said at least six people were killed.",
+    "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+    "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 활동 지속 여부를 검토하세요.",
+    "published_at": "2026-10-27",
+    "source": "France 24",
+    "source_url": "https://www.france24.com/en/jordan-launches-airstrikes-in-syria-after-church-attack",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-10-28"
   }
 ]
