@@ -1,33 +1,61 @@
 {
-  "updated": "2026-10-27 08:11",
+  "updated": "2026-10-27 10:47",
   "issues": [
     {
       "id": "newsdata-001",
-      "country": "케냐",
+      "country": "우간다",
       "category": "security",
       "severity": "low",
-      "title": "Kenya receives eight modernized MD-500 helicopters in trilateral security handover",
-      "title_en": "Kenya receives eight modernized MD-500 helicopters in trilateral security handover",
-      "summary": "The handover is the result of a trilateral arrangement involving Kenya, South Korea, and the United States. The aircraft were donated surplus by South Korea, while the United States funded and supported their refurbishment, digital system upgrades, and crew training.",
+      "title": "Food insecurity hits Uganda as government, UN appeal for urgent action",
+      "title_en": "Food insecurity hits Uganda as government, UN appeal for urgent action",
+      "summary": "Conditions are expected to deteriorate further between February and June 2027",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
       "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
       "published_at": "2026-10-26",
-      "source": "Pulse Kenya",
-      "source_url": "https://www.pulse.co.ke/story/kenya-receives-eight-modernized-md-500-helicopters-in-trilateral-security-handover-2026102611044692944"
+      "source": "Monitor",
+      "source_url": "https://www.monitor.co.ug/uganda/news/national/food-insecurity-hits-uganda-as-government-un-appeal-for-urgent-action-5646392"
     },
     {
       "id": "newsdata-002",
-      "country": "요르단",
+      "country": "이집트",
       "category": "conflict",
       "severity": "high",
-      "title": "Jordan arrests three men suspected of deadly church attack after shootout",
-      "title_en": "Jordan arrests three men suspected of deadly church attack after shootout",
-      "summary": "No group has yet said it was behind Friday's shooting attack in the village of Hmoud, which left nine Christians dead.",
+      "title": "Egypt approves military support for Saudi Arabia after Houthi attacks escalate",
+      "title_en": "Egypt approves military support for Saudi Arabia after Houthi attacks escalate",
+      "summary": "CAIRO, Oct 26 (Reuters) - Parliament authorised Egypt's military on Monday to provide support to help defend Saudi Arabia, parliamentarians said and local media reported, a move that could push Cairo directly into the regional conflict that has expanded with intensified attacks by Yemen's Iran-allied Houthis on the Gulf kingdom.",
       "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
       "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 활동 지속 여부를 검토하세요.",
       "published_at": "2026-10-26",
-      "source": "The Bbc",
-      "source_url": "https://www.bbc.co.uk/news/articles/cm4g17qq8wz4o"
+      "source": "Palestine – Al-monitor",
+      "source_url": "https://www.al-monitor.com/originals/2026/10/egypt-approves-military-support-saudi-arabia-after-houthi-attacks-escalate"
+    },
+    {
+      "id": "newsdata-003",
+      "country": "탄자니아",
+      "category": "security",
+      "severity": "low",
+      "title": "Kinondoni leads serious crime statistics in Tanzania as experts call for action",
+      "title_en": "Kinondoni leads serious crime statistics in Tanzania as experts call for action",
+      "summary": "Kinondoni recorded the highest number of serious and minor criminal offences in Tanzania in...",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-10-26",
+      "source": "The Citizen",
+      "source_url": "https://www.thecitizen.co.tz/tanzania/news/national/kinondoni-leads-serious-crime-statistics-in-tanzania-as-experts-call-for-action-5646414"
+    },
+    {
+      "id": "newsdata-004",
+      "country": "도미니카공화국",
+      "category": "security",
+      "severity": "low",
+      "title": "Abinader to address Haiti border security as Dominican Republic reinforces southern frontier",
+      "title_en": "Abinader to address Haiti border security as Dominican Republic reinforces southern frontier",
+      "summary": "Santo Domingo.- President Luis Abinader will address the security situation along the Dominican-Haitian border during the government’s Weekly Agenda meeting this Monday at 3:00 p.m., two hours earlier than its usual schedule. […]",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-10-26",
+      "source": "Dominican Today",
+      "source_url": "https://dominicantoday.com/abinader-to-address-haiti-border-security-as-dominican-republic-reinforces-southern-frontier/"
     }
   ]
 }

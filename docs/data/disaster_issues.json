@@ -1,6 +1,22 @@
 {
-  "updated": "2026-10-27 08:11",
+  "updated": "2026-10-27 10:47",
   "issues": [
+    {
+      "id": "usgs-us7000ttd3",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.5 지진 발생 (98 km NNW of Tobelo, Indonesia)",
+      "summary": "USGS 관측 기준 M4.5 규모의 지진이 발생했습니다 (98 km NNW of Tobelo, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-10-26",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttd3",
+      "lat": 2.5777,
+      "lng": 127.7372,
+      "magnitude": 4.5
+    },
     {
       "id": "usgs-us7000ttc6",
       "country": "필리핀",
