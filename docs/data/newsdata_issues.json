@@ -1,33 +1,19 @@
 {
-  "updated": "2026-10-28 10:59",
+  "updated": "2026-10-29 08:11",
   "issues": [
     {
       "id": "newsdata-001",
-      "country": "케냐",
-      "category": "conflict",
-      "severity": "medium",
-      "title": "Kenya protests Nigerian visa process, rejects ‘unwarranted inconvenience’",
-      "title_en": "Kenya protests Nigerian visa process, rejects ‘unwarranted inconvenience’",
-      "summary": "Sing’Oei said the government was pursuing a resolution to what he termed “unwarranted inconvenience” faced by Kenyans applying for Nigerian visas.",
-      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-10-27",
-      "source": "Capital News",
-      "source_url": "https://capitalfm.africa/kenya-protests-unacceptable-nigerian-visa-process-rejects-unwarranted-inconvenience/"
-    },
-    {
-      "id": "newsdata-002",
-      "country": "도미니카공화국",
+      "country": "방글라데시",
       "category": "natural_disaster",
       "severity": "medium",
-      "title": "Weather update: Dominican Republic faces heavy rain and thunderstorms",
-      "title_en": "Weather update: Dominican Republic faces heavy rain and thunderstorms",
-      "summary": "Santo Domingo.- The Dominican Institute of Meteorology (Indomet) said this Tuesday that a trough affecting different levels of the troposphere will continue to bring moderate to heavy rainfall, thunderstorms and gusty winds […]",
+      "title": "Cyclone Arnab crosses Andhra Pradesh, temperatures may dip across Bangladesh",
+      "title_en": "Cyclone Arnab crosses Andhra Pradesh, temperatures may dip across Bangladesh",
+      "summary": "Scattered rain and thundershowers are likely in all eight divisions as the storm gradually weakens Details",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
       "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-10-27",
-      "source": "Dominican Today",
-      "source_url": "https://dominicantoday.com/weather-update-dominican-republic-faces-heavy-rain-and-thunderstorms/"
+      "published_at": "2026-10-28",
+      "source": "Dhaka Tribune",
+      "source_url": "https://www.dhakatribune.com/bangladesh/weather/423111/cyclone-arnab-crosses-andhra-pradesh-temperatures"
     }
   ]
 }
