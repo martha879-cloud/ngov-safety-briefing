@@ -1,6 +1,38 @@
 {
-  "updated": "2026-10-28 08:11",
+  "updated": "2026-10-28 10:59",
   "issues": [
+    {
+      "id": "usgs-us7000ttlc",
+      "country": "필리핀",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "M5.2 지진 발생 (6 km NW of Balangonan, Philippines)",
+      "summary": "USGS 관측 기준 M5.2 규모의 지진이 발생했습니다 (6 km NW of Balangonan, Philippines).",
+      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-10-28",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttlc",
+      "lat": 5.6079,
+      "lng": 125.3054,
+      "magnitude": 5.2
+    },
+    {
+      "id": "usgs-us7000ttkk",
+      "country": "필리핀",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "M5.1 지진 발생 (7 km N of Balangonan, Philippines)",
+      "summary": "USGS 관측 기준 M5.1 규모의 지진이 발생했습니다 (7 km N of Balangonan, Philippines).",
+      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-10-27",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttkk",
+      "lat": 5.6402,
+      "lng": 125.3536,
+      "magnitude": 5.1
+    },
     {
       "id": "usgs-us7000tth4",
       "country": "필리핀",
