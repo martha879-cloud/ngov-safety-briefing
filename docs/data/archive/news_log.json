@@ -3902,5 +3902,21 @@
     "source_url": "https://www.dhakatribune.com/bangladesh/weather/423111/cyclone-arnab-crosses-andhra-pradesh-temperatures",
     "feed": "NewsData.io",
     "first_seen_date": "2026-10-29"
+  },
+  {
+    "id": "news-001",
+    "country": "탄자니아",
+    "category": "natural_disaster",
+    "severity": "high",
+    "title": "Indian Men Storm Into Commonwealth Kabaddi Championship Semifinals With 48-20 Win Over Tanzania | Watch",
+    "title_en": "Indian Men Storm Into Commonwealth Kabaddi Championship Semifinals With 48-20 Win Over Tanzania | Watch",
+    "summary": "India stormed into the Commonwealth Kabaddi Championship semifinals with a dominant 48-20 win over Tanzania in Ahmedabad. Neeraj Narwal led the raiding attack with 12 points, while Shubham Shinde spearheaded the defence. India will face Sri Lanka on October 29.",
+    "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+    "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
+    "published_at": "2026-10-28",
+    "source": "Free Press Journal",
+    "source_url": "https://www.freepressjournal.in/sports/indian-men-storm-into-commonwealth-kabaddi-championship-semifinals-with-48-20-win-over-tanzania-watch",
+    "feed": "GNews",
+    "first_seen_date": "2026-10-29"
   }
 ]
