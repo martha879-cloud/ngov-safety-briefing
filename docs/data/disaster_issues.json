@@ -1,6 +1,38 @@
 {
-  "updated": "2026-10-30 11:26",
+  "updated": "2026-10-31 08:11",
   "issues": [
+    {
+      "id": "usgs-us7000tub8",
+      "country": "필리핀",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.6 지진 발생 (7 km NE of Tago, Philippines)",
+      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (7 km NE of Tago, Philippines).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-10-30",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tub8",
+      "lat": 9.0593,
+      "lng": 126.2834,
+      "magnitude": 4.6
+    },
+    {
+      "id": "usgs-us7000tu7k",
+      "country": "필리핀",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.5 지진 발생 (104 km ENE of Barcelona, Philippines)",
+      "summary": "USGS 관측 기준 M4.5 규모의 지진이 발생했습니다 (104 km ENE of Barcelona, Philippines).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-10-30",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu7k",
+      "lat": 8.3731,
+      "lng": 127.3616,
+      "magnitude": 4.5
+    },
     {
       "id": "usgs-us7000tu3u",
       "country": "인도네시아",
@@ -102,15 +134,15 @@
       "country": "인도네시아",
       "category": "natural_disaster",
       "severity": "medium",
-      "title": "M5.3 지진 발생 (159 km WNW of Tobelo, Indonesia)",
-      "summary": "USGS 관측 기준 M5.3 규모의 지진이 발생했습니다 (159 km WNW of Tobelo, Indonesia).",
+      "title": "M5.3 지진 발생 (161 km WNW of Tobelo, Indonesia)",
+      "summary": "USGS 관측 기준 M5.3 규모의 지진이 발생했습니다 (161 km WNW of Tobelo, Indonesia).",
       "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
       "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
       "published_at": "2026-10-28",
       "source": "USGS",
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tttl",
-      "lat": 2.4277,
-      "lng": 126.7587,
+      "lat": 2.4345,
+      "lng": 126.7433,
       "magnitude": 5.3
     },
     {
@@ -368,38 +400,6 @@
       "lat": 19.805,
       "lng": 122.0872,
       "magnitude": 4.7
-    },
-    {
-      "id": "usgs-us6000u4h0",
-      "country": "필리핀",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.6 지진 발생 (73 km ENE of Kinablangan, Philippines)",
-      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (73 km ENE of Kinablangan, Philippines).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-10-23",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4h0",
-      "lat": 7.9163,
-      "lng": 127.1813,
-      "magnitude": 4.6
-    },
-    {
-      "id": "usgs-us6000u4b3",
-      "country": "필리핀",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.5 지진 발생 (18 km WNW of Bantogon, Philippines)",
-      "summary": "USGS 관측 기준 M4.5 규모의 지진이 발생했습니다 (18 km WNW of Bantogon, Philippines).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-10-23",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4b3",
-      "lat": 6.5678,
-      "lng": 123.8685,
-      "magnitude": 4.5
     }
   ]
 }
