@@ -4014,5 +4014,37 @@
     "source_url": "https://www.maraviexpress.com/beira-corridor-expansion-offers-hope-on-fuel-security-for-southern-africa-including-malawi/",
     "feed": "NewsData.io",
     "first_seen_date": "2026-10-31"
+  },
+  {
+    "id": "news-001",
+    "country": "탄자니아",
+    "category": "conflict",
+    "severity": "high",
+    "title": "Tanzania still haunted by deadly election violence one year on",
+    "title_en": "Tanzania still haunted by deadly election violence one year on",
+    "summary": "One year after Tanzania’s disputed election, the scars of deadly violence remain. Critics still live in fear of abductions and arrests, while opposition supporters continue to face intimidation.",
+    "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+    "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
+    "published_at": "2026-10-30",
+    "source": "Africanews",
+    "source_url": "https://www.africanews.com/2026/10/30/tanzania-still-haunted-by-deadly-election-violence-one-year-on/",
+    "feed": "GNews",
+    "first_seen_date": "2026-11-01"
+  },
+  {
+    "id": "news-002",
+    "country": "탄자니아",
+    "category": "conflict",
+    "severity": "high",
+    "title": "Tanzania Called to Release Inquiry Report a Year After Deadly Election Violence",
+    "title_en": "Tanzania Called to Release Inquiry Report a Year After Deadly Election Violence",
+    "summary": "The experts said no state officials had been charged, leaving victims and their families without justice or accountability for the abuses.",
+    "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+    "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
+    "published_at": "2026-10-30",
+    "source": "Devdiscourse",
+    "source_url": "https://www.devdiscourse.com/article/other/3999388-tanzania-called-to-release-inquiry-report-a-year-after-deadly-election-violence",
+    "feed": "GNews",
+    "first_seen_date": "2026-11-01"
   }
 ]
