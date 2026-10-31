@@ -1,4 +1,19 @@
 {
-  "updated": "2026-10-31 08:11",
-  "issues": []
+  "updated": "2026-10-31 10:57",
+  "issues": [
+    {
+      "id": "news-001",
+      "country": "요르단",
+      "category": "conflict",
+      "severity": "high",
+      "title": "Jordan hits back after terror attack on church left six Christians dead and 28 injured",
+      "title_en": "Jordan hits back after terror attack on church left six Christians dead and 28 injured",
+      "summary": "Jordan hits back after terror attack on church left nine Christians dead and 28 injured . Jordan has struck back, launching air strikes in southern Syria, after a brutal terror attack on a church left nine Christians dead and 28 injured",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
+      "published_at": "2026-10-28",
+      "source": "GB News",
+      "source_url": "https://www.gbnews.com/news/jordan-air-strikes-syria-church-shooting"
+    }
+  ]
 }
