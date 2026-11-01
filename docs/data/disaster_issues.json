@@ -1,6 +1,22 @@
 {
-  "updated": "2026-11-01 10:47",
+  "updated": "2026-11-02 08:11",
   "issues": [
+    {
+      "id": "usgs-us7000tuqy",
+      "country": "필리핀",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.6 지진 발생 (101 km SW of Basco, Philippines)",
+      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (101 km SW of Basco, Philippines).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-11-01",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuqy",
+      "lat": 19.7626,
+      "lng": 121.328,
+      "magnitude": 4.6
+    },
     {
       "id": "usgs-us7000tufp",
       "country": "페루",
@@ -336,54 +352,6 @@
       "lat": -10.0437,
       "lng": 123.2505,
       "magnitude": 4.8
-    },
-    {
-      "id": "usgs-us6000u4v1",
-      "country": "페루",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.7 지진 발생 (19 km NE of Atico, Peru)",
-      "summary": "USGS 관측 기준 M4.7 규모의 지진이 발생했습니다 (19 km NE of Atico, Peru).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-10-25",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4v1",
-      "lat": -16.0993,
-      "lng": -73.4741,
-      "magnitude": 4.7
-    },
-    {
-      "id": "usgs-us6000u4u2",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.6 지진 발생 (155 km WSW of Ternate, Indonesia)",
-      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (155 km WSW of Ternate, Indonesia).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-10-25",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4u2",
-      "lat": 0.1306,
-      "lng": 126.1478,
-      "magnitude": 4.6
-    },
-    {
-      "id": "usgs-us6000u4t4",
-      "country": "페루",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.6 지진 발생 (50 km SW of Atiquipa, Peru)",
-      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (50 km SW of Atiquipa, Peru).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-10-25",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4t4",
-      "lat": -16.0676,
-      "lng": -74.747,
-      "magnitude": 4.6
     }
   ]
 }
