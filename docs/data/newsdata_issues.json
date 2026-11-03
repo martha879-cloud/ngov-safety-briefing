@@ -1,33 +1,19 @@
 {
-  "updated": "2026-11-03 08:11",
+  "updated": "2026-11-03 12:49",
   "issues": [
     {
       "id": "newsdata-001",
-      "country": "방글라데시",
-      "category": "conflict",
-      "severity": "medium",
-      "title": "Garment workers protest: Bangladesh Home Minister alleges former Awami League-linked factory owners fuelling unrest",
-      "title_en": "Garment workers protest: Bangladesh Home Minister alleges former Awami League-linked factory owners fuelling unrest",
-      "summary": "Dhaka [Bangladesh], November 2 (ANI): Bangladesh Home Minister Salahuddin Ahmed on Monday alleged that industrialists and factory owners with links to the former Awami League government were instigating unrest in the country's garment sector, as workers' protests demanding higher wages entered their third consecutive day. Speaking to reporters after a meeting with leaders of the Bangladesh Garment Manufacturers a",
+      "country": "도미니카공화국",
+      "category": "security",
+      "severity": "low",
+      "title": "UN praises Dominican Republic’s logistical support for security operations in Haiti",
+      "title_en": "UN praises Dominican Republic’s logistical support for security operations in Haiti",
+      "summary": "Santo Domingo.- United Nations Under-Secretary-General Daniela Kroslak has praised the Dominican Republic’s logistical support for the Gang Suppression Force (GSF) in Haiti, describing it as essential to facilitating security operations in the […]",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
       "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
       "published_at": "2026-11-02",
-      "source": "Bangladesh Sun",
-      "source_url": "http://www.bangladeshsun.com/news/279407660/garment-workers-protest-bangladesh-home-minister-alleges-former-awami-league-linked-factory-owners-fuelling-unrest"
-    },
-    {
-      "id": "newsdata-002",
-      "country": "요르단",
-      "category": "conflict",
-      "severity": "high",
-      "title": "King in Throne Speech: Jordan Will Remain Resilient Against Terrorism; Terrorists “Are Not One of Us”",
-      "title_en": "King in Throne Speech: Jordan Will Remain Resilient Against Terrorism; Terrorists “Are Not One of Us”",
-      "summary": "His Majesty King Abdullah II delivered the Royal Speech from the Throne on Monday, inaugurating the third ordinary session of the 20th Parliament.",
-      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
-      "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 활동 지속 여부를 검토하세요.",
-      "published_at": "2026-11-02",
-      "source": "Jordan News | Latest News From Jordan, Mena",
-      "source_url": "https://www.jordannews.jo/Section-109/News/King-in-Throne-Speech-Jordan-Will-Remain-Resilient-Against-Terrorism-Terrorists-Are-Not-One-of-Us-58338"
+      "source": "Dominican Today",
+      "source_url": "https://dominicantoday.com/un-praises-dominican-republics-logistical-support-for-security-operations-in-haiti/"
     }
   ]
 }

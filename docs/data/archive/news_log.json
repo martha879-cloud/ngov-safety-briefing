@@ -4126,5 +4126,21 @@
     "source_url": "https://www.jordannews.jo/Section-109/News/King-in-Throne-Speech-Jordan-Will-Remain-Resilient-Against-Terrorism-Terrorists-Are-Not-One-of-Us-58338",
     "feed": "NewsData.io",
     "first_seen_date": "2026-11-03"
+  },
+  {
+    "id": "newsdata-001",
+    "country": "도미니카공화국",
+    "category": "security",
+    "severity": "low",
+    "title": "UN praises Dominican Republic’s logistical support for security operations in Haiti",
+    "title_en": "UN praises Dominican Republic’s logistical support for security operations in Haiti",
+    "summary": "Santo Domingo.- United Nations Under-Secretary-General Daniela Kroslak has praised the Dominican Republic’s logistical support for the Gang Suppression Force (GSF) in Haiti, describing it as essential to facilitating security operations in the […]",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-11-02",
+    "source": "Dominican Today",
+    "source_url": "https://dominicantoday.com/un-praises-dominican-republics-logistical-support-for-security-operations-in-haiti/",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-11-03"
   }
 ]
