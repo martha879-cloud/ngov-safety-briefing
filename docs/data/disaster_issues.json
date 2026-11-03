@@ -1,6 +1,38 @@
 {
-  "updated": "2026-11-03 12:49",
+  "updated": "2026-11-04 08:11",
   "issues": [
+    {
+      "id": "usgs-us7000tvtj",
+      "country": "키르기스스탄",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "M5.2 지진 발생 (91 km ESE of Kyzyl-Eshme, Kyrgyzstan)",
+      "summary": "USGS 관측 기준 M5.2 규모의 지진이 발생했습니다 (91 km ESE of Kyzyl-Eshme, Kyrgyzstan).",
+      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-11-03",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tvtj",
+      "lat": 39.3619,
+      "lng": 73.3023,
+      "magnitude": 5.2
+    },
+    {
+      "id": "usgs-us7000tva7",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.8 지진 발생 (85 km S of Gorontalo, Indonesia)",
+      "summary": "USGS 관측 기준 M4.8 규모의 지진이 발생했습니다 (85 km S of Gorontalo, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-11-03",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tva7",
+      "lat": -0.2295,
+      "lng": 123.1532,
+      "magnitude": 4.8
+    },
     {
       "id": "usgs-us7000tuxg",
       "country": "페루",
@@ -288,54 +320,6 @@
       "lat": 5.6402,
       "lng": 125.3536,
       "magnitude": 5.1
-    },
-    {
-      "id": "usgs-us7000tth4",
-      "country": "필리핀",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.9 지진 발생 (70 km WNW of Callaguip, Philippines)",
-      "summary": "USGS 관측 기준 M4.9 규모의 지진이 발생했습니다 (70 km WNW of Callaguip, Philippines).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-10-27",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tth4",
-      "lat": 18.2708,
-      "lng": 119.8508,
-      "magnitude": 4.9
-    },
-    {
-      "id": "usgs-us7000ttgf",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "M5.4 지진 발생 (126 km S of Pundong, Indonesia)",
-      "summary": "USGS 관측 기준 M5.4 규모의 지진이 발생했습니다 (126 km S of Pundong, Indonesia).",
-      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-10-27",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttgf",
-      "lat": -9.0977,
-      "lng": 110.3861,
-      "magnitude": 5.4
-    },
-    {
-      "id": "usgs-us7000ttgh",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.9 지진 발생 (156 km S of Pundong, Indonesia)",
-      "summary": "USGS 관측 기준 M4.9 규모의 지진이 발생했습니다 (156 km S of Pundong, Indonesia).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-10-27",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttgh",
-      "lat": -9.3662,
-      "lng": 110.2973,
-      "magnitude": 4.9
     }
   ]
 }

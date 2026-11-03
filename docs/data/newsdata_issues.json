@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-03 12:49",
+  "updated": "2026-11-04 08:11",
   "issues": [
     {
       "id": "newsdata-001",
-      "country": "도미니카공화국",
+      "country": "말라위",
       "category": "security",
       "severity": "low",
-      "title": "UN praises Dominican Republic’s logistical support for security operations in Haiti",
-      "title_en": "UN praises Dominican Republic’s logistical support for security operations in Haiti",
-      "summary": "Santo Domingo.- United Nations Under-Secretary-General Daniela Kroslak has praised the Dominican Republic’s logistical support for the Gang Suppression Force (GSF) in Haiti, describing it as essential to facilitating security operations in the […]",
+      "title": "Malawi, Mozambique move to tackle security threats",
+      "title_en": "Malawi, Mozambique move to tackle security threats",
+      "summary": "Malawi and Mozambique have resolved to enhance stronger cross-border security cooperation to address illicit firearms, terrorism, human trafficking and organised crime which have emerged as common security threats to the two countries. Inspector General of Malawi Police Richard Luhanga and Mozambique Deputy Commander General of Police Aquilasse Kapangula Manda said yesterday that emerging crimes are … The post Malawi, Mozambique move to tackle security threats appeared first on Nation Online.",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
       "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-11-02",
-      "source": "Dominican Today",
-      "source_url": "https://dominicantoday.com/un-praises-dominican-republics-logistical-support-for-security-operations-in-haiti/"
+      "published_at": "2026-11-03",
+      "source": "The Nation Online",
+      "source_url": "https://mwnation.com/malawi-mozambique-move-to-tackle-security-threats/"
     }
   ]
 }
