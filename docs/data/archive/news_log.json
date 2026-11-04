@@ -4206,5 +4206,53 @@
     "source_url": "https://mwnation.com/malawi-mozambique-move-to-tackle-security-threats/",
     "feed": "NewsData.io",
     "first_seen_date": "2026-11-04"
+  },
+  {
+    "id": "news-004",
+    "country": "요르단",
+    "category": "conflict",
+    "severity": "low",
+    "title": "ON THE LOOKOUT: Jordan Calip, suspected of domestic violence",
+    "title_en": "ON THE LOOKOUT: Jordan Calip, suspected of domestic violence",
+    "summary": "COLORADO SPRINGS, Colo. (KRDO) -- KRDO13 is working with Pikes Peak Area Crime Stoppers to keep you informed about what’s happening in your neighborhoods.",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-11-03",
+    "source": "KRDO",
+    "source_url": "https://krdo.com/on-the-lookout/2026/11/03/on-the-lookout-jordan-calip-suspected-of-domestic-violence/",
+    "feed": "GNews",
+    "first_seen_date": "2026-11-05"
+  },
+  {
+    "id": "news-005",
+    "country": "요르단",
+    "category": "conflict",
+    "severity": "high",
+    "title": "Jordan's security gap: Former intelligence officer urges rethink on extremism after church attack",
+    "title_en": "Jordan's security gap: Former intelligence officer urges rethink on extremism after church attack",
+    "summary": "Saud Al Sharafat says counter-extremism plan was all but ignored",
+    "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+    "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
+    "published_at": "2026-11-03",
+    "source": "The National",
+    "source_url": "https://www.thenationalnews.com/news/mena/2026/11/03/jordan-church-terrorism/",
+    "feed": "GNews",
+    "first_seen_date": "2026-11-05"
+  },
+  {
+    "id": "news-001",
+    "country": "베트남",
+    "category": "security",
+    "severity": "low",
+    "title": "Vietnam remains on FATF 'grey list' of increased monitoring for financial crimes; Myanmar remains on black list",
+    "title_en": "Vietnam remains on FATF 'grey list' of increased monitoring for financial crimes; Myanmar remains on black list",
+    "summary": "PARIS: The world's top financial crime watchdog gave four countries a clean bill of health on Friday (Oct 30), taking Bulgaria, Ivory Coast, Democratic Republic of Congo and Monaco off its \"grey list\" - even as it put Vietnam on notice for dragging its feet on reform.",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-10-29",
+    "source": "The Star",
+    "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/31/vietnam-remains-on-fatf-039grey-list039-of-increased-monitoring-for-financial-crimes-myanmar-remains-on-black-list",
+    "feed": "GNews",
+    "first_seen_date": "2026-11-05"
   }
 ]

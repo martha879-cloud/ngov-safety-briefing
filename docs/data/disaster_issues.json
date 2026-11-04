@@ -1,6 +1,22 @@
 {
-  "updated": "2026-11-04 11:52",
+  "updated": "2026-11-05 08:11",
   "issues": [
+    {
+      "id": "usgs-us7000tvwj",
+      "country": "필리핀",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "M5.0 지진 발생 (207 km ESE of Sarangani, Philippines)",
+      "summary": "USGS 관측 기준 M5.0 규모의 지진이 발생했습니다 (207 km ESE of Sarangani, Philippines).",
+      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-11-04",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tvwj",
+      "lat": 4.3895,
+      "lng": 127.0325,
+      "magnitude": 5
+    },
     {
       "id": "usgs-us7000tvu9",
       "country": "키르기스스탄",
@@ -240,70 +256,6 @@
       "lat": 8.3695,
       "lng": 127.4427,
       "magnitude": 5.4
-    },
-    {
-      "id": "usgs-us7000ttua",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "M5.7 지진 발생 (271 km WSW of Tual, Indonesia)",
-      "summary": "USGS 관측 기준 M5.7 규모의 지진이 발생했습니다 (271 km WSW of Tual, Indonesia).",
-      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-10-28",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttua",
-      "lat": -6.3231,
-      "lng": 130.3957,
-      "magnitude": 5.7
-    },
-    {
-      "id": "usgs-us7000tttl",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "M5.3 지진 발생 (161 km WNW of Tobelo, Indonesia)",
-      "summary": "USGS 관측 기준 M5.3 규모의 지진이 발생했습니다 (161 km WNW of Tobelo, Indonesia).",
-      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-10-28",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tttl",
-      "lat": 2.4345,
-      "lng": 126.7433,
-      "magnitude": 5.3
-    },
-    {
-      "id": "usgs-us7000ttnq",
-      "country": "필리핀",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.9 지진 발생 (1 km WSW of Butulan, Philippines)",
-      "summary": "USGS 관측 기준 M4.9 규모의 지진이 발생했습니다 (1 km WSW of Butulan, Philippines).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-10-28",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttnq",
-      "lat": 5.6073,
-      "lng": 125.4182,
-      "magnitude": 4.9
-    },
-    {
-      "id": "usgs-us7000ttmz",
-      "country": "필리핀",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.8 지진 발생 (29 km SSW of Sarangani, Philippines)",
-      "summary": "USGS 관측 기준 M4.8 규모의 지진이 발생했습니다 (29 km SSW of Sarangani, Philippines).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-10-28",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttmz",
-      "lat": 5.1505,
-      "lng": 125.3884,
-      "magnitude": 4.8
     }
   ]
 }

@@ -1,6 +1,19 @@
 {
-  "updated": "2026-11-04 11:52",
+  "updated": "2026-11-05 08:11",
   "issues": [
+    {
+      "id": "말라위-2026-11-04-2",
+      "country": "말라위",
+      "category": "official_notice",
+      "severity": "medium",
+      "title": "말라위 내 국제운전면허증 사용 관련 유의사항 안내",
+      "summary": "외교부 해외안전여행 안전공지에 등록된 최근 안전 관련 정보입니다.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-11-04",
+      "source": "외교부 해외안전공지",
+      "source_url": "https://www.0404.go.kr/bbs/safetyNtc/15/detail2?ntnCd=55"
+    },
     {
       "id": "케냐-2026-09-21-1",
       "country": "케냐",
