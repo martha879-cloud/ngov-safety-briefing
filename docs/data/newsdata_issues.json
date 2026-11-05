@@ -1,4 +1,19 @@
 {
-  "updated": "2026-11-05 08:11",
-  "issues": []
+  "updated": "2026-11-05 12:03",
+  "issues": [
+    {
+      "id": "newsdata-001",
+      "country": "말라위",
+      "category": "conflict",
+      "severity": "medium",
+      "title": "Reflection: The 2019 HRDC protests that exposed Malawi’s fragile peace, public security",
+      "title_en": "Reflection: The 2019 HRDC protests that exposed Malawi’s fragile peace, public security",
+      "summary": "An investigative research and political analysis The 2019 demonstrations organised by the Human Rights Defenders Coalition (HRDC) remain one of the most politically consequential and controversial episodes in Malawi’s recent democratic history, exposing deep divisions over electoral accountability, public security, political freedoms and the protection of ordinary citizens. What began as a campaign demanding accountability […] The post Reflection: The 2019 HRDC protests that exposed Malawi’s fragile peace, public security appeared first on The Maravi Post.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-11-04",
+      "source": "The Maravi Post",
+      "source_url": "https://www.maravipost.com/reflection-the-2019-hrdc-protests-that-exposed-malawis-fragile-peace-public-security/"
+    }
+  ]
 }
