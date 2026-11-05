@@ -1,4 +1,61 @@
 {
-  "updated": "2026-11-05 12:02",
-  "issues": []
+  "updated": "2026-11-06 08:11",
+  "issues": [
+    {
+      "id": "news-001",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "Indonesia fire-ravaged regions face flood threat",
+      "title_en": "Indonesia fire-ravaged regions face flood threat",
+      "summary": "Indonesia fire-hit regions face rising flood risk as rainy season begins, with damaged peatlands increasing flash flood threats. Read more at straitstimes.com.",
+      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-11-04",
+      "source": "The Straits Times",
+      "source_url": "https://www.straitstimes.com/asia/se-asia/fire-ravaged-regions-in-indonesia-face-rising-flood-threat"
+    },
+    {
+      "id": "news-003",
+      "country": "캄보디아",
+      "category": "conflict",
+      "severity": "low",
+      "title": "Tiger Shroff shooting: Money trail leads to Cambodia, Denmark and SBI",
+      "title_en": "Tiger Shroff shooting: Money trail leads to Cambodia, Denmark and SBI",
+      "summary": "Suneha Pandit is the sister-in-law of Anil Pandit, a main accused and leader of an organised crime syndicate. Suneha's arrest is the 13th one in the case.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-11-04",
+      "source": "The Indian Express",
+      "source_url": "https://indianexpress.com/article/india/tiger-shroff-firing-shooters-sbi-funded-getaway-bike-10949445/"
+    },
+    {
+      "id": "news-004",
+      "country": "이집트",
+      "category": "conflict",
+      "severity": "high",
+      "title": "From Egypt to Malaysia, hackers hijack billboards to show porn, mock security saying anyone can do it",
+      "title_en": "From Egypt to Malaysia, hackers hijack billboards to show porn, mock security saying anyone can do it",
+      "summary": "Digital billboards in Egypt, Malaysia and Brazil were hacked last week, with pornographic videos replacing regular advertisements. The group behind the attack claims it took just two hours to find vulnerable systems and says hijacking these screens is easier than companies think.",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
+      "published_at": "2026-11-02",
+      "source": "India Today",
+      "source_url": "https://www.indiatoday.in/technology/news/story/from-egypt-to-malaysia-hackers-hijack-billboards-to-show-porn-mock-security-saying-anyone-can-do-it-3030299-2026-11-02"
+    },
+    {
+      "id": "news-002",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "6.2-magnitude earthquake strikes Indonesia's Banda Sea, tremors felt in Maluku and Papua",
+      "title_en": "6.2-magnitude earthquake strikes Indonesia's Banda Sea, tremors felt in Maluku and Papua",
+      "summary": "JAKARTA: A 6.2-magnitude earthquake struck the Banda Sea in eastern Indonesia early Thursday (Oct 29), with tremors felt in several areas of Maluku and Papua.",
+      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-10-29",
+      "source": "The Star",
+      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/29/62-magnitude-earthquake-strikes-indonesia039s-banda-sea-tremors-felt-in-maluku-and-papua"
+    }
+  ]
 }

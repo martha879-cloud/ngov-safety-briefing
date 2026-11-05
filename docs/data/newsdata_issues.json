@@ -1,19 +1,47 @@
 {
-  "updated": "2026-11-05 12:03",
+  "updated": "2026-11-06 08:11",
   "issues": [
     {
       "id": "newsdata-001",
-      "country": "말라위",
+      "country": "키르기스스탄",
       "category": "conflict",
       "severity": "medium",
-      "title": "Reflection: The 2019 HRDC protests that exposed Malawi’s fragile peace, public security",
-      "title_en": "Reflection: The 2019 HRDC protests that exposed Malawi’s fragile peace, public security",
-      "summary": "An investigative research and political analysis The 2019 demonstrations organised by the Human Rights Defenders Coalition (HRDC) remain one of the most politically consequential and controversial episodes in Malawi’s recent democratic history, exposing deep divisions over electoral accountability, public security, political freedoms and the protection of ordinary citizens. What began as a campaign demanding accountability […] The post Reflection: The 2019 HRDC protests that exposed Malawi’s fragile peace, public security appeared first on The Maravi Post.",
+      "title": "Kyrgyzstan's Embassy urges citizens to avoid protests in Germany",
+      "title_en": "Kyrgyzstan's Embassy urges citizens to avoid protests in Germany",
+      "summary": "News and analytical articles about Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, Uzbekistan.",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
       "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-11-04",
-      "source": "The Maravi Post",
-      "source_url": "https://www.maravipost.com/reflection-the-2019-hrdc-protests-that-exposed-malawis-fragile-peace-public-security/"
+      "published_at": "2026-11-05",
+      "source": "Akipress",
+      "source_url": "https://akipress.com/news:929645"
+    },
+    {
+      "id": "newsdata-002",
+      "country": "말라위",
+      "category": "security",
+      "severity": "low",
+      "title": "Malawi registers 41, 000 transnational crimes in 2025",
+      "title_en": "Malawi registers 41, 000 transnational crimes in 2025",
+      "summary": "By Justin Mkweu: Malawi registered 41,000 transnational crimes last year, albeit a reduction from 42, 800 cases registered in 2024. This was revealed in Blantyre City during the 17th Session of the Joint Permanent Commission on Defense and Security between Malawi and Mozambique. The meeting started on Monday this week and ended Wednesday. The crimes include illegal and irregular cross-border trade, irregular migration, illegal mining and human trafficking, among others. Speaking at the closing ceremony, chairperson for the commission, who is also Malawi’s Minister of Defence, Feston Kaupa, said the drop was a result of joint efforts that the countries have been taking to reduce crime. He added that the sessions enable the two countries to learn from each other and also know how one can benefit from another, in terms of legal instruments that prevent crime. “Here, we are talking about the joint commission with Mozambique but these are commissions that we, as a country, also have with Zambia and Tanzania— which means we do joint efforts with all our neighbours,” Kaupa said. Being the 17th session, Malawi and Mozambique have been meeting for 16 years. Kaupa added that, going forward, they would make sure that they intensify implementation of the resolutions that those at the sessions make. “From this meeting, we have made resolutions that we should jointly implement what we have agreed. When we meet again in Mozambique next year, during the 18th session, we should track progress,” he said. In his remarks, Mozambique’s Minister of Internal Security Paulo Chachine expressed his government’s willingness to work on what has been agreed by the two countries. He added that they would make sure that the two countries enhance the capacity of their officers. “Consolidation is the key pillar of our operations and this will help make our corridors secure and make them places that cannot be used as transit points of crime,” Chachine said.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-11-05",
+      "source": "The Times Group",
+      "source_url": "https://times.mw/malawi-registers-41-000-transnational-crimes-in-2025/"
+    },
+    {
+      "id": "newsdata-003",
+      "country": "모로코",
+      "category": "transport",
+      "severity": "low",
+      "title": "Morocco is spending another 400 Million DH to support transport workers",
+      "title_en": "Morocco is spending another 400 Million DH to support transport workers",
+      "summary": "If you’ve been following Morocco’s fuel prices, you’ve probably noticed that the conversation goes far beyond what drivers pay at petrol stations. Fuel costs also affect taxis, buses, delivery services and the trucks transporting products across the country. Now, the Moroccan government is allocating approximately 400 million dirhams in additional financial support to road transport […] The post Morocco is spending another 400 Million DH to support transport workers appeared first on La Nouvelle Tribune.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-11-05",
+      "source": "La Nouvelle Tribune",
+      "source_url": "https://lnt.ma/morocco-is-spending-another-400-million-dh-to-support-transport-workers/"
     }
   ]
 }
