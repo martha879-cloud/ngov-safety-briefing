@@ -1,6 +1,38 @@
 {
-  "updated": "2026-11-06 12:03",
+  "updated": "2026-11-07 08:11",
   "issues": [
+    {
+      "id": "usgs-us7000twmr",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.8 지진 발생 (36 km WNW of Poso, Indonesia)",
+      "summary": "USGS 관측 기준 M4.8 규모의 지진이 발생했습니다 (36 km WNW of Poso, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-11-06",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twmr",
+      "lat": -1.2393,
+      "lng": 120.4589,
+      "magnitude": 4.8
+    },
+    {
+      "id": "usgs-us7000twfk",
+      "country": "필리핀",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.9 지진 발생 (41 km SW of Balangonan, Philippines)",
+      "summary": "USGS 관측 기준 M4.9 규모의 지진이 발생했습니다 (41 km SW of Balangonan, Philippines).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-11-06",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twfk",
+      "lat": 5.2999,
+      "lng": 125.0977,
+      "magnitude": 4.9
+    },
     {
       "id": "usgs-us7000tw76",
       "country": "탄자니아",
@@ -144,54 +176,6 @@
       "lat": 19.7626,
       "lng": 121.328,
       "magnitude": 4.6
-    },
-    {
-      "id": "usgs-us7000tufp",
-      "country": "페루",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.6 지진 발생 (33 km NE of Mazo Cruz, Peru)",
-      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (33 km NE of Mazo Cruz, Peru).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-10-30",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tufp",
-      "lat": -16.5439,
-      "lng": -69.4844,
-      "magnitude": 4.6
-    },
-    {
-      "id": "usgs-us7000tub8",
-      "country": "필리핀",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.6 지진 발생 (7 km NE of Tago, Philippines)",
-      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (7 km NE of Tago, Philippines).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-10-30",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tub8",
-      "lat": 9.0593,
-      "lng": 126.2834,
-      "magnitude": 4.6
-    },
-    {
-      "id": "usgs-us7000tu7k",
-      "country": "필리핀",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.5 지진 발생 (104 km ENE of Barcelona, Philippines)",
-      "summary": "USGS 관측 기준 M4.5 규모의 지진이 발생했습니다 (104 km ENE of Barcelona, Philippines).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-10-30",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu7k",
-      "lat": 8.3731,
-      "lng": 127.3616,
-      "magnitude": 4.5
     }
   ]
 }

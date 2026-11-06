@@ -1,19 +1,47 @@
 {
-  "updated": "2026-11-06 12:03",
+  "updated": "2026-11-07 08:11",
   "issues": [
     {
       "id": "newsdata-001",
-      "country": "우간다",
-      "category": "security",
-      "severity": "low",
-      "title": "DIGITAL DEFENDERS! Centenary Bank Crowns Uganda’s Next Generation Of Cybersecurity Experts",
-      "title_en": "DIGITAL DEFENDERS! Centenary Bank Crowns Uganda’s Next Generation Of Cybersecurity Experts",
-      "summary": "Centenary Bank concluded its inaugural University Cybersecurity Hackathon, recognising outstanding university students for their technical... The post DIGITAL DEFENDERS! Centenary Bank Crowns Uganda’s Next Generation Of Cybersecurity Experts appeared first on ONLINE.",
+      "country": "르완다",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "What to know about earthquakes as Rwanda records magnitude 6.4 tremor",
+      "title_en": "What to know about earthquakes as Rwanda records magnitude 6.4 tremor",
+      "summary": "An earthquake was felt in Kigali on Thursday mid-morning, November 5, with residents in Mwanza, Tanzania, as well as Kampala, Nairobi and other parts of the region also reporting t...",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
       "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-11-05",
-      "source": "Red Home",
-      "source_url": "https://redpepper.co.ug/digital-defenders-centenary-bank-crowns-ugandas-next-generation-of-cybersecurity-experts/152514/"
+      "published_at": "2026-11-06",
+      "source": "The New Times",
+      "source_url": "https://www.newtimes.co.rw/article/40268/news/environment/what-to-know-about-earthquakes-as-rwanda-records-magnitude-64-tremor"
+    },
+    {
+      "id": "newsdata-002",
+      "country": "이집트",
+      "category": "transport",
+      "severity": "medium",
+      "title": "Egyptian airports raise alert levels amid regional developments",
+      "title_en": "Egyptian airports raise alert levels amid regional developments",
+      "summary": "The Egyptian Airports Company announced on Thursday that it had raised alert levels and operational readiness at all airports under its management to deal with any emergency regional developments. In a statement, the company said its chairman and chief executive, pilot Wael Al-Nashar, had ordered the heightened state of readiness and instructed airports to provide the necessary support to airlines in the event of flight schedule changes, alongside measures to rationalise energy consumption and spending. The announcement followed a meeting of the company’s executive committee, chaired by Al-Nashar, to review operational developments and passenger and flight traffic levels in light of the current regional situation, the statement said. The meeting stressed the need to maintain regular flight operations and operational […]",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-11-06",
+      "source": "Middle East Monitor",
+      "source_url": "https://www.middleeastmonitor.com/20261106-egyptian-airports-raise-alert-levels-amid-regional-developments/"
+    },
+    {
+      "id": "newsdata-003",
+      "country": "탄자니아",
+      "category": "conflict",
+      "severity": "low",
+      "title": "Investigation Commission on post-election violence meets with former Tanzanian Parliament Speaker Anna Makinda on January 29, 2026.",
+      "title_en": "Investigation Commission on post-election violence meets with former Tanzanian Parliament Speaker Anna Makinda on January 29, 2026.",
+      "summary": "Investigation Commission on post-election violence meets with former Tanzanian Parliament Speaker Anna Makinda on January 29, 2026.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-11-06",
+      "source": "Bongo5",
+      "source_url": "https://bongofive.com/en/tume-yakutana-na-spika-mstaafu-anna-makinda"
     }
   ]
 }
