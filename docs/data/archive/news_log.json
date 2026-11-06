@@ -4366,5 +4366,21 @@
     "source_url": "https://lnt.ma/morocco-is-spending-another-400-million-dh-to-support-transport-workers/",
     "feed": "NewsData.io",
     "first_seen_date": "2026-11-06"
+  },
+  {
+    "id": "newsdata-001",
+    "country": "우간다",
+    "category": "security",
+    "severity": "low",
+    "title": "DIGITAL DEFENDERS! Centenary Bank Crowns Uganda’s Next Generation Of Cybersecurity Experts",
+    "title_en": "DIGITAL DEFENDERS! Centenary Bank Crowns Uganda’s Next Generation Of Cybersecurity Experts",
+    "summary": "Centenary Bank concluded its inaugural University Cybersecurity Hackathon, recognising outstanding university students for their technical... The post DIGITAL DEFENDERS! Centenary Bank Crowns Uganda’s Next Generation Of Cybersecurity Experts appeared first on ONLINE.",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-11-05",
+    "source": "Red Home",
+    "source_url": "https://redpepper.co.ug/digital-defenders-centenary-bank-crowns-ugandas-next-generation-of-cybersecurity-experts/152514/",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-11-06"
   }
 ]
