@@ -1,4 +1,19 @@
 {
-  "updated": "2026-11-07 11:30",
-  "issues": []
+  "updated": "2026-11-08 08:11",
+  "issues": [
+    {
+      "id": "news-001",
+      "country": "캄보디아",
+      "category": "conflict",
+      "severity": "low",
+      "title": "Tiger Shroff shooting: Money trail leads to Cambodia, Denmark and SBI",
+      "title_en": "Tiger Shroff shooting: Money trail leads to Cambodia, Denmark and SBI",
+      "summary": "Suneha Pandit is the sister-in-law of Anil Pandit, a main accused and leader of an organised crime syndicate. Suneha's arrest is the 13th one in the case.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-11-04",
+      "source": "The Indian Express",
+      "source_url": "https://indianexpress.com/article/india/tiger-shroff-firing-shooters-sbi-funded-getaway-bike-10949445/"
+    }
+  ]
 }

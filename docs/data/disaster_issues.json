@@ -1,6 +1,38 @@
 {
-  "updated": "2026-11-07 11:30",
+  "updated": "2026-11-08 08:11",
   "issues": [
+    {
+      "id": "usgs-us7000twu1",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.7 지진 발생 (43 km ESE of Ambon, Indonesia)",
+      "summary": "USGS 관측 기준 M4.7 규모의 지진이 발생했습니다 (43 km ESE of Ambon, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-11-07",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twu1",
+      "lat": -3.905,
+      "lng": 128.5121,
+      "magnitude": 4.7
+    },
+    {
+      "id": "usgs-us7000twrh",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.7 지진 발생 (156 km ESE of Modisi, Indonesia)",
+      "summary": "USGS 관측 기준 M4.7 규모의 지진이 발생했습니다 (156 km ESE of Modisi, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-11-07",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twrh",
+      "lat": 0.0075,
+      "lng": 125.7691,
+      "magnitude": 4.7
+    },
     {
       "id": "usgs-us7000twmr",
       "country": "인도네시아",
