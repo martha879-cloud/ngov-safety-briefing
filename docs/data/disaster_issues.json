@@ -1,6 +1,22 @@
 {
-  "updated": "2026-11-08 11:00",
+  "updated": "2026-11-09 08:11",
   "issues": [
+    {
+      "id": "usgs-us7000twyd",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.6 지진 발생 (117 km NE of Tobelo, Indonesia)",
+      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (117 km NE of Tobelo, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-11-08",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twyd",
+      "lat": 2.5497,
+      "lng": 128.6755,
+      "magnitude": 4.6
+    },
     {
       "id": "usgs-us7000twur",
       "country": "필리핀",
@@ -224,22 +240,6 @@
       "lat": 1.392,
       "lng": 124.6476,
       "magnitude": 5.1
-    },
-    {
-      "id": "usgs-us7000tuqy",
-      "country": "필리핀",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.6 지진 발생 (101 km SW of Basco, Philippines)",
-      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (101 km SW of Basco, Philippines).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-11-01",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuqy",
-      "lat": 19.7626,
-      "lng": 121.328,
-      "magnitude": 4.6
     }
   ]
 }

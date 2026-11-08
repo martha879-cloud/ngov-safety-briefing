@@ -1,6 +1,19 @@
 {
-  "updated": "2026-11-08 10:59",
+  "updated": "2026-11-09 08:10",
   "issues": [
+    {
+      "id": "이집트-2026-11-08-2",
+      "country": "이집트",
+      "category": "official_notice",
+      "severity": "low",
+      "title": "공수병(광견병) 감염 예방 및 대응 방안 등 안내",
+      "summary": "외교부 해외안전여행 안전공지에 등록된 최근 안전 관련 정보입니다.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "외교부 안전공지와 현지 상황을 지속적으로 확인하세요.",
+      "published_at": "2026-11-08",
+      "source": "외교부 해외안전공지",
+      "source_url": "https://www.0404.go.kr/bbs/safetyNtc/1345776/detail2?ntnCd=178"
+    },
     {
       "id": "케냐-2026-09-21-1",
       "country": "케냐",
