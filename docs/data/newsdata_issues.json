@@ -1,33 +1,19 @@
 {
-  "updated": "2026-11-08 08:11",
+  "updated": "2026-11-08 11:00",
   "issues": [
     {
       "id": "newsdata-001",
-      "country": "베트남",
-      "category": "health",
-      "severity": "low",
-      "title": "Hand-foot-and-mouth disease cases continue to rise in Vietnam, official says",
-      "title_en": "Hand-foot-and-mouth disease cases continue to rise in Vietnam, official says",
-      "summary": "Hand-foot-and-mouth disease cases continue to surge across the country, while meningococcal disease has claimed eight lives since the beginning of the year, according to the Department of Preventive Medicine under the Ministry of Health.",
-      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-11-07",
-      "source": "Báo Sài Gòn Giải Phóng",
-      "source_url": "https://en.sggp.org.vn/hand-foot-and-mouth-disease-cases-continue-to-rise-in-vietnam-official-says-post130836.html"
-    },
-    {
-      "id": "newsdata-002",
       "country": "케냐",
       "category": "security",
       "severity": "low",
-      "title": "EU arms Kenya to boost maritime security",
-      "title_en": "EU arms Kenya to boost maritime security",
-      "summary": "Kenya Navy has received its first batch of security equipment under a $22 million European...",
+      "title": "Kenya Champions Inclusive Security And Women's Leadership In Global Peace",
+      "title_en": "Kenya Champions Inclusive Security And Women's Leadership In Global Peace",
+      "summary": "(MENAFN - African Press Organization) Meaningful participation of women in peace and security is essential to building effective, inclusive and responsive military institutions. Integrating gender ...",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
       "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
       "published_at": "2026-11-07",
-      "source": "The Eastafrican",
-      "source_url": "https://www.theeastafrican.co.ke/tea/business-tech/eu-arms-kenya-to-boost-maritime-security-5661716"
+      "source": "Menafn",
+      "source_url": "https://menafn.com/1111930098/Kenya-Champions-Inclusive-Security-And-Womens-Leadership-In-Global-Peace"
     }
   ]
 }

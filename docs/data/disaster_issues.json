@@ -1,6 +1,38 @@
 {
-  "updated": "2026-11-08 08:11",
+  "updated": "2026-11-08 11:00",
   "issues": [
+    {
+      "id": "usgs-us7000twur",
+      "country": "필리핀",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.9 지진 발생 (41 km WSW of Gadung, Philippines)",
+      "summary": "USGS 관측 기준 M4.9 규모의 지진이 발생했습니다 (41 km WSW of Gadung, Philippines).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-11-07",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twur",
+      "lat": 6.706,
+      "lng": 123.6541,
+      "magnitude": 4.9
+    },
+    {
+      "id": "usgs-us7000twuq",
+      "country": "과테말라",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.5 지진 발생 (77 km SW of La Gomera, Guatemala)",
+      "summary": "USGS 관측 기준 M4.5 규모의 지진이 발생했습니다 (77 km SW of La Gomera, Guatemala).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-11-07",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twuq",
+      "lat": 13.5083,
+      "lng": -91.4602,
+      "magnitude": 4.5
+    },
     {
       "id": "usgs-us7000twu1",
       "country": "인도네시아",
