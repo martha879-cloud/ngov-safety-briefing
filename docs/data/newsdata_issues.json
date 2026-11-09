@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-09 11:19",
+  "updated": "2026-11-10 08:11",
   "issues": [
     {
       "id": "newsdata-001",
-      "country": "도미니카공화국",
-      "category": "health",
+      "country": "말라위",
+      "category": "security",
       "severity": "low",
-      "title": "Dominican Republic reports 76 new cases of dengue",
-      "title_en": "Dominican Republic reports 76 new cases of dengue",
-      "summary": "The Ministry of Public Health reported 76 confirmed dengue cases during epidemiological week 42, from October 18 to 24, bringing the year-to-date total to 556. The institution indicated in its epidemiological bulletin SE-42 that the incidence […]",
+      "title": "Malawi declares all-out war on international crime gangs as Minister Mukhito vows: ‘We will not surrender’",
+      "title_en": "Malawi declares all-out war on international crime gangs as Minister Mukhito vows: ‘We will not surrender’",
+      "summary": "Malawi has declared an all-out war on organised crime, with the government unveiling plans for a tough new national strategy to tackle increasingly sophisticated criminal networks operating across borders. Delivering a defiant message to traffickers, cybercriminals and other organised crime groups, Minister of Homeland Security Peter Mukhito insisted the country would not surrender to criminal […] The post Malawi declares all-out war on international crime gangs as Minister Mukhito vows: ‘We will not surrender’ appeared first on Malawi News | Breaking News, Politics, Business & Sports | Nyasa Times.",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
       "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-11-08",
-      "source": "Dominican Today",
-      "source_url": "https://dominicantoday.com/dominican-republic-reports-76-new-cases-of-dengue/"
+      "published_at": "2026-11-09",
+      "source": "Nyasa Times",
+      "source_url": "https://www.nyasatimes.com/malawi-declares-all-out-war-on-international-crime-gangs-as-minister-mukhito-vows-we-will-not-surrender/"
     }
   ]
 }

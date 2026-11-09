@@ -4574,5 +4574,21 @@
     "source_url": "https://dominicantoday.com/dominican-republic-reports-76-new-cases-of-dengue/",
     "feed": "NewsData.io",
     "first_seen_date": "2026-11-09"
+  },
+  {
+    "id": "newsdata-001",
+    "country": "말라위",
+    "category": "security",
+    "severity": "low",
+    "title": "Malawi declares all-out war on international crime gangs as Minister Mukhito vows: ‘We will not surrender’",
+    "title_en": "Malawi declares all-out war on international crime gangs as Minister Mukhito vows: ‘We will not surrender’",
+    "summary": "Malawi has declared an all-out war on organised crime, with the government unveiling plans for a tough new national strategy to tackle increasingly sophisticated criminal networks operating across borders. Delivering a defiant message to traffickers, cybercriminals and other organised crime groups, Minister of Homeland Security Peter Mukhito insisted the country would not surrender to criminal […] The post Malawi declares all-out war on international crime gangs as Minister Mukhito vows: ‘We will not surrender’ appeared first on Malawi News | Breaking News, Politics, Business & Sports | Nyasa Times.",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-11-09",
+    "source": "Nyasa Times",
+    "source_url": "https://www.nyasatimes.com/malawi-declares-all-out-war-on-international-crime-gangs-as-minister-mukhito-vows-we-will-not-surrender/",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-11-10"
   }
 ]
