@@ -1,36 +1,8 @@
 {
-  "updated": "2026-11-09 08:11",
+  "updated": "2026-11-09 11:19",
   "issues": [
     {
       "id": "newsdata-001",
-      "country": "베트남",
-      "category": "conflict",
-      "severity": "low",
-      "title": "No Vietnamese casualties reported in Poland shooting: Embassy",
-      "title_en": "No Vietnamese casualties reported in Poland shooting: Embassy",
-      "summary": "The embassy told Viet Nam News Agency correspondents in Central and Eastern Europe that it advised the Vietnamese community in Poland to avoid the area where the shooting occurred and strictly comply with safety instructions issued by local authorities. Viet Nam-Poland Strategic Partnership opens new chapter in bilateral cooperation: official Viet Nam treasures ties with Poland: Top leader Viet Nam, Poland seek to unlock cooperation potential under Strategic Partnership Viet Nam, Poland issue joint statement on establishment of strategic partnership",
-      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-11-08",
-      "source": "Báo Nhân Dân Điện Tử",
-      "source_url": "https://en.nhandan.vn/no-vietnamese-casualties-reported-in-poland-shooting-embassy-post168844.html"
-    },
-    {
-      "id": "newsdata-002",
-      "country": "케냐",
-      "category": "transport",
-      "severity": "low",
-      "title": "Kenyan woman celebrates husband’s one‑month cancer‑free milestone on mid‑flight announcement",
-      "title_en": "Kenyan woman celebrates husband’s one‑month cancer‑free milestone on mid‑flight announcement",
-      "summary": "A Kenyan passenger used the cabin microphone on a commercial flight to publicly honour her husband’s survival after three bouts with cancer, sparking a viral online tribute.",
-      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-11-08",
-      "source": "Kenya Today",
-      "source_url": "https://kenya-today.com/report-kenyan-woman-celebrates-husbands-onemonth-cancerfree-milestone-on-midflight-announcement-23783/"
-    },
-    {
-      "id": "newsdata-003",
       "country": "도미니카공화국",
       "category": "health",
       "severity": "low",
