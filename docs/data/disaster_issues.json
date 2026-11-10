@@ -1,6 +1,22 @@
 {
-  "updated": "2026-11-10 08:11",
+  "updated": "2026-11-10 13:28",
   "issues": [
+    {
+      "id": "usgs-us7000tx8d",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "M5.4 지진 발생 (Pulau Pulau Tanimbar, Indonesia)",
+      "summary": "USGS 관측 기준 M5.4 규모의 지진이 발생했습니다 (Pulau Pulau Tanimbar, Indonesia).",
+      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-11-10",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx8d",
+      "lat": -7.8742,
+      "lng": 130.2935,
+      "magnitude": 5.4
+    },
     {
       "id": "usgs-us7000tx3c",
       "country": "인도네시아",
