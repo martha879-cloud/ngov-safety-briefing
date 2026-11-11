@@ -1,36 +1,52 @@
 {
-  "updated": "2026-11-11 11:29",
+  "updated": "2026-11-12 08:11",
   "issues": [
+    {
+      "id": "usgs-us7000txir",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "M5.1 지진 발생 (Pulau Pulau Tanimbar, Indonesia)",
+      "summary": "USGS 관측 기준 M5.1 규모의 지진이 발생했습니다 (Pulau Pulau Tanimbar, Indonesia).",
+      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-11-11",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txir",
+      "lat": -7.9445,
+      "lng": 130.2513,
+      "magnitude": 5.1
+    },
     {
       "id": "usgs-us7000txbi",
       "country": "인도네시아",
       "category": "natural_disaster",
       "severity": "medium",
-      "title": "M5.2 지진 발생 (140 km ESE of Labuha, Indonesia)",
-      "summary": "USGS 관측 기준 M5.2 규모의 지진이 발생했습니다 (140 km ESE of Labuha, Indonesia).",
+      "title": "M5.1 지진 발생 (139 km ESE of Labuha, Indonesia)",
+      "summary": "USGS 관측 기준 M5.1 규모의 지진이 발생했습니다 (139 km ESE of Labuha, Indonesia).",
       "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
       "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
       "published_at": "2026-11-10",
       "source": "USGS",
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txbi",
-      "lat": -0.9226,
-      "lng": 128.7092,
-      "magnitude": 5.2
+      "lat": -0.9034,
+      "lng": 128.701,
+      "magnitude": 5.1
     },
     {
       "id": "usgs-us7000txbc",
       "country": "과테말라",
       "category": "natural_disaster",
       "severity": "low",
-      "title": "M4.8 지진 발생 (34 km S of Puerto San José, Guatemala)",
-      "summary": "USGS 관측 기준 M4.8 규모의 지진이 발생했습니다 (34 km S of Puerto San José, Guatemala).",
+      "title": "M4.8 지진 발생 (33 km S of Puerto San José, Guatemala)",
+      "summary": "USGS 관측 기준 M4.8 규모의 지진이 발생했습니다 (33 km S of Puerto San José, Guatemala).",
       "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
       "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
       "published_at": "2026-11-10",
       "source": "USGS",
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txbc",
-      "lat": 13.6155,
-      "lng": -90.819,
+      "lat": 13.6248,
+      "lng": -90.8183,
       "magnitude": 4.8
     },
     {
@@ -38,16 +54,16 @@
       "country": "과테말라",
       "category": "natural_disaster",
       "severity": "medium",
-      "title": "M5.6 지진 발생 (43 km S of Puerto San José, Guatemala)",
-      "summary": "USGS 관측 기준 M5.6 규모의 지진이 발생했습니다 (43 km S of Puerto San José, Guatemala).",
+      "title": "M5.5 지진 발생 (40 km S of Puerto San José, Guatemala)",
+      "summary": "USGS 관측 기준 M5.5 규모의 지진이 발생했습니다 (40 km S of Puerto San José, Guatemala).",
       "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
       "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
       "published_at": "2026-11-10",
       "source": "USGS",
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txb8",
-      "lat": 13.5381,
-      "lng": -90.8798,
-      "magnitude": 5.6
+      "lat": 13.5622,
+      "lng": -90.8534,
+      "magnitude": 5.5
     },
     {
       "id": "usgs-us7000txb6",
@@ -304,22 +320,6 @@
       "lat": -3.4641,
       "lng": 32.149,
       "magnitude": 5.1
-    },
-    {
-      "id": "usgs-us7000tvwj",
-      "country": "필리핀",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "M5.0 지진 발생 (207 km ESE of Sarangani, Philippines)",
-      "summary": "USGS 관측 기준 M5.0 규모의 지진이 발생했습니다 (207 km ESE of Sarangani, Philippines).",
-      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-11-04",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tvwj",
-      "lat": 4.3895,
-      "lng": 127.0325,
-      "magnitude": 5
     }
   ]
 }

@@ -1,19 +1,4 @@
 {
-  "updated": "2026-11-11 11:29",
-  "issues": [
-    {
-      "id": "newsdata-001",
-      "country": "탄자니아",
-      "category": "security",
-      "severity": "low",
-      "title": "Energy Minister Ndejembi calls for EWURA to inspect fuel depots ensuring no fuel hoarding as Tanzania maintains adequate fuel security.",
-      "title_en": "Energy Minister Ndejembi calls for EWURA to inspect fuel depots ensuring no fuel hoarding as Tanzania maintains adequate fuel security.",
-      "summary": "Energy Minister Ndejembi calls for EWURA to inspect fuel depots ensuring no fuel hoarding as Tanzania maintains adequate fuel security.",
-      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-11-10",
-      "source": "Bongo5",
-      "source_url": "https://bongofive.com/en/ndejembi-ataka-ewura-kukagua-maghala-ya-mafuta-kuhakikisha-hakuna-mafuta-yanayofichwa"
-    }
-  ]
+  "updated": "2026-11-12 08:11",
+  "issues": []
 }
