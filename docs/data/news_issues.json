@@ -1,4 +1,33 @@
 {
-  "updated": "2026-11-11 08:11",
-  "issues": []
+  "updated": "2026-11-11 11:29",
+  "issues": [
+    {
+      "id": "news-001",
+      "country": "캄보디아",
+      "category": "health",
+      "severity": "medium",
+      "title": "National AIDS Authority rejects ‘viral’ claims of HIV outbreak in Cambodia",
+      "title_en": "National AIDS Authority rejects ‘viral’ claims of HIV outbreak in Cambodia",
+      "summary": "PHNOM PENH: The National AIDS Authority has categorically rejected social media claims that Cambodia is experiencing an uptick of HIV infections. It highlighted that the number of new infections in the Kingdom continues to decline and offered statistics to support this.",
+      "volunteer_impact": "봉사단 건강관리 및 예방조치 확인이 필요할 수 있습니다.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-11-09",
+      "source": "The Star",
+      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/09/national-aids-authority-rejects-viral-claims-of-hiv-outbreak-in-cambodia"
+    },
+    {
+      "id": "news-002",
+      "country": "캄보디아",
+      "category": "conflict",
+      "severity": "low",
+      "title": "Tiger Shroff shooting: Money trail leads to Cambodia, Denmark and SBI",
+      "title_en": "Tiger Shroff shooting: Money trail leads to Cambodia, Denmark and SBI",
+      "summary": "Suneha Pandit is the sister-in-law of Anil Pandit, a main accused and leader of an organised crime syndicate. Suneha's arrest is the 13th one in the case.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-11-04",
+      "source": "The Indian Express",
+      "source_url": "https://indianexpress.com/article/india/tiger-shroff-firing-shooters-sbi-funded-getaway-bike-10949445/"
+    }
+  ]
 }
