@@ -1,4 +1,47 @@
 {
-  "updated": "2026-11-12 08:11",
-  "issues": []
+  "updated": "2026-11-12 12:33",
+  "issues": [
+    {
+      "id": "news-001",
+      "country": "페루",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "Ancient Peruvians Lived Peacefully Except During El Niño's Catastrophic Floods",
+      "title_en": "Ancient Peruvians Lived Peacefully Except During El Niño's Catastrophic Floods",
+      "summary": "Despite evidence of ritual human sacrifices, researchers found that violence was rare in Peru's Lambayeque Valley.",
+      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-11-11",
+      "source": "Gizmodo",
+      "source_url": "https://gizmodo.com/did-el-nino-make-ancient-peru-more-violent-1633-skeletons-offer-clues-2000838260"
+    },
+    {
+      "id": "news-003",
+      "country": "요르단",
+      "category": "conflict",
+      "severity": "high",
+      "title": "Jordan stabbing: Ex-convict faces terrorism charges after policeman’s death",
+      "title_en": "Jordan stabbing: Ex-convict faces terrorism charges after policeman’s death",
+      "summary": "Killing of Cpl Jawad Al Salayta was second deadly attack in kingdom by suspected militants in less than two weeks",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
+      "published_at": "2026-11-11",
+      "source": "The National",
+      "source_url": "https://www.thenationalnews.com/news/mena/2026/11/11/jordan-terrorism/"
+    },
+    {
+      "id": "news-002",
+      "country": "페루",
+      "category": "conflict",
+      "severity": "low",
+      "title": "Did human sacrifice help lower violence? New research in Peru leaves intriguing question",
+      "title_en": "Did human sacrifice help lower violence? New research in Peru leaves intriguing question",
+      "summary": "In a key coastal area of Peru, violence was low despite the practice of human sacrifice.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-11-09",
+      "source": "Livescience.com",
+      "source_url": "https://www.livescience.com/archaeology/americas/did-human-sacrifice-help-lower-violence-new-research-in-peru-leaves-intriguing-question"
+    }
+  ]
 }

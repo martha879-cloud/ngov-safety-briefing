@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12 08:11",
+  "updated": "2026-11-12 12:33",
   "issues": [
     {
       "id": "usgs-us7000txir",
@@ -16,6 +16,22 @@
       "lat": -7.9445,
       "lng": 130.2513,
       "magnitude": 5.1
+    },
+    {
+      "id": "usgs-us7000txf8",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.5 지진 발생 (61 km ENE of Blangpidie, Indonesia)",
+      "summary": "USGS 관측 기준 M4.5 규모의 지진이 발생했습니다 (61 km ENE of Blangpidie, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-11-10",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txf8",
+      "lat": 3.9179,
+      "lng": 97.359,
+      "magnitude": 4.5
     },
     {
       "id": "usgs-us7000txbi",
