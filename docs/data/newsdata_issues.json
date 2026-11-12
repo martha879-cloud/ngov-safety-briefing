@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-12 12:33",
+  "updated": "2026-11-13 08:11",
   "issues": [
     {
       "id": "newsdata-001",
-      "country": "탄자니아",
-      "category": "health",
+      "country": "우간다",
+      "category": "transport",
       "severity": "low",
-      "title": "Tanzania's government strengthens health sector research and innovation to tackle rising non-communicable diseases and infectious illnesses.",
-      "title_en": "Tanzania's government strengthens health sector research and innovation to tackle rising non-communicable diseases and infectious illnesses.",
-      "summary": "Tanzania's government strengthens health sector research and innovation to tackle rising non-communicable diseases and infectious illnesses.",
+      "title": "Byamukama orders immediate sacking of Uganda Airlines finance officer Kyeyune",
+      "title_en": "Byamukama orders immediate sacking of Uganda Airlines finance officer Kyeyune",
+      "summary": "The minister of Works and Transport Fred Byamukama has ordered the immediate sacking of Uganda Airlines chief finance officer Allan Kyeyune over lack of requisite qualifications for the job. In the November 6 letter to Girma Wake, the Uganda Airlines CEO, Byamukama notes that his decision stems from information provided by the Institute of Certified […] The post Byamukama orders immediate sacking of Uganda Airlines finance officer Kyeyune appeared first on The Observer Media Ltd.",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
       "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-11-11",
-      "source": "Bongo5",
-      "source_url": "https://bongofive.com/en/serikali-yaimarisha-tafiti-matumizi-ya-tehama-sekta-ya-afya"
+      "published_at": "2026-11-12",
+      "source": "The Observer",
+      "source_url": "https://observer.ug/business/byamukama-orders-immediate-sacking-of-uganda-airlines-finance-officer-kyeyune/"
     }
   ]
 }

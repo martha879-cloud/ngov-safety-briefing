@@ -1,6 +1,54 @@
 {
-  "updated": "2026-11-12 12:33",
+  "updated": "2026-11-13 08:11",
   "issues": [
+    {
+      "id": "usgs-us7000txtd",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.5 지진 발생 (115 km ESE of Bitung, Indonesia)",
+      "summary": "USGS 관측 기준 M4.5 규모의 지진이 발생했습니다 (115 km ESE of Bitung, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-11-12",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txtd",
+      "lat": 1.1216,
+      "lng": 126.1127,
+      "magnitude": 4.5
+    },
+    {
+      "id": "usgs-us7000txiw",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.7 지진 발생 (168 km W of Fakfak, Indonesia)",
+      "summary": "USGS 관측 기준 M4.7 규모의 지진이 발생했습니다 (168 km W of Fakfak, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-11-11",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txiw",
+      "lat": -3.0211,
+      "lng": 130.7831,
+      "magnitude": 4.7
+    },
+    {
+      "id": "usgs-us7000txiv",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.6 지진 발생 (130 km E of Masohi, Indonesia)",
+      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (130 km E of Masohi, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-11-11",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txiv",
+      "lat": -3.1593,
+      "lng": 130.1356,
+      "magnitude": 4.6
+    },
     {
       "id": "usgs-us7000txir",
       "country": "인도네시아",
@@ -143,6 +191,22 @@
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txa7",
       "lat": -2.3853,
       "lng": 138.6219,
+      "magnitude": 4.5
+    },
+    {
+      "id": "usgs-us7000tx4r",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.5 지진 발생 (152 km E of Masohi, Indonesia)",
+      "summary": "USGS 관측 기준 M4.5 규모의 지진이 발생했습니다 (152 km E of Masohi, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-11-09",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx4r",
+      "lat": -3.1442,
+      "lng": 130.3306,
       "magnitude": 4.5
     },
     {
@@ -320,22 +384,6 @@
       "lat": 5.2999,
       "lng": 125.0977,
       "magnitude": 4.9
-    },
-    {
-      "id": "usgs-us7000tw76",
-      "country": "탄자니아",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "M5.1 지진 발생 (19 km NNW of Masumbwe, Tanzania)",
-      "summary": "USGS 관측 기준 M5.1 규모의 지진이 발생했습니다 (19 km NNW of Masumbwe, Tanzania).",
-      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-11-05",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw76",
-      "lat": -3.4641,
-      "lng": 32.149,
-      "magnitude": 5.1
     }
   ]
 }
