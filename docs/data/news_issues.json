@@ -1,4 +1,33 @@
 {
-  "updated": "2026-11-14 08:11",
-  "issues": []
+  "updated": "2026-11-14 11:52",
+  "issues": [
+    {
+      "id": "news-001",
+      "country": "과테말라",
+      "category": "conflict",
+      "severity": "high",
+      "title": "Guatemalan lawmaker, three police officers killed in armed attack",
+      "title_en": "Guatemalan lawmaker, three police officers killed in armed attack",
+      "summary": "GUATEMALA CITY, Nov 7 - A Guatemalan lawmaker and three police officers were killed in an armed attack in the eastern department of Zacapa, President Bernardo Arévalo said, condemning the violence and ordering security forces to help identify those responsible. Read more at straitstimes.com.",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
+      "published_at": "2026-11-07",
+      "source": "The Straits Times",
+      "source_url": "https://www.straitstimes.com/world/guatemalan-lawmaker-three-police-officers-killed-in-armed-attack"
+    },
+    {
+      "id": "news-002",
+      "country": "과테말라",
+      "category": "conflict",
+      "severity": "high",
+      "title": "Guatemalan lawmaker, three police officers killed in armed attack",
+      "title_en": "Guatemalan lawmaker, three police officers killed in armed attack",
+      "summary": "GUATEMALA CITY, Guatemala – A Guatemalan lawmaker and three police officers were killed in an ​armed attack in the eastern department of Zacapa, President Bernardo Arévalo said, condemning the ⁠violence and ordering security forces to help identify ‌those responsible.",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
+      "published_at": "2026-11-07",
+      "source": "Spokane Spokesman-Review",
+      "source_url": "https://www.spokesman.com/stories/2026/nov/07/guatemalan-lawmaker-three-police-officers-killed-i/"
+    }
+  ]
 }

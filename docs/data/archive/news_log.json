@@ -4750,5 +4750,53 @@
     "source_url": "https://observer.ug/business/byamukama-orders-immediate-sacking-of-uganda-airlines-finance-officer-kyeyune/",
     "feed": "NewsData.io",
     "first_seen_date": "2026-11-13"
+  },
+  {
+    "id": "news-001",
+    "country": "과테말라",
+    "category": "conflict",
+    "severity": "high",
+    "title": "Guatemalan lawmaker, three police officers killed in armed attack",
+    "title_en": "Guatemalan lawmaker, three police officers killed in armed attack",
+    "summary": "GUATEMALA CITY, Nov 7 - A Guatemalan lawmaker and three police officers were killed in an armed attack in the eastern department of Zacapa, President Bernardo Arévalo said, condemning the violence and ordering security forces to help identify those responsible. Read more at straitstimes.com.",
+    "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+    "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
+    "published_at": "2026-11-07",
+    "source": "The Straits Times",
+    "source_url": "https://www.straitstimes.com/world/guatemalan-lawmaker-three-police-officers-killed-in-armed-attack",
+    "feed": "GNews",
+    "first_seen_date": "2026-11-14"
+  },
+  {
+    "id": "news-002",
+    "country": "과테말라",
+    "category": "conflict",
+    "severity": "high",
+    "title": "Guatemalan lawmaker, three police officers killed in armed attack",
+    "title_en": "Guatemalan lawmaker, three police officers killed in armed attack",
+    "summary": "GUATEMALA CITY, Guatemala – A Guatemalan lawmaker and three police officers were killed in an ​armed attack in the eastern department of Zacapa, President Bernardo Arévalo said, condemning the ⁠violence and ordering security forces to help identify ‌those responsible.",
+    "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+    "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
+    "published_at": "2026-11-07",
+    "source": "Spokane Spokesman-Review",
+    "source_url": "https://www.spokesman.com/stories/2026/nov/07/guatemalan-lawmaker-three-police-officers-killed-i/",
+    "feed": "GNews",
+    "first_seen_date": "2026-11-14"
+  },
+  {
+    "id": "newsdata-001",
+    "country": "인도네시아",
+    "category": "natural_disaster",
+    "severity": "low",
+    "title": "El Niño drove drought, but climate change intensified Indonesia’s fire crisis: Study",
+    "title_en": "El Niño drove drought, but climate change intensified Indonesia’s fire crisis: Study",
+    "summary": "Human-caused climate change significantly amplified extreme heat during Indonesia’s 2026 fire season, turning an El Niño-driven drought into a severe regional crisis, according to a recent rapid analysis. The report was released by World Weather Attribution (WWA), a global network of researchers who analyze the influence of climate change in extreme weather events. The researchers […]",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-11-13",
+    "source": "Conservation News",
+    "source_url": "https://news.mongabay.com/short-article/2026/11/el-nino-drove-drought-but-climate-change-intensified-indonesias-fire-crisis-study/",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-11-14"
   }
 ]
