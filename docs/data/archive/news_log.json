@@ -4798,5 +4798,37 @@
     "source_url": "https://news.mongabay.com/short-article/2026/11/el-nino-drove-drought-but-climate-change-intensified-indonesias-fire-crisis-study/",
     "feed": "NewsData.io",
     "first_seen_date": "2026-11-14"
+  },
+  {
+    "id": "newsdata-001",
+    "country": "캄보디아",
+    "category": "conflict",
+    "severity": "low",
+    "title": "French-speaking nations hold a summit in Cambodia as a conflict in Africa threatens a rift",
+    "title_en": "French-speaking nations hold a summit in Cambodia as a conflict in Africa threatens a rift",
+    "summary": "PHNOM PENH, Cambodia (AP) - Emmanuel Macron is set to attend a biennial meeting of French-speaking territories beginning on Saturday in Cambodia, where the French president contending with public unrest at home will face international political challenges as a conflict in Africa hangs over the proceedings. Macr",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-11-14",
+    "source": "Cambodian Times",
+    "source_url": "http://www.cambodiantimes.com/news/279432798/french-speaking-nations-hold-a-summit-in-cambodia-as-a-conflict-in-africa-threatens-a-rift",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-11-15"
+  },
+  {
+    "id": "newsdata-002",
+    "country": "캄보디아",
+    "category": "conflict",
+    "severity": "low",
+    "title": "French-speaking nations hold a summit in Cambodia as a conflict in Africa threatens a rift",
+    "title_en": "French-speaking nations hold a summit in Cambodia as a conflict in Africa threatens a rift",
+    "summary": "PHNOM PENH, Cambodia (AP) - Emmanuel Macron is set to attend a biennial meeting of French-speaking territories beginning on Saturday in Cambodia, where the French president contending with public unrest at home will face international political challenges as a conflict in Africa hangs over the proceedings. Macr",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-11-14",
+    "source": "The Cambodia News",
+    "source_url": "http://www.thecambodianews.net/news/279432798/french-speaking-nations-hold-a-summit-in-cambodia-as-a-conflict-in-africa-threatens-a-rift",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-11-15"
   }
 ]
