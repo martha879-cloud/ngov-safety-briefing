@@ -4830,5 +4830,21 @@
     "source_url": "http://www.thecambodianews.net/news/279432798/french-speaking-nations-hold-a-summit-in-cambodia-as-a-conflict-in-africa-threatens-a-rift",
     "feed": "NewsData.io",
     "first_seen_date": "2026-11-15"
+  },
+  {
+    "id": "newsdata-001",
+    "country": "도미니카공화국",
+    "category": "transport",
+    "severity": "low",
+    "title": "Passengers stranded in the Dominican Republic express their discomfort after the suspension of flights in the U.S.",
+    "title_en": "Passengers stranded in the Dominican Republic express their discomfort after the suspension of flights in the U.S.",
+    "summary": "Travelers stranded at Las Américas International Airport, Dr. José Francisco Peña Gómez, in the Dominican Republic, expressed discomfort and concern after flights to and from the United States were suspended, disrupting their travel […]",
+    "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+    "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+    "published_at": "2026-11-14",
+    "source": "Dominican Today",
+    "source_url": "https://dominicantoday.com/passengers-stranded-in-the-dominican-republic-express-their-discomfort-after-the-suspension-of-flights-in-the-u-s/",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-11-15"
   }
 ]
