@@ -1,19 +1,33 @@
 {
-  "updated": "2026-11-16 08:11",
+  "updated": "2026-11-16 11:31",
   "issues": [
     {
       "id": "newsdata-001",
-      "country": "이집트",
-      "category": "transport",
-      "severity": "high",
-      "title": "Egypt’s Transport Minister Apologizes for a Deadly Train Crash and Promises Safety Fixes Within a Year",
-      "title_en": "Egypt’s Transport Minister Apologizes for a Deadly Train Crash and Promises Safety Fixes Within a Year",
-      "summary": "Egypt’s transport minister began a meeting with railway staff on Saturday, 14 November, with a minute of silence. He then apologized to the families of the people killed or injured when two trains collided south of Cairo last week. The minister, Kamel al-Wazir, promised to finish a set of safety upgrades within a year. The pledge puts new pressure on a rail network with a long record of fatal accidents, and it comes as prosecutors look into how a passenger train hit another train that was standing still on the same track. Al-Wazir stated that urgent measures are about to start. The rest, including new signaling, surveillance cameras along the tracks and inside locomotives, and more rescue and inspection equipment, would be finished within 12 months, with funding already set aside. He ordered regular and surprise drug tests for employees, and stated that anyone found using narcotics could be fired. He told drivers to keep the automatic train control system switched on for the whole journey and never to pass a red signal. The 8 November crash happened near the Kafr Ammar and Al-Raqqa stations in Giza Governorate. A Giza-to-FayoumContinue reading \"Egypt’s Transport Minister Apologizes for a Deadly Train Crash and Promises Safety Fixes Within a Year\" The post Egypt’s Transport Minister Apologizes for a Deadly Train Crash and Promises Safety Fixes Within a Year first appeared on Egyptian Streets.",
-      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
-      "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 활동 지속 여부를 검토하세요.",
+      "country": "캄보디아",
+      "category": "conflict",
+      "severity": "low",
+      "title": "Cambodia did not initiate 2025 clashes with Thailand, Hun Manet says (VIDEO)",
+      "title_en": "Cambodia did not initiate 2025 clashes with Thailand, Hun Manet says (VIDEO)",
+      "summary": "Prime Minister Hun Manet told the Francophonie Summit that Cambodia did not initiate either of the two rounds of armed clashes with Thailand in 2025, adding that no borders had been altered through the use of armed force or the creation of faits accomplis. The post Cambodia did not initiate 2025 clashes with Thailand, Hun Manet says (VIDEO) appeared first on Khmer Times.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
       "published_at": "2026-11-15",
-      "source": "Egyptian Streets",
-      "source_url": "https://egyptianstreets.com/2026/11/15/egypts-transport-minister-apologizes-for-a-deadly-train-crash-and-promises-safety-fixes-within-a-year/"
+      "source": "Khmer Times",
+      "source_url": "https://www.khmertimeskh.com/502057239/cambodia-did-not-initiate-2025-clashes-with-thailand-hun-manet-says/"
+    },
+    {
+      "id": "newsdata-002",
+      "country": "도미니카공화국",
+      "category": "health",
+      "severity": "low",
+      "title": "In figures The Dominican Republic has the lowest incidence of dengue fever among 14 countries and territories in the Americas.",
+      "title_en": "In figures The Dominican Republic has the lowest incidence of dengue fever among 14 countries and territories in the Americas.",
+      "summary": "The Dominican Republic has the lowest dengue incidence rate among 14 countries and territories in the Americas in a 2026 comparison, with 13.21 cases per 100,000 inhabitants, according to data from the […]",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-11-15",
+      "source": "Dominican Today",
+      "source_url": "https://dominicantoday.com/in-figures-the-dominican-republic-has-the-lowest-incidence-of-dengue-fever-among-14-countries-and-territories-in-the-americas/"
     }
   ]
 }
