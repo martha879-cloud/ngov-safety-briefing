@@ -1,4 +1,19 @@
 {
-  "updated": "2026-11-17 08:11",
-  "issues": []
+  "updated": "2026-11-17 13:55",
+  "issues": [
+    {
+      "id": "newsdata-001",
+      "country": "우간다",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "PIRATES BURY HEATHENS! Stanbic Black Pirates Storm Rugby Uganda Cup Final After 20-12 Semi-Final Thriller… Set Date With KCB Kobs As FlexiPay Celebrates Rugby Glory",
+      "title_en": "PIRATES BURY HEATHENS! Stanbic Black Pirates Storm Rugby Uganda Cup Final After 20-12 Semi-Final Thriller… Set Date With KCB Kobs As FlexiPay Celebrates Rugby Glory",
+      "summary": "Kampala, Uganda: Stanbic Black Pirates have booked their place in the 2026 Rugby Uganda Cup... The post PIRATES BURY HEATHENS! Stanbic Black Pirates Storm Rugby Uganda Cup Final After 20-12 Semi-Final Thriller… Set Date With KCB Kobs As FlexiPay Celebrates Rugby Glory appeared first on ONLINE.",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-11-16",
+      "source": "Red Home",
+      "source_url": "https://redpepper.co.ug/pirates-bury-heathens-stanbic-black-pirates-storm-rugby-uganda-cup-final-after-20-12-semi-final-thriller-set-date-with-kcb-kobs-as-flexipay-celebrates-rugby-glory/152907/"
+    }
+  ]
 }

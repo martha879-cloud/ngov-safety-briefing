@@ -1,47 +1,4 @@
 {
-  "updated": "2026-11-17 08:11",
-  "issues": [
-    {
-      "id": "news-001",
-      "country": "요르단",
-      "category": "conflict",
-      "severity": "high",
-      "title": "Jordan To Block Telegram App Over National Security Concerns After Church Attack",
-      "title_en": "Jordan To Block Telegram App Over National Security Concerns After Church Attack",
-      "summary": "Jordan has announced plans to block Telegram over national security concerns, following a church attack that killed nine people last month., Middle East, Times Now",
-      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
-      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
-      "published_at": "2026-11-16",
-      "source": "Times Now",
-      "source_url": "https://www.timesnownews.com/world/middle-east/jordan-to-block-telegram-app-over-national-security-concerns-after-church-attack-article-156518777"
-    },
-    {
-      "id": "news-002",
-      "country": "요르단",
-      "category": "conflict",
-      "severity": "high",
-      "title": "Jordan bans Telegram over national security concerns",
-      "title_en": "Jordan bans Telegram over national security concerns",
-      "summary": "The measure comes amid a security crackdown after last month’s deadly attack on a Greek Orthodox church.",
-      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
-      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
-      "published_at": "2026-11-16",
-      "source": "Al Jazeera",
-      "source_url": "https://www.aljazeera.com/news/2026/11/16/jordan-bans-telegram-messing-app-over-national-security-concerns"
-    },
-    {
-      "id": "news-003",
-      "country": "요르단",
-      "category": "conflict",
-      "severity": "high",
-      "title": "Jordan blocks Telegram app over national security concerns",
-      "title_en": "Jordan blocks Telegram app over national security concerns",
-      "summary": "The decision comes after a rare deadly church attack last month killed nine people and prompted airstrikes on neighbouring Syria",
-      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
-      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
-      "published_at": "2026-11-16",
-      "source": "LBC",
-      "source_url": "https://www.lbc.co.uk/article/jordan-blocks-telegram-app-over-national-security-concerns-5HjdmQ2_2/"
-    }
-  ]
+  "updated": "2026-11-17 13:55",
+  "issues": []
 }
