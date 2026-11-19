@@ -1,33 +1,19 @@
 {
-  "updated": "2026-11-19 12:57",
+  "updated": "2026-11-20 08:11",
   "issues": [
     {
       "id": "newsdata-001",
-      "country": "도미니카공화국",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "Magnitude 4.4 earthquake recorded in eastern Dominican Republic",
-      "title_en": "Magnitude 4.4 earthquake recorded in eastern Dominican Republic",
-      "summary": "Santo Domingo.- A magnitude 4.4 earthquake was recorded Tuesday night in the eastern Dominican Republic, with the epicenter located south of Boca de Yuma, according to the U.S. Geological Survey (USGS). The […]",
+      "country": "탄자니아",
+      "category": "transport",
+      "severity": "low",
+      "title": "Tanzania, Morocco agree to introduce Dar- Casablanca direct flights to bolster ties in aviation sector",
+      "title_en": "Tanzania, Morocco agree to introduce Dar- Casablanca direct flights to bolster ties in aviation sector",
+      "summary": "MONTREAL: TANZANIA and Morocco have discussed ways of strengthening cooperation in the aviation sector, including plans to introduce direct flights between Dar es Salaam and Casablanca in 2027. The discussions took place in Montréal, Canada, during a bilateral ministerial meeting held on the sidelines of the Seventh International Conference on Air Transport (ATConf/7), which is … The post Tanzania, Morocco agree to introduce Dar- Casablanca direct flights to bolster ties in aviation sector appeared first on Daily News.",
       "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
       "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-11-18",
-      "source": "Dominican Today",
-      "source_url": "https://dominicantoday.com/magnitude-4-4-earthquake-recorded-in-eastern-dominican-republic/"
-    },
-    {
-      "id": "newsdata-002",
-      "country": "요르단",
-      "category": "conflict",
-      "severity": "high",
-      "title": "Jordan Condemns Iranian Attacks on Bahrain, Citing Sovereignty Violation",
-      "title_en": "Jordan Condemns Iranian Attacks on Bahrain, Citing Sovereignty Violation",
-      "summary": "Jordan on Wednesday condemned the Iranian attacks on the Kingdom of Bahrain, describing them as a flagrant violation of its sovereignty and a threat to its security, stability and territorial integrity, as well as a clear breach of international law and the United Nations Charter.",
-      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
-      "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 활동 지속 여부를 검토하세요.",
-      "published_at": "2026-11-18",
-      "source": "Jordan News | Latest News From Jordan, Mena",
-      "source_url": "https://www.jordannews.jo/Section-109/News/Jordan-Condemns-Iranian-Attacks-on-Bahrain-Citing-Sovereignty-Violation-59072"
+      "published_at": "2026-11-19",
+      "source": "dailynews_tz",
+      "source_url": "https://dailynews.co.tz/tanzania-morocco-agree-to-introduce-dar-casablanca-direct-flights-to-bolster-ties-in-aviation-sector/"
     }
   ]
 }
