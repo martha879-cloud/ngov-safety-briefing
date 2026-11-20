@@ -1,6 +1,22 @@
 {
-  "updated": "2026-11-20 12:51",
+  "updated": "2026-11-21 08:11",
   "issues": [
+    {
+      "id": "usgs-us6000uc96",
+      "country": "필리핀",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "M5.1 지진 발생 (15 km SSW of Balangonan, Philippines)",
+      "summary": "USGS 관측 기준 M5.1 규모의 지진이 발생했습니다 (15 km SSW of Balangonan, Philippines).",
+      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-11-20",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc96",
+      "lat": 5.4441,
+      "lng": 125.2986,
+      "magnitude": 5.1
+    },
     {
       "id": "usgs-us6000uc3v",
       "country": "인도네시아",
@@ -194,6 +210,22 @@
       "magnitude": 6.6
     },
     {
+      "id": "usgs-us7000tyme",
+      "country": "페루",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.5 지진 발생 (103 km WSW of Changuillo, Peru)",
+      "summary": "USGS 관측 기준 M4.5 규모의 지진이 발생했습니다 (103 km WSW of Changuillo, Peru).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-11-16",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyme",
+      "lat": -15.0591,
+      "lng": -76.0946,
+      "magnitude": 4.5
+    },
+    {
       "id": "usgs-us7000tym8",
       "country": "페루",
       "category": "natural_disaster",
@@ -384,86 +416,6 @@
       "lat": 7.8529,
       "lng": 126.6692,
       "magnitude": 4.5
-    },
-    {
-      "id": "usgs-us7000ty1a",
-      "country": "페루",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "M5.8 지진 발생 (79 km WSW of Changuillo, Peru)",
-      "summary": "USGS 관측 기준 M5.8 규모의 지진이 발생했습니다 (79 km WSW of Changuillo, Peru).",
-      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-11-13",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty1a",
-      "lat": -14.9934,
-      "lng": -75.8807,
-      "magnitude": 5.8
-    },
-    {
-      "id": "usgs-us7000ty16",
-      "country": "도미니카공화국",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.8 지진 발생 (10 km SW of Guaymate, Dominican Republic)",
-      "summary": "USGS 관측 기준 M4.8 규모의 지진이 발생했습니다 (10 km SW of Guaymate, Dominican Republic).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-11-13",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty16",
-      "lat": 18.5286,
-      "lng": -69.0533,
-      "magnitude": 4.8
-    },
-    {
-      "id": "usgs-us7000txza",
-      "country": "페루",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.5 지진 발생 (86 km NNE of Lagunas, Peru)",
-      "summary": "USGS 관측 기준 M4.5 규모의 지진이 발생했습니다 (86 km NNE of Lagunas, Peru).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-11-13",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txza",
-      "lat": -4.5227,
-      "lng": -75.3275,
-      "magnitude": 4.5
-    },
-    {
-      "id": "usgs-us7000txz0",
-      "country": "필리핀",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.6 지진 발생 (84 km E of Barcelona, Philippines)",
-      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (84 km E of Barcelona, Philippines).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-11-13",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txz0",
-      "lat": 8.2136,
-      "lng": 127.2035,
-      "magnitude": 4.6
-    },
-    {
-      "id": "usgs-us7000txy5",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.7 지진 발생 (27 km NNE of Labuan Lombok, Indonesia)",
-      "summary": "USGS 관측 기준 M4.7 규모의 지진이 발생했습니다 (27 km NNE of Labuan Lombok, Indonesia).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-11-13",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txy5",
-      "lat": -8.262,
-      "lng": 116.7507,
-      "magnitude": 4.7
     }
   ]
 }
