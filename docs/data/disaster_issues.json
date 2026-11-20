@@ -1,6 +1,22 @@
 {
-  "updated": "2026-11-20 08:11",
+  "updated": "2026-11-20 12:51",
   "issues": [
+    {
+      "id": "usgs-us6000uc3v",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.5 지진 발생 (236 km W of Tual, Indonesia)",
+      "summary": "USGS 관측 기준 M4.5 규모의 지진이 발생했습니다 (236 km W of Tual, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-11-19",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc3v",
+      "lat": -6.0263,
+      "lng": 130.6505,
+      "magnitude": 4.5
+    },
     {
       "id": "usgs-us6000ubyt",
       "country": "페루",
@@ -166,15 +182,15 @@
       "country": "인도네시아",
       "category": "natural_disaster",
       "severity": "high",
-      "title": "M6.6 지진 발생 (148 km WSW of Tual, Indonesia)",
-      "summary": "USGS 관측 기준 M6.6 규모의 지진이 발생했습니다 (148 km WSW of Tual, Indonesia).",
+      "title": "M6.6 지진 발생 (149 km WSW of Tual, Indonesia)",
+      "summary": "USGS 관측 기준 M6.6 규모의 지진이 발생했습니다 (149 km WSW of Tual, Indonesia).",
       "volunteer_impact": "여진 및 추가 피해 가능성이 있어 활동 지역 안전 확인이 필요합니다.",
       "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 안전 여부를 확인하세요.",
       "published_at": "2026-11-16",
       "source": "USGS",
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tymu",
-      "lat": -6.0602,
-      "lng": 131.4868,
+      "lat": -6.0208,
+      "lng": 131.4593,
       "magnitude": 6.6
     },
     {
