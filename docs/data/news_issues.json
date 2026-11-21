@@ -1,4 +1,33 @@
 {
-  "updated": "2026-11-21 12:43",
-  "issues": []
+  "updated": "2026-11-22 08:11",
+  "issues": [
+    {
+      "id": "news-001",
+      "country": "과테말라",
+      "category": "conflict",
+      "severity": "critical",
+      "title": "Guatemala declares state of emergency in east over drug violence",
+      "title_en": "Guatemala declares state of emergency in east over drug violence",
+      "summary": "Guatemala declared a 30-day state of emergency in Zacapa and Izabal over drug violence, a week after a lawmaker and three police officers were killed.",
+      "volunteer_impact": "봉사단 활동 및 이동 계획을 즉시 재검토할 필요가 있습니다.",
+      "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 활동 지속 여부를 검토하세요.",
+      "published_at": "2026-11-15",
+      "source": "The Hindu",
+      "source_url": "https://www.thehindu.com/news/international/guatemala-declares-state-of-emergency-in-east-over-drug-violence/article71704647.ece"
+    },
+    {
+      "id": "news-002",
+      "country": "과테말라",
+      "category": "conflict",
+      "severity": "critical",
+      "title": "Guatemala declares 30-day state of emergency in east over drug-linked violence",
+      "title_en": "Guatemala declares 30-day state of emergency in east over drug-linked violence",
+      "summary": "Guatemala authorities has declared a 30-day state of emergency in two eastern departments following a spate of violence linked to drug-trafficking groups.",
+      "volunteer_impact": "봉사단 활동 및 이동 계획을 즉시 재검토할 필요가 있습니다.",
+      "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 활동 지속 여부를 검토하세요.",
+      "published_at": "2026-11-15",
+      "source": "Times of India",
+      "source_url": "https://timesofindia.indiatimes.com/world/rest-of-world/guatemala-declares-30-day-state-of-emergency-in-east-over-drug-linked-violence/articleshow/135853844.cms"
+    }
+  ]
 }

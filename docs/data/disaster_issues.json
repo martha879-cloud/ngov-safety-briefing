@@ -1,6 +1,38 @@
 {
-  "updated": "2026-11-21 12:43",
+  "updated": "2026-11-22 08:11",
   "issues": [
+    {
+      "id": "usgs-pr2026325000",
+      "country": "도미니카공화국",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.6 지진 발생 (18 km ESE of La Romana, Dominican Republic)",
+      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (18 km ESE of La Romana, Dominican Republic).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-11-21",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026325000",
+      "lat": 18.3416,
+      "lng": -68.8265,
+      "magnitude": 4.6
+    },
+    {
+      "id": "usgs-us6000uchd",
+      "country": "페루",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "M5.0 지진 발생 (0 km NE of Carhuamayo, Peru)",
+      "summary": "USGS 관측 기준 M5.0 규모의 지진이 발생했습니다 (0 km NE of Carhuamayo, Peru).",
+      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-11-21",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uchd",
+      "lat": -10.913,
+      "lng": -76.0308,
+      "magnitude": 5
+    },
     {
       "id": "usgs-us6000ucfm",
       "country": "페루",
@@ -368,54 +400,6 @@
       "lat": 9.7595,
       "lng": 126.2,
       "magnitude": 5.5
-    },
-    {
-      "id": "usgs-us7000tyan",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.5 지진 발생 (25 km N of Ruteng, Indonesia)",
-      "summary": "USGS 관측 기준 M4.5 규모의 지진이 발생했습니다 (25 km N of Ruteng, Indonesia).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-11-14",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyan",
-      "lat": -8.3823,
-      "lng": 120.443,
-      "magnitude": 4.5
-    },
-    {
-      "id": "usgs-us7000ty9v",
-      "country": "필리핀",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.6 지진 발생 (96 km SSE of Pondaguitan, Philippines)",
-      "summary": "USGS 관측 기준 M4.6 규모의 지진이 발생했습니다 (96 km SSE of Pondaguitan, Philippines).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-11-14",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9v",
-      "lat": 5.5982,
-      "lng": 126.6097,
-      "magnitude": 4.6
-    },
-    {
-      "id": "usgs-us7000ty9l",
-      "country": "필리핀",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.9 지진 발생 (7 km SE of Tagbina, Philippines)",
-      "summary": "USGS 관측 기준 M4.9 규모의 지진이 발생했습니다 (7 km SE of Tagbina, Philippines).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-11-14",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9l",
-      "lat": 8.3996,
-      "lng": 126.2112,
-      "magnitude": 4.9
     }
   ]
 }
