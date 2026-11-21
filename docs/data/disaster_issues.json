@@ -1,6 +1,22 @@
 {
-  "updated": "2026-11-21 08:11",
+  "updated": "2026-11-21 12:43",
   "issues": [
+    {
+      "id": "usgs-us6000ucfm",
+      "country": "페루",
+      "category": "natural_disaster",
+      "severity": "high",
+      "title": "M6.7 지진 발생 (9 km NE of Carhuamayo, Peru)",
+      "summary": "USGS 관측 기준 M6.7 규모의 지진이 발생했습니다 (9 km NE of Carhuamayo, Peru).",
+      "volunteer_impact": "여진 및 추가 피해 가능성이 있어 활동 지역 안전 확인이 필요합니다.",
+      "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 안전 여부를 확인하세요.",
+      "published_at": "2026-11-21",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucfm",
+      "lat": -10.8548,
+      "lng": -75.9779,
+      "magnitude": 6.7
+    },
     {
       "id": "usgs-us6000uc96",
       "country": "필리핀",
@@ -400,22 +416,6 @@
       "lat": 8.3996,
       "lng": 126.2112,
       "magnitude": 4.9
-    },
-    {
-      "id": "usgs-us7000ty5b",
-      "country": "필리핀",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.5 지진 발생 (22 km NE of Kinablangan, Philippines)",
-      "summary": "USGS 관측 기준 M4.5 규모의 지진이 발생했습니다 (22 km NE of Kinablangan, Philippines).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-11-13",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty5b",
-      "lat": 7.8529,
-      "lng": 126.6692,
-      "magnitude": 4.5
     }
   ]
 }
