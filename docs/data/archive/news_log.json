@@ -5198,5 +5198,21 @@
     "source_url": "https://www.khmertimeskh.com/502061229/cambodias-digital-economy-drives-stronger-cybersecurity-collaboration-at-cybersecurity-summit-2026/",
     "feed": "NewsData.io",
     "first_seen_date": "2026-11-22"
+  },
+  {
+    "id": "news-001",
+    "country": "동티모르",
+    "category": "natural_disaster",
+    "severity": "medium",
+    "title": "Pacific Ring of Fire: Shaking in Australia after magnitude 6.8 earthquake rocks Timor-Leste",
+    "title_en": "Pacific Ring of Fire: Shaking in Australia after magnitude 6.8 earthquake rocks Timor-Leste",
+    "summary": "A magnitude 6.8 earthquake struck the Banda Sea about 65 miles northeast of Timor-Leste in Southeast Asia just after 4:30 a.m. ET (6:30 p.m. local time), according to the USGS.",
+    "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
+    "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+    "published_at": "2026-11-21",
+    "source": "FOX Weather",
+    "source_url": "https://www.foxweather.com/weather-news/timor-leste-pacific-ring-fire-magnitude-6-8-earthquake-shaking-felt-australia",
+    "feed": "GNews",
+    "first_seen_date": "2026-11-22"
   }
 ]
