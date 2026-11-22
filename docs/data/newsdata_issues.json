@@ -1,4 +1,19 @@
 {
-  "updated": "2026-11-22 11:47",
-  "issues": []
+  "updated": "2026-11-23 08:11",
+  "issues": [
+    {
+      "id": "newsdata-001",
+      "country": "케냐",
+      "category": "security",
+      "severity": "high",
+      "title": "Inside Kenya’s emerging violent extremism as 6 counties test Ruto’s govt security strategy",
+      "title_en": "Inside Kenya’s emerging violent extremism as 6 counties test Ruto’s govt security strategy",
+      "summary": "When President William Ruto’s administration promised to strengthen national security, the commitment was not simply to confront terrorists through police operations and intelligence gathering. It was also to address the conditions that make communities vulnerable to extremist recruitment. Four years after the 2022 election, however, a new government security report is raising a difficult question. […]",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 활동 지속 여부를 검토하세요.",
+      "published_at": "2026-11-22",
+      "source": "People Daily",
+      "source_url": "https://peopledaily.digital/inside-politics/inside-kenyas-emerging-violent-extremism-as-6-counties-test-rutos-govt-security-strategy"
+    }
+  ]
 }

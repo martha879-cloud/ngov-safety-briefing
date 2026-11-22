@@ -5214,5 +5214,37 @@
     "source_url": "https://www.foxweather.com/weather-news/timor-leste-pacific-ring-fire-magnitude-6-8-earthquake-shaking-felt-australia",
     "feed": "GNews",
     "first_seen_date": "2026-11-22"
+  },
+  {
+    "id": "news-002",
+    "country": "방글라데시",
+    "category": "conflict",
+    "severity": "high",
+    "title": "Nearly 30 houses linked to Awami League leaders set ablaze as Bangladesh violence spreads",
+    "title_en": "Nearly 30 houses linked to Awami League leaders set ablaze as Bangladesh violence spreads",
+    "summary": "The attacks came amid wider unrest, with BNP supporters accused of targeting properties of Awami League figures following the killing of two BNP-affiliated leaders in Narail last week",
+    "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+    "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
+    "published_at": "2026-11-22",
+    "source": "Telegraph India",
+    "source_url": "https://www.telegraphindia.com/world/nearly-30-houses-linked-to-awami-league-leaders-set-ablaze-as-bangladesh-violence-spreads/cid/2190728",
+    "feed": "GNews",
+    "first_seen_date": "2026-11-23"
+  },
+  {
+    "id": "newsdata-001",
+    "country": "케냐",
+    "category": "security",
+    "severity": "high",
+    "title": "Inside Kenya’s emerging violent extremism as 6 counties test Ruto’s govt security strategy",
+    "title_en": "Inside Kenya’s emerging violent extremism as 6 counties test Ruto’s govt security strategy",
+    "summary": "When President William Ruto’s administration promised to strengthen national security, the commitment was not simply to confront terrorists through police operations and intelligence gathering. It was also to address the conditions that make communities vulnerable to extremist recruitment. Four years after the 2022 election, however, a new government security report is raising a difficult question. […]",
+    "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+    "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 활동 지속 여부를 검토하세요.",
+    "published_at": "2026-11-22",
+    "source": "People Daily",
+    "source_url": "https://peopledaily.digital/inside-politics/inside-kenyas-emerging-violent-extremism-as-6-counties-test-rutos-govt-security-strategy",
+    "feed": "NewsData.io",
+    "first_seen_date": "2026-11-23"
   }
 ]

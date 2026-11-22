@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-22 11:47",
+  "updated": "2026-11-23 08:11",
   "issues": [
+    {
+      "id": "news-002",
+      "country": "방글라데시",
+      "category": "conflict",
+      "severity": "high",
+      "title": "Nearly 30 houses linked to Awami League leaders set ablaze as Bangladesh violence spreads",
+      "title_en": "Nearly 30 houses linked to Awami League leaders set ablaze as Bangladesh violence spreads",
+      "summary": "The attacks came amid wider unrest, with BNP supporters accused of targeting properties of Awami League figures following the killing of two BNP-affiliated leaders in Narail last week",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
+      "published_at": "2026-11-22",
+      "source": "Telegraph India",
+      "source_url": "https://www.telegraphindia.com/world/nearly-30-houses-linked-to-awami-league-leaders-set-ablaze-as-bangladesh-violence-spreads/cid/2190728"
+    },
     {
       "id": "news-001",
       "country": "동티모르",
@@ -14,6 +28,20 @@
       "published_at": "2026-11-21",
       "source": "FOX Weather",
       "source_url": "https://www.foxweather.com/weather-news/timor-leste-pacific-ring-fire-magnitude-6-8-earthquake-shaking-felt-australia"
+    },
+    {
+      "id": "news-003",
+      "country": "모로코",
+      "category": "conflict",
+      "severity": "low",
+      "title": "World Cup final bid: suspicions of corruption and violence dog Morocco!",
+      "title_en": "World Cup final bid: suspicions of corruption and violence dog Morocco!",
+      "summary": "The battle to host the 2030 World Cup final has entered a new phase after Spanish newspaper Marca shone a spotlight on a series of controversial issues",
+      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
+      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
+      "published_at": "2026-11-17",
+      "source": "Yardbarker",
+      "source_url": "https://www.yardbarker.com/soccer/articles/world_cup_final_bid_suspicions_of_corruption_and_violence_dog_morocco/s1_17790_44575918"
     }
   ]
 }
