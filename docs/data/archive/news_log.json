@@ -5262,5 +5262,21 @@
     "source_url": "https://www.tbsnews.net/foreign-policy/bangladesh-maldives-discuss-stronger-security-cooperation-regional-stability-1610901",
     "feed": "NewsData.io",
     "first_seen_date": "2026-11-23"
+  },
+  {
+    "id": "news-002",
+    "country": "베트남",
+    "category": "health",
+    "severity": "medium",
+    "title": "Parental intention to vaccinate children and adolescents against dengue fever in Vietnam: An analysis using the theory of planned behavior and selected health belief model constructs",
+    "title_en": "Parental intention to vaccinate children and adolescents against dengue fever in Vietnam: An analysis using the theory of planned behavior and selected health belief model constructs",
+    "summary": "Author summary Dengue fever remains a major public health concern in many tropical countries, including Vietnam, with frequent outbreaks that particularly affect children. Although dengue vaccines have recently become available, their effectiveness depends on parents’ intention to vaccinate their children. We explored parents’ intention to vaccinate their children against dengue fever and examined the factors associated with this decision in a real-world setting following vaccine approval. We surveyed over 1,200 parents in Ho Chi Minh City, Vietnam, and found that although many recognized the importance of dengue vaccination, only about two-thirds intended to vaccinate their children. Parents of children aged 7–11 years were less likely to intend to vaccinate than parents of preschool-aged children. In contrast, parents who perceived a higher mosquito density around their homes and those with more positive attitudes, stronger social influence, greater confidence in accessing vaccination services, better dengue prevention practices, or higher household income were more likely to intend to vaccinate. These findings might help policymakers and public health authorities develop strategies that address affordability, healthcare access, social support, and trusted health communication, particularly for parents of children aged 7–11 years and those in areas with high mosquito density.",
+    "volunteer_impact": "봉사단 건강관리 및 예방조치 확인이 필요할 수 있습니다.",
+    "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+    "published_at": "2026-11-23",
+    "source": "PLOS (Public Library of Science)",
+    "source_url": "https://journals.plos.org/plosntds/article?id=10.1371%2Fjournal.pntd.0014896",
+    "feed": "GNews",
+    "first_seen_date": "2026-11-24"
   }
 ]

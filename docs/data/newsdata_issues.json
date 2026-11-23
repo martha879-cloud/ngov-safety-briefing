@@ -1,19 +1,4 @@
 {
-  "updated": "2026-11-23 12:27",
-  "issues": [
-    {
-      "id": "newsdata-001",
-      "country": "방글라데시",
-      "category": "security",
-      "severity": "low",
-      "title": "Bangladesh, Maldives discuss stronger security cooperation, regional stability",
-      "title_en": "Bangladesh, Maldives discuss stronger security cooperation, regional stability",
-      "summary": "The two countries exchanged views on maritime security, counterterrorism and transnational crime ahead of the upcoming Colombo Security Conclave meeting in Malé.",
-      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-11-22",
-      "source": "The Business Standard",
-      "source_url": "https://www.tbsnews.net/foreign-policy/bangladesh-maldives-discuss-stronger-security-cooperation-regional-stability-1610901"
-    }
-  ]
+  "updated": "2026-11-24 08:11",
+  "issues": []
 }
