@@ -1,6 +1,38 @@
 {
-  "updated": "2026-11-23 08:11",
+  "updated": "2026-11-23 12:27",
   "issues": [
+    {
+      "id": "usgs-us6000ucv4",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.7 지진 발생 (221 km NE of Bitung, Indonesia)",
+      "summary": "USGS 관측 기준 M4.7 규모의 지진이 발생했습니다 (221 km NE of Bitung, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-11-23",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucv4",
+      "lat": 2.9773,
+      "lng": 126.4079,
+      "magnitude": 4.7
+    },
+    {
+      "id": "usgs-us6000ucv2",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.7 지진 발생 (226 km NW of Tobelo, Indonesia)",
+      "summary": "USGS 관측 기준 M4.7 규모의 지진이 발생했습니다 (226 km NW of Tobelo, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-11-22",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucv2",
+      "lat": 3.0639,
+      "lng": 126.468,
+      "magnitude": 4.7
+    },
     {
       "id": "usgs-us6000ucuf",
       "country": "페루",
