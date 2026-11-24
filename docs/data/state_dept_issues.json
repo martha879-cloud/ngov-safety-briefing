@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-24 15:41",
+  "updated": "2026-11-25 08:11",
   "issues": [
+    {
+      "id": "statedept-egypt-2026-11-24-2",
+      "country": "이집트",
+      "category": "health",
+      "severity": "medium",
+      "title": "Egypt - Level 2: Exercise Increased Caution",
+      "summary": "Exercise increased caution in Egypt due to terrorism , crime , and health, landmines, and limited medical infrastructure in rural areas. Some areas have increased risk. Read the entire Travel Advisory. Crime Most crimes against foreigners are crimes of opportunity, like purse snatching and pickpocke",
+      "summary_en": "Exercise increased caution in Egypt due to terrorism , crime , and health, landmines, and limited medical infrastructure in rural areas. Some areas have increased risk. Read the entire Travel Advisory. Crime Most crimes against foreigners are crimes of opportunity, like purse snatching and pickpocke",
+      "volunteer_impact": "미국 국무부가 여행자제(2단계)로 지정한 국가입니다. 세부 위험 지역을 확인하는 것이 좋습니다.",
+      "recommended_action": "미국 국무부 여행경보 원문을 참고하여 세부 위험 지역 및 주의사항을 확인하세요.",
+      "published_at": "2026-11-24",
+      "source": "US State Dept",
+      "source_url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.egy.html"
+    },
     {
       "id": "statedept-jordan-2026-10-23-3",
       "country": "요르단",
@@ -238,20 +252,6 @@
       "published_at": "2026-03-12",
       "source": "US State Dept",
       "source_url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.gtm.html"
-    },
-    {
-      "id": "statedept-egypt-2025-07-15-2",
-      "country": "이집트",
-      "category": "health",
-      "severity": "medium",
-      "title": "Egypt - Level 2: Exercise Increased Caution",
-      "summary": "Exercise increased caution in Egypt due to terrorism , crime , and health . Some areas have increased risk. The U.S. Embassy has limited ability to help dual national U.S.-Egyptian citizens who are arrested or detained. Egyptian law considers dual citizens to be solely Egyptian citizens. Terrorism T",
-      "summary_en": "Exercise increased caution in Egypt due to terrorism , crime , and health . Some areas have increased risk. The U.S. Embassy has limited ability to help dual national U.S.-Egyptian citizens who are arrested or detained. Egyptian law considers dual citizens to be solely Egyptian citizens. Terrorism T",
-      "volunteer_impact": "미국 국무부가 여행자제(2단계)로 지정한 국가입니다. 세부 위험 지역을 확인하는 것이 좋습니다.",
-      "recommended_action": "미국 국무부 여행경보 원문을 참고하여 세부 위험 지역 및 주의사항을 확인하세요.",
-      "published_at": "2025-07-15",
-      "source": "US State Dept",
-      "source_url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.egy.html"
     },
     {
       "id": "statedept-dominican-republic-2025-06-12-2",
