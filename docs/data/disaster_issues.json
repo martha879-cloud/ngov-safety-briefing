@@ -1,6 +1,22 @@
 {
-  "updated": "2026-11-25 14:12",
+  "updated": "2026-11-26 08:11",
   "issues": [
+    {
+      "id": "usgs-us6000udf2",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "M5.0 지진 발생 (67 km NNE of Luwuk, Indonesia)",
+      "summary": "USGS 관측 기준 M5.0 규모의 지진이 발생했습니다 (67 km NNE of Luwuk, Indonesia).",
+      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-11-25",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udf2",
+      "lat": -0.3849,
+      "lng": 123.0018,
+      "magnitude": 5
+    },
     {
       "id": "usgs-us6000udck",
       "country": "필리핀",
@@ -319,54 +335,6 @@
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ubxa",
       "lat": -5.5109,
       "lng": 35.0903,
-      "magnitude": 4.8
-    },
-    {
-      "id": "usgs-us7000tz2w",
-      "country": "탄자니아",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.8 지진 발생 (46 km SE of Ikungi, Tanzania)",
-      "summary": "USGS 관측 기준 M4.8 규모의 지진이 발생했습니다 (46 km SE of Ikungi, Tanzania).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-11-18",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz2w",
-      "lat": -5.4134,
-      "lng": 35.082,
-      "magnitude": 4.8
-    },
-    {
-      "id": "usgs-us7000tyy8",
-      "country": "페루",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "M5.9 지진 발생 (85 km WNW of San Juan, Peru)",
-      "summary": "USGS 관측 기준 M5.9 규모의 지진이 발생했습니다 (85 km WNW of San Juan, Peru).",
-      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-11-18",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyy8",
-      "lat": -15.1438,
-      "lng": -75.9238,
-      "magnitude": 5.9
-    },
-    {
-      "id": "usgs-us7000tyy2",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.8 지진 발생 (67 km NNE of Ruteng, Indonesia)",
-      "summary": "USGS 관측 기준 M4.8 규모의 지진이 발생했습니다 (67 km NNE of Ruteng, Indonesia).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-11-18",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyy2",
-      "lat": -8.0301,
-      "lng": 120.6485,
       "magnitude": 4.8
     }
   ]
