@@ -1,6 +1,62 @@
 {
-  "updated": "2026-11-25 08:11",
+  "updated": "2026-11-25 14:12",
   "issues": [
+    {
+      "id": "news-002",
+      "country": "방글라데시",
+      "category": "health",
+      "severity": "high",
+      "title": "Bangladesh Measles Outbreak: Nine More Deaths Reported, Toll Reaches 1,361",
+      "title_en": "Bangladesh Measles Outbreak: Nine More Deaths Reported, Toll Reaches 1,361",
+      "summary": "Bangladesh Measles Outbreak: Nine More Deaths Reported, Toll Reaches 1,361 - Nine more children have tragically succumbed to the measles outbreak in Bangladesh on Tuesday, pushing the total number of ... Get Latest News on International only on lokmattimes.com",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
+      "published_at": "2026-11-24",
+      "source": "Lokmat Times",
+      "source_url": "https://www.lokmattimes.com/international/bangladesh-measles-outbreak-nine-more-deaths-reported-toll-reaches-1361-a001-w02/"
+    },
+    {
+      "id": "news-003",
+      "country": "방글라데시",
+      "category": "conflict",
+      "severity": "high",
+      "title": "Why Bangladesh minority rights body says Narail violence wasn't communal",
+      "title_en": "Why Bangladesh minority rights body says Narail violence wasn't communal",
+      "summary": "“The attacks were political in nature,” Dipangkar Ghose of the Bangladesh Hindu Buddhist Christian Unity Council told India Today",
+      "volunteer_impact": "현지 활동과 이동에 영향을 줄 수 있어 현지 상황 확인이 우선 필요합니다.",
+      "recommended_action": "현지 담당자에게 최신 상황을 확인하고 불필요한 이동을 줄이세요.",
+      "published_at": "2026-11-24",
+      "source": "India Today",
+      "source_url": "https://www.indiatoday.in/india-today-insight/story/why-bangladesh-minority-rights-body-says-narail-violence-wasnt-communal-3046063-2026-11-24"
+    },
+    {
+      "id": "news-004",
+      "country": "방글라데시",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "AI videos flood social media ahead of Sheikh Hasina's possible return to Bangladesh",
+      "title_en": "AI videos flood social media ahead of Sheikh Hasina's possible return to Bangladesh",
+      "summary": "Sheikh Hasina sought a Victory Day flight home, but Bangladesh rejected her request. AI-generated videos are meanwhile projecting support from security personnel for her return.",
+      "volunteer_impact": "기상 및 재난 상황에 따라 현장 활동과 이동 일정이 변경될 수 있습니다.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-11-24",
+      "source": "India Today",
+      "source_url": "https://www.indiatoday.in/world/story/sheikh-hasina-bangladesh-return-ai-facebook-videos-security-support-3045982-2026-11-24"
+    },
+    {
+      "id": "news-005",
+      "country": "베트남",
+      "category": "health",
+      "severity": "medium",
+      "title": "Parental intention to vaccinate children and adolescents against dengue fever in Vietnam: An analysis using the theory of planned behavior and selected health belief model constructs",
+      "title_en": "Parental intention to vaccinate children and adolescents against dengue fever in Vietnam: An analysis using the theory of planned behavior and selected health belief model constructs",
+      "summary": "Author summary Dengue fever remains a major public health concern in many tropical countries, including Vietnam, with frequent outbreaks that particularly affect children. Although dengue vaccines have recently become available, their effectiveness depends on parents’ intention to vaccinate their children. We explored parents’ intention to vaccinate their children against dengue fever and examined the factors associated with this decision in a real-world setting following vaccine approval. We surveyed over 1,200 parents in Ho Chi Minh City, Vietnam, and found that although many recognized the importance of dengue vaccination, only about two-thirds intended to vaccinate their children. Parents of children aged 7–11 years were less likely to intend to vaccinate than parents of preschool-aged children. In contrast, parents who perceived a higher mosquito density around their homes and those with more positive attitudes, stronger social influence, greater confidence in accessing vaccination services, better dengue prevention practices, or higher household income were more likely to intend to vaccinate. These findings might help policymakers and public health authorities develop strategies that address affordability, healthcare access, social support, and trusted health communication, particularly for parents of children aged 7–11 years and those in areas with high mosquito density.",
+      "volunteer_impact": "봉사단 건강관리 및 예방조치 확인이 필요할 수 있습니다.",
+      "recommended_action": "현지 협력기관과 상황을 공유하고 활동 전 안전 상황을 확인하세요.",
+      "published_at": "2026-11-23",
+      "source": "PLOS (Public Library of Science)",
+      "source_url": "https://journals.plos.org/plosntds/article?id=10.1371%2Fjournal.pntd.0014896"
+    },
     {
       "id": "news-001",
       "country": "동티모르",
