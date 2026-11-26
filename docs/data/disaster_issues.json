@@ -1,6 +1,54 @@
 {
-  "updated": "2026-11-26 13:39",
+  "updated": "2026-11-27 08:11",
   "issues": [
+    {
+      "id": "usgs-us6000udqa",
+      "country": "필리핀",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.5 지진 발생 (95 km SSE of Sarangani, Philippines)",
+      "summary": "USGS 관측 기준 M4.5 규모의 지진이 발생했습니다 (95 km SSE of Sarangani, Philippines).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-11-26",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udqa",
+      "lat": 4.6618,
+      "lng": 125.9086,
+      "magnitude": 4.5
+    },
+    {
+      "id": "usgs-us6000udm8",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "M5.5 지진 발생 (204 km S of Taliwang, Indonesia)",
+      "summary": "USGS 관측 기준 M5.5 규모의 지진이 발생했습니다 (204 km S of Taliwang, Indonesia).",
+      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-11-26",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udm8",
+      "lat": -10.5618,
+      "lng": 117.1955,
+      "magnitude": 5.5
+    },
+    {
+      "id": "usgs-us6000udm5",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.8 지진 발생 (225 km S of Taliwang, Indonesia)",
+      "summary": "USGS 관측 기준 M4.8 규모의 지진이 발생했습니다 (225 km S of Taliwang, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-11-26",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udm5",
+      "lat": -10.773,
+      "lng": 117.1007,
+      "magnitude": 4.8
+    },
     {
       "id": "usgs-us6000udf2",
       "country": "인도네시아",
@@ -256,38 +304,6 @@
       "lat": 5.4441,
       "lng": 125.2986,
       "magnitude": 5.1
-    },
-    {
-      "id": "usgs-us6000uc3v",
-      "country": "인도네시아",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.5 지진 발생 (236 km W of Tual, Indonesia)",
-      "summary": "USGS 관측 기준 M4.5 규모의 지진이 발생했습니다 (236 km W of Tual, Indonesia).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-11-19",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc3v",
-      "lat": -6.0263,
-      "lng": 130.6505,
-      "magnitude": 4.5
-    },
-    {
-      "id": "usgs-us6000ubyt",
-      "country": "페루",
-      "category": "natural_disaster",
-      "severity": "low",
-      "title": "M4.7 지진 발생 (92 km W of San Juan, Peru)",
-      "summary": "USGS 관측 기준 M4.7 규모의 지진이 발생했습니다 (92 km W of San Juan, Peru).",
-      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-11-19",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ubyt",
-      "lat": -15.3841,
-      "lng": -76.0248,
-      "magnitude": 4.7
     }
   ]
 }
