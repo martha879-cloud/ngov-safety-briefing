@@ -1,33 +1,4 @@
 {
-  "updated": "2026-11-26 08:11",
-  "issues": [
-    {
-      "id": "newsdata-001",
-      "country": "이집트",
-      "category": "conflict",
-      "severity": "low",
-      "title": "Egyptian, Cypriot special forces conduct joint exercise ‘Ptolemy-2026’ in Cyprus",
-      "title_en": "Egyptian, Cypriot special forces conduct joint exercise ‘Ptolemy-2026’ in Cyprus",
-      "summary": "Egyptian and Cypriot special forces personnel conducted the joint military exercise “Ptolemy-2026,” which took place over several days in Cyprus. The exercise included a series of theoretical and practical lectures introducing participants to the operational methods of special forces and the equipment used in the training. It also sought to foster integration and interoperability, harmonize … The post Egyptian, Cypriot special forces conduct joint exercise ‘Ptolemy-2026’ in Cyprus appeared first on Egypt Independent.",
-      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-11-25",
-      "source": "Egyptindependent",
-      "source_url": "https://www.egyptindependent.com/egyptian-cypriot-special-forces-conduct-joint-exercise-ptolemy-2026-in-cyprus/"
-    },
-    {
-      "id": "newsdata-002",
-      "country": "탄자니아",
-      "category": "conflict",
-      "severity": "low",
-      "title": "No Evidence Tanzania's President Urged Citizens in Kenya to Return Home Over Fears of 2027 Election Violence",
-      "title_en": "No Evidence Tanzania's President Urged Citizens in Kenya to Return Home Over Fears of 2027 Election Violence",
-      "summary": "[Africa Check] No evidence Tanzania's president urged citizens in Kenya to return home over fears of 2027 election violence",
-      "volunteer_impact": "현지 상황을 모니터링하고 활동 전 최신 정보를 확인하세요.",
-      "recommended_action": "관련 정보를 확인하고 현지 상황을 계속 모니터링하세요.",
-      "published_at": "2026-11-25",
-      "source": "Allafrica Tanzania",
-      "source_url": "https://allafrica.com/stories/202611250248.html"
-    }
-  ]
+  "updated": "2026-11-26 13:39",
+  "issues": []
 }
