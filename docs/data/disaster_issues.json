@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27 13:43",
+  "updated": "2026-11-28 08:11",
   "issues": [
     {
       "id": "usgs-us6000udu6",
@@ -304,22 +304,6 @@
       "lat": -10.8889,
       "lng": -75.966,
       "magnitude": 6.7
-    },
-    {
-      "id": "usgs-us6000uc96",
-      "country": "필리핀",
-      "category": "natural_disaster",
-      "severity": "medium",
-      "title": "M5.1 지진 발생 (15 km SSW of Balangonan, Philippines)",
-      "summary": "USGS 관측 기준 M5.1 규모의 지진이 발생했습니다 (15 km SSW of Balangonan, Philippines).",
-      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
-      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
-      "published_at": "2026-11-20",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc96",
-      "lat": 5.4441,
-      "lng": 125.2986,
-      "magnitude": 5.1
     }
   ]
 }
