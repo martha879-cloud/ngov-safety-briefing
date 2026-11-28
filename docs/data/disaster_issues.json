@@ -1,6 +1,38 @@
 {
-  "updated": "2026-11-28 08:11",
+  "updated": "2026-11-28 13:28",
   "issues": [
+    {
+      "id": "usgs-us6000ue1d",
+      "country": "인도네시아",
+      "category": "natural_disaster",
+      "severity": "low",
+      "title": "M4.7 지진 발생 (130 km NE of Bitung, Indonesia)",
+      "summary": "USGS 관측 기준 M4.7 규모의 지진이 발생했습니다 (130 km NE of Bitung, Indonesia).",
+      "volunteer_impact": "경미한 규모이나 현지 소식을 계속 확인하세요.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-11-28",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ue1d",
+      "lat": 2.2665,
+      "lng": 125.9667,
+      "magnitude": 4.7
+    },
+    {
+      "id": "usgs-us6000ue1b",
+      "country": "라오스",
+      "category": "natural_disaster",
+      "severity": "medium",
+      "title": "M5.1 지진 발생 (73 km NNW of Phôngsali, Laos)",
+      "summary": "USGS 관측 기준 M5.1 규모의 지진이 발생했습니다 (73 km NNW of Phôngsali, Laos).",
+      "volunteer_impact": "체감 진동이 있을 수 있어 현지 상황을 확인하는 것이 좋습니다.",
+      "recommended_action": "USGS 및 현지 뉴스를 통해 여진 여부와 피해 상황을 계속 확인하세요.",
+      "published_at": "2026-11-28",
+      "source": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ue1b",
+      "lat": 22.2546,
+      "lng": 101.7463,
+      "magnitude": 5.1
+    },
     {
       "id": "usgs-us6000udu6",
       "country": "인도네시아",
@@ -288,22 +320,6 @@
       "lat": -10.913,
       "lng": -76.0308,
       "magnitude": 5
-    },
-    {
-      "id": "usgs-us6000ucfm",
-      "country": "페루",
-      "category": "natural_disaster",
-      "severity": "high",
-      "title": "M6.7 지진 발생 (7 km ENE of Carhuamayo, Peru)",
-      "summary": "USGS 관측 기준 M6.7 규모의 지진이 발생했습니다 (7 km ENE of Carhuamayo, Peru).",
-      "volunteer_impact": "여진 및 추가 피해 가능성이 있어 활동 지역 안전 확인이 필요합니다.",
-      "recommended_action": "현지 협력기관 및 담당자와 즉시 상황을 공유하고 안전 여부를 확인하세요.",
-      "published_at": "2026-11-21",
-      "source": "USGS",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucfm",
-      "lat": -10.8889,
-      "lng": -75.966,
-      "magnitude": 6.7
     }
   ]
 }
